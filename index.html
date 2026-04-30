@@ -3,11 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="theme-color" content="#1e293b">
-<title>Cines de Murcia</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎬%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#9e1b32">
+
+<title>🎬 Cines de Murcia 🍋</title>
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🍋%3C/text%3E%3C/svg%3E">
+
 <style>
-  *,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+  *,*::before,*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
   :root {
     --bg: #fffaf3;
     --card: #ffffff;
@@ -19,117 +27,476 @@
     --hover: #fff3e6;
 
     /* Murcia vibes */
-    --primary: #9e1b32;       /* rojo Murcia */
+    --primary: #9e1b32;
     --primary-dark: #7f1428;
 
-    --accent: #d4a017;        /* dorado limón */
-    --huerta: #5b8c51;        /* verde huerta */
+    --accent: #d4a017;
+    --huerta: #5b8c51;
 
     --shadow:
       0 2px 6px rgba(120, 40, 20, .06),
       0 1px 2px rgba(120, 40, 20, .08);
   }
+
   body {
     font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: var(--bg); color: var(--text);
+    background:
+      radial-gradient(circle at top right, rgba(212,160,23,.08), transparent 25%),
+      radial-gradient(circle at bottom left, rgba(91,140,81,.08), transparent 25%),
+      var(--bg);
+
+    color: var(--text);
     -webkit-font-smoothing: antialiased;
   }
-  .container { max-width: 1400px; margin: 0 auto; padding: 16px; }
-  header { margin-bottom: 16px; }
+
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+
+  header {
+    margin-bottom: 18px;
+  }
+
   header h1 {
-  font-size: 24px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--primary);
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--primary);
+    letter-spacing: -.02em;
   }
-  header .subtitle { color: var(--text-muted); font-size: 14px; text-transform: capitalize; margin-top: 2px; }
 
-  .controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  header .subtitle {
+    color: var(--text-muted);
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-top: 4px;
+  }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
   .pill {
-    padding: 6px 12px; border-radius: 999px; border: 2px solid var(--border);
-    background: var(--card); color: var(--text-muted); font-size: 13px; font-weight: 500;
-    cursor: pointer; transition: all .15s; white-space: nowrap;
+    padding: 7px 13px;
+    border-radius: 999px;
+    border: 2px solid var(--border);
+    background: var(--card);
+    color: var(--text-muted);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .15s ease;
+    white-space: nowrap;
   }
-  .pill:hover { background: var(--hover); }
-  .pill.active { color: #fff; border-color: transparent; }
-  .pill.cinema-active { color: #fff; }
 
-  .views { display: inline-flex; background: var(--card); border-radius: 8px; padding: 3px; box-shadow: var(--shadow); margin-bottom: 16px; }
-  .view-btn { padding: 6px 12px; border: 0; background: transparent; color: var(--text-muted); font-size: 13px; font-weight: 500; cursor: pointer; border-radius: 6px; transition: all .15s; }
-  .view-btn.active { background: var(--primary); color: #fff; }
+  .pill:hover {
+    background: var(--hover);
+    transform: translateY(-1px);
+  }
 
-  .day-tabs { display: flex; gap: 4px; margin-bottom: 16px; overflow-x: auto; padding-bottom: 4px; }
-  .day-tab { padding: 8px 14px; border-radius: 8px; border: 0; background: var(--card); color: var(--text-muted); font-size: 13px; font-weight: 500; cursor: pointer; white-space: nowrap; box-shadow: var(--shadow); }
-  .day-tab.active { background: var(--primary); color: #fff; }
-  .day-tab strong { display: block; font-size: 11px; text-transform: uppercase; opacity: .7; }
+  .pill.active,
+  .pill.cinema-active {
+    color: #fff;
+    border-color: transparent;
+  }
 
-  .info-box { padding: 10px 12px; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px; font-size: 13px; color: #1e3a8a; margin-bottom: 16px; display: flex; gap: 8px; }
+  .views {
+    display: inline-flex;
+    background: rgba(255,255,255,.8);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 4px;
+    box-shadow: var(--shadow);
+    margin-bottom: 16px;
+    border: 1px solid rgba(255,255,255,.7);
+  }
 
-  .cinema-section { margin-bottom: 32px; }
-  .cinema-header { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
-  .cinema-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
-  .cinema-name { font-size: 18px; font-weight: 700; }
-  .cinema-meta { color: var(--text-muted); font-size: 13px; }
-  .cinema-count { margin-left: auto; color: var(--text-muted); font-size: 12px; }
+  .view-btn {
+    padding: 7px 13px;
+    border: 0;
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all .15s ease;
+  }
 
-  .salas-grid { display: grid; gap: 12px; grid-template-columns: 1fr; }
-  @media (min-width: 600px) { .salas-grid { grid-template-columns: repeat(2, 1fr); } }
-  @media (min-width: 900px) { .salas-grid { grid-template-columns: repeat(3, 1fr); } }
-  @media (min-width: 1200px) { .salas-grid { grid-template-columns: repeat(4, 1fr); } }
+  .view-btn.active {
+    background: var(--primary);
+    color: #fff;
+  }
 
-  .sala-card { background: #f1f5f9; border-radius: 12px; padding: 12px; }
-  .sala-title { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: #475569; margin-bottom: 8px; }
-  .sessions { display: flex; flex-direction: column; gap: 8px; }
+  .day-tabs {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+
+  .day-tab {
+    padding: 9px 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,.6);
+    background: rgba(255,255,255,.8);
+    backdrop-filter: blur(10px);
+    color: var(--text-muted);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    box-shadow: var(--shadow);
+    transition: all .15s ease;
+  }
+
+  .day-tab:hover {
+    transform: translateY(-1px);
+  }
+
+  .day-tab.active {
+    background: linear-gradient(
+      135deg,
+      var(--primary),
+      var(--primary-dark)
+    );
+    color: #fff;
+  }
+
+  .day-tab strong {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    opacity: .75;
+  }
+
+  .cinema-section {
+    margin-bottom: 36px;
+  }
+
+  .cinema-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+
+  .cinema-dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    box-shadow: 0 0 0 3px rgba(255,255,255,.7);
+  }
+
+  .cinema-name {
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  .cinema-meta {
+    color: var(--text-muted);
+    font-size: 13px;
+  }
+
+  .cinema-count {
+    margin-left: auto;
+    color: var(--text-muted);
+    font-size: 12px;
+  }
+
+  .salas-grid {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 600px) {
+    .salas-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 900px) {
+    .salas-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .salas-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .sala-card {
+    background: rgba(255,255,255,.75);
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(236,217,200,.9);
+
+    border-radius: 16px;
+    padding: 12px;
+
+    box-shadow: var(--shadow);
+  }
+
+  .sala-title {
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--huerta);
+    margin-bottom: 10px;
+  }
+
+  .sessions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
 
   .session {
-    display: block; background: var(--card); border-left: 4px solid;
-    border-radius: 8px; padding: 10px 12px; box-shadow: var(--shadow);
-    color: inherit; text-decoration: none; transition: background .15s;
+    display: block;
+
+    background: rgba(255,255,255,.92);
+
+    border-left: 4px solid;
+    border-radius: 10px;
+
+    padding: 11px 12px;
+
+    box-shadow: var(--shadow);
+
+    color: inherit;
+    text-decoration: none;
+
+    transition:
+      transform .15s ease,
+      background .15s ease;
   }
-  .session:hover { background: var(--hover); }
-  .session-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 4px; }
-  .session-time { font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; }
-  .session-rating { font-size: 11px; padding: 2px 7px; border-radius: 999px; font-weight: 600; flex-shrink: 0; }
-  .session-movie { font-size: 14px; font-weight: 500; line-height: 1.3; }
-  .session-meta { font-size: 11px; color: var(--text-muted); margin-top: 4px; display: flex; align-items: center; gap: 4px; }
+
+  .session:hover {
+    background: #fffdf8;
+    transform: translateY(-2px);
+  }
+
+  .session-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 4px;
+  }
+
+  .session-time {
+    font-size: 17px;
+    font-weight: 800;
+    color: var(--primary);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .session-rating {
+    font-size: 11px;
+    padding: 2px 7px;
+    border-radius: 999px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .session-movie {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .session-meta {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
 
   .rating-TP { background: #dcfce7; color: #166534; }
   .rating-7  { background: #dbeafe; color: #1e40af; }
-  .rating-12 { background: #fef9c3; color: #854d0e; }
+  .rating-12 { background: #fef3c7; color: #92400e; }
   .rating-16 { background: #fed7aa; color: #9a3412; }
   .rating-18 { background: #fecaca; color: #991b1b; }
   .rating-X  { background: #f1f5f9; color: #64748b; }
 
-  .movies-list, .timeline-list { display: flex; flex-direction: column; gap: 12px; }
-  .movie-card { background: var(--card); border-radius: 12px; padding: 14px; box-shadow: var(--shadow); }
-  .movie-title { font-size: 16px; font-weight: 700; margin-bottom: 8px; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
-  .movie-meta { font-size: 12px; color: var(--text-muted); display: flex; gap: 6px; align-items: center; flex-shrink: 0; }
-  .cinema-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 4px 0; }
-  .cinema-label { font-size: 13px; font-weight: 600; }
-  .time-chip { padding: 4px 9px; background: #f1f5f9; border-radius: 6px; font-size: 13px; font-weight: 500; font-variant-numeric: tabular-nums; color: var(--text); text-decoration: none; transition: background .15s; }
-  .time-chip:hover { background: #e2e8f0; }
-  .time-chip .sala-tag { font-size: 10px; opacity: .65; margin-left: 4px; }
+  .movies-list,
+  .timeline-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
 
-  .hour-block { margin-bottom: 16px; }
-  .hour-label { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
-  .hour-num { font-size: 20px; font-weight: 700; color: #94a3b8; font-variant-numeric: tabular-nums; }
-  .hour-line { flex: 1; height: 1px; background: var(--border); }
-  .hour-grid { display: grid; gap: 8px; grid-template-columns: 1fr; }
-  @media (min-width: 600px) { .hour-grid { grid-template-columns: repeat(2, 1fr); } }
-  @media (min-width: 900px) { .hour-grid { grid-template-columns: repeat(3, 1fr); } }
+  .movie-card {
+    background: rgba(255,255,255,.8);
+    backdrop-filter: blur(12px);
 
-  .empty { text-align: center; padding: 40px 16px; color: var(--text-muted); }
+    border-radius: 16px;
+    padding: 14px;
 
-  footer { margin-top: 32px; padding: 16px 0; text-align: center; font-size: 11px; color: var(--text-muted); border-top: 1px solid var(--border); }
-  footer a { color: var(--text-muted); }
+    box-shadow: var(--shadow);
+
+    border: 1px solid rgba(255,255,255,.7);
+  }
+
+  .movie-title {
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    align-items: baseline;
+  }
+
+  .movie-meta {
+    font-size: 12px;
+    color: var(--text-muted);
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .cinema-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 0;
+  }
+
+  .cinema-label {
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .time-chip {
+    padding: 5px 10px;
+    background: #fff6ea;
+
+    border: 1px solid #f3dfcc;
+
+    border-radius: 8px;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    font-variant-numeric: tabular-nums;
+
+    color: var(--text);
+    text-decoration: none;
+
+    transition: all .15s ease;
+  }
+
+  .time-chip:hover {
+    background: #fff0dd;
+    transform: translateY(-1px);
+  }
+
+  .time-chip .sala-tag {
+    font-size: 10px;
+    opacity: .65;
+    margin-left: 4px;
+  }
+
+  .hour-block {
+    margin-bottom: 18px;
+  }
+
+  .hour-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .hour-num {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .hour-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      var(--accent),
+      transparent
+    );
+  }
+
+  .hour-grid {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 600px) {
+    .hour-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 900px) {
+    .hour-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .empty {
+    text-align: center;
+    padding: 50px 16px;
+    color: var(--text-muted);
+  }
+
+  footer {
+    margin-top: 36px;
+    padding: 18px 0;
+    text-align: center;
+    font-size: 11px;
+    color: var(--text-muted);
+    border-top: 1px solid var(--border);
+  }
+
+  footer a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  ::selection {
+    background: rgba(158,27,50,.15);
+  }
 </style>
 </head>
+
 <body>
+
 <div class="container">
+
   <header>
-    <h1>🎬 Cines de Murcia</h1>
-    <div class="subtitle" id="subtitle">Cargando…</div>
+    <h1>🎬 Cines de Murcia 🍋</h1>
+    <div class="subtitle" id="subtitle">
+      Cartelera panocha · Cargando…
+    </div>
   </header>
 
   <div id="day-tabs" class="day-tabs"></div>
@@ -137,15 +504,19 @@
   <div class="views" id="view-switcher"></div>
 
   <main id="main">
-    <div class="empty">Cargando programación…</div>
+    <div class="empty">
+      Cargando programación…
+    </div>
   </main>
 
   <footer>
     Datos de neocine.es y filmotecamurcia.carm.es ·
     <span id="updated"></span> ·
-    <a href="https://github.com/" id="repo-link">GitHub</a>
+    Hecho con amor desde Murcia 🌞
   </footer>
+
 </div>
+
 
 <script>
 // ============================================================
