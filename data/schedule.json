@@ -60,8 +60,20 @@
       "name": "Filmoteca Regional",
       "area": "Murcia",
       "color": "#dc2626",
-      "salas": ["Sala única"],
-      "sessions": []
+      "salas": ["Sala A", "Sala B"],
+      "sessions": [
+        {"movie": "Alicia en el país de las maravillas", "date": "2026-04-30", "time": "19:30", "duration": 75, "rating": "TP", "sala": "Sala A", "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53150-DETALLE_EVENTO"},
+        {"movie": "Historia de pastores", "date": "2026-04-30", "time": "20:00", "duration": 80, "rating": "?", "sala": "Sala B", "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53037-DETALLE_EVENTO"},
+        {"movie": "El chico de los pantalones rosas", "date": "2026-05-01", "time": "18:30", "duration": 114, "rating": "?", "sala": "Sala A", "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53042-DETALLE_EVENTO"},
+        {"movie": "Cortometrajes / Centenario Paco Rabal", "date": "2026-05-01", "time": "20:15", "duration": 45, "rating": "TP", "sala": "Sala B", "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53043-DETALLE_EVENTO"},
+        {"movie": "Dancer in the Dark", "date": "2026-05-01", "time": "20:30", "duration": 140, "rating": "?", "sala": "Sala A", "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53151-DETALLE_EVENTO"},
+        {"movie": "La casa de los horrores", "date": "2026-05-01", "time": "22:30", "duration": 96, "rating": "?", "sala": "Sala B", "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53044-DETALLE_EVENTO"},
+        {"movie": "El mago de la ciudad esmeralda", "date": "2026-05-02", "time": "17:30", "duration": 120, "rating": "TP", "sala": "Sala A", "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53045-DETALLE_EVENTO"},
+        {"movie": "El chico de los pantalones rosas", "date": "2026-05-02", "time": "19:30", "duration": 114, "rating": "?", "sala": "Sala A", "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53046-DETALLE_EVENTO"},
+        {"movie": "Pavements", "date": "2026-05-02", "time": "21:30", "duration": 128, "rating": "?", "sala": "Sala A", "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53152-DETALLE_EVENTO"},
+        {"movie": "No es nada mamá, sólo un juego", "date": "2026-05-03", "time": "18:00", "duration": 85, "rating": "?", "sala": "Sala B", "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53047-DETALLE_EVENTO"},
+        {"movie": "Segundo Premio", "date": "2026-05-03", "time": "19:00", "duration": 109, "rating": "?", "sala": "Sala A", "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53153-DETALLE_EVENTO"}
+      ]
     }
   ]
 }

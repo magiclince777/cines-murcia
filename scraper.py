@@ -247,11 +247,25 @@ def parse_filmoteca_page(soup, today):
             "time": dt.strftime("%H:%M"),
             "duration": None,
             "rating": "?",
-            "sala": "Sala única",
+            "sala": None,  # se obtiene desde la página de detalle
             "url": url,
             "_dt": dt,  # para ordenar/filtrar internamente
         })
     return sessions
+
+
+def fetch_filmoteca_sala(url):
+    """Obtiene la sala (Sala A / Sala B) desde la página de detalle del evento."""
+    try:
+        r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
+        r.raise_for_status()
+        r.encoding = "iso-8859-1"
+        m = re.search(r'\bSala\s+([AB])\b', r.text, re.IGNORECASE)
+        if m:
+            return f"Sala {m.group(1).upper()}"
+    except Exception as e:
+        log(f"    Fallo al obtener sala de {url}: {e}")
+    return "Sala única"
 
 
 def scrape_filmoteca():
@@ -303,6 +317,12 @@ def scrape_filmoteca():
     all_sessions.sort(key=lambda s: s["_dt"])
     for s in all_sessions:
         del s["_dt"]
+
+    # Obtener sala (A/B) desde cada página de detalle
+    log(f"    Obteniendo sala para {len(all_sessions)} eventos…")
+    for s in all_sessions:
+        s["sala"] = fetch_filmoteca_sala(s["url"])
+        time.sleep(0.2)
 
     log(f"    {len(all_sessions)} eventos futuros (próximos {DAYS_AHEAD} días) encontrados")
     return all_sessions
@@ -367,12 +387,13 @@ def main():
         })
 
     filmo_sessions = scrape_filmoteca()
+    filmo_salas = sorted({s["sala"] for s in filmo_sessions if s.get("sala")}) or ["Sala A", "Sala B"]
     output["cinemas"].append({
         "id": "filmoteca",
         "name": "Filmoteca Regional",
         "area": "Murcia",
         "color": "#dc2626",
-        "salas": ["Sala única"],
+        "salas": filmo_salas,
         "sessions": filmo_sessions,
     })
 

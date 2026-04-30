@@ -34,6 +34,9 @@
 
     --hover: rgba(255,255,255,.08);
 
+    --card: rgba(255,255,255,.06);
+    --card-strong: rgba(255,255,255,.12);
+
     --shadow:
       0 10px 30px rgba(0,0,0,.35);
 
@@ -602,6 +605,28 @@
     }
   }
 
+  .week-section {
+    margin-bottom: 48px;
+  }
+
+  .week-day-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+    padding: 10px 16px;
+    background: rgba(255,204,77,.07);
+    border-left: 4px solid var(--accent);
+    border-radius: 0 12px 12px 0;
+  }
+
+  .week-day-name {
+    font-size: 15px;
+    font-weight: 800;
+    color: var(--accent);
+    text-transform: capitalize;
+  }
+
   .empty {
     text-align: center;
     padding: 50px 16px;
@@ -908,26 +933,6 @@
   </section>
 
 </header>
-  <section class="hero-search">
-
-    <div class="search-box">
-      <span class="search-icon">🔎</span>
-
-      <input
-        id="movie-search"
-        type="text"
-        placeholder="Busca película, cine o sala..."
-      >
-    </div>
-
-    <div class="quick-filters">
-      <button onclick="quickFilter('late')">🌙 Sesiones tarde</button>
-      <button onclick="quickFilter('family')">👨‍👩‍👧 Familiar</button>
-      <button onclick="quickFilter('short')">⏱ Cortas</button>
-      <button onclick="quickFilter('vose')">🎞 VOSE</button>
-    </div>
-
-</section>
   <div id="day-tabs" class="day-tabs"></div>
   <div id="cinema-pills" class="controls"></div>
   <div class="views" id="view-switcher"></div>
@@ -1010,19 +1015,16 @@ const fmtMin = mins => `${String(Math.floor(mins/60)).padStart(2,'0')}:${String(
 
 const escapeHtml = (s) => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
-// Filtro principal: sesiones del día seleccionado, en cines visibles
-function filteredCinemas() {
+// Filtro para una fecha concreta, en cines visibles
+function filteredCinemasForDate(date) {
   return DATA.cinemas
     .filter(c => state.cinemas[c.id])
     .map(c => ({
       ...c,
       sessions: c.sessions.filter(s => {
-        if (s.date !== state.selectedDate) return false;
-
+        if (s.date !== date) return false;
         if (!state.search) return true;
-
         const q = state.search.toLowerCase();
-
         return (
           s.movie.toLowerCase().includes(q) ||
           c.name.toLowerCase().includes(q) ||
@@ -1032,6 +1034,10 @@ function filteredCinemas() {
     }));
 }
 
+function filteredCinemas() {
+  return filteredCinemasForDate(state.selectedDate);
+}
+
 // ============================================================
 // RENDER UI: BARRAS SUPERIORES
 // ============================================================
@@ -1039,11 +1045,13 @@ function renderTopBars() {
   // Subtítulo
   document.getElementById('subtitle').textContent = fmtDate(state.selectedDate);
 
-  // Pestañas de día
+  // Pestañas de día (ocultas en vista semana)
   const days = new Set();
   DATA.cinemas.forEach(c => c.sessions.forEach(s => days.add(s.date)));
   const sortedDays = [...days].sort().filter(d => d >= today());
-  document.getElementById('day-tabs').innerHTML = sortedDays.slice(0, 7).map(d => {
+  const dayTabsEl = document.getElementById('day-tabs');
+  dayTabsEl.style.display = state.view === 'week' ? 'none' : '';
+  dayTabsEl.innerHTML = sortedDays.slice(0, 7).map(d => {
     const { weekday, day } = fmtDayShort(d);
     const active = d === state.selectedDate ? 'active' : '';
     return `<button class="day-tab ${active}" onclick="setDate('${d}')"><strong>${weekday}</strong>${day}</button>`;
@@ -1061,6 +1069,7 @@ function renderTopBars() {
     ['sala', '🏛️ Por sala'],
     ['movie', '🎬 Por película'],
     ['time', '🕒 Por horario'],
+    ['week', '📅 Semana'],
   ].map(([id, label]) =>
     `<button class="view-btn ${state.view === id ? 'active' : ''}" onclick="setView('${id}')">${label}</button>`
   ).join('');
@@ -1216,6 +1225,67 @@ function sessionCardWithCinema(s) {
 }
 
 // ============================================================
+// VISTA POR SEMANA
+// ============================================================
+function renderByWeek() {
+  const days = [...new Set(
+    DATA.cinemas.flatMap(c => c.sessions.map(s => s.date))
+  )].sort().filter(d => d >= today()).slice(0, 7);
+
+  if (days.length === 0) {
+    return '<div class="empty">No hay programación disponible para esta semana.</div>';
+  }
+
+  const html = days.map(day => {
+    const cinemas = filteredCinemasForDate(day);
+    if (cinemas.every(c => c.sessions.length === 0)) return '';
+
+    const inner = cinemas.map(cinema => {
+      if (cinema.sessions.length === 0) return '';
+      const bySala = {};
+      cinema.sessions.forEach(s => {
+        const k = s.sala || '?';
+        (bySala[k] = bySala[k] || []).push(s);
+      });
+      Object.values(bySala).forEach(arr => arr.sort((a, b) => parseTime(a.time) - parseTime(b.time)));
+      const salaNames = Object.keys(bySala).sort();
+      return `
+        <section class="cinema-section">
+          <div class="cinema-header">
+            <div class="cinema-dot" style="background:${cinema.color}"></div>
+            <div class="cinema-name">${escapeHtml(cinema.name)}</div>
+            <div class="cinema-meta">· ${escapeHtml(cinema.area)}</div>
+            <div class="cinema-count">${salaNames.length} sala${salaNames.length !== 1 ? 's' : ''}</div>
+          </div>
+          <div class="salas-grid">
+            ${salaNames.map(salaName => `
+              <div class="sala-card">
+                <div class="sala-title">${escapeHtml(salaName)}</div>
+                <div class="sessions">
+                  ${bySala[salaName].map(s => sessionCard(s, cinema.color)).join('')}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </section>
+      `;
+    }).join('');
+
+    if (!inner.trim()) return '';
+    return `
+      <div class="week-section">
+        <div class="week-day-header">
+          <span class="week-day-name">${fmtDate(day)}</span>
+        </div>
+        ${inner}
+      </div>
+    `;
+  }).join('');
+
+  return html || '<div class="empty">No hay sesiones para los filtros seleccionados.</div>';
+}
+
+// ============================================================
 // RENDER PRINCIPAL
 // ============================================================
 function render() {
@@ -1224,6 +1294,7 @@ function render() {
   if (state.view === 'sala') html = renderBySala();
   else if (state.view === 'movie') html = renderByMovie();
   else if (state.view === 'time') html = renderByTime();
+  else if (state.view === 'week') html = renderByWeek();
   document.getElementById('main').innerHTML = html;
 
   if (DATA.generatedAt) {
