@@ -17,36 +17,53 @@
   }
 
   :root {
-    --bg: #fffaf3;
-    --card: #ffffff;
 
-    --text: #3b1f1f;
-    --text-muted: #7a5c52;
+    /* Fondo */
+    --bg:
+      radial-gradient(circle at top left, rgba(158,27,50,.22), transparent 30%),
+      radial-gradient(circle at bottom right, rgba(212,160,23,.16), transparent 35%),
+      linear-gradient(180deg, #1a0f12 0%, #241417 45%, #2d1b1f 100%);
 
-    --border: #ecd9c8;
-    --hover: #fff3e6;
+    /* Superficies */
+    --card: rgba(255,255,255,.07);
+    --card-strong: rgba(255,255,255,.11);
+
+    /* Texto */
+    --text: #fff7ef;
+    --text-muted: #d8c7bb;
+
+    /* Bordes */
+    --border: rgba(255,255,255,.08);
+
+    /* Hover */
+    --hover: rgba(255,255,255,.06);
 
     /* Murcia vibes */
-    --primary: #9e1b32;
-    --primary-dark: #7f1428;
+    --primary: #c62f4d;
+    --primary-dark: #8f1f37;
 
-    --accent: #d4a017;
-    --huerta: #5b8c51;
+    --accent: #f3c969;
+    --huerta: #7dbb6d;
 
+    /* Sombras */
     --shadow:
-      0 2px 6px rgba(120, 40, 20, .06),
-      0 1px 2px rgba(120, 40, 20, .08);
+      0 10px 30px rgba(0,0,0,.25),
+      0 2px 10px rgba(0,0,0,.18);
+
+    --blur: blur(18px);
   }
 
   body {
     font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background:
-      radial-gradient(circle at top right, rgba(212,160,23,.08), transparent 25%),
-      radial-gradient(circle at bottom left, rgba(91,140,81,.08), transparent 25%),
-      var(--bg);
+
+    background: var(--bg);
+    background-attachment: fixed;
 
     color: var(--text);
+
     -webkit-font-smoothing: antialiased;
+
+    min-height: 100vh;
   }
 
   .container {
@@ -56,16 +73,25 @@
   }
 
   header {
-    margin-bottom: 18px;
+    margin-bottom: 26px;
+    padding-top: 12px;
   }
 
   header h1 {
-    font-size: 28px;
+    font-size: clamp(28px, 4vw, 42px);
+
     display: flex;
     align-items: center;
-    gap: 10px;
-    color: var(--primary);
-    letter-spacing: -.02em;
+    gap: 12px;
+
+    color: #fff;
+
+    letter-spacing: -.03em;
+    font-weight: 900;
+
+    text-shadow:
+      0 2px 10px rgba(0,0,0,.3),
+      0 0 24px rgba(198,47,77,.18);
   }
 
   header .subtitle {
@@ -129,10 +155,6 @@
     transition: all .15s ease;
   }
 
-  .view-btn.active {
-    background: var(--primary);
-    color: #fff;
-  }
 
   .day-tabs {
     display: flex;
@@ -143,32 +165,46 @@
   }
 
   .day-tab {
-    padding: 9px 15px;
-    border-radius: 10px;
-    border: 1px solid rgba(255,255,255,.6);
-    background: rgba(255,255,255,.8);
-    backdrop-filter: blur(10px);
+    padding: 10px 15px;
+
+    border-radius: 12px;
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    background: rgba(255,255,255,.05);
+
+    backdrop-filter: blur(12px);
+
     color: var(--text-muted);
+
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 700;
+
     cursor: pointer;
+
     white-space: nowrap;
-    box-shadow: var(--shadow);
-    transition: all .15s ease;
+
+    transition: all .18s ease;
   }
 
   .day-tab:hover {
     transform: translateY(-1px);
   }
 
-  .day-tab.active {
-    background: linear-gradient(
+.day-tab.active,
+.view-btn.active {
+  background:
+    linear-gradient(
       135deg,
       var(--primary),
       var(--primary-dark)
     );
-    color: #fff;
-  }
+
+  box-shadow:
+    0 8px 24px rgba(198,47,77,.35);
+
+  border-color: transparent;
+}
 
   .day-tab strong {
     display: block;
@@ -237,15 +273,29 @@
   }
 
   .sala-card {
-    background: rgba(255,255,255,.75);
-    backdrop-filter: blur(12px);
+    background: var(--card);
 
-    border: 1px solid rgba(236,217,200,.9);
+    backdrop-filter: var(--blur);
+    -webkit-backdrop-filter: var(--blur);
 
-    border-radius: 16px;
-    padding: 12px;
+    border: 1px solid var(--border);
+
+    border-radius: 20px;
+
+    padding: 14px;
 
     box-shadow: var(--shadow);
+
+    transition:
+      transform .18s ease,
+      border-color .18s ease,
+      background .18s ease;
+  }
+
+  .sala-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(243,201,105,.25);
+    background: var(--card-strong);
   }
 
   .sala-title {
@@ -266,12 +316,14 @@
   .session {
     display: block;
 
-    background: rgba(255,255,255,.92);
+    background: rgba(0,0,0,.18);
 
+    border: 1px solid rgba(255,255,255,.05);
     border-left: 4px solid;
-    border-radius: 10px;
 
-    padding: 11px 12px;
+    border-radius: 14px;
+
+    padding: 12px;
 
     box-shadow: var(--shadow);
 
@@ -280,12 +332,16 @@
 
     transition:
       transform .15s ease,
-      background .15s ease;
+      background .15s ease,
+      border-color .15s ease;
   }
 
   .session:hover {
-    background: #fffdf8;
     transform: translateY(-2px);
+
+    background: rgba(255,255,255,.06);
+
+    border-color: rgba(255,255,255,.12);
   }
 
   .session-top {
@@ -297,10 +353,14 @@
   }
 
   .session-time {
-    font-size: 17px;
-    font-weight: 800;
-    color: var(--primary);
+    font-size: 20px;
+    font-weight: 900;
+
+    color: var(--accent);
+
     font-variant-numeric: tabular-nums;
+
+    letter-spacing: -.02em;
   }
 
   .session-rating {
@@ -484,6 +544,29 @@
 
   ::selection {
     background: rgba(158,27,50,.15);
+  }
+  main {
+    padding-top: 8px;
+  }
+
+  .cinema-section + .cinema-section {
+    margin-top: 42px;
+  }
+  body::before {
+  content: "";
+
+  position: fixed;
+  inset: 0;
+
+  pointer-events: none;
+
+  background:
+    linear-gradient(
+      rgba(255,255,255,.015),
+      rgba(255,255,255,0)
+    );
+
+  mix-blend-mode: soft-light;
   }
 </style>
 </head>
