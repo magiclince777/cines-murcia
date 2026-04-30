@@ -5,7 +5,10 @@
       "WebFetch(domain:www.neocine.es)",
       "PowerShell(python -c \"import json; data=json.load\\(open\\('data/schedule.json', encoding='utf-8'\\)\\); days=sorted\\({s['date'] for c in data['cinemas'] for s in c['sessions']}\\); print\\('D�as con sesiones:'\\); [print\\(' ', d, '-', sum\\(1 for c in data['cinemas'] for s in c['sessions'] if s['date']==d\\), 'sesiones'\\) for d in days]; print\\('Cines:', [c['id'] for c in data['cinemas']]\\); print\\('Campos JSON ok:', list\\(data.keys\\(\\)\\)\\)\")",
       "PowerShell(<parameter name=\"description\">Validar schedule.json y ver distribuci�n por d�as)",
-      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\trini\\\\Desktop\\\\cines-murcia\\\\cines-murcia\\\\icons\")"
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\trini\\\\Desktop\\\\cines-murcia\\\\cines-murcia\\\\icons\")",
+      "PowerShell(cd \"c:\\\\Users\\\\trini\\\\Desktop\\\\cines-murcia\\\\cines-murcia\"; $env:TMDB_API_KEY = \"a95b0d598e9119d6ec87906127a1fa1c\"; python scraper.py 2>&1)",
+      "PowerShell(python3 --version)",
+      "PowerShell(py --version)"
     ]
   }
 }
