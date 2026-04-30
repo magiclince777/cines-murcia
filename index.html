@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="theme-color" content="#1e293b">
+<title>Cines de Murcia</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎬%3C/text%3E%3C/svg%3E">
+<style>
+  *,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #f1f5f9;
+    --card: #fff;
+    --text: #0f172a;
+    --text-muted: #64748b;
+    --border: #e2e8f0;
+    --hover: #f8fafc;
+    --primary: #1e293b;
+    --shadow: 0 1px 3px rgba(0,0,0,.04), 0 1px 2px rgba(0,0,0,.06);
+  }
+  body {
+    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg); color: var(--text);
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 1400px; margin: 0 auto; padding: 16px; }
+  header { margin-bottom: 16px; }
+  header h1 { font-size: 24px; display: flex; align-items: center; gap: 8px; }
+  header .subtitle { color: var(--text-muted); font-size: 14px; text-transform: capitalize; margin-top: 2px; }
+
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  .pill {
+    padding: 6px 12px; border-radius: 999px; border: 2px solid var(--border);
+    background: var(--card); color: var(--text-muted); font-size: 13px; font-weight: 500;
+    cursor: pointer; transition: all .15s; white-space: nowrap;
+  }
+  .pill:hover { background: var(--hover); }
+  .pill.active { color: #fff; border-color: transparent; }
+  .pill.cinema-active { color: #fff; }
+
+  .views { display: inline-flex; background: var(--card); border-radius: 8px; padding: 3px; box-shadow: var(--shadow); margin-bottom: 16px; }
+  .view-btn { padding: 6px 12px; border: 0; background: transparent; color: var(--text-muted); font-size: 13px; font-weight: 500; cursor: pointer; border-radius: 6px; transition: all .15s; }
+  .view-btn.active { background: var(--primary); color: #fff; }
+
+  .day-tabs { display: flex; gap: 4px; margin-bottom: 16px; overflow-x: auto; padding-bottom: 4px; }
+  .day-tab { padding: 8px 14px; border-radius: 8px; border: 0; background: var(--card); color: var(--text-muted); font-size: 13px; font-weight: 500; cursor: pointer; white-space: nowrap; box-shadow: var(--shadow); }
+  .day-tab.active { background: var(--primary); color: #fff; }
+  .day-tab strong { display: block; font-size: 11px; text-transform: uppercase; opacity: .7; }
+
+  .info-box { padding: 10px 12px; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px; font-size: 13px; color: #1e3a8a; margin-bottom: 16px; display: flex; gap: 8px; }
+
+  .cinema-section { margin-bottom: 32px; }
+  .cinema-header { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+  .cinema-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .cinema-name { font-size: 18px; font-weight: 700; }
+  .cinema-meta { color: var(--text-muted); font-size: 13px; }
+  .cinema-count { margin-left: auto; color: var(--text-muted); font-size: 12px; }
+
+  .salas-grid { display: grid; gap: 12px; grid-template-columns: 1fr; }
+  @media (min-width: 600px) { .salas-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 900px) { .salas-grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (min-width: 1200px) { .salas-grid { grid-template-columns: repeat(4, 1fr); } }
+
+  .sala-card { background: #f1f5f9; border-radius: 12px; padding: 12px; }
+  .sala-title { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: #475569; margin-bottom: 8px; }
+  .sessions { display: flex; flex-direction: column; gap: 8px; }
+
+  .session {
+    display: block; background: var(--card); border-left: 4px solid;
+    border-radius: 8px; padding: 10px 12px; box-shadow: var(--shadow);
+    color: inherit; text-decoration: none; transition: background .15s;
+  }
+  .session:hover { background: var(--hover); }
+  .session-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 4px; }
+  .session-time { font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .session-rating { font-size: 11px; padding: 2px 7px; border-radius: 999px; font-weight: 600; flex-shrink: 0; }
+  .session-movie { font-size: 14px; font-weight: 500; line-height: 1.3; }
+  .session-meta { font-size: 11px; color: var(--text-muted); margin-top: 4px; display: flex; align-items: center; gap: 4px; }
+
+  .rating-TP { background: #dcfce7; color: #166534; }
+  .rating-7  { background: #dbeafe; color: #1e40af; }
+  .rating-12 { background: #fef9c3; color: #854d0e; }
+  .rating-16 { background: #fed7aa; color: #9a3412; }
+  .rating-18 { background: #fecaca; color: #991b1b; }
+  .rating-X  { background: #f1f5f9; color: #64748b; }
+
+  .movies-list, .timeline-list { display: flex; flex-direction: column; gap: 12px; }
+  .movie-card { background: var(--card); border-radius: 12px; padding: 14px; box-shadow: var(--shadow); }
+  .movie-title { font-size: 16px; font-weight: 700; margin-bottom: 8px; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+  .movie-meta { font-size: 12px; color: var(--text-muted); display: flex; gap: 6px; align-items: center; flex-shrink: 0; }
+  .cinema-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 4px 0; }
+  .cinema-label { font-size: 13px; font-weight: 600; }
+  .time-chip { padding: 4px 9px; background: #f1f5f9; border-radius: 6px; font-size: 13px; font-weight: 500; font-variant-numeric: tabular-nums; color: var(--text); text-decoration: none; transition: background .15s; }
+  .time-chip:hover { background: #e2e8f0; }
+  .time-chip .sala-tag { font-size: 10px; opacity: .65; margin-left: 4px; }
+
+  .hour-block { margin-bottom: 16px; }
+  .hour-label { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .hour-num { font-size: 20px; font-weight: 700; color: #94a3b8; font-variant-numeric: tabular-nums; }
+  .hour-line { flex: 1; height: 1px; background: var(--border); }
+  .hour-grid { display: grid; gap: 8px; grid-template-columns: 1fr; }
+  @media (min-width: 600px) { .hour-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 900px) { .hour-grid { grid-template-columns: repeat(3, 1fr); } }
+
+  .empty { text-align: center; padding: 40px 16px; color: var(--text-muted); }
+
+  footer { margin-top: 32px; padding: 16px 0; text-align: center; font-size: 11px; color: var(--text-muted); border-top: 1px solid var(--border); }
+  footer a { color: var(--text-muted); }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>🎬 Cines de Murcia</h1>
+    <div class="subtitle" id="subtitle">Cargando…</div>
+  </header>
+
+  <div id="day-tabs" class="day-tabs"></div>
+  <div id="cinema-pills" class="controls"></div>
+  <div class="views" id="view-switcher"></div>
+
+  <main id="main">
+    <div class="empty">Cargando programación…</div>
+  </main>
+
+  <footer>
+    Datos de neocine.es y filmotecamurcia.carm.es ·
+    <span id="updated"></span> ·
+    <a href="https://github.com/" id="repo-link">GitHub</a>
+  </footer>
+</div>
+
+<script>
+// ============================================================
+// ESTADO
+// ============================================================
+let DATA = null;
+let state = {
+  view: 'sala',        // sala | movie | time
+  selectedDate: null,  // YYYY-MM-DD
+  cinemas: {},         // id -> bool (visible)
+};
+
+// ============================================================
+// CARGA INICIAL
+// ============================================================
+async function load() {
+  try {
+    const r = await fetch('./data/schedule.json?ts=' + Date.now());
+    DATA = await r.json();
+  } catch (e) {
+    document.getElementById('main').innerHTML =
+      '<div class="empty">No se ha podido cargar la programación. ¿Está generado <code>data/schedule.json</code>?</div>';
+    return;
+  }
+  // Inicializar estado
+  state.cinemas = Object.fromEntries(DATA.cinemas.map(c => [c.id, true]));
+  state.selectedDate = today();
+  render();
+}
+
+function today() {
+  const d = new Date();
+  return d.toISOString().slice(0, 10);
+}
+
+// ============================================================
+// HELPERS
+// ============================================================
+const ratingClass = r => 'rating-' + (r === 'TP' ? 'TP' : r === '+7' ? '7' : r === '+12' ? '12' : r === '+16' ? '16' : r === '+18' ? '18' : 'X');
+
+const fmtDate = (iso) => {
+  const d = new Date(iso + 'T00:00:00');
+  return d.toLocaleDateString('es-ES', { weekday: 'long', day: 'numeric', month: 'long' });
+};
+const fmtDayShort = (iso) => {
+  const d = new Date(iso + 'T00:00:00');
+  return {
+    weekday: d.toLocaleDateString('es-ES', { weekday: 'short' }),
+    day: d.toLocaleDateString('es-ES', { day: 'numeric', month: 'short' })
+  };
+};
+
+const parseTime = t => { const [h, m] = t.split(':').map(Number); return h * 60 + m; };
+const fmtMin = mins => `${String(Math.floor(mins/60)).padStart(2,'0')}:${String(mins%60).padStart(2,'0')}`;
+
+const escapeHtml = (s) => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+// Filtro principal: sesiones del día seleccionado, en cines visibles
+function filteredCinemas() {
+  return DATA.cinemas
+    .filter(c => state.cinemas[c.id])
+    .map(c => ({
+      ...c,
+      sessions: c.sessions.filter(s => s.date === state.selectedDate)
+    }));
+}
+
+// ============================================================
+// RENDER UI: BARRAS SUPERIORES
+// ============================================================
+function renderTopBars() {
+  // Subtítulo
+  document.getElementById('subtitle').textContent = fmtDate(state.selectedDate);
+
+  // Pestañas de día
+  const days = new Set();
+  DATA.cinemas.forEach(c => c.sessions.forEach(s => days.add(s.date)));
+  const sortedDays = [...days].sort().filter(d => d >= today());
+  document.getElementById('day-tabs').innerHTML = sortedDays.slice(0, 7).map(d => {
+    const { weekday, day } = fmtDayShort(d);
+    const active = d === state.selectedDate ? 'active' : '';
+    return `<button class="day-tab ${active}" onclick="setDate('${d}')"><strong>${weekday}</strong>${day}</button>`;
+  }).join('');
+
+  // Pills de cines
+  document.getElementById('cinema-pills').innerHTML = DATA.cinemas.map(c => {
+    const active = state.cinemas[c.id];
+    const style = active ? `style="background:${c.color};border-color:${c.color}"` : '';
+    return `<button class="pill ${active ? 'cinema-active' : ''}" ${style} onclick="toggleCinema('${c.id}')">${escapeHtml(c.name)}</button>`;
+  }).join('');
+
+  // Selector de vista
+  document.getElementById('view-switcher').innerHTML = [
+    ['sala', '🏛️ Por sala'],
+    ['movie', '🎬 Por película'],
+    ['time', '🕒 Por horario'],
+  ].map(([id, label]) =>
+    `<button class="view-btn ${state.view === id ? 'active' : ''}" onclick="setView('${id}')">${label}</button>`
+  ).join('');
+}
+
+// ============================================================
+// VISTA POR SALA
+// ============================================================
+function renderBySala() {
+  const cinemas = filteredCinemas();
+  if (cinemas.every(c => c.sessions.length === 0)) {
+    return '<div class="empty">No hay sesiones para este día con los cines seleccionados.</div>';
+  }
+  return cinemas.map(cinema => {
+    if (cinema.sessions.length === 0) return '';
+
+    // Agrupar por sala
+    const bySala = {};
+    cinema.sessions.forEach(s => {
+      const k = s.sala || '?';
+      (bySala[k] = bySala[k] || []).push(s);
+    });
+    Object.values(bySala).forEach(arr => arr.sort((a, b) => parseTime(a.time) - parseTime(b.time)));
+    const salaNames = Object.keys(bySala).sort();
+
+    return `
+      <section class="cinema-section">
+        <div class="cinema-header">
+          <div class="cinema-dot" style="background:${cinema.color}"></div>
+          <div class="cinema-name">${escapeHtml(cinema.name)}</div>
+          <div class="cinema-meta">· ${escapeHtml(cinema.area)}</div>
+          <div class="cinema-count">${salaNames.length} sala${salaNames.length !== 1 ? 's' : ''}</div>
+        </div>
+        <div class="salas-grid">
+          ${salaNames.map(salaName => `
+            <div class="sala-card">
+              <div class="sala-title">${escapeHtml(salaName)}</div>
+              <div class="sessions">
+                ${bySala[salaName].map(s => sessionCard(s, cinema.color)).join('')}
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </section>
+    `;
+  }).join('');
+}
+
+function sessionCard(s, color) {
+  const endMin = s.duration ? fmtMin(parseTime(s.time) + s.duration) : null;
+  return `
+    <a class="session" href="${escapeHtml(s.url)}" target="_blank" rel="noopener" style="border-left-color:${color}">
+      <div class="session-top">
+        <span class="session-time">${escapeHtml(s.time)}</span>
+        <span class="session-rating ${ratingClass(s.rating)}">${escapeHtml(s.rating)}</span>
+      </div>
+      <div class="session-movie">${escapeHtml(s.movie)}</div>
+      <div class="session-meta">
+        ${s.duration ? `⏱ ${s.duration} min${endMin ? ` · termina ~${endMin}` : ''}` : ''}
+      </div>
+    </a>
+  `;
+}
+
+// ============================================================
+// VISTA POR PELÍCULA
+// ============================================================
+function renderByMovie() {
+  const cinemas = filteredCinemas();
+  const movies = {};
+  cinemas.forEach(cinema => {
+    cinema.sessions.forEach(s => {
+      const k = s.movie;
+      if (!movies[k]) movies[k] = { movie: k, rating: s.rating, duration: s.duration, byCinema: {} };
+      if (!movies[k].byCinema[cinema.id]) movies[k].byCinema[cinema.id] = { cinema, sessions: [] };
+      movies[k].byCinema[cinema.id].sessions.push(s);
+    });
+  });
+  const list = Object.values(movies).sort((a, b) => a.movie.localeCompare(b.movie, 'es'));
+  if (list.length === 0) return '<div class="empty">No hay sesiones para este día.</div>';
+
+  return `<div class="movies-list">${list.map(m => `
+    <div class="movie-card">
+      <div class="movie-title">
+        <span>${escapeHtml(m.movie)}</span>
+        <span class="movie-meta">
+          ${m.duration ? `${m.duration} min` : ''}
+          <span class="session-rating ${ratingClass(m.rating)}">${escapeHtml(m.rating)}</span>
+        </span>
+      </div>
+      ${Object.values(m.byCinema).map(({ cinema, sessions }) => `
+        <div class="cinema-row">
+          <span class="cinema-label" style="color:${cinema.color}">${escapeHtml(cinema.name)}:</span>
+          ${sessions.sort((a,b) => parseTime(a.time) - parseTime(b.time)).map(s => `
+            <a class="time-chip" href="${escapeHtml(s.url)}" target="_blank" rel="noopener">
+              ${escapeHtml(s.time)}
+              ${s.sala && s.sala !== '?' && s.sala !== 'Sala única' ? `<span class="sala-tag">${escapeHtml(s.sala)}</span>` : ''}
+            </a>
+          `).join('')}
+        </div>
+      `).join('')}
+    </div>
+  `).join('')}</div>`;
+}
+
+// ============================================================
+// VISTA POR HORARIO
+// ============================================================
+function renderByTime() {
+  const cinemas = filteredCinemas();
+  const all = [];
+  cinemas.forEach(c => c.sessions.forEach(s => all.push({ ...s, cinema: c })));
+  all.sort((a, b) => parseTime(a.time) - parseTime(b.time));
+  if (all.length === 0) return '<div class="empty">No hay sesiones para este día.</div>';
+
+  // Agrupar por hora
+  const byHour = {};
+  all.forEach(s => {
+    const h = Math.floor(parseTime(s.time) / 60);
+    (byHour[h] = byHour[h] || []).push(s);
+  });
+
+  return Object.entries(byHour).map(([h, sessions]) => `
+    <div class="hour-block">
+      <div class="hour-label">
+        <div class="hour-num">${String(h).padStart(2,'0')}:00</div>
+        <div class="hour-line"></div>
+      </div>
+      <div class="hour-grid">
+        ${sessions.map(s => sessionCardWithCinema(s)).join('')}
+      </div>
+    </div>
+  `).join('');
+}
+
+function sessionCardWithCinema(s) {
+  const endMin = s.duration ? fmtMin(parseTime(s.time) + s.duration) : null;
+  return `
+    <a class="session" href="${escapeHtml(s.url)}" target="_blank" rel="noopener" style="border-left-color:${s.cinema.color}">
+      <div class="session-top">
+        <span class="session-time">${escapeHtml(s.time)}</span>
+        <span class="session-rating ${ratingClass(s.rating)}">${escapeHtml(s.rating)}</span>
+      </div>
+      <div class="session-movie">${escapeHtml(s.movie)}</div>
+      <div class="session-meta">
+        <span style="color:${s.cinema.color}">●</span>
+        ${escapeHtml(s.cinema.name)}
+        ${s.sala && s.sala !== '?' ? ` · ${escapeHtml(s.sala)}` : ''}
+        ${s.duration ? ` · ${s.duration}min` : ''}
+      </div>
+    </a>
+  `;
+}
+
+// ============================================================
+// RENDER PRINCIPAL
+// ============================================================
+function render() {
+  renderTopBars();
+  let html = '';
+  if (state.view === 'sala') html = renderBySala();
+  else if (state.view === 'movie') html = renderByMovie();
+  else if (state.view === 'time') html = renderByTime();
+  document.getElementById('main').innerHTML = html;
+
+  if (DATA.generatedAt) {
+    document.getElementById('updated').textContent =
+      'Actualizado: ' + new Date(DATA.generatedAt).toLocaleString('es-ES');
+  }
+}
+
+// ============================================================
+// HANDLERS (globales para los onclick inline)
+// ============================================================
+window.setView = (v) => { state.view = v; render(); };
+window.setDate = (d) => { state.selectedDate = d; render(); };
+window.toggleCinema = (id) => { state.cinemas[id] = !state.cinemas[id]; render(); };
+
+load();
+</script>
+</body>
+</html>

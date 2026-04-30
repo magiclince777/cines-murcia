@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-04-30T13:00:00Z",
+  "fromDate": "2026-04-30",
+  "toDate": "2026-05-07",
+  "cinemas": [
+    {
+      "id": "myrtea",
+      "name": "Myrtea Premium",
+      "area": "El Tiro, Murcia",
+      "color": "#7c3aed",
+      "salas": ["Sala 1", "Sala 2", "Sala 3", "Sala 4", "Sala 5", "Sala 6", "Sala 7", "Sala 8"],
+      "sessions": [
+        {"movie": "El diablo viste de Prada 2", "date": "2026-04-30", "time": "16:00", "duration": 120, "rating": "+7", "sala": "Sala 1", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/412465"},
+        {"movie": "El diablo viste de Prada 2", "date": "2026-04-30", "time": "18:15", "duration": 120, "rating": "+7", "sala": "Sala 1", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/412466"},
+        {"movie": "El diablo viste de Prada 2", "date": "2026-04-30", "time": "20:30", "duration": 120, "rating": "+7", "sala": "Sala 1", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/412467"},
+        {"movie": "El diablo viste de Prada 2", "date": "2026-04-30", "time": "22:45", "duration": 120, "rating": "+7", "sala": "Sala 1", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/412468"},
+        {"movie": "Michael", "date": "2026-04-30", "time": "16:00", "duration": 127, "rating": "+12", "sala": "Sala 2", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420701"},
+        {"movie": "Michael", "date": "2026-04-30", "time": "18:00", "duration": 127, "rating": "+12", "sala": "Sala 2", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420497"},
+        {"movie": "Michael", "date": "2026-04-30", "time": "20:25", "duration": 127, "rating": "+12", "sala": "Sala 2", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420498"},
+        {"movie": "Michael", "date": "2026-04-30", "time": "22:45", "duration": 127, "rating": "+12", "sala": "Sala 2", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420499"},
+        {"movie": "Proyecto Salvación", "date": "2026-04-30", "time": "16:00", "duration": 156, "rating": "+12", "sala": "Sala 3", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420521"},
+        {"movie": "Proyecto Salvación", "date": "2026-04-30", "time": "19:55", "duration": 156, "rating": "+12", "sala": "Sala 3", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420561"},
+        {"movie": "Strangers: capítulo final", "date": "2026-04-30", "time": "22:45", "duration": 91, "rating": "+16", "sala": "Sala 3", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420597"},
+        {"movie": "Super Mario Galaxy", "date": "2026-04-30", "time": "16:00", "duration": 98, "rating": "TP", "sala": "Sala 4", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420637"},
+        {"movie": "Super Mario Galaxy", "date": "2026-04-30", "time": "18:00", "duration": 98, "rating": "TP", "sala": "Sala 4", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420613"},
+        {"movie": "Super Mario Galaxy", "date": "2026-04-30", "time": "20:30", "duration": 98, "rating": "TP", "sala": "Sala 4", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420638"},
+        {"movie": "Kraken: el libro negro de las horas", "date": "2026-04-30", "time": "22:45", "duration": 111, "rating": "+12", "sala": "Sala 4", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420569"},
+        {"movie": "La familia Benetón +2", "date": "2026-04-30", "time": "16:00", "duration": 90, "rating": "TP", "sala": "Sala 5", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420669"},
+        {"movie": "La familia Benetón +2", "date": "2026-04-30", "time": "18:10", "duration": 90, "rating": "TP", "sala": "Sala 5", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420553"},
+        {"movie": "Incontrolable (I Swear)", "date": "2026-04-30", "time": "20:35", "duration": 120, "rating": "+12", "sala": "Sala 5", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420589"},
+        {"movie": "La isla de Amrum", "date": "2026-04-30", "time": "16:15", "duration": 93, "rating": "+12", "sala": "Sala 6", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420605"},
+        {"movie": "La momia de Lee Cronin", "date": "2026-04-30", "time": "18:00", "duration": 133, "rating": "+18", "sala": "Sala 6", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420653"},
+        {"movie": "La momia de Lee Cronin", "date": "2026-04-30", "time": "20:00", "duration": 133, "rating": "+18", "sala": "Sala 6", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420621"},
+        {"movie": "La momia de Lee Cronin", "date": "2026-04-30", "time": "22:30", "duration": 133, "rating": "+18", "sala": "Sala 6", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420654"},
+        {"movie": "Torrente presidente", "date": "2026-04-30", "time": "16:00", "duration": 103, "rating": "+16", "sala": "Sala 7", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420489"},
+        {"movie": "Torrente presidente", "date": "2026-04-30", "time": "18:25", "duration": 103, "rating": "+16", "sala": "Sala 7", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420708"},
+        {"movie": "Torrente presidente", "date": "2026-04-30", "time": "20:20", "duration": 103, "rating": "+16", "sala": "Sala 7", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420709"},
+        {"movie": "Torrente presidente", "date": "2026-04-30", "time": "22:30", "duration": 103, "rating": "+16", "sala": "Sala 7", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420629"},
+        {"movie": "David: una aventura gigante", "date": "2026-04-30", "time": "16:00", "duration": 109, "rating": "+7", "sala": "Sala 8", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420545"},
+        {"movie": "David: una aventura gigante", "date": "2026-04-30", "time": "18:30", "duration": 109, "rating": "+7", "sala": "Sala 8", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/420581"}
+      ]
+    },
+    {
+      "id": "centrofama",
+      "name": "Centrofama",
+      "area": "Murcia centro",
+      "color": "#0891b2",
+      "salas": ["Sala 1", "Sala 2"],
+      "sessions": [
+        {"movie": "Michael", "date": "2026-04-30", "time": "17:30", "duration": 127, "rating": "+12", "sala": "Sala 1", "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/415556"},
+        {"movie": "Michael", "date": "2026-04-30", "time": "19:45", "duration": 127, "rating": "+12", "sala": "Sala 1", "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/415557"},
+        {"movie": "Michael", "date": "2026-04-30", "time": "22:00", "duration": 127, "rating": "+12", "sala": "Sala 1", "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/415558"},
+        {"movie": "El diablo viste de Prada 2", "date": "2026-04-30", "time": "17:15", "duration": 120, "rating": "?", "sala": "Sala 2", "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/412726"},
+        {"movie": "El diablo viste de Prada 2", "date": "2026-04-30", "time": "19:30", "duration": 120, "rating": "?", "sala": "Sala 2", "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/412727"},
+        {"movie": "El diablo viste de Prada 2", "date": "2026-04-30", "time": "21:45", "duration": 120, "rating": "?", "sala": "Sala 2", "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/412728"}
+      ]
+    },
+    {
+      "id": "filmoteca",
+      "name": "Filmoteca Regional",
+      "area": "Murcia",
+      "color": "#dc2626",
+      "salas": ["Sala única"],
+      "sessions": []
+    }
+  ]
+}
