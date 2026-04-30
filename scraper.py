@@ -15,6 +15,7 @@ Uso:
     python scraper.py > data/schedule.json
 """
 import json
+import os
 import re
 import sys
 import time
@@ -62,9 +63,35 @@ USER_AGENT = (
 
 DAYS_AHEAD = 14  # cuántos días futuros guardamos
 
+# ── TMDB (carátulas) ────────────────────────────────────────────────────────
+# Regístrate gratis en https://www.themoviedb.org/settings/api y pon tu clave:
+#   export TMDB_API_KEY="tu_clave_aqui"
+TMDB_API_KEY  = os.environ.get("TMDB_API_KEY", "")
+TMDB_SEARCH   = "https://api.themoviedb.org/3/search/movie"
+TMDB_IMG_BASE = "https://image.tmdb.org/t/p/w342"
+
 
 def log(msg):
     print(msg, file=sys.stderr)
+
+
+def fetch_tmdb_poster(title):
+    """Busca la carátula en TMDB. Devuelve URL o None."""
+    if not TMDB_API_KEY:
+        return None
+    params = {"api_key": TMDB_API_KEY, "query": title, "language": "es"}
+    try:
+        r = requests.get(TMDB_SEARCH, params=params, timeout=10)
+        results = r.json().get("results", [])
+        if not results:
+            # reintento sin idioma para películas poco conocidas
+            params["language"] = "en"
+            results = requests.get(TMDB_SEARCH, params=params, timeout=10).json().get("results", [])
+        if results and results[0].get("poster_path"):
+            return TMDB_IMG_BASE + results[0]["poster_path"]
+    except Exception as e:
+        log(f"    TMDB error '{title}': {e}")
+    return None
 
 
 def detect_rating(img_src):
@@ -254,18 +281,27 @@ def parse_filmoteca_page(soup, today):
     return sessions
 
 
-def fetch_filmoteca_sala(url):
-    """Obtiene la sala (Sala A / Sala B) desde la página de detalle del evento."""
+def fetch_filmoteca_detail(url):
+    """Obtiene (sala, poster_url) desde la página de detalle del evento."""
+    sala = "Sala única"
+    poster_url = None
     try:
         r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
         r.raise_for_status()
         r.encoding = "iso-8859-1"
+        soup = BeautifulSoup(r.text, "html.parser")
         m = re.search(r'\bSala\s+([AB])\b', r.text, re.IGNORECASE)
         if m:
-            return f"Sala {m.group(1).upper()}"
+            sala = f"Sala {m.group(1).upper()}"
+        for img in soup.find_all("img"):
+            src = img.get("src", "")
+            if "integra.servlets.Imagenes" in src:
+                poster_url = ("https://filmotecamurcia.carm.es" + src
+                              if not src.startswith("http") else src)
+                break
     except Exception as e:
-        log(f"    Fallo al obtener sala de {url}: {e}")
-    return "Sala única"
+        log(f"    Fallo al obtener detalle de {url}: {e}")
+    return sala, poster_url
 
 
 def scrape_filmoteca():
@@ -318,10 +354,10 @@ def scrape_filmoteca():
     for s in all_sessions:
         del s["_dt"]
 
-    # Obtener sala (A/B) desde cada página de detalle
-    log(f"    Obteniendo sala para {len(all_sessions)} eventos…")
+    # Obtener sala y carátula desde cada página de detalle
+    log(f"    Obteniendo detalle para {len(all_sessions)} eventos…")
     for s in all_sessions:
-        s["sala"] = fetch_filmoteca_sala(s["url"])
+        s["sala"], s["poster_url"] = fetch_filmoteca_detail(s["url"])
         time.sleep(0.2)
 
     log(f"    {len(all_sessions)} eventos futuros (próximos {DAYS_AHEAD} días) encontrados")
@@ -396,6 +432,36 @@ def main():
         "salas": filmo_salas,
         "sessions": filmo_sessions,
     })
+
+    # ── Construir dict de carátulas ─────────────────────────────────────────
+    posters = {}
+
+    # 1) Carátulas propias de la Filmoteca (sacadas de las páginas de detalle)
+    for s in filmo_sessions:
+        pu = s.pop("poster_url", None)
+        if pu:
+            posters[s["movie"]] = pu
+
+    # 2) TMDB para todos los títulos que no tienen carátula aún
+    if TMDB_API_KEY:
+        unique_titles = {
+            s["movie"]
+            for c in output["cinemas"]
+            for s in c["sessions"]
+            if s["movie"] not in posters
+        }
+        log(f"  Buscando carátulas en TMDB para {len(unique_titles)} títulos…")
+        for title in sorted(unique_titles):
+            poster = fetch_tmdb_poster(title)
+            if poster:
+                posters[title] = poster
+            time.sleep(0.12)
+    else:
+        log("  TMDB_API_KEY no configurada — sin carátulas de cines comerciales")
+        log("  (Regístrate gratis en themoviedb.org/settings/api y exporta TMDB_API_KEY)")
+
+    output["posters"] = posters
+    log(f"  {len(posters)} carátulas incluidas")
 
     json.dump(output, sys.stdout, ensure_ascii=False, indent=2)
     log("✓ JSON generado")

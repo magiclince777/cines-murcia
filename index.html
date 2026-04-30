@@ -860,6 +860,51 @@
   color: rgba(255,255,255,.45);
 }
 
+/* ── Carátulas ─────────────────────────────────────────────── */
+.movie-card-body {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.movie-poster {
+  width: 70px;
+  min-width: 70px;
+  height: 105px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: rgba(255,255,255,.06);
+  flex-shrink: 0;
+}
+
+.movie-poster-placeholder {
+  width: 70px;
+  min-width: 70px;
+  height: 105px;
+  border-radius: 10px;
+  background: rgba(255,255,255,.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  flex-shrink: 0;
+  color: rgba(255,255,255,.3);
+}
+
+.movie-info { flex: 1; min-width: 0; }
+
+.session-thumb {
+  width: 36px;
+  min-width: 36px;
+  height: 54px;
+  object-fit: cover;
+  border-radius: 6px;
+  float: right;
+  margin: 0 0 4px 8px;
+  opacity: .85;
+  flex-shrink: 0;
+}
+
 .quick-filters {
   display: flex;
   flex-wrap: wrap;
@@ -1120,8 +1165,13 @@ function renderBySala() {
 
 function sessionCard(s, color) {
   const endMin = s.duration ? fmtMin(parseTime(s.time) + s.duration) : null;
+  const poster = (DATA.posters || {})[s.movie];
+  const thumb = poster
+    ? `<img class="session-thumb" src="${escapeHtml(poster)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+    : '';
   return `
     <a class="session" href="${escapeHtml(s.url)}" target="_blank" rel="noopener" style="border-left-color:${color}">
+      ${thumb}
       <div class="session-top">
         <span class="session-time">${escapeHtml(s.time)}</span>
         <span class="session-rating ${ratingClass(s.rating)}">${escapeHtml(s.rating)}</span>
@@ -1151,28 +1201,38 @@ function renderByMovie() {
   const list = Object.values(movies).sort((a, b) => a.movie.localeCompare(b.movie, 'es'));
   if (list.length === 0) return '<div class="empty">No hay sesiones para este día.</div>';
 
-  return `<div class="movies-list">${list.map(m => `
+  return `<div class="movies-list">${list.map(m => {
+    const poster = (DATA.posters || {})[m.movie];
+    const posterEl = poster
+      ? `<img class="movie-poster" src="${escapeHtml(poster)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+      : `<div class="movie-poster-placeholder">🎬</div>`;
+    return `
     <div class="movie-card">
-      <div class="movie-title">
-        <span>${escapeHtml(m.movie)}</span>
-        <span class="movie-meta">
-          ${m.duration ? `${m.duration} min` : ''}
-          <span class="session-rating ${ratingClass(m.rating)}">${escapeHtml(m.rating)}</span>
-        </span>
-      </div>
-      ${Object.values(m.byCinema).map(({ cinema, sessions }) => `
-        <div class="cinema-row">
-          <span class="cinema-label" style="color:${cinema.color}">${escapeHtml(cinema.name)}:</span>
-          ${sessions.sort((a,b) => parseTime(a.time) - parseTime(b.time)).map(s => `
-            <a class="time-chip" href="${escapeHtml(s.url)}" target="_blank" rel="noopener">
-              ${escapeHtml(s.time)}
-              ${s.sala && s.sala !== '?' && s.sala !== 'Sala única' ? `<span class="sala-tag">${escapeHtml(s.sala)}</span>` : ''}
-            </a>
+      <div class="movie-card-body">
+        ${posterEl}
+        <div class="movie-info">
+          <div class="movie-title">
+            <span>${escapeHtml(m.movie)}</span>
+            <span class="movie-meta">
+              ${m.duration ? `${m.duration} min` : ''}
+              <span class="session-rating ${ratingClass(m.rating)}">${escapeHtml(m.rating)}</span>
+            </span>
+          </div>
+          ${Object.values(m.byCinema).map(({ cinema, sessions }) => `
+            <div class="cinema-row">
+              <span class="cinema-label" style="color:${cinema.color}">${escapeHtml(cinema.name)}:</span>
+              ${sessions.sort((a,b) => parseTime(a.time) - parseTime(b.time)).map(s => `
+                <a class="time-chip" href="${escapeHtml(s.url)}" target="_blank" rel="noopener">
+                  ${escapeHtml(s.time)}
+                  ${s.sala && s.sala !== '?' && s.sala !== 'Sala única' ? `<span class="sala-tag">${escapeHtml(s.sala)}</span>` : ''}
+                </a>
+              `).join('')}
+            </div>
           `).join('')}
         </div>
-      `).join('')}
+      </div>
     </div>
-  `).join('')}</div>`;
+  `}).join('')}</div>`;
 }
 
 // ============================================================
