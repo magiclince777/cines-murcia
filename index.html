@@ -148,23 +148,23 @@
     margin-bottom: 22px;
   }
 
-  .view-btn {
-    padding: 10px 16px;
+.view-btn {
+  padding: 11px 16px;
 
-    border: 0;
-    border-radius: 12px;
+  border: 0;
+  border-radius: 12px;
 
-    background: transparent;
+  background: transparent;
 
-    color: rgba(255,255,255,.72);
+  color: rgba(255,255,255,.82);
 
-    font-size: 13px;
-    font-weight: 700;
+  font-size: 13px;
+  font-weight: 800;
 
-    cursor: pointer;
+  cursor: pointer;
 
-    transition: .18s ease;
-  }
+  transition: .18s ease;
+}
 
 
   .day-tabs {
@@ -221,13 +221,25 @@
     text-transform: uppercase;
     opacity: .75;
   }
-header,
 #day-tabs,
 #cinema-pills,
 #view-switcher {
   position: sticky;
-  top: 0;
-  z-index: 20;
+
+  top: 160px;
+
+  z-index: 30;
+
+  padding-top: 10px;
+
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(20,7,11,.95),
+      rgba(20,7,11,.55)
+    );
+
+  backdrop-filter: blur(16px);
 }
 #view-switcher {
   padding-bottom: 10px;
@@ -421,26 +433,50 @@ header,
   }
 
 .movie-card {
-  background: rgba(255,255,255,.06);
+  position: relative;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,.07),
+      rgba(255,255,255,.04)
+    );
 
   border: 1px solid rgba(255,255,255,.08);
 
-  backdrop-filter: blur(14px);
+  border-radius: 24px;
 
-  border-radius: 22px;
-
-  padding: 18px;
-
-  box-shadow: var(--shadow);
+  padding: 20px;
 
   transition:
     transform .18s ease,
     border-color .18s ease;
-}
-.movie-card:hover {
-  transform: translateY(-2px);
 
-  border-color: rgba(255,255,255,.16);
+  backdrop-filter: blur(14px);
+}
+
+.movie-card::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(255,204,77,.08),
+      transparent 40%
+    );
+
+  pointer-events: none;
+}
+
+.movie-card:hover {
+  transform: translateY(-4px);
+
+  border-color: rgba(255,255,255,.18);
 }
 .movie-meta,
 .session-meta,
@@ -613,8 +649,148 @@ header,
 
   mix-blend-mode: soft-light;
   }
-  .hero-search {
-  margin-bottom: 24px;
+  
+.hero-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+
+  padding:
+    18px
+    0
+    18px;
+
+  margin-bottom: 18px;
+
+  backdrop-filter: blur(18px);
+
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(20,7,11,.92),
+      rgba(20,7,11,.72)
+    );
+
+  border-bottom:
+    1px solid rgba(255,255,255,.06);
+}
+
+.hero-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 18px;
+}
+
+.hero-kicker {
+  color: var(--accent);
+
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+
+  margin-bottom: 4px;
+}
+
+.hero-header h1 {
+  font-size: clamp(32px, 7vw, 52px);
+  line-height: .95;
+  font-weight: 900;
+  letter-spacing: -.05em;
+
+  color: white;
+
+  margin-bottom: 6px;
+
+  text-shadow:
+    0 8px 30px rgba(0,0,0,.35);
+}
+
+.subtitle {
+  color: rgba(255,255,255,.72);
+
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.surprise-btn {
+  border: 0;
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--primary),
+      var(--primary-dark)
+    );
+
+  color: white;
+
+  padding: 12px 16px;
+
+  border-radius: 14px;
+
+  font-weight: 800;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 10px 30px rgba(196,45,77,.35);
+
+  transition: .18s ease;
+}
+
+.surprise-btn:hover {
+  transform: translateY(-2px) scale(1.02);
+}
+
+.featured-row {
+  display: flex;
+  gap: 14px;
+
+  overflow-x: auto;
+
+  padding-bottom: 8px;
+  margin-bottom: 22px;
+}
+
+.featured-card {
+  min-width: 260px;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,.09),
+      rgba(255,255,255,.04)
+    );
+
+  border-radius: 22px;
+
+  padding: 18px;
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  backdrop-filter: blur(14px);
+}
+
+.featured-label {
+  color: var(--accent);
+
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+
+  margin-bottom: 8px;
+}
+
+.featured-title {
+  font-size: 18px;
+  font-weight: 800;
+
+  margin-bottom: 8px;
 }
 
 .search-box {
@@ -696,12 +872,42 @@ header,
 
 <div class="container">
 
-  <header>
-    <h1>🎬 Cines de Murcia 🍋</h1>
-    <div class="subtitle" id="subtitle">
-      Cartelera panocha · Cargando…
+<header class="hero-header">
+
+  <div class="hero-top">
+    <div>
+      <div class="hero-kicker">Cartelera panocha 🍋</div>
+      <h1>Cines de Murcia</h1>
+      <div class="subtitle" id="subtitle"></div>
     </div>
-  </header>
+
+    <button class="surprise-btn" onclick="randomMovie()">
+      🎲 Sorpréndeme
+    </button>
+  </div>
+
+  <section class="hero-search">
+
+    <div class="search-box">
+      <span class="search-icon">🔎</span>
+
+      <input
+        id="movie-search"
+        type="text"
+        placeholder="Busca película, cine o sala..."
+      >
+    </div>
+
+    <div class="quick-filters">
+      <button onclick="quickFilter('late')">🌙 Tarde</button>
+      <button onclick="quickFilter('family')">👨‍👩‍👧 Familiar</button>
+      <button onclick="quickFilter('short')">⏱ Cortas</button>
+      <button onclick="quickFilter('vose')">🎞 VOSE</button>
+    </div>
+
+  </section>
+
+</header>
   <section class="hero-search">
 
     <div class="search-box">
@@ -1034,11 +1240,55 @@ window.setDate = (d) => { state.selectedDate = d; render(); };
 window.toggleCinema = (id) => { state.cinemas[id] = !state.cinemas[id]; render(); };
 window.quickFilter = (type) => {
 
-  if (type === 'short') {
-    state.search = '';
+  const input = document.getElementById('movie-search');
+
+  if (type === 'family') {
+    state.search = 'tp';
   }
 
+  if (type === 'vose') {
+    state.search = 'vose';
+  }
+
+  if (type === 'short') {
+    state.search = '90';
+  }
+
+  if (type === 'late') {
+    state.view = 'time';
+  }
+
+  input.value = state.search;
+
   render();
+};
+
+window.randomMovie = () => {
+
+  const cinemas = filteredCinemas();
+
+  const all = [];
+
+  cinemas.forEach(c => {
+    c.sessions.forEach(s => {
+      all.push({ ...s, cinema: c.name });
+    });
+  });
+
+  if (!all.length) return;
+
+  const random = all[Math.floor(Math.random() * all.length)];
+
+  state.search = random.movie;
+
+  document.getElementById('movie-search').value = random.movie;
+
+  render();
+
+  window.scrollTo({
+    top: 500,
+    behavior: 'smooth'
+  });
 };
 load();
 </script>
