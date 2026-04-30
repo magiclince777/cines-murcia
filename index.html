@@ -17,67 +17,47 @@
   }
 
   :root {
+    --bg-card: rgba(255,255,255,.06);
 
-    /* Fondo */
-    --bg:
-      radial-gradient(circle at top left, rgba(158,27,50,.22), transparent 30%),
-      radial-gradient(circle at bottom right, rgba(212,160,23,.16), transparent 35%),
-      linear-gradient(180deg, #1a0f12 0%, #241417 45%, #2d1b1f 100%);
+    --card-solid: #211318;
 
-      /* Superficies */
-  --card: rgba(32, 18, 22, .82);
-  --card-strong: rgba(45, 25, 30, .92);
+    --text: #fff7ef;
+    --text-muted: #d7c1b3;
 
-      /* Texto */
-  --text: #fffdf9;
-  --text-muted: #d6c3b7;
-
-    /* Bordes */
     --border: rgba(255,255,255,.08);
 
-    /* Hover */
-    --hover: rgba(255,255,255,.06);
+    --primary: #c42d4d;
+    --primary-dark: #981c38;
 
-    /* Murcia vibes */
-    --primary: #c62f4d;
-    --primary-dark: #8f1f37;
+    --accent: #ffcc4d;
+    --huerta: #69b96b;
 
-    --accent: #f3c969;
-    --huerta: #7dbb6d;
+    --hover: rgba(255,255,255,.08);
 
-    /* Sombras */
     --shadow:
-      0 10px 30px rgba(0,0,0,.25),
-      0 2px 10px rgba(0,0,0,.18);
+      0 10px 30px rgba(0,0,0,.35);
 
-    --blur: blur(18px);
+    --blur: blur(14px);
   }
 
   body {
     font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 
     background:
-      radial-gradient(circle at top left,
-        rgba(158,27,50,.16),
-        transparent 28%),
-
-      radial-gradient(circle at bottom right,
-        rgba(212,160,23,.10),
-        transparent 34%),
-
+      radial-gradient(circle at top, rgba(158,27,50,.35), transparent 35%),
+      radial-gradient(circle at bottom right, rgba(212,160,23,.15), transparent 30%),
       linear-gradient(
         180deg,
-        #140b0d 0%,
-        #1b1013 45%,
-        #211417 100%
+        #14070b 0%,
+        #1a0a11 30%,
+        #12060a 100%
       );
-    background-attachment: fixed;
 
-    color: var(--text);
-
-    -webkit-font-smoothing: antialiased;
+    color: #f8f4ef;
 
     min-height: 100vh;
+
+    -webkit-font-smoothing: antialiased;
   }
 
   .container {
@@ -87,44 +67,30 @@
   }
 
   header {
-    position: sticky;
-    top: 0;
-    z-index: 50;
+    margin-bottom: 24px;
+    padding-top: 10px;
+  }
 
-    padding:
-      18px 0 14px;
+  header h1 {
+    font-size: 34px;
+    font-weight: 900;
+    letter-spacing: -.04em;
 
-    backdrop-filter: blur(18px);
+    background: linear-gradient(
+      90deg,
+      #fff,
+      #ffcc4d
+    );
 
-    background:
-      linear-gradient(
-        to bottom,
-        rgba(20,10,12,.88),
-        rgba(20,10,12,.55),
-        transparent
-      );
-    }
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   button:focus-visible,
   a:focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
   }
-  header h1 {
-    font-size: clamp(28px, 4vw, 42px);
 
-    display: flex;
-    align-items: center;
-    gap: 12px;
-
-    color: #fff;
-
-    letter-spacing: -.03em;
-    font-weight: 900;
-
-    text-shadow:
-      0 2px 10px rgba(0,0,0,.3),
-      0 0 24px rgba(198,47,77,.18);
-  }
 
   header .subtitle {
     color: var(--text-muted);
@@ -163,28 +129,41 @@
     color: #fff;
     border-color: transparent;
   }
-
   .views {
     display: inline-flex;
-    background: rgba(255,255,255,.8);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    padding: 4px;
+    gap: 4px;
+
+    padding: 5px;
+
+    background: rgba(255,255,255,.08);
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    backdrop-filter: blur(14px);
+
+    border-radius: 16px;
+
     box-shadow: var(--shadow);
-    margin-bottom: 16px;
-    border: 1px solid rgba(255,255,255,.7);
+
+    margin-bottom: 22px;
   }
 
   .view-btn {
-    padding: 7px 13px;
+    padding: 10px 16px;
+
     border: 0;
+    border-radius: 12px;
+
     background: transparent;
-    color: var(--text-muted);
+
+    color: rgba(255,255,255,.72);
+
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 700;
+
     cursor: pointer;
-    border-radius: 7px;
-    transition: all .15s ease;
+
+    transition: .18s ease;
   }
 
 
@@ -225,26 +204,35 @@
 
 .day-tab.active,
 .view-btn.active {
-  background:
-    linear-gradient(
-      135deg,
-      var(--primary),
-      var(--primary-dark)
-    );
+  background: linear-gradient(
+    135deg,
+    var(--primary),
+    var(--primary-dark)
+  );
+
+  color: white;
 
   box-shadow:
-    0 8px 24px rgba(198,47,77,.35);
-
-  border-color: transparent;
+    0 4px 18px rgba(196,45,77,.45);
 }
-
   .day-tab strong {
     display: block;
     font-size: 11px;
     text-transform: uppercase;
     opacity: .75;
   }
-
+header,
+#day-tabs,
+#cinema-pills,
+#view-switcher {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+#view-switcher {
+  padding-bottom: 10px;
+  backdrop-filter: blur(10px);
+}
   .cinema-section {
     margin-bottom: 36px;
   }
@@ -432,28 +420,35 @@
     gap: 12px;
   }
 
-  .movie-card {
-    background:
-      linear-gradient(
-        180deg,
-        rgba(40,22,27,.92),
-        rgba(32,18,22,.96)
-      );
+.movie-card {
+  background: rgba(255,255,255,.06);
 
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255,255,255,.08);
 
-    border-radius: 20px;
+  backdrop-filter: blur(14px);
 
-    padding: 16px;
+  border-radius: 22px;
 
-    box-shadow:
-    0 14px 40px rgba(0,0,0,.35);
+  padding: 18px;
 
-    border:
-      1px solid rgba(255,255,255,.06);
-  }
+  box-shadow: var(--shadow);
 
+  transition:
+    transform .18s ease,
+    border-color .18s ease;
+}
+.movie-card:hover {
+  transform: translateY(-2px);
+
+  border-color: rgba(255,255,255,.16);
+}
+.movie-meta,
+.session-meta,
+.subtitle,
+.cinema-meta,
+.cinema-count {
+  color: rgba(255,255,255,.68);
+}
   .movie-title {
     font-size: 16px;
     font-weight: 800;
@@ -494,35 +489,30 @@
     font-weight: 700;
   }
 
-  .time-chip {
-    padding: 5px 10px;
+.time-chip {
+  padding: 6px 10px;
 
-    background:
-      rgba(255,255,255,.08);
+  background: rgba(255,255,255,.08);
 
-    border:
-      1px solid rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.08);
 
-    border-radius: 8px;
+  border-radius: 10px;
 
-    font-size: 13px;
-    font-weight: 700;
+  font-size: 13px;
+  font-weight: 700;
 
-    font-variant-numeric: tabular-nums;
+  color: white;
 
-    color: #fff7ef;
+  text-decoration: none;
 
-    text-decoration: none;
+  transition: .15s ease;
+}
 
-    transition: all .15s ease;
-  }
+.time-chip:hover {
+  background: rgba(255,255,255,.14);
 
-  .time-chip:hover {
-    background:
-      rgba(255,255,255,.14);
-
-    transform: translateY(-1px);
-  }
+  transform: translateY(-1px);
+}
 
   .time-chip .sala-tag {
     font-size: 10px;
