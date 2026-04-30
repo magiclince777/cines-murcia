@@ -24,13 +24,13 @@
       radial-gradient(circle at bottom right, rgba(212,160,23,.16), transparent 35%),
       linear-gradient(180deg, #1a0f12 0%, #241417 45%, #2d1b1f 100%);
 
-    /* Superficies */
-    --card: rgba(255,255,255,.07);
-    --card-strong: rgba(255,255,255,.11);
+      /* Superficies */
+  --card: rgba(32, 18, 22, .82);
+  --card-strong: rgba(45, 25, 30, .92);
 
-    /* Texto */
-    --text: #fff7ef;
-    --text-muted: #d8c7bb;
+      /* Texto */
+  --text: #fffdf9;
+  --text-muted: #d6c3b7;
 
     /* Bordes */
     --border: rgba(255,255,255,.08);
@@ -56,7 +56,21 @@
   body {
     font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 
-    background: var(--bg);
+    background:
+      radial-gradient(circle at top left,
+        rgba(158,27,50,.16),
+        transparent 28%),
+
+      radial-gradient(circle at bottom right,
+        rgba(212,160,23,.10),
+        transparent 34%),
+
+      linear-gradient(
+        180deg,
+        #140b0d 0%,
+        #1b1013 45%,
+        #211417 100%
+      );
     background-attachment: fixed;
 
     color: var(--text);
@@ -73,10 +87,28 @@
   }
 
   header {
-    margin-bottom: 26px;
-    padding-top: 12px;
-  }
+    position: sticky;
+    top: 0;
+    z-index: 50;
 
+    padding:
+      18px 0 14px;
+
+    backdrop-filter: blur(18px);
+
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(20,10,12,.88),
+        rgba(20,10,12,.55),
+        transparent
+      );
+    }
+  button:focus-visible,
+  a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
   header h1 {
     font-size: clamp(28px, 4vw, 42px);
 
@@ -401,15 +433,25 @@
   }
 
   .movie-card {
-    background: rgba(255,255,255,.8);
-    backdrop-filter: blur(12px);
+    background:
+      linear-gradient(
+        180deg,
+        rgba(40,22,27,.92),
+        rgba(32,18,22,.96)
+      );
 
-    border-radius: 16px;
-    padding: 14px;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
 
-    box-shadow: var(--shadow);
+    border-radius: 20px;
 
-    border: 1px solid rgba(255,255,255,.7);
+    padding: 16px;
+
+    box-shadow:
+    0 14px 40px rgba(0,0,0,.35);
+
+    border:
+      1px solid rgba(255,255,255,.06);
   }
 
   .movie-title {
@@ -431,7 +473,14 @@
     align-items: center;
     flex-shrink: 0;
   }
+  .movie-title span:first-child,
+  .session-movie,
+  .cinema-name {
+    color: var(--text);
 
+    text-shadow:
+      0 1px 2px rgba(0,0,0,.45);
+  }
   .cinema-row {
     display: flex;
     flex-wrap: wrap;
@@ -447,25 +496,31 @@
 
   .time-chip {
     padding: 5px 10px;
-    background: #fff6ea;
 
-    border: 1px solid #f3dfcc;
+    background:
+      rgba(255,255,255,.08);
+
+    border:
+      1px solid rgba(255,255,255,.06);
 
     border-radius: 8px;
 
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 700;
 
     font-variant-numeric: tabular-nums;
 
-    color: var(--text);
+    color: #fff7ef;
+
     text-decoration: none;
 
     transition: all .15s ease;
   }
 
   .time-chip:hover {
-    background: #fff0dd;
+    background:
+      rgba(255,255,255,.14);
+
     transform: translateY(-1px);
   }
 
