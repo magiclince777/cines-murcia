@@ -7,7 +7,7 @@ Estrategia:
   2. Para cada ID de sesión, llama al GraphQL de entradas.com
      (https://entradas-next-live.kinoheld.de/graphql) para obtener
      la SALA exacta y la fecha/hora oficial.
-  3. Scrapea filmotecamurcia.carm.es (sala única, sin GraphQL).
+  3. Pagina filmotecamurcia.carm.es y filtra eventos futuros de Murcia.
   4. Genera data/schedule.json con todo el contenido.
 
 Uso:
@@ -60,7 +60,7 @@ USER_AGENT = (
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 )
 
-DAYS_AHEAD = 7  # cuántos días futuros guardamos (hoy = 0)
+DAYS_AHEAD = 14  # cuántos días futuros guardamos
 
 
 def log(msg):
@@ -110,14 +110,12 @@ def scrape_neocine_cinema(cinema):
             continue
         seen_ids.add(show_id)
 
-        # Título: h3 más cercano hacia atrás
         h3 = link.find_previous("h3")
         movie_title = "?"
         if h3:
             inner = h3.find("a")
             movie_title = (inner or h3).get_text(strip=True)
 
-        # Duración
         duration = None
         dur_text = link.find_next(string=re.compile(r"Duración"))
         if dur_text:
@@ -125,7 +123,6 @@ def scrape_neocine_cinema(cinema):
             if m2:
                 duration = int(m2.group(1))
 
-        # Calificación
         rating = "?"
         for img in link.find_all_next("img", limit=10):
             if "calificacion" in img.get("src", ""):
@@ -145,7 +142,7 @@ def scrape_neocine_cinema(cinema):
 
 
 # ============================================================
-# ENRIQUECIMIENTO VIA GRAPHQL — la SALA viene de aquí
+# ENRIQUECIMIENTO VIA GRAPHQL
 # ============================================================
 def enrich_with_graphql(show_ids):
     results = {}
@@ -180,47 +177,70 @@ def enrich_with_graphql(show_ids):
 
 
 # ============================================================
-# FILMOTECA REGIONAL
+# FILMOTECA REGIONAL — versión paginada
 # ============================================================
-def scrape_filmoteca():
-    log("  Scrapeando Filmoteca Regional…")
-    url = "https://filmotecamurcia.carm.es/servlet/s.Sl?METHOD=ENLACEMENUS&sit=c,884,m,3623,a,0"
-    try:
-        r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
-        r.raise_for_status()
-        r.encoding = r.apparent_encoding or "iso-8859-1"
-        soup = BeautifulSoup(r.text, "html.parser")
-    except Exception as e:
-        log(f"    Error: {e}")
-        return []
+MESES = {
+    "enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5, "junio": 6,
+    "julio": 7, "agosto": 8, "septiembre": 9, "octubre": 10,
+    "noviembre": 11, "diciembre": 12,
+}
 
+# Patrón: "DD mes HH:MM H Título" (todo en el texto del enlace)
+EVENT_PATTERN = re.compile(
+    r"(\d{1,2})\s+(\w+)\s+(\d{1,2}):(\d{2})\s*H?\.?\s+(.+?)(?:\s+icono\s+visualización)?$",
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+def fetch_filmoteca_page(offset):
+    """Descarga una página de la programación con paginación."""
+    if offset == 0:
+        url = "https://filmotecamurcia.carm.es/servlet/s.Sl?METHOD=ENLACEMENUS&sit=c,884,m,3623,a,0"
+    else:
+        url = f"https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3623,i,1,a,0,ofs,{offset}"
+    r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
+    r.raise_for_status()
+    r.encoding = "iso-8859-1"  # forzamos la codificación correcta
+    return BeautifulSoup(r.text, "html.parser")
+
+
+def parse_filmoteca_page(soup, today):
+    """Extrae eventos de una página. Devuelve lista de dicts."""
     sessions = []
-    meses = {
-        "enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5, "junio": 6,
-        "julio": 7, "agosto": 8, "septiembre": 9, "octubre": 10,
-        "noviembre": 11, "diciembre": 12,
-    }
-    year = datetime.now().year
-
-    for a in soup.find_all("a"):
-        text = a.get_text("\n", strip=True)
-        m = re.search(
-            r"(\d{1,2})\s+(\w+)\s*(\d{1,2}):(\d{2})\s*H?\.?\s*(.+)",
-            text, re.IGNORECASE | re.DOTALL,
-        )
+    # Cada evento es un <a> que enlaza a "...DETALLE_EVENTO" y cuyo texto
+    # contiene "DD mes HH:MM H Título"
+    for a in soup.find_all("a", href=re.compile(r"DETALLE_EVENTO")):
+        text = a.get_text(" ", strip=True)
+        m = EVENT_PATTERN.match(text)
         if not m:
             continue
-        day, mes_str, hh, mm, rest = m.groups()
-        mes = meses.get(mes_str.lower())
+        day, mes_str, hh, mm, title = m.groups()
+        mes = MESES.get(mes_str.lower())
         if not mes:
             continue
+        title = title.strip()
+        # Descartamos eventos de Cartagena
+        if "(cartagena)" in title.lower():
+            continue
+        # Limpiar el título (quitar el "icono visualización" si quedara colgado)
+        title = re.sub(r"\s*icono\s+visualización.*$", "", title, flags=re.IGNORECASE).strip()
+        if len(title) < 3:
+            continue
+
+        # Calcular el año: si el mes es ≥ mes actual, asumimos año actual;
+        # si es menor, asumimos año siguiente (porque la lista mira hacia adelante)
+        year = today.year
+        if mes < today.month:
+            year = today.year + 1
         try:
             dt = datetime(year, mes, int(day), int(hh), int(mm))
         except ValueError:
             continue
-        title = rest.strip().split("\n")[0].strip()
-        if len(title) < 3:
-            continue
+
+        url = a.get("href", "")
+        if not url.startswith("http"):
+            url = "https://filmotecamurcia.carm.es" + (url if url.startswith("/") else "/" + url)
+
         sessions.append({
             "movie": title,
             "date": dt.date().isoformat(),
@@ -228,11 +248,64 @@ def scrape_filmoteca():
             "duration": None,
             "rating": "?",
             "sala": "Sala única",
-            "url": a.get("href", url),
+            "url": url,
+            "_dt": dt,  # para ordenar/filtrar internamente
         })
-
-    log(f"    {len(sessions)} eventos encontrados")
     return sessions
+
+
+def scrape_filmoteca():
+    """Pagina hasta cubrir los próximos DAYS_AHEAD días."""
+    log("  Scrapeando Filmoteca Regional…")
+    today = datetime.now().date()
+    max_date = today + timedelta(days=DAYS_AHEAD)
+
+    all_sessions = []
+    seen_urls = set()
+    pages_without_future = 0
+
+    for offset in range(0, 200, 12):  # tope de seguridad: 200 eventos
+        try:
+            soup = fetch_filmoteca_page(offset)
+            page_sessions = parse_filmoteca_page(soup, today)
+        except Exception as e:
+            log(f"    Error en offset {offset}: {e}")
+            break
+
+        if not page_sessions:
+            log(f"    Página {offset // 12 + 1}: sin eventos, paramos")
+            break
+
+        future_in_page = 0
+        for s in page_sessions:
+            if s["url"] in seen_urls:
+                continue
+            seen_urls.add(s["url"])
+            if s["_dt"].date() < today:
+                continue  # pasado, ignorar
+            if s["_dt"].date() > max_date:
+                continue  # demasiado lejos, ignorar (pero seguimos paginando por si hay otros antes)
+            future_in_page += 1
+            all_sessions.append(s)
+
+        # Si llevamos 3 páginas seguidas sin nada futuro útil, paramos
+        if future_in_page == 0:
+            pages_without_future += 1
+            if pages_without_future >= 3:
+                log(f"    Sin más eventos en rango tras offset {offset}, paramos")
+                break
+        else:
+            pages_without_future = 0
+
+        time.sleep(0.2)
+
+    # Quitar el campo interno _dt y ordenar
+    all_sessions.sort(key=lambda s: s["_dt"])
+    for s in all_sessions:
+        del s["_dt"]
+
+    log(f"    {len(all_sessions)} eventos futuros (próximos {DAYS_AHEAD} días) encontrados")
+    return all_sessions
 
 
 # ============================================================
@@ -293,17 +366,14 @@ def main():
             "sessions": sessions,
         })
 
-    filmo = [
-        s for s in scrape_filmoteca()
-        if today.isoformat() <= s["date"] <= max_date.isoformat()
-    ]
+    filmo_sessions = scrape_filmoteca()
     output["cinemas"].append({
         "id": "filmoteca",
         "name": "Filmoteca Regional",
         "area": "Murcia",
         "color": "#dc2626",
         "salas": ["Sala única"],
-        "sessions": filmo,
+        "sessions": filmo_sessions,
     })
 
     json.dump(output, sys.stdout, ensure_ascii=False, indent=2)
