@@ -613,6 +613,82 @@ header,
 
   mix-blend-mode: soft-light;
   }
+  .hero-search {
+  margin-bottom: 24px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  background: rgba(255,255,255,.06);
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  border-radius: 18px;
+
+  padding: 14px 16px;
+
+  backdrop-filter: blur(12px);
+
+  box-shadow: var(--shadow);
+
+  margin-bottom: 12px;
+}
+
+.search-icon {
+  font-size: 18px;
+  opacity: .7;
+}
+
+.search-box input {
+  flex: 1;
+
+  background: transparent;
+  border: 0;
+  outline: none;
+
+  color: white;
+
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.search-box input::placeholder {
+  color: rgba(255,255,255,.45);
+}
+
+.quick-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.quick-filters button {
+  border: 0;
+
+  padding: 9px 12px;
+
+  border-radius: 999px;
+
+  background: rgba(255,255,255,.08);
+
+  color: white;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: .15s ease;
+}
+
+.quick-filters button:hover {
+  background: rgba(255,255,255,.14);
+
+  transform: translateY(-1px);
+}
 </style>
 </head>
 
@@ -626,7 +702,26 @@ header,
       Cartelera panocha · Cargando…
     </div>
   </header>
+  <section class="hero-search">
 
+    <div class="search-box">
+      <span class="search-icon">🔎</span>
+
+      <input
+        id="movie-search"
+        type="text"
+        placeholder="Busca película, cine o sala..."
+      >
+    </div>
+
+    <div class="quick-filters">
+      <button onclick="quickFilter('late')">🌙 Sesiones tarde</button>
+      <button onclick="quickFilter('family')">👨‍👩‍👧 Familiar</button>
+      <button onclick="quickFilter('short')">⏱ Cortas</button>
+      <button onclick="quickFilter('vose')">🎞 VOSE</button>
+    </div>
+
+</section>
   <div id="day-tabs" class="day-tabs"></div>
   <div id="cinema-pills" class="controls"></div>
   <div class="views" id="view-switcher"></div>
@@ -655,6 +750,7 @@ let state = {
   view: 'sala',        // sala | movie | time
   selectedDate: null,  // YYYY-MM-DD
   cinemas: {},         // id -> bool (visible)
+  search: '',
 };
 
 // ============================================================
@@ -672,6 +768,12 @@ async function load() {
   // Inicializar estado
   state.cinemas = Object.fromEntries(DATA.cinemas.map(c => [c.id, true]));
   state.selectedDate = today();
+  document.addEventListener('input', (e) => {
+  if (e.target.id === 'movie-search') {
+    state.search = e.target.value;
+    render();
+  }
+});
   render();
 }
 
@@ -708,7 +810,19 @@ function filteredCinemas() {
     .filter(c => state.cinemas[c.id])
     .map(c => ({
       ...c,
-      sessions: c.sessions.filter(s => s.date === state.selectedDate)
+      sessions: c.sessions.filter(s => {
+        if (s.date !== state.selectedDate) return false;
+
+        if (!state.search) return true;
+
+        const q = state.search.toLowerCase();
+
+        return (
+          s.movie.toLowerCase().includes(q) ||
+          c.name.toLowerCase().includes(q) ||
+          (s.sala || '').toLowerCase().includes(q)
+        );
+      })
     }));
 }
 
@@ -918,7 +1032,14 @@ function render() {
 window.setView = (v) => { state.view = v; render(); };
 window.setDate = (d) => { state.selectedDate = d; render(); };
 window.toggleCinema = (id) => { state.cinemas[id] = !state.cinemas[id]; render(); };
+window.quickFilter = (type) => {
 
+  if (type === 'short') {
+    state.search = '';
+  }
+
+  render();
+};
 load();
 </script>
 </body>
