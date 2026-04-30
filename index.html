@@ -9,14 +9,25 @@
 <style>
   *,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
-    --bg: #f1f5f9;
-    --card: #fff;
-    --text: #0f172a;
-    --text-muted: #64748b;
-    --border: #e2e8f0;
-    --hover: #f8fafc;
-    --primary: #1e293b;
-    --shadow: 0 1px 3px rgba(0,0,0,.04), 0 1px 2px rgba(0,0,0,.06);
+    --bg: #fffaf3;
+    --card: #ffffff;
+
+    --text: #3b1f1f;
+    --text-muted: #7a5c52;
+
+    --border: #ecd9c8;
+    --hover: #fff3e6;
+
+    /* Murcia vibes */
+    --primary: #9e1b32;       /* rojo Murcia */
+    --primary-dark: #7f1428;
+
+    --accent: #d4a017;        /* dorado limón */
+    --huerta: #5b8c51;        /* verde huerta */
+
+    --shadow:
+      0 2px 6px rgba(120, 40, 20, .06),
+      0 1px 2px rgba(120, 40, 20, .08);
   }
   body {
     font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -25,7 +36,13 @@
   }
   .container { max-width: 1400px; margin: 0 auto; padding: 16px; }
   header { margin-bottom: 16px; }
-  header h1 { font-size: 24px; display: flex; align-items: center; gap: 8px; }
+  header h1 {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary);
+  }
   header .subtitle { color: var(--text-muted); font-size: 14px; text-transform: capitalize; margin-top: 2px; }
 
   .controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
