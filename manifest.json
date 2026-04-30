@@ -1,0 +1,27 @@
+{
+  "name": "Cines de Murcia",
+  "short_name": "CinesMurcia",
+  "description": "Cartelera semanal de los cines de Murcia",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#14070b",
+  "theme_color": "#9e1b32",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "categories": ["entertainment", "lifestyle"]
+}

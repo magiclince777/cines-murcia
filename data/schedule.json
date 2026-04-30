@@ -2,7 +2,118 @@
   "generatedAt": "2026-04-30T13:00:00Z",
   "fromDate": "2026-04-30",
   "toDate": "2026-05-07",
-  "posters": {},
+  "movies": {
+    "El diablo viste de Prada 2": {
+      "poster": null, "year": 2025, "vote_average": null,
+      "genres": ["Comedia", "Drama"],
+      "overview": "Miranda Priestly regresa al mundo de la moda con una nueva visión mientras Andy, ya consagrada como periodista, se cruza de nuevo en su camino en las circunstancias más inesperadas."
+    },
+    "Michael": {
+      "poster": null, "year": 2025, "vote_average": null,
+      "genres": ["Drama", "Musical", "Biográfico"],
+      "overview": "Biopic autorizado sobre la vida de Michael Jackson, el Rey del Pop, que recorre su infancia, su ascenso meteórico a la fama y las contradicciones de un artista irrepetible."
+    },
+    "Proyecto Salvación": {
+      "poster": null, "year": 2025, "vote_average": null,
+      "genres": ["Ciencia ficción", "Acción", "Thriller"],
+      "overview": null
+    },
+    "Strangers: capítulo final": {
+      "poster": null, "year": 2025, "vote_average": null,
+      "genres": ["Terror", "Suspense"],
+      "overview": null
+    },
+    "Super Mario Galaxy": {
+      "poster": null, "year": 2025, "vote_average": null,
+      "genres": ["Animación", "Familia", "Aventura"],
+      "overview": "Mario se lanza al espacio exterior en una épica aventura animada para rescatar al reino y enfrentarse al malvado Bowser en galaxias nunca antes vistas."
+    },
+    "Kraken: el libro negro de las horas": {
+      "poster": null, "year": 2025, "vote_average": null,
+      "genres": ["Fantasía", "Aventura"],
+      "overview": null
+    },
+    "La familia Benetón +2": {
+      "poster": null, "year": 2025, "vote_average": null,
+      "genres": ["Comedia", "Familia"],
+      "overview": null
+    },
+    "Incontrolable (I Swear)": {
+      "poster": null, "year": 2025, "vote_average": null,
+      "genres": ["Comedia", "Drama"],
+      "overview": null
+    },
+    "La isla de Amrum": {
+      "poster": null, "year": 2025, "vote_average": null,
+      "genres": ["Drama", "Aventura"],
+      "overview": null
+    },
+    "La momia de Lee Cronin": {
+      "poster": null, "year": 2025, "vote_average": null,
+      "genres": ["Terror", "Horror"],
+      "overview": "El director de Evil Dead Rise regresa con una reinvención visceral del mito de la momia, donde arqueólogos despiertan una maldición milenaria en las profundidades del desierto."
+    },
+    "Torrente presidente": {
+      "poster": null, "year": 2025, "vote_average": null,
+      "genres": ["Comedia"],
+      "overview": "El inefable Torrente regresa más descarado que nunca metido en una disparatada campaña política que lo lleva a rozar el poder y el ridículo a partes iguales."
+    },
+    "David: una aventura gigante": {
+      "poster": null, "year": 2025, "vote_average": null,
+      "genres": ["Aventura", "Drama"],
+      "overview": null
+    },
+    "Alicia en el país de las maravillas": {
+      "poster": null, "year": 1951, "vote_average": 7.1,
+      "genres": ["Animación", "Familia", "Fantasía"],
+      "overview": "Alicia persigue a un conejo blanco por una madriguera y cae en un mundo mágico y absurdo donde nada tiene sentido y todo es posible, en el clásico de animación de Disney."
+    },
+    "Historia de pastores": {
+      "poster": null, "year": 2024, "vote_average": null,
+      "genres": ["Documental"],
+      "overview": "Mari documenta edificios rurales abandonados cuando conoce a José, un pastor que cuida ovejas con su familia. Un antiguo cuento conecta sus historias de búsqueda y desaparición."
+    },
+    "El chico de los pantalones rosas": {
+      "poster": null, "year": 2024, "vote_average": null,
+      "genres": ["Drama"],
+      "overview": "Andrea tiene 15 años y sufre acoso escolar que comienza cuando unos pantalones teñidos de rosa desatan una espiral de burlas y aislamiento. Basada en una historia real de Italia."
+    },
+    "Cortometrajes / Centenario Paco Rabal": {
+      "poster": null, "year": 2024, "vote_average": null,
+      "genres": ["Documental", "Cortometrajes"],
+      "overview": "Cuatro cortometrajes realizados por Francisco Rabal entre 1975 y 1978, dedicados a figuras literarias españolas. Programación especial por el centenario del gran actor murciano."
+    },
+    "Dancer in the Dark": {
+      "poster": null, "year": 2000, "vote_average": 7.9,
+      "genres": ["Drama", "Musical"],
+      "overview": "Selma, una inmigrante checa en EE.UU., trabaja en una fábrica para pagar la operación que evitará que su hijo herede su ceguera. Solo los sueños musicales la mantienen viva. Lars von Trier."
+    },
+    "La casa de los horrores": {
+      "poster": null, "year": 1981, "vote_average": 6.1,
+      "genres": ["Terror"],
+      "overview": "Una familia decide pasar la noche en un carnaval itinerante que resulta ser una trampa mortal custodiada por un asesino en serie. Clásico del terror ochentero de Tobe Hooper."
+    },
+    "El mago de la ciudad esmeralda": {
+      "poster": null, "year": 2024, "vote_average": null,
+      "genres": ["Animación", "Familia"],
+      "overview": "Dorothy sigue el camino de baldosas amarillas en esta nueva adaptación animada del clásico de Oz, con espectaculares paisajes y personajes renovados para toda la familia."
+    },
+    "Pavements": {
+      "poster": null, "year": 2024, "vote_average": null,
+      "genres": ["Documental", "Música"],
+      "overview": "Documental musical que combina imágenes de archivo y puesta en escena en directo para repasar la discografía del influyente grupo indie estadounidense Pavement."
+    },
+    "No es nada mamá, sólo un juego": {
+      "poster": null, "year": 1974, "vote_average": null,
+      "genres": ["Drama", "Suspense"],
+      "overview": "Un joven terrateniente trata cruelmente a las mujeres de su hacienda por culpa de traumas infantiles, hasta que su esposa demuestra ser más poderosa de lo que nadie imaginaba. Centenario Paco Rabal."
+    },
+    "Segundo Premio": {
+      "poster": null, "year": 2024, "vote_average": null,
+      "genres": ["Documental", "Música"],
+      "overview": "Documental sobre la escena indie española de los 90, siguiendo a Los Planetas en su momento más crítico y revelando el espíritu de una generación musical irrepetible."
+    }
+  },
   "cinemas": [
     {
       "id": "myrtea",

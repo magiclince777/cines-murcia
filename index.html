@@ -4,1310 +4,985 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="theme-color" content="#9e1b32">
-
+<link rel="manifest" href="manifest.json">
 <title>🎬 Cines de Murcia 🍋</title>
-
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🍋%3C/text%3E%3C/svg%3E">
-
 <style>
-  *,*::before,*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+*,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-  :root {
-    --bg-card: rgba(255,255,255,.06);
-
-    --card-solid: #211318;
-
-    --text: #fff7ef;
-    --text-muted: #d7c1b3;
-
-    --border: rgba(255,255,255,.08);
-
-    --primary: #c42d4d;
-    --primary-dark: #981c38;
-
-    --accent: #ffcc4d;
-    --huerta: #69b96b;
-
-    --hover: rgba(255,255,255,.08);
-
-    --card: rgba(255,255,255,.06);
-    --card-strong: rgba(255,255,255,.12);
-
-    --shadow:
-      0 10px 30px rgba(0,0,0,.35);
-
-    --blur: blur(14px);
-  }
-
-  body {
-    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-
-    background:
-      radial-gradient(circle at top, rgba(158,27,50,.35), transparent 35%),
-      radial-gradient(circle at bottom right, rgba(212,160,23,.15), transparent 30%),
-      linear-gradient(
-        180deg,
-        #14070b 0%,
-        #1a0a11 30%,
-        #12060a 100%
-      );
-
-    color: #f8f4ef;
-
-    min-height: 100vh;
-
-    -webkit-font-smoothing: antialiased;
-  }
-
-  .container {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 16px;
-  }
-
-  header {
-    margin-bottom: 24px;
-    padding-top: 10px;
-  }
-
-  header h1 {
-    font-size: 34px;
-    font-weight: 900;
-    letter-spacing: -.04em;
-
-    background: linear-gradient(
-      90deg,
-      #fff,
-      #ffcc4d
-    );
-
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  button:focus-visible,
-  a:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
-  }
-
-
-  header .subtitle {
-    color: var(--text-muted);
-    font-size: 14px;
-    text-transform: capitalize;
-    margin-top: 4px;
-  }
-
-  .controls {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 16px;
-  }
-
-  .pill {
-    padding: 7px 13px;
-    border-radius: 999px;
-    border: 2px solid var(--border);
-    background: var(--card);
-    color: var(--text-muted);
-    font-size: 13px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all .15s ease;
-    white-space: nowrap;
-  }
-
-  .pill:hover {
-    background: var(--hover);
-    transform: translateY(-1px);
-  }
-
-  .pill.active,
-  .pill.cinema-active {
-    color: #fff;
-    border-color: transparent;
-  }
-  .views {
-    display: inline-flex;
-    gap: 4px;
-
-    padding: 5px;
-
-    background: rgba(255,255,255,.08);
-
-    border: 1px solid rgba(255,255,255,.08);
-
-    backdrop-filter: blur(14px);
-
-    border-radius: 16px;
-
-    box-shadow: var(--shadow);
-
-    margin-bottom: 22px;
-  }
-
-.view-btn {
-  padding: 11px 16px;
-
-  border: 0;
-  border-radius: 12px;
-
-  background: transparent;
-
-  color: rgba(255,255,255,.82);
-
-  font-size: 13px;
-  font-weight: 800;
-
-  cursor: pointer;
-
-  transition: .18s ease;
+:root {
+  --bg-card:    rgba(255,255,255,.06);
+  --card:       rgba(255,255,255,.06);
+  --card-strong:rgba(255,255,255,.12);
+  --text:       #fff7ef;
+  --text-muted: #d7c1b3;
+  --border:     rgba(255,255,255,.08);
+  --primary:    #c42d4d;
+  --primary-dark:#981c38;
+  --accent:     #ffcc4d;
+  --huerta:     #69b96b;
+  --hover:      rgba(255,255,255,.08);
+  --shadow:     0 10px 30px rgba(0,0,0,.35);
+  --blur:       blur(14px);
 }
 
-
-  .day-tabs {
-    display: flex;
-    gap: 6px;
-    margin-bottom: 16px;
-    overflow-x: auto;
-    padding-bottom: 4px;
-  }
-
-  .day-tab {
-    padding: 10px 15px;
-
-    border-radius: 12px;
-
-    border: 1px solid rgba(255,255,255,.08);
-
-    background: rgba(255,255,255,.05);
-
-    backdrop-filter: blur(12px);
-
-    color: var(--text-muted);
-
-    font-size: 13px;
-    font-weight: 700;
-
-    cursor: pointer;
-
-    white-space: nowrap;
-
-    transition: all .18s ease;
-  }
-
-  .day-tab:hover {
-    transform: translateY(-1px);
-  }
-
-.day-tab.active,
-.view-btn.active {
-  background: linear-gradient(
-    135deg,
-    var(--primary),
-    var(--primary-dark)
-  );
-
-  color: white;
-
-  box-shadow:
-    0 4px 18px rgba(196,45,77,.45);
-}
-  .day-tab strong {
-    display: block;
-    font-size: 11px;
-    text-transform: uppercase;
-    opacity: .75;
-  }
-#day-tabs,
-#cinema-pills,
-#view-switcher {
-  position: sticky;
-
-  top: 160px;
-
-  z-index: 30;
-
-  padding-top: 10px;
-
+body {
+  font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   background:
-    linear-gradient(
-      to bottom,
-      rgba(20,7,11,.95),
-      rgba(20,7,11,.55)
-    );
-
-  backdrop-filter: blur(16px);
+    radial-gradient(circle at top, rgba(158,27,50,.35), transparent 35%),
+    radial-gradient(circle at bottom right, rgba(212,160,23,.15), transparent 30%),
+    linear-gradient(180deg, #14070b 0%, #1a0a11 30%, #12060a 100%);
+  color: #f8f4ef;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
 }
-#view-switcher {
-  padding-bottom: 10px;
-  backdrop-filter: blur(10px);
-}
-  .cinema-section {
-    margin-bottom: 36px;
-  }
-
-  .cinema-header {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 14px;
-  }
-
-  .cinema-dot {
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-    flex-shrink: 0;
-    box-shadow: 0 0 0 3px rgba(255,255,255,.7);
-  }
-
-  .cinema-name {
-    font-size: 18px;
-    font-weight: 800;
-  }
-
-  .cinema-meta {
-    color: var(--text-muted);
-    font-size: 13px;
-  }
-
-  .cinema-count {
-    margin-left: auto;
-    color: var(--text-muted);
-    font-size: 12px;
-  }
-
-  .salas-grid {
-    display: grid;
-    gap: 14px;
-    grid-template-columns: 1fr;
-  }
-
-  @media (min-width: 600px) {
-    .salas-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  @media (min-width: 900px) {
-    .salas-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  @media (min-width: 1200px) {
-    .salas-grid {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
-
-  .sala-card {
-    background: var(--card);
-
-    backdrop-filter: var(--blur);
-    -webkit-backdrop-filter: var(--blur);
-
-    border: 1px solid var(--border);
-
-    border-radius: 20px;
-
-    padding: 14px;
-
-    box-shadow: var(--shadow);
-
-    transition:
-      transform .18s ease,
-      border-color .18s ease,
-      background .18s ease;
-  }
-
-  .sala-card:hover {
-    transform: translateY(-2px);
-    border-color: rgba(243,201,105,.25);
-    background: var(--card-strong);
-  }
-
-  .sala-title {
-    font-size: 12px;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: .08em;
-    color: var(--huerta);
-    margin-bottom: 10px;
-  }
-
-  .sessions {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  .session {
-    display: block;
-
-    background: rgba(0,0,0,.18);
-
-    border: 1px solid rgba(255,255,255,.05);
-    border-left: 4px solid;
-
-    border-radius: 14px;
-
-    padding: 12px;
-
-    box-shadow: var(--shadow);
-
-    color: inherit;
-    text-decoration: none;
-
-    transition:
-      transform .15s ease,
-      background .15s ease,
-      border-color .15s ease;
-  }
-
-  .session:hover {
-    transform: translateY(-2px);
-
-    background: rgba(255,255,255,.06);
-
-    border-color: rgba(255,255,255,.12);
-  }
-
-  .session-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: 8px;
-    margin-bottom: 4px;
-  }
-
-  .session-time {
-    font-size: 20px;
-    font-weight: 900;
-
-    color: var(--accent);
-
-    font-variant-numeric: tabular-nums;
-
-    letter-spacing: -.02em;
-  }
-
-  .session-rating {
-    font-size: 11px;
-    padding: 2px 7px;
-    border-radius: 999px;
-    font-weight: 700;
-    flex-shrink: 0;
-  }
-
-  .session-movie {
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.3;
-  }
-
-  .session-meta {
-    font-size: 11px;
-    color: var(--text-muted);
-    margin-top: 4px;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-  }
-
-  .rating-TP { background: #dcfce7; color: #166534; }
-  .rating-7  { background: #dbeafe; color: #1e40af; }
-  .rating-12 { background: #fef3c7; color: #92400e; }
-  .rating-16 { background: #fed7aa; color: #9a3412; }
-  .rating-18 { background: #fecaca; color: #991b1b; }
-  .rating-X  { background: #f1f5f9; color: #64748b; }
-
-  .movies-list,
-  .timeline-list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-.movie-card {
-  position: relative;
-
-  overflow: hidden;
-
-  background:
-    linear-gradient(
-      180deg,
-      rgba(255,255,255,.07),
-      rgba(255,255,255,.04)
-    );
-
-  border: 1px solid rgba(255,255,255,.08);
-
-  border-radius: 24px;
-
-  padding: 20px;
-
-  transition:
-    transform .18s ease,
-    border-color .18s ease;
-
-  backdrop-filter: blur(14px);
-}
-
-.movie-card::before {
-  content: "";
-
-  position: absolute;
-  inset: 0;
-
-  background:
-    radial-gradient(
-      circle at top right,
-      rgba(255,204,77,.08),
-      transparent 40%
-    );
-
-  pointer-events: none;
-}
-
-.movie-card:hover {
-  transform: translateY(-4px);
-
-  border-color: rgba(255,255,255,.18);
-}
-.movie-meta,
-.session-meta,
-.subtitle,
-.cinema-meta,
-.cinema-count {
-  color: rgba(255,255,255,.68);
-}
-  .movie-title {
-    font-size: 16px;
-    font-weight: 800;
-    margin-bottom: 8px;
-
-    display: flex;
-    justify-content: space-between;
-    gap: 8px;
-    align-items: baseline;
-  }
-
-  .movie-meta {
-    font-size: 12px;
-    color: var(--text-muted);
-    display: flex;
-    gap: 6px;
-    align-items: center;
-    flex-shrink: 0;
-  }
-  .movie-title span:first-child,
-  .session-movie,
-  .cinema-name {
-    color: var(--text);
-
-    text-shadow:
-      0 1px 2px rgba(0,0,0,.45);
-  }
-  .cinema-row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 6px;
-    padding: 5px 0;
-  }
-
-  .cinema-label {
-    font-size: 13px;
-    font-weight: 700;
-  }
-
-.time-chip {
-  padding: 6px 10px;
-
-  background: rgba(255,255,255,.08);
-
-  border: 1px solid rgba(255,255,255,.08);
-
-  border-radius: 10px;
-
-  font-size: 13px;
-  font-weight: 700;
-
-  color: white;
-
-  text-decoration: none;
-
-  transition: .15s ease;
-}
-
-.time-chip:hover {
-  background: rgba(255,255,255,.14);
-
-  transform: translateY(-1px);
-}
-
-  .time-chip .sala-tag {
-    font-size: 10px;
-    opacity: .65;
-    margin-left: 4px;
-  }
-
-  .hour-block {
-    margin-bottom: 18px;
-  }
-
-  .hour-label {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 8px;
-  }
-
-  .hour-num {
-    font-size: 20px;
-    font-weight: 800;
-    color: var(--accent);
-    font-variant-numeric: tabular-nums;
-  }
-
-  .hour-line {
-    flex: 1;
-    height: 1px;
-    background: linear-gradient(
-      to right,
-      var(--accent),
-      transparent
-    );
-  }
-
-  .hour-grid {
-    display: grid;
-    gap: 8px;
-    grid-template-columns: 1fr;
-  }
-
-  @media (min-width: 600px) {
-    .hour-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  @media (min-width: 900px) {
-    .hour-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  .week-section {
-    margin-bottom: 48px;
-  }
-
-  .week-day-header {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 18px;
-    padding: 10px 16px;
-    background: rgba(255,204,77,.07);
-    border-left: 4px solid var(--accent);
-    border-radius: 0 12px 12px 0;
-  }
-
-  .week-day-name {
-    font-size: 15px;
-    font-weight: 800;
-    color: var(--accent);
-    text-transform: capitalize;
-  }
-
-  .empty {
-    text-align: center;
-    padding: 50px 16px;
-    color: var(--text-muted);
-  }
-
-  footer {
-    margin-top: 36px;
-    padding: 18px 0;
-    text-align: center;
-    font-size: 11px;
-    color: var(--text-muted);
-    border-top: 1px solid var(--border);
-  }
-
-  footer a {
-    color: var(--primary);
-    text-decoration: none;
-    font-weight: 700;
-  }
-
-  ::selection {
-    background: rgba(158,27,50,.15);
-  }
-  main {
-    padding-top: 8px;
-  }
-
-  .cinema-section + .cinema-section {
-    margin-top: 42px;
-  }
-  body::before {
-  content: "";
-
-  position: fixed;
-  inset: 0;
-
-  pointer-events: none;
-
-  background:
-    linear-gradient(
-      rgba(255,255,255,.015),
-      rgba(255,255,255,0)
-    );
-
+body.modal-open { overflow: hidden; }
+body::before {
+  content: ""; position: fixed; inset: 0; pointer-events: none;
+  background: linear-gradient(rgba(255,255,255,.015), rgba(255,255,255,0));
   mix-blend-mode: soft-light;
-  }
-  
+}
+
+.container { max-width: 1400px; margin: 0 auto; padding: 16px; }
+
+/* ── HERO HEADER ───────────────────────────────────────────── */
 .hero-header {
-  position: sticky;
-  top: 0;
-  z-index: 50;
-
-  padding:
-    18px
-    0
-    18px;
-
-  margin-bottom: 18px;
-
+  position: sticky; top: 0; z-index: 50;
+  padding: 14px 0 12px;
+  margin-bottom: 14px;
   backdrop-filter: blur(18px);
-
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(20,7,11,.92),
-      rgba(20,7,11,.72)
-    );
-
-  border-bottom:
-    1px solid rgba(255,255,255,.06);
+  background: linear-gradient(to bottom, rgba(20,7,11,.94), rgba(20,7,11,.78));
+  border-bottom: 1px solid rgba(255,255,255,.06);
 }
-
 .hero-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 12px;
-
-  margin-bottom: 18px;
-}
-
-.hero-kicker {
-  color: var(--accent);
-
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-
-  margin-bottom: 4px;
-}
-
-.hero-header h1 {
-  font-size: clamp(32px, 7vw, 52px);
-  line-height: .95;
-  font-weight: 900;
-  letter-spacing: -.05em;
-
-  color: white;
-
-  margin-bottom: 6px;
-
-  text-shadow:
-    0 8px 30px rgba(0,0,0,.35);
-}
-
-.subtitle {
-  color: rgba(255,255,255,.72);
-
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.surprise-btn {
-  border: 0;
-
-  background:
-    linear-gradient(
-      135deg,
-      var(--primary),
-      var(--primary-dark)
-    );
-
-  color: white;
-
-  padding: 12px 16px;
-
-  border-radius: 14px;
-
-  font-weight: 800;
-
-  cursor: pointer;
-
-  box-shadow:
-    0 10px 30px rgba(196,45,77,.35);
-
-  transition: .18s ease;
-}
-
-.surprise-btn:hover {
-  transform: translateY(-2px) scale(1.02);
-}
-
-.featured-row {
-  display: flex;
-  gap: 14px;
-
-  overflow-x: auto;
-
-  padding-bottom: 8px;
-  margin-bottom: 22px;
-}
-
-.featured-card {
-  min-width: 260px;
-
-  background:
-    linear-gradient(
-      180deg,
-      rgba(255,255,255,.09),
-      rgba(255,255,255,.04)
-    );
-
-  border-radius: 22px;
-
-  padding: 18px;
-
-  border: 1px solid rgba(255,255,255,.08);
-
-  backdrop-filter: blur(14px);
-}
-
-.featured-label {
-  color: var(--accent);
-
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-
-  margin-bottom: 8px;
-}
-
-.featured-title {
-  font-size: 18px;
-  font-weight: 800;
-
-  margin-bottom: 8px;
-}
-
-.search-box {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-
-  background: rgba(255,255,255,.06);
-
-  border: 1px solid rgba(255,255,255,.08);
-
-  border-radius: 18px;
-
-  padding: 14px 16px;
-
-  backdrop-filter: blur(12px);
-
-  box-shadow: var(--shadow);
-
+  display: flex; justify-content: space-between; align-items: center; gap: 12px;
   margin-bottom: 12px;
 }
-
-.search-icon {
-  font-size: 18px;
-  opacity: .7;
+.hero-kicker {
+  color: var(--accent); font-size: 11px; font-weight: 800;
+  letter-spacing: .12em; text-transform: uppercase; margin-bottom: 2px;
 }
+.hero-header h1 {
+  font-size: clamp(28px, 6vw, 46px); line-height: .95;
+  font-weight: 900; letter-spacing: -.05em; color: white; margin-bottom: 4px;
+  text-shadow: 0 8px 30px rgba(0,0,0,.35);
+}
+.subtitle { color: rgba(255,255,255,.68); font-size: 13px; font-weight: 500; }
+.hero-actions { display: flex; gap: 8px; align-items: center; flex-shrink: 0; }
+.surprise-btn {
+  border: 0;
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: white; padding: 10px 14px; border-radius: 12px; font-weight: 800;
+  cursor: pointer; box-shadow: 0 10px 30px rgba(196,45,77,.35); transition: .18s ease;
+  white-space: nowrap; font-size: 13px;
+}
+.surprise-btn:hover { transform: translateY(-2px) scale(1.02); }
 
+/* ── SEARCH ────────────────────────────────────────────────── */
+.search-box {
+  display: flex; align-items: center; gap: 10px;
+  background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.08);
+  border-radius: 16px; padding: 11px 14px;
+  backdrop-filter: blur(12px); box-shadow: var(--shadow); margin-bottom: 10px;
+}
+.search-icon { font-size: 16px; opacity: .7; }
 .search-box input {
-  flex: 1;
+  flex: 1; background: transparent; border: 0; outline: none;
+  color: white; font-size: 14px; font-weight: 500;
+}
+.search-box input::placeholder { color: rgba(255,255,255,.4); }
 
-  background: transparent;
-  border: 0;
-  outline: none;
+/* ── FILTERS ───────────────────────────────────────────────── */
+.filter-row {
+  display: flex; flex-direction: column; gap: 7px;
+}
+.filter-group {
+  display: flex; flex-wrap: wrap; gap: 5px; align-items: center;
+}
+.filter-label {
+  font-size: 10px; font-weight: 800; text-transform: uppercase;
+  letter-spacing: .1em; color: rgba(255,255,255,.35); margin-right: 2px; flex-shrink: 0;
+}
+.filter-pill {
+  padding: 4px 10px; border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.1);
+  background: transparent; color: rgba(255,255,255,.6);
+  font-size: 11px; font-weight: 700; cursor: pointer; transition: .15s;
+  white-space: nowrap;
+}
+.filter-pill:hover { background: rgba(255,255,255,.08); color: white; }
+.filter-pill.active { background: var(--primary); border-color: transparent; color: white; }
+.filter-pill.tp-pill.active   { background: #166534; }
+.filter-pill.t7-pill.active   { background: #1e40af; }
+.filter-pill.t12-pill.active  { background: #92400e; }
+.filter-pill.t16-pill.active  { background: #9a3412; }
+.filter-pill.t18-pill.active  { background: #991b1b; }
 
-  color: white;
-
-  font-size: 15px;
-  font-weight: 500;
+/* Favorites toggle */
+.fav-toggle-btn {
+  display: flex; align-items: center; gap: 5px;
+  background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.1);
+  color: rgba(255,255,255,.7); padding: 4px 10px; border-radius: 999px;
+  font-size: 11px; font-weight: 700; cursor: pointer; transition: .15s;
+}
+.fav-toggle-btn.active {
+  background: rgba(255,107,138,.2); border-color: rgba(255,107,138,.4); color: #ff8fab;
 }
 
-.search-box input::placeholder {
-  color: rgba(255,255,255,.45);
+/* ── STICKY NAV (tabs, pills, views) ───────────────────────── */
+#day-tabs, #cinema-pills, #view-switcher {
+  position: sticky; top: 185px; z-index: 30; padding-top: 8px;
+  background: linear-gradient(to bottom, rgba(20,7,11,.95), rgba(20,7,11,.55));
+  backdrop-filter: blur(16px);
+}
+#view-switcher { padding-bottom: 10px; }
+
+.day-tabs { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; }
+.day-tab {
+  padding: 9px 13px; border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.08); background: rgba(255,255,255,.05);
+  backdrop-filter: blur(12px); color: var(--text-muted);
+  font-size: 12px; font-weight: 700; cursor: pointer; white-space: nowrap; transition: all .18s ease;
+}
+.day-tab:hover { transform: translateY(-1px); }
+.day-tab.active, .view-btn.active {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: white; box-shadow: 0 4px 18px rgba(196,45,77,.45);
+}
+.day-tab strong { display: block; font-size: 10px; text-transform: uppercase; opacity: .75; }
+
+.controls { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 10px; }
+.pill {
+  padding: 6px 12px; border-radius: 999px; border: 2px solid var(--border);
+  background: var(--card); color: var(--text-muted);
+  font-size: 12px; font-weight: 600; cursor: pointer; transition: all .15s ease; white-space: nowrap;
+}
+.pill:hover { background: var(--hover); transform: translateY(-1px); }
+.pill.active, .pill.cinema-active { color: #fff; border-color: transparent; }
+
+.views {
+  display: inline-flex; gap: 4px; padding: 5px;
+  background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.08);
+  backdrop-filter: blur(14px); border-radius: 16px; box-shadow: var(--shadow); margin-bottom: 20px;
+}
+.view-btn {
+  padding: 10px 14px; border: 0; border-radius: 12px; background: transparent;
+  color: rgba(255,255,255,.82); font-size: 12px; font-weight: 800; cursor: pointer; transition: .18s ease;
 }
 
-/* ── Carátulas ─────────────────────────────────────────────── */
-.movie-card-body {
-  display: flex;
-  gap: 14px;
-  align-items: flex-start;
+/* ── SALA VIEW ─────────────────────────────────────────────── */
+main { padding-top: 8px; }
+.cinema-section { margin-bottom: 36px; }
+.cinema-section + .cinema-section { margin-top: 42px; }
+.cinema-header { display: flex; align-items: center; gap: 8px; margin-bottom: 14px; }
+.cinema-dot { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; box-shadow: 0 0 0 3px rgba(255,255,255,.7); }
+.cinema-name { font-size: 18px; font-weight: 800; }
+.cinema-meta, .cinema-count, .subtitle, .movie-meta, .session-meta { color: rgba(255,255,255,.68); }
+.cinema-count { margin-left: auto; font-size: 12px; }
+
+.salas-grid { display: grid; gap: 14px; grid-template-columns: 1fr; }
+@media (min-width: 600px)  { .salas-grid { grid-template-columns: repeat(2,1fr); } }
+@media (min-width: 900px)  { .salas-grid { grid-template-columns: repeat(3,1fr); } }
+@media (min-width: 1200px) { .salas-grid { grid-template-columns: repeat(4,1fr); } }
+
+.sala-card {
+  background: var(--card); backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur);
+  border: 1px solid var(--border); border-radius: 20px; padding: 14px;
+  box-shadow: var(--shadow); transition: transform .18s ease, border-color .18s ease, background .18s ease;
 }
-
-.movie-poster {
-  width: 70px;
-  min-width: 70px;
-  height: 105px;
-  object-fit: cover;
-  border-radius: 10px;
-  background: rgba(255,255,255,.06);
-  flex-shrink: 0;
+.sala-card:hover { transform: translateY(-2px); border-color: rgba(243,201,105,.25); background: var(--card-strong); }
+.sala-title {
+  font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .08em;
+  color: var(--huerta); margin-bottom: 10px;
 }
+.sessions { display: flex; flex-direction: column; gap: 8px; }
 
-.movie-poster-placeholder {
-  width: 70px;
-  min-width: 70px;
-  height: 105px;
-  border-radius: 10px;
-  background: rgba(255,255,255,.06);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 26px;
-  flex-shrink: 0;
-  color: rgba(255,255,255,.3);
+/* ── SESSION CARD ──────────────────────────────────────────── */
+.session {
+  display: block; background: rgba(0,0,0,.18);
+  border: 1px solid rgba(255,255,255,.05); border-left: 4px solid;
+  border-radius: 14px; padding: 11px; box-shadow: var(--shadow);
+  color: inherit; text-decoration: none;
+  transition: transform .15s ease, background .15s ease, border-color .15s ease;
+  overflow: hidden;
 }
-
-.movie-info { flex: 1; min-width: 0; }
-
+.session:hover { transform: translateY(-2px); background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.12); }
+.session.is-past { opacity: .42; filter: grayscale(.4); }
+.session.is-now  { border-left-width: 6px; }
+.session.is-soon { }
+.session-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 3px; }
+.session-time { font-size: 18px; font-weight: 900; color: var(--accent); font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+.session-rating { font-size: 10px; padding: 2px 6px; border-radius: 999px; font-weight: 700; flex-shrink: 0; }
+.rating-TP { background:#dcfce7;color:#166534; } .rating-7  { background:#dbeafe;color:#1e40af; }
+.rating-12 { background:#fef3c7;color:#92400e; } .rating-16 { background:#fed7aa;color:#9a3412; }
+.rating-18 { background:#fecaca;color:#991b1b; } .rating-X  { background:#f1f5f9;color:#64748b; }
+.session-movie {
+  font-size: 13px; font-weight: 600; line-height: 1.3; cursor: pointer;
+  color: var(--text); text-shadow: 0 1px 2px rgba(0,0,0,.45);
+}
+.session-movie:hover { color: var(--accent); }
+.session-meta { font-size: 11px; color: rgba(255,255,255,.55); margin-top: 3px; display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
 .session-thumb {
-  width: 36px;
-  min-width: 36px;
-  height: 54px;
-  object-fit: cover;
-  border-radius: 6px;
-  float: right;
-  margin: 0 0 4px 8px;
-  opacity: .85;
-  flex-shrink: 0;
+  width: 36px; min-width: 36px; height: 54px; object-fit: cover;
+  border-radius: 6px; float: right; margin: 0 0 4px 8px; opacity: .85;
+}
+.time-status {
+  display: inline-block; padding: 1px 7px; border-radius: 999px;
+  font-size: 9px; font-weight: 900; letter-spacing: .05em; margin-left: 5px; vertical-align: middle;
+}
+.status-now  { background: rgba(34,197,94,.2);  color: #4ade80; }
+.status-soon { background: rgba(251,191,36,.2); color: #fbbf24; }
+.cal-btn {
+  display: inline-flex; align-items: center; gap: 3px;
+  background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.07);
+  border-radius: 7px; padding: 3px 7px; font-size: 10px; color: rgba(255,255,255,.5);
+  cursor: pointer; text-decoration: none; transition: .15s; margin-top: 5px;
+}
+.cal-btn:hover { background: rgba(255,255,255,.12); color: white; }
+
+/* ── FORMAT BADGES ─────────────────────────────────────────── */
+.format-badge { display: inline-block; padding: 1px 5px; border-radius: 4px; font-size: 9px; font-weight: 900; letter-spacing: .04em; vertical-align: middle; }
+.badge-vose { background: rgba(74,222,128,.15); color: #4ade80; border: 1px solid rgba(74,222,128,.25); }
+.badge-3d   { background: rgba(96,165,250,.15); color: #60a5fa; border: 1px solid rgba(96,165,250,.25); }
+.badge-imax { background: rgba(167,139,250,.15); color: #a78bfa; border: 1px solid rgba(167,139,250,.25); }
+.badge-4dx  { background: rgba(251,146,60,.15);  color: #fb923c; border: 1px solid rgba(251,146,60,.25); }
+
+/* ── MOVIE VIEW ────────────────────────────────────────────── */
+.movies-list, .timeline-list { display: flex; flex-direction: column; gap: 12px; }
+.movie-card {
+  position: relative; overflow: hidden;
+  background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.04));
+  border: 1px solid rgba(255,255,255,.08); border-radius: 24px; padding: 18px;
+  transition: transform .18s ease, border-color .18s ease; backdrop-filter: blur(14px);
+}
+.movie-card::before {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(circle at top right, rgba(255,204,77,.07), transparent 40%);
+}
+.movie-card:hover { transform: translateY(-3px); border-color: rgba(255,255,255,.18); }
+.movie-card-body { display: flex; gap: 14px; align-items: flex-start; }
+.movie-poster-wrap { cursor: pointer; flex-shrink: 0; }
+.movie-poster {
+  width: 70px; min-width: 70px; height: 105px; object-fit: cover;
+  border-radius: 10px; background: rgba(255,255,255,.06); display: block;
+  transition: opacity .2s;
+}
+.movie-poster-wrap:hover .movie-poster { opacity: .8; }
+.movie-poster-placeholder {
+  width: 70px; min-width: 70px; height: 105px; border-radius: 10px;
+  background: rgba(255,255,255,.06); display: flex; align-items: center;
+  justify-content: center; font-size: 24px; color: rgba(255,255,255,.2);
+}
+.movie-info { flex: 1; min-width: 0; }
+.movie-title {
+  font-size: 15px; font-weight: 800; margin-bottom: 6px;
+  display: flex; justify-content: space-between; gap: 8px; align-items: flex-start;
+  color: var(--text); text-shadow: 0 1px 2px rgba(0,0,0,.45);
+}
+.movie-title-text { cursor: pointer; }
+.movie-title-text:hover { color: var(--accent); }
+.movie-meta { font-size: 12px; display: flex; gap: 5px; align-items: center; flex-shrink: 0; flex-wrap: wrap; }
+.movie-score { font-size: 12px; color: var(--accent); font-weight: 700; margin-bottom: 6px; }
+.genre-row { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 8px; }
+.genre-tag {
+  background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.1);
+  border-radius: 999px; padding: 2px 9px; font-size: 11px; color: rgba(255,255,255,.7);
+}
+.cinema-row { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; padding: 4px 0; }
+.cinema-label { font-size: 12px; font-weight: 700; }
+.time-chip {
+  padding: 5px 9px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.08);
+  border-radius: 10px; font-size: 12px; font-weight: 700; color: white;
+  text-decoration: none; transition: .15s;
+}
+.time-chip:hover { background: rgba(255,255,255,.14); transform: translateY(-1px); }
+.time-chip .sala-tag { font-size: 9px; opacity: .65; margin-left: 4px; }
+
+/* Favorites */
+.fav-btn {
+  background: transparent; border: 0; cursor: pointer; font-size: 16px;
+  padding: 2px 4px; transition: transform .15s; color: rgba(255,255,255,.3); line-height: 1;
+}
+.fav-btn.active { color: #ff8fab; }
+.fav-btn:hover { transform: scale(1.25); color: #ff8fab; }
+
+/* ── TIMELINE VIEW ─────────────────────────────────────────── */
+.hour-block { margin-bottom: 18px; }
+.hour-label { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.hour-num { font-size: 20px; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; }
+.hour-line { flex: 1; height: 1px; background: linear-gradient(to right, var(--accent), transparent); }
+.hour-grid { display: grid; gap: 8px; grid-template-columns: 1fr; }
+@media (min-width: 600px) { .hour-grid { grid-template-columns: repeat(2,1fr); } }
+@media (min-width: 900px) { .hour-grid { grid-template-columns: repeat(3,1fr); } }
+
+/* ── WEEK VIEW ─────────────────────────────────────────────── */
+.week-section { margin-bottom: 48px; }
+.week-day-header {
+  display: flex; align-items: center; gap: 12px; margin-bottom: 16px;
+  padding: 10px 16px; background: rgba(255,204,77,.07);
+  border-left: 4px solid var(--accent); border-radius: 0 12px 12px 0;
+}
+.week-day-name { font-size: 15px; font-weight: 800; color: var(--accent); text-transform: capitalize; }
+
+/* ── MODAL ─────────────────────────────────────────────────── */
+.modal-overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,.72); z-index: 200;
+  display: flex; align-items: center; justify-content: center;
+  padding: 16px; backdrop-filter: blur(10px);
+}
+.modal-overlay.hidden { display: none; }
+.modal-box {
+  background: linear-gradient(180deg, #1e0c14, #150a10);
+  border: 1px solid rgba(255,255,255,.13); border-radius: 28px;
+  max-width: 700px; width: 100%; max-height: 90vh; overflow-y: auto;
+  padding: 24px; position: relative; box-shadow: 0 40px 80px rgba(0,0,0,.65);
+  scrollbar-width: thin; scrollbar-color: rgba(255,255,255,.2) transparent;
+}
+.modal-close {
+  position: absolute; top: 14px; right: 14px;
+  background: rgba(255,255,255,.1); border: 0; color: white;
+  width: 30px; height: 30px; border-radius: 50%; font-size: 14px;
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  transition: .15s; z-index: 1;
+}
+.modal-close:hover { background: rgba(255,255,255,.2); }
+.modal-top { display: flex; gap: 18px; margin-bottom: 16px; align-items: flex-start; }
+.modal-poster {
+  width: 110px; min-width: 110px; height: 165px; object-fit: cover;
+  border-radius: 12px; background: rgba(255,255,255,.06); flex-shrink: 0; cursor: default;
+}
+.modal-poster-ph {
+  width: 110px; min-width: 110px; height: 165px; border-radius: 12px;
+  background: rgba(255,255,255,.06); display: flex; align-items: center;
+  justify-content: center; font-size: 38px; flex-shrink: 0;
+}
+.modal-top-info { flex: 1; min-width: 0; }
+.modal-title { font-size: 20px; font-weight: 900; margin-bottom: 8px; line-height: 1.2; color: var(--text); }
+.modal-badges { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 7px; align-items: center; }
+.modal-meta-chip { background: rgba(255,255,255,.08); border-radius: 6px; padding: 2px 7px; font-size: 11px; color: rgba(255,255,255,.7); }
+.modal-score { font-size: 13px; color: var(--accent); font-weight: 700; margin-bottom: 7px; }
+.modal-overview { font-size: 13px; line-height: 1.65; color: rgba(255,255,255,.75); margin-bottom: 20px; }
+.modal-sessions-label {
+  font-size: 11px; font-weight: 800; text-transform: uppercase;
+  letter-spacing: .1em; color: var(--accent); margin-bottom: 12px;
+}
+.modal-day-section { margin-bottom: 14px; }
+.modal-day-name { font-size: 12px; font-weight: 700; color: rgba(255,255,255,.5); margin-bottom: 7px; text-transform: capitalize; }
+.modal-times { display: flex; flex-wrap: wrap; gap: 7px; }
+.modal-time-chip {
+  display: flex; align-items: center; gap: 5px;
+  padding: 6px 10px; background: rgba(255,255,255,.07);
+  border: 1px solid rgba(255,255,255,.1); border-radius: 10px;
+  font-size: 12px; font-weight: 700; color: white; text-decoration: none; transition: .15s;
+}
+.modal-time-chip:hover { background: rgba(255,255,255,.14); }
+.modal-cinema-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+.modal-cal-btn {
+  display: flex; align-items: center; gap: 4px;
+  background: rgba(255,204,77,.1); border: 1px solid rgba(255,204,77,.2);
+  border-radius: 8px; padding: 4px 9px; font-size: 11px; color: var(--accent);
+  cursor: pointer; transition: .15s; margin-top: 16px;
+}
+.modal-cal-btn:hover { background: rgba(255,204,77,.2); }
+@media (max-width: 600px) {
+  .modal-top { flex-direction: column; }
+  .modal-poster, .modal-poster-ph { width: 90px; min-width: 90px; height: 135px; }
+  .modal-title { font-size: 17px; }
 }
 
-.quick-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+/* ── MISC ──────────────────────────────────────────────────── */
+.empty { text-align: center; padding: 50px 16px; color: var(--text-muted); }
+footer {
+  margin-top: 36px; padding: 18px 0; text-align: center;
+  font-size: 11px; color: var(--text-muted); border-top: 1px solid var(--border);
 }
-
-.quick-filters button {
-  border: 0;
-
-  padding: 9px 12px;
-
-  border-radius: 999px;
-
-  background: rgba(255,255,255,.08);
-
-  color: white;
-
-  font-size: 13px;
-  font-weight: 700;
-
-  cursor: pointer;
-
-  transition: .15s ease;
-}
-
-.quick-filters button:hover {
-  background: rgba(255,255,255,.14);
-
-  transform: translateY(-1px);
-}
+footer a { color: var(--primary); text-decoration: none; font-weight: 700; }
+button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+::selection { background: rgba(158,27,50,.15); }
 </style>
 </head>
 
 <body>
 
+<!-- ── MODAL ─────────────────────────────────────────────────── -->
+<div id="movie-modal" class="modal-overlay hidden">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div class="modal-top">
+      <div id="modal-poster-ph" class="modal-poster-ph">🎬</div>
+      <img id="modal-poster" class="modal-poster" src="" alt="" style="display:none" onerror="this.style.display='none';document.getElementById('modal-poster-ph').style.display='flex'">
+      <div class="modal-top-info">
+        <h2 id="modal-title" class="modal-title"></h2>
+        <div id="modal-badges" class="modal-badges"></div>
+        <div id="modal-score" class="modal-score"></div>
+        <div id="modal-genres" class="genre-row"></div>
+      </div>
+    </div>
+    <p id="modal-overview" class="modal-overview"></p>
+    <div class="modal-sessions-label">🎟 Sesiones esta semana</div>
+    <div id="modal-sessions"></div>
+  </div>
+</div>
+
 <div class="container">
 
 <header class="hero-header">
-
   <div class="hero-top">
     <div>
       <div class="hero-kicker">Cartelera panocha 🍋</div>
       <h1>Cines de Murcia</h1>
       <div class="subtitle" id="subtitle"></div>
     </div>
-
-    <button class="surprise-btn" onclick="randomMovie()">
-      🎲 Sorpréndeme
-    </button>
+    <div class="hero-actions">
+      <button id="fav-toggle-btn" class="fav-toggle-btn" onclick="toggleFavoritesOnly()">♡ Mis favs</button>
+      <button class="surprise-btn" onclick="randomMovie()">🎲 Sorpréndeme</button>
+    </div>
   </div>
 
-  <section class="hero-search">
+  <div class="search-box">
+    <span class="search-icon">🔎</span>
+    <input id="movie-search" type="text" placeholder="Busca película, cine o sala…">
+  </div>
 
-    <div class="search-box">
-      <span class="search-icon">🔎</span>
-
-      <input
-        id="movie-search"
-        type="text"
-        placeholder="Busca película, cine o sala..."
-      >
-    </div>
-
-    <div class="quick-filters">
-      <button onclick="quickFilter('late')">🌙 Tarde</button>
-      <button onclick="quickFilter('family')">👨‍👩‍👧 Familiar</button>
-      <button onclick="quickFilter('short')">⏱ Cortas</button>
-      <button onclick="quickFilter('vose')">🎞 VOSE</button>
-    </div>
-
-  </section>
-
+  <div class="filter-row">
+    <div class="filter-group" id="genre-pills"></div>
+    <div class="filter-group" id="rating-pills"></div>
+    <div class="filter-group" id="time-pills"></div>
+  </div>
 </header>
-  <div id="day-tabs" class="day-tabs"></div>
-  <div id="cinema-pills" class="controls"></div>
-  <div class="views" id="view-switcher"></div>
 
-  <main id="main">
-    <div class="empty">
-      Cargando programación…
-    </div>
-  </main>
+<div id="day-tabs" class="day-tabs"></div>
+<div id="cinema-pills" class="controls"></div>
+<div class="views" id="view-switcher"></div>
 
-  <footer>
-    Datos de neocine.es y filmotecamurcia.carm.es ·
-    <span id="updated"></span> ·
-    Hecho con amor desde Murcia 🌞
-  </footer>
+<main id="main">
+  <div class="empty">Cargando programación…</div>
+</main>
 
-</div>
+<footer>
+  Datos de neocine.es y filmotecamurcia.carm.es ·
+  <span id="updated"></span> ·
+  Hecho con amor desde Murcia 🌞
+</footer>
 
+</div><!-- /container -->
 
 <script>
-// ============================================================
+// ═══════════════════════════════════════════════════════════════
 // ESTADO
-// ============================================================
+// ═══════════════════════════════════════════════════════════════
 let DATA = null;
 let state = {
-  view: 'sala',        // sala | movie | time
-  selectedDate: null,  // YYYY-MM-DD
-  cinemas: {},         // id -> bool (visible)
+  view: 'sala',
+  selectedDate: null,
+  cinemas: {},
   search: '',
+  genres:  [],       // géneros activos
+  ratings: [],       // calificaciones activas
+  timePreset: 'all', // all | morning | evening | night
+  favoritesOnly: false,
 };
 
-// ============================================================
-// CARGA INICIAL
-// ============================================================
+// ═══════════════════════════════════════════════════════════════
+// FAVORITOS
+// ═══════════════════════════════════════════════════════════════
+const FAV_KEY = 'cines-murcia-favs';
+const getFavorites  = () => JSON.parse(localStorage.getItem(FAV_KEY) || '[]');
+const isFavorite    = t => getFavorites().includes(t);
+window.toggleFavorite = function(t) {
+  const f = getFavorites(), i = f.indexOf(t);
+  if (i >= 0) f.splice(i, 1); else f.push(t);
+  localStorage.setItem(FAV_KEY, JSON.stringify(f));
+  render();
+};
+window.toggleFavoritesOnly = function() {
+  state.favoritesOnly = !state.favoritesOnly;
+  render();
+};
+
+// ═══════════════════════════════════════════════════════════════
+// CARGA
+// ═══════════════════════════════════════════════════════════════
 async function load() {
   try {
     const r = await fetch('./data/schedule.json?ts=' + Date.now());
     DATA = await r.json();
   } catch (e) {
     document.getElementById('main').innerHTML =
-      '<div class="empty">No se ha podido cargar la programación. ¿Está generado <code>data/schedule.json</code>?</div>';
+      '<div class="empty">No se pudo cargar la programación. ¿Está generado <code>data/schedule.json</code>?</div>';
     return;
   }
-  // Inicializar estado
+  // Normalizar: soportar tanto DATA.movies (nuevo) como DATA.posters (antiguo)
+  if (!DATA.movies) {
+    DATA.movies = {};
+    Object.entries(DATA.posters || {}).forEach(([t, p]) => { DATA.movies[t] = { poster: p }; });
+  }
   state.cinemas = Object.fromEntries(DATA.cinemas.map(c => [c.id, true]));
   state.selectedDate = today();
-  document.addEventListener('input', (e) => {
-  if (e.target.id === 'movie-search') {
-    state.search = e.target.value;
-    render();
+
+  document.addEventListener('input', e => {
+    if (e.target.id === 'movie-search') { state.search = e.target.value; render(); }
+  });
+  document.getElementById('movie-modal').addEventListener('click', e => {
+    if (e.target === document.getElementById('movie-modal')) closeModal();
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./service-worker.js').catch(() => {});
   }
-});
   render();
 }
 
-function today() {
-  const d = new Date();
-  return d.toISOString().slice(0, 10);
-}
-
-// ============================================================
+// ═══════════════════════════════════════════════════════════════
 // HELPERS
-// ============================================================
-const ratingClass = r => 'rating-' + (r === 'TP' ? 'TP' : r === '+7' ? '7' : r === '+12' ? '12' : r === '+16' ? '16' : r === '+18' ? '18' : 'X');
+// ═══════════════════════════════════════════════════════════════
+function today() { return new Date().toISOString().slice(0, 10); }
 
-const fmtDate = (iso) => {
+const ratingClass = r =>
+  'rating-' + (r==='TP'?'TP':r==='+7'?'7':r==='+12'?'12':r==='+16'?'16':r==='+18'?'18':'X');
+
+const fmtDate = iso => {
   const d = new Date(iso + 'T00:00:00');
   return d.toLocaleDateString('es-ES', { weekday: 'long', day: 'numeric', month: 'long' });
 };
-const fmtDayShort = (iso) => {
+const fmtDayShort = iso => {
   const d = new Date(iso + 'T00:00:00');
   return {
     weekday: d.toLocaleDateString('es-ES', { weekday: 'short' }),
-    day: d.toLocaleDateString('es-ES', { day: 'numeric', month: 'short' })
+    day:     d.toLocaleDateString('es-ES', { day: 'numeric', month: 'short' }),
   };
 };
+const parseTime = t => { const [h,m] = t.split(':').map(Number); return h*60+m; };
+const fmtMin = m => `${String(Math.floor(m/60)).padStart(2,'0')}:${String(m%60).padStart(2,'0')}`;
+const escapeHtml = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const movieData = t => (DATA.movies||{})[t] || {};
 
-const parseTime = t => { const [h, m] = t.split(':').map(Number); return h * 60 + m; };
-const fmtMin = mins => `${String(Math.floor(mins/60)).padStart(2,'0')}:${String(mins%60).padStart(2,'0')}`;
+function getUniqueGenres() {
+  const g = new Set();
+  Object.values(DATA.movies||{}).forEach(m => (m.genres||[]).forEach(x => g.add(x)));
+  return [...g].sort();
+}
 
-const escapeHtml = (s) => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function sessionStatus(s) {
+  const now  = new Date();
+  const todayStr = now.toISOString().slice(0,10);
+  if (s.date !== todayStr) return null;
+  const start = new Date(s.date + 'T' + s.time + ':00');
+  const end   = s.duration ? new Date(start.getTime() + s.duration*60000) : null;
+  if (end && now > end)        return 'past';
+  if (now >= start)            return 'now';
+  if (start - now <= 30*60000) return 'soon';
+  return null;
+}
 
-// Filtro para una fecha concreta, en cines visibles
+function formatBadgeHtml(s) {
+  if (s.vose || (s.format||'').toUpperCase()==='VOSE') return '<span class="format-badge badge-vose">VOSE</span> ';
+  if ((s.format||'').toUpperCase()==='IMAX') return '<span class="format-badge badge-imax">IMAX</span> ';
+  if ((s.format||'').toUpperCase()==='4DX')  return '<span class="format-badge badge-4dx">4DX</span> ';
+  if ((s.format||'').toUpperCase()==='3D')   return '<span class="format-badge badge-3d">3D</span> ';
+  return '';
+}
+
+// ═══════════════════════════════════════════════════════════════
+// CALENDARIO (ICS)
+// ═══════════════════════════════════════════════════════════════
+window.addToCalendar = function(dateStr, timeStr, movie, duration, sala, cinema, url) {
+  const start = new Date(dateStr + 'T' + timeStr + ':00');
+  const end   = new Date(start.getTime() + (duration||120)*60000);
+  const fmt   = d => d.toISOString().replace(/[-:]/g,'').slice(0,15)+'Z';
+  const loc   = [cinema, sala].filter(Boolean).join(' · ');
+  const uid   = `${dateStr}-${timeStr}-${movie}@cines-murcia`.replace(/\s/g,'_');
+  const ics   = [
+    'BEGIN:VCALENDAR', 'VERSION:2.0', 'CALSCALE:GREGORIAN',
+    'BEGIN:VEVENT',
+    `UID:${uid}`,
+    `DTSTART:${fmt(start)}`,
+    `DTEND:${fmt(end)}`,
+    `SUMMARY:🎬 ${movie}`,
+    `LOCATION:${loc}`,
+    `DESCRIPTION:${movie}\\n${loc}${url ? '\\n' + url : ''}`,
+    'END:VEVENT', 'END:VCALENDAR',
+  ].join('\r\n');
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([ics], {type:'text/calendar;charset=utf-8'}));
+  a.download = movie.replace(/\W+/g,'-').slice(0,40) + '.ics';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(a.href);
+};
+
+// ═══════════════════════════════════════════════════════════════
+// FILTRADO
+// ═══════════════════════════════════════════════════════════════
 function filteredCinemasForDate(date) {
-  return DATA.cinemas
-    .filter(c => state.cinemas[c.id])
-    .map(c => ({
-      ...c,
-      sessions: c.sessions.filter(s => {
-        if (s.date !== date) return false;
-        if (!state.search) return true;
+  const favs = state.favoritesOnly ? getFavorites() : null;
+  return DATA.cinemas.filter(c => state.cinemas[c.id]).map(c => ({
+    ...c,
+    sessions: c.sessions.filter(s => {
+      if (s.date !== date) return false;
+      if (favs && !favs.includes(s.movie)) return false;
+      if (state.genres.length > 0) {
+        const mg = movieData(s.movie).genres || [];
+        if (!state.genres.some(g => mg.includes(g))) return false;
+      }
+      if (state.ratings.length > 0 && !state.ratings.includes(s.rating)) return false;
+      if (state.timePreset !== 'all') {
+        const m = parseTime(s.time);
+        if (state.timePreset === 'morning' && m >= 14*60) return false;
+        if (state.timePreset === 'evening' && (m < 14*60 || m >= 20*60)) return false;
+        if (state.timePreset === 'night'   && m < 20*60) return false;
+      }
+      if (state.search) {
         const q = state.search.toLowerCase();
-        return (
-          s.movie.toLowerCase().includes(q) ||
-          c.name.toLowerCase().includes(q) ||
-          (s.sala || '').toLowerCase().includes(q)
-        );
-      })
-    }));
+        return s.movie.toLowerCase().includes(q) ||
+               c.name.toLowerCase().includes(q)  ||
+               (s.sala||'').toLowerCase().includes(q);
+      }
+      return true;
+    })
+  }));
 }
+function filteredCinemas() { return filteredCinemasForDate(state.selectedDate); }
 
-function filteredCinemas() {
-  return filteredCinemasForDate(state.selectedDate);
-}
+// ═══════════════════════════════════════════════════════════════
+// MODAL DE PELÍCULA
+// ═══════════════════════════════════════════════════════════════
+window.openModal = function(movieTitle) {
+  const md = movieData(movieTitle);
+  const allSessions = DATA.cinemas.flatMap(c =>
+    c.sessions
+      .filter(s => s.movie === movieTitle)
+      .map(s => ({ ...s, cinemaName: c.name, cinemaColor: c.color }))
+  ).sort((a,b) => a.date.localeCompare(b.date) || parseTime(a.time)-parseTime(b.time));
 
-// ============================================================
-// RENDER UI: BARRAS SUPERIORES
-// ============================================================
+  // Carátula
+  const posterEl = document.getElementById('modal-poster');
+  const posterPh = document.getElementById('modal-poster-ph');
+  if (md.poster) {
+    posterEl.src = md.poster;
+    posterEl.style.display = 'block';
+    posterPh.style.display = 'none';
+  } else {
+    posterEl.style.display = 'none';
+    posterPh.style.display = 'flex';
+  }
+
+  document.getElementById('modal-title').textContent = movieTitle;
+
+  // Badges
+  const first = allSessions[0];
+  document.getElementById('modal-badges').innerHTML = [
+    first?.rating && first.rating !== '?' ? `<span class="session-rating ${ratingClass(first.rating)}">${escapeHtml(first.rating)}</span>` : '',
+    first?.duration ? `<span class="modal-meta-chip">⏱ ${first.duration} min</span>` : '',
+    md.year ? `<span class="modal-meta-chip">${md.year}</span>` : '',
+  ].filter(Boolean).join('');
+
+  // Score
+  const scoreEl = document.getElementById('modal-score');
+  scoreEl.innerHTML = md.vote_average
+    ? `⭐ <strong>${md.vote_average.toFixed ? md.vote_average.toFixed(1) : md.vote_average}</strong> <span style="opacity:.5;font-size:11px">/ 10 TMDB</span>`
+    : '';
+
+  // Géneros
+  document.getElementById('modal-genres').innerHTML =
+    (md.genres||[]).map(g => `<span class="genre-tag">${escapeHtml(g)}</span>`).join('');
+
+  // Sinopsis
+  const ovEl = document.getElementById('modal-overview');
+  ovEl.textContent = md.overview || '';
+  ovEl.style.display = md.overview ? '' : 'none';
+
+  // Sesiones agrupadas por día
+  const byDate = {};
+  allSessions.forEach(s => { (byDate[s.date] = byDate[s.date] || []).push(s); });
+  document.getElementById('modal-sessions').innerHTML =
+    Object.entries(byDate).map(([date, sessions]) => `
+      <div class="modal-day-section">
+        <div class="modal-day-name">${fmtDate(date)}</div>
+        <div class="modal-times">
+          ${sessions.map(s => {
+            const calArgs = [
+              escapeHtml(s.date), escapeHtml(s.time), escapeHtml(s.movie),
+              s.duration||'', escapeHtml(s.sala||''), escapeHtml(s.cinemaName), escapeHtml(s.url||'')
+            ].join("','");
+            return `
+              <a class="modal-time-chip" href="${escapeHtml(s.url)}" target="_blank" rel="noopener">
+                <span class="modal-cinema-dot" style="background:${s.cinemaColor}"></span>
+                ${escapeHtml(s.time)}
+                ${s.sala && s.sala!=='?' ? `<span class="sala-tag">${escapeHtml(s.sala)}</span>` : ''}
+                ${formatBadgeHtml(s)}
+              </a>
+              <button class="cal-btn" onclick="addToCalendar('${calArgs}');event.stopPropagation()" title="Añadir al calendario">📅</button>
+            `;
+          }).join('')}
+        </div>
+      </div>
+    `).join('') +
+    `<p style="margin-top:12px;font-size:11px;opacity:.4">${allSessions.length} sesión${allSessions.length!==1?'es':''} disponible${allSessions.length!==1?'s':''} esta semana</p>`;
+
+  document.getElementById('movie-modal').classList.remove('hidden');
+  document.body.classList.add('modal-open');
+};
+
+window.closeModal = function() {
+  document.getElementById('movie-modal').classList.add('hidden');
+  document.body.classList.remove('modal-open');
+};
+
+// ═══════════════════════════════════════════════════════════════
+// RENDER: BARRAS SUPERIORES
+// ═══════════════════════════════════════════════════════════════
 function renderTopBars() {
-  // Subtítulo
   document.getElementById('subtitle').textContent = fmtDate(state.selectedDate);
 
-  // Pestañas de día (ocultas en vista semana)
+  // Pestañas de día
   const days = new Set();
   DATA.cinemas.forEach(c => c.sessions.forEach(s => days.add(s.date)));
   const sortedDays = [...days].sort().filter(d => d >= today());
   const dayTabsEl = document.getElementById('day-tabs');
   dayTabsEl.style.display = state.view === 'week' ? 'none' : '';
-  dayTabsEl.innerHTML = sortedDays.slice(0, 7).map(d => {
+  dayTabsEl.innerHTML = sortedDays.slice(0,7).map(d => {
     const { weekday, day } = fmtDayShort(d);
-    const active = d === state.selectedDate ? 'active' : '';
-    return `<button class="day-tab ${active}" onclick="setDate('${d}')"><strong>${weekday}</strong>${day}</button>`;
+    return `<button class="day-tab ${d===state.selectedDate?'active':''}" onclick="setDate('${d}')">
+      <strong>${weekday}</strong>${day}
+    </button>`;
   }).join('');
 
   // Pills de cines
   document.getElementById('cinema-pills').innerHTML = DATA.cinemas.map(c => {
     const active = state.cinemas[c.id];
-    const style = active ? `style="background:${c.color};border-color:${c.color}"` : '';
-    return `<button class="pill ${active ? 'cinema-active' : ''}" ${style} onclick="toggleCinema('${c.id}')">${escapeHtml(c.name)}</button>`;
+    const sty = active ? `style="background:${c.color};border-color:${c.color}"` : '';
+    return `<button class="pill ${active?'cinema-active':''}" ${sty} onclick="toggleCinema('${c.id}')">${escapeHtml(c.name)}</button>`;
   }).join('');
 
   // Selector de vista
   document.getElementById('view-switcher').innerHTML = [
-    ['sala', '🏛️ Por sala'],
+    ['sala',  '🏛️ Por sala'],
     ['movie', '🎬 Por película'],
-    ['time', '🕒 Por horario'],
-    ['week', '📅 Semana'],
+    ['time',  '🕒 Por horario'],
+    ['week',  '📅 Semana'],
   ].map(([id, label]) =>
-    `<button class="view-btn ${state.view === id ? 'active' : ''}" onclick="setView('${id}')">${label}</button>`
+    `<button class="view-btn ${state.view===id?'active':''}" onclick="setView('${id}')">${label}</button>`
   ).join('');
+
+  // Géneros (dinámicos desde DATA.movies)
+  const allGenres = getUniqueGenres();
+  document.getElementById('genre-pills').innerHTML = allGenres.length
+    ? `<span class="filter-label">Género</span>` +
+      allGenres.map(g => `<button class="filter-pill ${state.genres.includes(g)?'active':''}" onclick="toggleGenre('${escapeHtml(g)}')">${escapeHtml(g)}</button>`).join('')
+    : '';
+
+  // Calificaciones
+  document.getElementById('rating-pills').innerHTML =
+    `<span class="filter-label">Edad</span>` +
+    ['TP','+7','+12','+16','+18'].map(r => {
+      const cls = r==='TP'?'tp':r==='+7'?'t7':r==='+12'?'t12':r==='+16'?'t16':'t18';
+      return `<button class="filter-pill ${cls}-pill ${state.ratings.includes(r)?'active':''}" onclick="toggleRating('${r}')">${r}</button>`;
+    }).join('');
+
+  // Franja horaria
+  document.getElementById('time-pills').innerHTML =
+    `<span class="filter-label">Franja</span>` +
+    [['all','Todos'],['morning','🌤 Mañana'],['evening','🌅 Tarde'],['night','🌙 Noche']].map(([id,lbl]) =>
+      `<button class="filter-pill ${state.timePreset===id?'active':''}" onclick="setTimePreset('${id}')">${lbl}</button>`
+    ).join('');
+
+  // Botón favoritos
+  document.getElementById('fav-toggle-btn').classList.toggle('active', state.favoritesOnly);
 }
 
-// ============================================================
+// ═══════════════════════════════════════════════════════════════
+// TARJETA DE SESIÓN
+// ═══════════════════════════════════════════════════════════════
+function sessionCard(s, color) {
+  const status = sessionStatus(s);
+  const endMin = s.duration ? fmtMin(parseTime(s.time) + s.duration) : null;
+  const poster = movieData(s.movie).poster;
+  const thumb  = poster
+    ? `<img class="session-thumb" src="${escapeHtml(poster)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+    : '';
+  const statusBadge = status==='now'  ? `<span class="time-status status-now">EN CURSO</span>`
+                    : status==='soon' ? `<span class="time-status status-soon">¡PRONTO!</span>` : '';
+  const calArgs = [
+    escapeHtml(s.date), escapeHtml(s.time), escapeHtml(s.movie),
+    s.duration||'', escapeHtml(s.sala||''), escapeHtml(''), escapeHtml(s.url||'')
+  ].join("','");
+  return `
+    <a class="session${status?' is-'+status:''}" href="${escapeHtml(s.url)}" target="_blank" rel="noopener" style="border-left-color:${color}">
+      ${thumb}
+      <div class="session-top">
+        <span class="session-time">${escapeHtml(s.time)}${statusBadge}</span>
+        <span class="session-rating ${ratingClass(s.rating)}">${escapeHtml(s.rating)}</span>
+      </div>
+      <div class="session-movie" data-movie="${escapeHtml(s.movie)}" onclick="event.preventDefault();event.stopPropagation();openModal(this.dataset.movie)">
+        ${formatBadgeHtml(s)}${escapeHtml(s.movie)}
+      </div>
+      <div class="session-meta">
+        ${s.duration ? `⏱ ${s.duration} min${endMin?' · termina ~'+endMin:''}` : ''}
+      </div>
+      <button class="cal-btn" onclick="event.preventDefault();addToCalendar('${calArgs}')" title="Añadir al calendario">📅 Añadir al calendario</button>
+    </a>`;
+}
+
+// ═══════════════════════════════════════════════════════════════
 // VISTA POR SALA
-// ============================================================
+// ═══════════════════════════════════════════════════════════════
 function renderBySala() {
   const cinemas = filteredCinemas();
-  if (cinemas.every(c => c.sessions.length === 0)) {
-    return '<div class="empty">No hay sesiones para este día con los cines seleccionados.</div>';
-  }
+  if (cinemas.every(c => c.sessions.length === 0))
+    return '<div class="empty">No hay sesiones para este día con los filtros seleccionados.</div>';
   return cinemas.map(cinema => {
-    if (cinema.sessions.length === 0) return '';
-
-    // Agrupar por sala
+    if (!cinema.sessions.length) return '';
     const bySala = {};
-    cinema.sessions.forEach(s => {
-      const k = s.sala || '?';
-      (bySala[k] = bySala[k] || []).push(s);
-    });
-    Object.values(bySala).forEach(arr => arr.sort((a, b) => parseTime(a.time) - parseTime(b.time)));
+    cinema.sessions.forEach(s => { (bySala[s.sala||'?'] = bySala[s.sala||'?'] || []).push(s); });
+    Object.values(bySala).forEach(a => a.sort((a,b) => parseTime(a.time)-parseTime(b.time)));
     const salaNames = Object.keys(bySala).sort();
-
     return `
       <section class="cinema-section">
         <div class="cinema-header">
           <div class="cinema-dot" style="background:${cinema.color}"></div>
           <div class="cinema-name">${escapeHtml(cinema.name)}</div>
           <div class="cinema-meta">· ${escapeHtml(cinema.area)}</div>
-          <div class="cinema-count">${salaNames.length} sala${salaNames.length !== 1 ? 's' : ''}</div>
+          <div class="cinema-count">${salaNames.length} sala${salaNames.length!==1?'s':''}</div>
         </div>
         <div class="salas-grid">
           ${salaNames.map(salaName => `
             <div class="sala-card">
               <div class="sala-title">${escapeHtml(salaName)}</div>
-              <div class="sessions">
-                ${bySala[salaName].map(s => sessionCard(s, cinema.color)).join('')}
-              </div>
-            </div>
-          `).join('')}
+              <div class="sessions">${bySala[salaName].map(s => sessionCard(s, cinema.color)).join('')}</div>
+            </div>`).join('')}
         </div>
-      </section>
-    `;
+      </section>`;
   }).join('');
 }
 
-function sessionCard(s, color) {
-  const endMin = s.duration ? fmtMin(parseTime(s.time) + s.duration) : null;
-  const poster = (DATA.posters || {})[s.movie];
-  const thumb = poster
-    ? `<img class="session-thumb" src="${escapeHtml(poster)}" alt="" loading="lazy" onerror="this.style.display='none'">`
-    : '';
-  return `
-    <a class="session" href="${escapeHtml(s.url)}" target="_blank" rel="noopener" style="border-left-color:${color}">
-      ${thumb}
-      <div class="session-top">
-        <span class="session-time">${escapeHtml(s.time)}</span>
-        <span class="session-rating ${ratingClass(s.rating)}">${escapeHtml(s.rating)}</span>
-      </div>
-      <div class="session-movie">${escapeHtml(s.movie)}</div>
-      <div class="session-meta">
-        ${s.duration ? `⏱ ${s.duration} min${endMin ? ` · termina ~${endMin}` : ''}` : ''}
-      </div>
-    </a>
-  `;
-}
-
-// ============================================================
+// ═══════════════════════════════════════════════════════════════
 // VISTA POR PELÍCULA
-// ============================================================
+// ═══════════════════════════════════════════════════════════════
 function renderByMovie() {
   const cinemas = filteredCinemas();
   const movies = {};
-  cinemas.forEach(cinema => {
-    cinema.sessions.forEach(s => {
-      const k = s.movie;
-      if (!movies[k]) movies[k] = { movie: k, rating: s.rating, duration: s.duration, byCinema: {} };
-      if (!movies[k].byCinema[cinema.id]) movies[k].byCinema[cinema.id] = { cinema, sessions: [] };
-      movies[k].byCinema[cinema.id].sessions.push(s);
-    });
-  });
-  const list = Object.values(movies).sort((a, b) => a.movie.localeCompare(b.movie, 'es'));
-  if (list.length === 0) return '<div class="empty">No hay sesiones para este día.</div>';
+  cinemas.forEach(cinema => cinema.sessions.forEach(s => {
+    if (!movies[s.movie]) movies[s.movie] = { movie: s.movie, rating: s.rating, duration: s.duration, byCinema: {} };
+    if (!movies[s.movie].byCinema[cinema.id]) movies[s.movie].byCinema[cinema.id] = { cinema, sessions: [] };
+    movies[s.movie].byCinema[cinema.id].sessions.push(s);
+  }));
+  const list = Object.values(movies).sort((a,b) => a.movie.localeCompare(b.movie,'es'));
+  if (!list.length) return '<div class="empty">No hay sesiones para este día.</div>';
 
   return `<div class="movies-list">${list.map(m => {
-    const poster = (DATA.posters || {})[m.movie];
-    const posterEl = poster
-      ? `<img class="movie-poster" src="${escapeHtml(poster)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+    const md    = movieData(m.movie);
+    const isFav = isFavorite(m.movie);
+    const posterEl = md.poster
+      ? `<img class="movie-poster" src="${escapeHtml(md.poster)}" alt="" loading="lazy" onerror="this.style.display='none'">`
       : `<div class="movie-poster-placeholder">🎬</div>`;
     return `
     <div class="movie-card">
       <div class="movie-card-body">
-        ${posterEl}
+        <div class="movie-poster-wrap" data-movie="${escapeHtml(m.movie)}" onclick="openModal(this.dataset.movie)">
+          ${posterEl}
+        </div>
         <div class="movie-info">
           <div class="movie-title">
-            <span>${escapeHtml(m.movie)}</span>
+            <span class="movie-title-text" data-movie="${escapeHtml(m.movie)}" onclick="openModal(this.dataset.movie)">${escapeHtml(m.movie)}</span>
             <span class="movie-meta">
-              ${m.duration ? `${m.duration} min` : ''}
+              ${m.duration?m.duration+' min':''}
               <span class="session-rating ${ratingClass(m.rating)}">${escapeHtml(m.rating)}</span>
+              <button class="fav-btn ${isFav?'active':''}" data-movie="${escapeHtml(m.movie)}"
+                onclick="event.stopPropagation();toggleFavorite(this.dataset.movie)">${isFav?'♥':'♡'}</button>
             </span>
           </div>
+          ${md.vote_average ? `<div class="movie-score">⭐ ${md.vote_average.toFixed?md.vote_average.toFixed(1):md.vote_average} <span style="opacity:.5;font-size:11px">TMDB</span></div>` : ''}
+          ${(md.genres||[]).length ? `<div class="genre-row">${(md.genres||[]).map(g=>`<span class="genre-tag">${escapeHtml(g)}</span>`).join('')}</div>` : ''}
           ${Object.values(m.byCinema).map(({ cinema, sessions }) => `
             <div class="cinema-row">
               <span class="cinema-label" style="color:${cinema.color}">${escapeHtml(cinema.name)}:</span>
-              ${sessions.sort((a,b) => parseTime(a.time) - parseTime(b.time)).map(s => `
+              ${sessions.sort((a,b)=>parseTime(a.time)-parseTime(b.time)).map(s => `
                 <a class="time-chip" href="${escapeHtml(s.url)}" target="_blank" rel="noopener">
-                  ${escapeHtml(s.time)}
-                  ${s.sala && s.sala !== '?' && s.sala !== 'Sala única' ? `<span class="sala-tag">${escapeHtml(s.sala)}</span>` : ''}
-                </a>
-              `).join('')}
-            </div>
-          `).join('')}
+                  ${escapeHtml(s.time)}${formatBadgeHtml(s)}
+                  ${s.sala&&s.sala!=='?'&&s.sala!=='Sala única'?`<span class="sala-tag">${escapeHtml(s.sala)}</span>`:''}
+                </a>`).join('')}
+            </div>`).join('')}
         </div>
       </div>
-    </div>
-  `}).join('')}</div>`;
+    </div>`;
+  }).join('')}</div>`;
 }
 
-// ============================================================
+// ═══════════════════════════════════════════════════════════════
 // VISTA POR HORARIO
-// ============================================================
+// ═══════════════════════════════════════════════════════════════
+function sessionCardWithCinema(s) {
+  const status = sessionStatus(s);
+  const endMin = s.duration ? fmtMin(parseTime(s.time) + s.duration) : null;
+  const poster = movieData(s.movie).poster;
+  const thumb  = poster
+    ? `<img class="session-thumb" src="${escapeHtml(poster)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+    : '';
+  const statusBadge = status==='now'  ? `<span class="time-status status-now">EN CURSO</span>`
+                    : status==='soon' ? `<span class="time-status status-soon">¡PRONTO!</span>` : '';
+  const calArgs = [
+    escapeHtml(s.date), escapeHtml(s.time), escapeHtml(s.movie),
+    s.duration||'', escapeHtml(s.sala||''), escapeHtml(s.cinema.name), escapeHtml(s.url||'')
+  ].join("','");
+  return `
+    <a class="session${status?' is-'+status:''}" href="${escapeHtml(s.url)}" target="_blank" rel="noopener" style="border-left-color:${s.cinema.color}">
+      ${thumb}
+      <div class="session-top">
+        <span class="session-time">${escapeHtml(s.time)}${statusBadge}</span>
+        <span class="session-rating ${ratingClass(s.rating)}">${escapeHtml(s.rating)}</span>
+      </div>
+      <div class="session-movie" data-movie="${escapeHtml(s.movie)}" onclick="event.preventDefault();event.stopPropagation();openModal(this.dataset.movie)">
+        ${formatBadgeHtml(s)}${escapeHtml(s.movie)}
+      </div>
+      <div class="session-meta">
+        <span style="color:${s.cinema.color}">●</span> ${escapeHtml(s.cinema.name)}
+        ${s.sala&&s.sala!=='?'?' · '+escapeHtml(s.sala):''}
+        ${s.duration?' · '+s.duration+'min':''}
+        ${endMin?' · termina ~'+endMin:''}
+      </div>
+      <button class="cal-btn" onclick="event.preventDefault();addToCalendar('${calArgs}')" title="Añadir">📅 Añadir al calendario</button>
+    </a>`;
+}
+
 function renderByTime() {
   const cinemas = filteredCinemas();
   const all = [];
-  cinemas.forEach(c => c.sessions.forEach(s => all.push({ ...s, cinema: c })));
-  all.sort((a, b) => parseTime(a.time) - parseTime(b.time));
-  if (all.length === 0) return '<div class="empty">No hay sesiones para este día.</div>';
-
-  // Agrupar por hora
+  cinemas.forEach(c => c.sessions.forEach(s => all.push({...s, cinema: c})));
+  all.sort((a,b) => parseTime(a.time)-parseTime(b.time));
+  if (!all.length) return '<div class="empty">No hay sesiones para este día.</div>';
   const byHour = {};
-  all.forEach(s => {
-    const h = Math.floor(parseTime(s.time) / 60);
-    (byHour[h] = byHour[h] || []).push(s);
-  });
-
+  all.forEach(s => { const h = Math.floor(parseTime(s.time)/60); (byHour[h]=byHour[h]||[]).push(s); });
   return Object.entries(byHour).map(([h, sessions]) => `
     <div class="hour-block">
       <div class="hour-label">
         <div class="hour-num">${String(h).padStart(2,'0')}:00</div>
         <div class="hour-line"></div>
       </div>
-      <div class="hour-grid">
-        ${sessions.map(s => sessionCardWithCinema(s)).join('')}
-      </div>
-    </div>
-  `).join('');
+      <div class="hour-grid">${sessions.map(s => sessionCardWithCinema(s)).join('')}</div>
+    </div>`).join('');
 }
 
-function sessionCardWithCinema(s) {
-  const endMin = s.duration ? fmtMin(parseTime(s.time) + s.duration) : null;
-  return `
-    <a class="session" href="${escapeHtml(s.url)}" target="_blank" rel="noopener" style="border-left-color:${s.cinema.color}">
-      <div class="session-top">
-        <span class="session-time">${escapeHtml(s.time)}</span>
-        <span class="session-rating ${ratingClass(s.rating)}">${escapeHtml(s.rating)}</span>
-      </div>
-      <div class="session-movie">${escapeHtml(s.movie)}</div>
-      <div class="session-meta">
-        <span style="color:${s.cinema.color}">●</span>
-        ${escapeHtml(s.cinema.name)}
-        ${s.sala && s.sala !== '?' ? ` · ${escapeHtml(s.sala)}` : ''}
-        ${s.duration ? ` · ${s.duration}min` : ''}
-      </div>
-    </a>
-  `;
-}
-
-// ============================================================
-// VISTA POR SEMANA
-// ============================================================
+// ═══════════════════════════════════════════════════════════════
+// VISTA POR SEMANA (todos los cines)
+// ═══════════════════════════════════════════════════════════════
 function renderByWeek() {
   const days = [...new Set(
     DATA.cinemas.flatMap(c => c.sessions.map(s => s.date))
   )].sort().filter(d => d >= today()).slice(0, 7);
 
-  if (days.length === 0) {
-    return '<div class="empty">No hay programación disponible para esta semana.</div>';
-  }
+  if (!days.length) return '<div class="empty">No hay programación disponible para esta semana.</div>';
 
   const html = days.map(day => {
     const cinemas = filteredCinemasForDate(day);
-    if (cinemas.every(c => c.sessions.length === 0)) return '';
-
+    if (cinemas.every(c => !c.sessions.length)) return '';
     const inner = cinemas.map(cinema => {
-      if (cinema.sessions.length === 0) return '';
+      if (!cinema.sessions.length) return '';
       const bySala = {};
-      cinema.sessions.forEach(s => {
-        const k = s.sala || '?';
-        (bySala[k] = bySala[k] || []).push(s);
-      });
-      Object.values(bySala).forEach(arr => arr.sort((a, b) => parseTime(a.time) - parseTime(b.time)));
+      cinema.sessions.forEach(s => { (bySala[s.sala||'?'] = bySala[s.sala||'?'] || []).push(s); });
+      Object.values(bySala).forEach(a => a.sort((a,b) => parseTime(a.time)-parseTime(b.time)));
       const salaNames = Object.keys(bySala).sort();
       return `
         <section class="cinema-section">
@@ -1315,112 +990,83 @@ function renderByWeek() {
             <div class="cinema-dot" style="background:${cinema.color}"></div>
             <div class="cinema-name">${escapeHtml(cinema.name)}</div>
             <div class="cinema-meta">· ${escapeHtml(cinema.area)}</div>
-            <div class="cinema-count">${salaNames.length} sala${salaNames.length !== 1 ? 's' : ''}</div>
+            <div class="cinema-count">${salaNames.length} sala${salaNames.length!==1?'s':''}</div>
           </div>
           <div class="salas-grid">
-            ${salaNames.map(salaName => `
+            ${salaNames.map(n => `
               <div class="sala-card">
-                <div class="sala-title">${escapeHtml(salaName)}</div>
-                <div class="sessions">
-                  ${bySala[salaName].map(s => sessionCard(s, cinema.color)).join('')}
-                </div>
-              </div>
-            `).join('')}
+                <div class="sala-title">${escapeHtml(n)}</div>
+                <div class="sessions">${bySala[n].map(s => sessionCard(s, cinema.color)).join('')}</div>
+              </div>`).join('')}
           </div>
-        </section>
-      `;
+        </section>`;
     }).join('');
-
     if (!inner.trim()) return '';
     return `
       <div class="week-section">
-        <div class="week-day-header">
-          <span class="week-day-name">${fmtDate(day)}</span>
-        </div>
+        <div class="week-day-header"><span class="week-day-name">${fmtDate(day)}</span></div>
         ${inner}
-      </div>
-    `;
+      </div>`;
   }).join('');
 
-  return html || '<div class="empty">No hay sesiones para los filtros seleccionados.</div>';
+  return html || '<div class="empty">No hay sesiones con los filtros seleccionados.</div>';
 }
 
-// ============================================================
+// ═══════════════════════════════════════════════════════════════
 // RENDER PRINCIPAL
-// ============================================================
+// ═══════════════════════════════════════════════════════════════
 function render() {
   renderTopBars();
   let html = '';
-  if (state.view === 'sala') html = renderBySala();
+  if      (state.view === 'sala')  html = renderBySala();
   else if (state.view === 'movie') html = renderByMovie();
-  else if (state.view === 'time') html = renderByTime();
-  else if (state.view === 'week') html = renderByWeek();
+  else if (state.view === 'time')  html = renderByTime();
+  else if (state.view === 'week')  html = renderByWeek();
   document.getElementById('main').innerHTML = html;
-
-  if (DATA.generatedAt) {
+  if (DATA.generatedAt)
     document.getElementById('updated').textContent =
       'Actualizado: ' + new Date(DATA.generatedAt).toLocaleString('es-ES');
-  }
 }
 
-// ============================================================
-// HANDLERS (globales para los onclick inline)
-// ============================================================
-window.setView = (v) => { state.view = v; render(); };
-window.setDate = (d) => { state.selectedDate = d; render(); };
-window.toggleCinema = (id) => { state.cinemas[id] = !state.cinemas[id]; render(); };
-window.quickFilter = (type) => {
+// ═══════════════════════════════════════════════════════════════
+// HANDLERS GLOBALES
+// ═══════════════════════════════════════════════════════════════
+window.setView    = v => { state.view = v; render(); };
+window.setDate    = d => { state.selectedDate = d; render(); };
+window.toggleCinema = id => { state.cinemas[id] = !state.cinemas[id]; render(); };
+window.toggleGenre  = g => {
+  const i = state.genres.indexOf(g);
+  if (i >= 0) state.genres.splice(i,1); else state.genres.push(g);
+  render();
+};
+window.toggleRating = r => {
+  const i = state.ratings.indexOf(r);
+  if (i >= 0) state.ratings.splice(i,1); else state.ratings.push(r);
+  render();
+};
+window.setTimePreset = p => { state.timePreset = p; render(); };
 
+window.quickFilter = type => {
   const input = document.getElementById('movie-search');
-
-  if (type === 'family') {
-    state.search = 'tp';
-  }
-
-  if (type === 'vose') {
-    state.search = 'vose';
-  }
-
-  if (type === 'short') {
-    state.search = '90';
-  }
-
-  if (type === 'late') {
-    state.view = 'time';
-  }
-
+  state.search = '';
+  if (type === 'family') { state.ratings = ['TP']; }
+  if (type === 'vose')   { state.search = 'vose'; }
+  if (type === 'short')  { state.search = ''; }
+  if (type === 'late')   { state.timePreset = 'night'; state.view = 'time'; }
   input.value = state.search;
-
   render();
 };
 
 window.randomMovie = () => {
-
-  const cinemas = filteredCinemas();
-
-  const all = [];
-
-  cinemas.forEach(c => {
-    c.sessions.forEach(s => {
-      all.push({ ...s, cinema: c.name });
-    });
-  });
-
+  const all = filteredCinemas().flatMap(c => c.sessions.map(s => ({...s, cinema: c.name})));
   if (!all.length) return;
-
-  const random = all[Math.floor(Math.random() * all.length)];
-
-  state.search = random.movie;
-
-  document.getElementById('movie-search').value = random.movie;
-
+  const r = all[Math.floor(Math.random() * all.length)];
+  state.search = r.movie;
+  document.getElementById('movie-search').value = r.movie;
   render();
-
-  window.scrollTo({
-    top: 500,
-    behavior: 'smooth'
-  });
+  window.scrollTo({ top: 500, behavior: 'smooth' });
 };
+
 load();
 </script>
 </body>

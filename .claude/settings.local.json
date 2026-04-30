@@ -4,7 +4,8 @@
       "WebFetch(domain:filmotecamurcia.carm.es)",
       "WebFetch(domain:www.neocine.es)",
       "PowerShell(python -c \"import json; data=json.load\\(open\\('data/schedule.json', encoding='utf-8'\\)\\); days=sorted\\({s['date'] for c in data['cinemas'] for s in c['sessions']}\\); print\\('D�as con sesiones:'\\); [print\\(' ', d, '-', sum\\(1 for c in data['cinemas'] for s in c['sessions'] if s['date']==d\\), 'sesiones'\\) for d in days]; print\\('Cines:', [c['id'] for c in data['cinemas']]\\); print\\('Campos JSON ok:', list\\(data.keys\\(\\)\\)\\)\")",
-      "PowerShell(<parameter name=\"description\">Validar schedule.json y ver distribuci�n por d�as)"
+      "PowerShell(<parameter name=\"description\">Validar schedule.json y ver distribuci�n por d�as)",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\trini\\\\Desktop\\\\cines-murcia\\\\cines-murcia\\\\icons\")"
     ]
   }
 }
