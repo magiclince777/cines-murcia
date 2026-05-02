@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-01T10:57:41.020131+00:00",
-  "fromDate": "2026-05-01",
-  "toDate": "2026-05-15",
+  "generatedAt": "2026-05-02T10:07:50.091913+00:00",
+  "fromDate": "2026-05-02",
+  "toDate": "2026-05-16",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,42 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "EL CHICO DE LOS PANTALONES ROSAS / PANORAMA DE ACTUALIDAD....",
-          "date": "2026-05-01",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53042-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CORTOMETRAJES / CENTENARIO PACO RABAL",
-          "date": "2026-05-01",
-          "time": "20:15",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53043-DETALLE_EVENTO"
-        },
-        {
-          "movie": "BAILANDO EN LA OSCURIDAD. SOMOS MURCIA.",
-          "date": "2026-05-01",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53151-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA CASA DE LOS HORRORES / CICLO: MADRUGADA SANGRIE...",
-          "date": "2026-05-01",
-          "time": "22:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53044-DETALLE_EVENTO"
-        },
         {
           "movie": "EL MAGO DE LA CIUDAD ESMERALDA. EL CAMINO DE LAS BALDOSAS...",
           "date": "2026-05-02",
@@ -334,42 +298,57 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53071-DETALLE_EVENTO"
+        },
+        {
+          "movie": "`LA GRAN FIESTA DEL BOSQUE´ Y OTROS CORTOMETRAJES ...",
+          "date": "2026-05-16",
+          "time": "17:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53072-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL GRAN SECRETO / CENTENARIO PACO RABAL",
+          "date": "2026-05-16",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53073-DETALLE_EVENTO"
+        },
+        {
+          "movie": "La misteriosa mirada del flamenco / CICLO: MUESTRA...",
+          "date": "2026-05-16",
+          "time": "19:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53074-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Philadelphia / CICLO: MUESTRA DE CINE LGTBI",
+          "date": "2026-05-16",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53075-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "EL CHICO DE LOS PANTALONES ROSAS / PANORAMA DE ACTUALIDAD....": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183173&nombre=il_ragazzo_dai_pantaloni_rosa-750715174-large_res_300.jpg",
-      "overview": "El chico de los pantalones rosas (Il ragazzo dai pantaloni rosa;  Margherita Ferri, 2024) Italia. 114’.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CORTOMETRAJES / CENTENARIO PACO RABAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183174&nombre=unnamed_res_300.jpg",
-      "overview": "Mis encuentros con Dámaso Alonso y sus poemas (Francisco Rabal, 1976)  España. 13’.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "BAILANDO EN LA OSCURIDAD. SOMOS MURCIA.": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183381&nombre=dancer_in_the_dark-965435583-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA CASA DE LOS HORRORES / CICLO: MADRUGADA SANGRIE...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183175&nombre=the_funhouse-767040082-large_res_300.jpg",
-      "overview": "La casa de los horrores (The funhouse; Tobe Hooper, 1981) Estados Unidos. 96’. VOSE",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "EL MAGO DE LA CIUDAD ESMERALDA. EL CAMINO DE LAS BALDOSAS...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183176&nombre=volshebnik_izumrudnogo_goroda_doroga_iz_zhyoltogo_kirpicha-208118091-large_res_300.jpg",
       "overview": "El mago de Ciudad Esmeralda. El camino de baldosas amarillas (Igor Voloshin, 2025) Rusia. 120’. VE",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL CHICO DE LOS PANTALONES ROSAS / PANORAMA DE ACTUALIDAD....": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183173&nombre=il_ragazzo_dai_pantaloni_rosa-750715174-large_res_300.jpg",
+      "overview": "El chico de los pantalones rosas (Il ragazzo dai pantaloni rosa;  Margherita Ferri, 2024) Italia. 114’.",
       "vote_average": null,
       "genres": [],
       "year": null
@@ -537,6 +516,34 @@
     },
     "PINK FLAMINGOS / CICLO: MUESTRA DE CINE LGTBI": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183196&nombre=pink_flamingos-627622858-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "`LA GRAN FIESTA DEL BOSQUE´ Y OTROS CORTOMETRAJES ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183197&nombre=the_scarecrows_wedding-275797066-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL GRAN SECRETO / CENTENARIO PACO RABAL": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183198&nombre=el_gran_secreto-735302611-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "La misteriosa mirada del flamenco / CICLO: MUESTRA...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183199&nombre=la_misteriosa_mirada_del_flamenco-695569164-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Philadelphia / CICLO: MUESTRA DE CINE LGTBI": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183200&nombre=philadelphia-726931561-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
