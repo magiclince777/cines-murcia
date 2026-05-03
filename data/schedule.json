@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-02T10:07:50.091913+00:00",
-  "fromDate": "2026-05-02",
-  "toDate": "2026-05-16",
+  "generatedAt": "2026-05-03T10:16:40.641593+00:00",
+  "fromDate": "2026-05-03",
+  "toDate": "2026-05-17",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,33 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "EL MAGO DE LA CIUDAD ESMERALDA. EL CAMINO DE LAS BALDOSAS...",
-          "date": "2026-05-02",
-          "time": "17:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53045-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EL CHICO DE LOS PANTALONES ROSAS / PANORAMA DE ACTUALIDAD....",
-          "date": "2026-05-02",
-          "time": "19:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53046-DETALLE_EVENTO"
-        },
-        {
-          "movie": "PAVEMENTS. SOMOS MURCIA",
-          "date": "2026-05-02",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53152-DETALLE_EVENTO"
-        },
         {
           "movie": "NO ES NADA MAMÁ, SÓLO UN JUEGO / CENTENARIO PACO R...",
           "date": "2026-05-03",
@@ -334,32 +307,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53075-DETALLE_EVENTO"
+        },
+        {
+          "movie": "La misteriosa mirada del flamenco / CICLO: MUESTRA...",
+          "date": "2026-05-17",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53076-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Los profesionales  / CICLO: José Antonio Hurtado: ...",
+          "date": "2026-05-17",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53077-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "EL MAGO DE LA CIUDAD ESMERALDA. EL CAMINO DE LAS BALDOSAS...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183176&nombre=volshebnik_izumrudnogo_goroda_doroga_iz_zhyoltogo_kirpicha-208118091-large_res_300.jpg",
-      "overview": "El mago de Ciudad Esmeralda. El camino de baldosas amarillas (Igor Voloshin, 2025) Rusia. 120’. VE",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "EL CHICO DE LOS PANTALONES ROSAS / PANORAMA DE ACTUALIDAD....": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183173&nombre=il_ragazzo_dai_pantaloni_rosa-750715174-large_res_300.jpg",
-      "overview": "El chico de los pantalones rosas (Il ragazzo dai pantaloni rosa;  Margherita Ferri, 2024) Italia. 114’.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "PAVEMENTS. SOMOS MURCIA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183371&nombre=pavements-701258707-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "NO ES NADA MAMÁ, SÓLO UN JUEGO / CENTENARIO PACO R...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183177&nombre=no_es_nada_mama_solo_un_juego-395381792-large_res_300.jpg",
       "overview": null,
@@ -545,6 +515,13 @@
     "Philadelphia / CICLO: MUESTRA DE CINE LGTBI": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183200&nombre=philadelphia-726931561-large_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Los profesionales  / CICLO: José Antonio Hurtado: ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183201&nombre=the_professionals-130709498-large_res_300.jpg",
+      "overview": "Los profesionales  / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
       "vote_average": null,
       "genres": [],
       "year": null
