@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-03T10:16:40.641593+00:00",
-  "fromDate": "2026-05-03",
-  "toDate": "2026-05-17",
+  "generatedAt": "2026-05-04T12:13:42.735331+00:00",
+  "fromDate": "2026-05-04",
+  "toDate": "2026-05-18",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,24 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "NO ES NADA MAMÁ, SÓLO UN JUEGO / CENTENARIO PACO R...",
-          "date": "2026-05-03",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53047-DETALLE_EVENTO"
-        },
-        {
-          "movie": "SEGUNDO PREMIO. SOMOS MURCIA",
-          "date": "2026-05-03",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53153-DETALLE_EVENTO"
-        },
         {
           "movie": "SORDA - SESIÓN ESPECIAL",
           "date": "2026-05-04",
@@ -325,25 +307,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53077-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Víctima  / CICLO: MUESTRA DE CINE LGTBI",
+          "date": "2026-05-18",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53078-DETALLE_EVENTO"
+        },
+        {
+          "movie": "The mattachine family / CICLO: MUESTRA DE CINE LGT...",
+          "date": "2026-05-18",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53079-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "NO ES NADA MAMÁ, SÓLO UN JUEGO / CENTENARIO PACO R...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183177&nombre=no_es_nada_mama_solo_un_juego-395381792-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "SEGUNDO PREMIO. SOMOS MURCIA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183372&nombre=segundo_premio-839408415-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "SORDA - SESIÓN ESPECIAL": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175271&nombre=Cartel_SORDA_vertical_res_300.jpg",
       "overview": null,
@@ -522,6 +508,20 @@
     "Los profesionales  / CICLO: José Antonio Hurtado: ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183201&nombre=the_professionals-130709498-large_res_300.jpg",
       "overview": "Los profesionales  / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Víctima  / CICLO: MUESTRA DE CINE LGTBI": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183202&nombre=victim-896450258-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "The mattachine family / CICLO: MUESTRA DE CINE LGT...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183203&nombre=the_mattachine_family-985718439-large_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
