@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-04T12:13:42.735331+00:00",
-  "fromDate": "2026-05-04",
-  "toDate": "2026-05-18",
+  "generatedAt": "2026-05-05T11:06:55.898604+00:00",
+  "fromDate": "2026-05-05",
+  "toDate": "2026-05-19",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,15 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "SORDA - SESIÓN ESPECIAL",
-          "date": "2026-05-04",
-          "time": "19:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53157-DETALLE_EVENTO"
-        },
         {
           "movie": "EL PEOR VECINO DEL MUNDO - CICLO CINEANDO",
           "date": "2026-05-05",
@@ -325,18 +316,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53079-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Andy Warhol: American Dream / CICLO: MUESTRA DE CINE...",
+          "date": "2026-05-19",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53080-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Polarized  / CICLO: MUESTRA DE CINE LGTBI",
+          "date": "2026-05-19",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53081-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "SORDA - SESIÓN ESPECIAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175271&nombre=Cartel_SORDA_vertical_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "EL PEOR VECINO DEL MUNDO - CICLO CINEANDO": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183382&nombre=a_man_called_otto-750379114-large_res_300.jpg",
       "overview": null,
@@ -521,6 +523,20 @@
     },
     "The mattachine family / CICLO: MUESTRA DE CINE LGT...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183203&nombre=the_mattachine_family-985718439-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Andy Warhol: American Dream / CICLO: MUESTRA DE CINE...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183204&nombre=andy_warhol_americky_sen-325731492-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Polarized  / CICLO: MUESTRA DE CINE LGTBI": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183205&nombre=polarized-367575205-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
