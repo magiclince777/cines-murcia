@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-05T11:06:55.898604+00:00",
-  "fromDate": "2026-05-05",
-  "toDate": "2026-05-19",
+  "generatedAt": "2026-05-06T12:19:39.412063+00:00",
+  "fromDate": "2026-05-06",
+  "toDate": "2026-05-20",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,33 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "EL PEOR VECINO DEL MUNDO - CICLO CINEANDO",
-          "date": "2026-05-05",
-          "time": "17:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53156-DETALLE_EVENTO"
-        },
-        {
-          "movie": "SUCEDIÓ UNA NOCHE / CICLO: CINE Y PERIODISMO",
-          "date": "2026-05-05",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53048-DETALLE_EVENTO"
-        },
-        {
-          "movie": "WALLAY / CICLO: BURKINA FASO. CINE DESDE EL CORAZÓN...",
-          "date": "2026-05-05",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53049-DETALLE_EVENTO"
-        },
         {
           "movie": "LA CASA DE LA CALLE 92 / CICLO: Del western al noir....",
           "date": "2026-05-06",
@@ -334,32 +307,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53081-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Sorry We Missed You / AMNISTÍA INTERNACIONAL",
+          "date": "2026-05-20",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53082-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Pillion  / CICLO: MUESTRA DE CINE LGTBI",
+          "date": "2026-05-20",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53083-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "EL PEOR VECINO DEL MUNDO - CICLO CINEANDO": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183382&nombre=a_man_called_otto-750379114-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "SUCEDIÓ UNA NOCHE / CICLO: CINE Y PERIODISMO": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183378&nombre=it_happened_one_night-463534423-large_res_300.jpg",
-      "overview": "Sucedió una noche (It Happened One Night;  Frank Capra, 1934) Estados Unidos. 105’.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "WALLAY / CICLO: BURKINA FASO. CINE DESDE EL CORAZÓN...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183179&nombre=wallay-989777735-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "LA CASA DE LA CALLE 92 / CICLO: Del western al noir....": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183180&nombre=3_res_300.jpg",
       "overview": "La casa de la calle 92 (The house on 92nd street;  Henry Hathaway, 1945) Estados Unidos. 88’.",
@@ -537,6 +507,20 @@
     },
     "Polarized  / CICLO: MUESTRA DE CINE LGTBI": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183205&nombre=polarized-367575205-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Sorry We Missed You / AMNISTÍA INTERNACIONAL": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183206&nombre=sorry_we_missed_you-934306956-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Pillion  / CICLO: MUESTRA DE CINE LGTBI": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183207&nombre=pillion-596069903-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
