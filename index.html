@@ -458,6 +458,88 @@ footer a { color: var(--primary); text-decoration: none; font-weight: 700; }
 .refresh-btn:hover { border-color: var(--primary); color: var(--primary); }
 button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 ::selection { background: rgba(158,27,50,.15); }
+
+/* ── TOP PROGRESS BAR ──────────────────────────────────────── */
+#top-progress {
+  position: fixed; top: 0; left: 0; width: 100%; height: 3px; z-index: 9999;
+  background: linear-gradient(90deg, var(--primary), #ff6b9d, var(--accent));
+  transform-origin: left; transform: scaleX(0);
+  transition: transform .35s ease, opacity .5s;
+  pointer-events: none;
+}
+#top-progress.done { opacity: 0; transition: opacity .5s .2s; }
+
+/* ── SKELETON ──────────────────────────────────────────────── */
+.sk {
+  display: block; border-radius: 6px;
+  background: rgba(255,255,255,.06);
+  position: relative; overflow: hidden;
+}
+.sk::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(90deg, transparent 25%, rgba(255,255,255,.09) 50%, transparent 75%);
+  background-size: 300% 100%;
+  animation: sk-slide 1.6s ease-in-out infinite;
+}
+@keyframes sk-slide { from { background-position: 200% 0 } to { background-position: -200% 0 } }
+.sk-dot  { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+.sk-session { height: 80px; margin-bottom: 8px; border-radius: 10px; }
+
+/* ── MODAL BLUR BG ─────────────────────────────────────────── */
+.modal-bg-blur {
+  position: absolute; inset: -20px; border-radius: 0;
+  background-size: cover; background-position: center top;
+  filter: blur(50px) saturate(1.4);
+  opacity: .15; z-index: 0; pointer-events: none;
+  transform: scale(1.1);
+  transition: opacity .4s;
+}
+.modal-box { position: relative; overflow: hidden; }
+.modal-box > *:not(.modal-bg-blur) { position: relative; z-index: 1; }
+
+/* ── EN CURSO: PULSO ───────────────────────────────────────── */
+.session.is-now {
+  animation: session-pulse 2.8s ease-in-out infinite;
+}
+@keyframes session-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(196,45,77,0); }
+  50%       { box-shadow: 0 0 0 5px rgba(196,45,77,.2), 0 0 24px rgba(196,45,77,.08); }
+}
+.time-status.status-now {
+  animation: badge-blink 1.4s ease-in-out infinite;
+}
+@keyframes badge-blink { 0%,100%{opacity:1} 50%{opacity:.55} }
+
+/* ── STALE WARNING ─────────────────────────────────────────── */
+.stale-warn {
+  display: inline-flex; align-items: center; gap: 5px;
+  color: #f59e0b; font-weight: 700;
+}
+.stale-warn::before {
+  content: ''; display: inline-block; width: 6px; height: 6px;
+  border-radius: 50%; background: #f59e0b;
+  animation: stale-blink 2s ease-in-out infinite;
+}
+@keyframes stale-blink { 0%,100%{opacity:1} 50%{opacity:.25} }
+
+/* ── LETTERBOXD ────────────────────────────────────────────── */
+.lb-wrap { margin-top: 14px; }
+.lb-btn {
+  display: inline-flex; align-items: center; gap: 7px;
+  background: rgba(0,175,100,.1); border: 1px solid rgba(0,175,100,.22);
+  color: #00c470; border-radius: 10px; padding: 7px 14px;
+  font-size: 12px; font-weight: 700; text-decoration: none; transition: .15s;
+}
+.lb-btn:hover { background: rgba(0,175,100,.2); color: #00e87e; }
+.lb-rating { opacity: .75; font-weight: 500; }
+.lb-reviews {
+  margin-top: 10px; display: flex; flex-direction: column; gap: 7px;
+}
+.lb-review {
+  background: rgba(0,175,100,.06); border-left: 2px solid rgba(0,175,100,.3);
+  padding: 8px 12px; border-radius: 0 8px 8px 0;
+  font-size: 12px; color: var(--text-muted); font-style: italic; line-height: 1.55;
+}
 </style>
 </head>
 
@@ -466,6 +548,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
 <!-- ── MODAL ─────────────────────────────────────────────────── -->
 <div id="movie-modal" class="modal-overlay hidden">
   <div class="modal-box">
+    <div class="modal-bg-blur" id="modal-bg-blur"></div>
     <button class="modal-close" onclick="closeModal()">✕</button>
     <div class="modal-top">
       <div id="modal-poster-ph" class="modal-poster-ph">🎬</div>
@@ -480,9 +563,11 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
     <p id="modal-overview" class="modal-overview"></p>
     <div class="modal-sessions-label">🎟 Sesiones esta semana</div>
     <div id="modal-sessions"></div>
+    <div class="lb-wrap" id="modal-letterboxd"></div>
   </div>
 </div>
 
+<div id="top-progress"></div>
 <div class="container">
 
 <header class="hero-header">
@@ -534,7 +619,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
 
 <footer>
   Datos de neocine.es y filmotecamurcia.carm.es ·
-  <span id="updated"></span> ·
+  <span id="updated"></span><span id="stale-warning"></span> ·
   <button class="refresh-btn" onclick="forceRefresh()" title="Actualizar datos">↺ Actualizar</button> ·
   Hecho con amor desde Murcia 🌞
 </footer>
@@ -579,8 +664,7 @@ window.toggleFavoritesOnly = function() {
 // CARGA
 // ═══════════════════════════════════════════════════════════════
 function forceRefresh() {
-  // Limpiar todas las versiones de caché posibles
-  ['v1','v2','v3','v4'].forEach(v => {
+  ['v1','v2','v3','v4','v5'].forEach(v => {
     try { localStorage.removeItem('cines-murcia-live-' + v); } catch {}
   });
   location.reload();
@@ -623,16 +707,21 @@ const LOADING_RECS = [
 function setLoadingProgress(msg, pct) {
   const msgEl  = document.getElementById('loading-msg');
   const fillEl = document.getElementById('loading-bar-fill');
-  if (msgEl)  msgEl.textContent   = msg;
-  if (fillEl) fillEl.style.width  = Math.min(100, pct) + '%';
+  const topBar = document.getElementById('top-progress');
+  if (msgEl)  msgEl.textContent  = msg;
+  if (fillEl) fillEl.style.width = Math.min(100, pct) + '%';
+  if (topBar) topBar.style.transform = `scaleX(${Math.min(100, pct) / 100})`;
 }
 
 function hideLoadingOverlay() {
   clearInterval(window._recInterval);
   const ov = document.getElementById('loading-overlay');
-  if (!ov) return;
-  ov.classList.add('hidden');
-  setTimeout(() => ov.remove(), 500);
+  if (ov) { ov.classList.add('hidden'); setTimeout(() => ov.remove(), 500); }
+  const topBar = document.getElementById('top-progress');
+  if (topBar) {
+    topBar.style.transform = 'scaleX(1)';
+    setTimeout(() => topBar.classList.add('done'), 350);
+  }
 }
 
 async function load() {
@@ -677,7 +766,26 @@ async function load() {
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./service-worker.js').catch(() => {});
   }
+  setupSilentRefresh();
   render();
+}
+
+function setupSilentRefresh() {
+  let lastRefresh = Date.now();
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState !== 'visible') return;
+    if (Date.now() - lastRefresh < 30 * 60 * 1000) return;
+    lastRefresh = Date.now();
+    fetchLiveData(() => {}).then(fresh => {
+      if (!fresh?.cinemas?.length) return;
+      DATA = fresh;
+      if (!DATA.movies) {
+        DATA.movies = {};
+        Object.entries(DATA.posters || {}).forEach(([t, p]) => { DATA.movies[t] = { poster: p }; });
+      }
+      render();
+    }).catch(() => {});
+  });
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -867,6 +975,23 @@ window.openModal = function(movieTitle) {
       </div>
     `).join('') +
     `<p style="margin-top:12px;font-size:11px;opacity:.4">${allSessions.length} sesión${allSessions.length!==1?'es':''} disponible${allSessions.length!==1?'s':''} esta semana</p>`;
+
+  // Blur background
+  const blurEl = document.getElementById('modal-bg-blur');
+  if (blurEl) {
+    blurEl.style.backgroundImage = md.poster ? `url(${md.poster})` : 'none';
+    blurEl.style.opacity = md.poster ? '.15' : '0';
+  }
+
+  // Letterboxd
+  const lbEl = document.getElementById('modal-letterboxd');
+  if (lbEl) {
+    const slug = movieTitle.toLowerCase()
+      .normalize('NFD').replace(/[̀-ͯ]/g, '')
+      .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    const lbUrl = `https://letterboxd.com/film/${slug}/`;
+    lbEl.innerHTML = `<a class="lb-btn" href="${escapeHtml(lbUrl)}" target="_blank" rel="noopener">🎞 Ver reseñas en Letterboxd</a>`;
+  }
 
   document.getElementById('movie-modal').classList.remove('hidden');
   document.body.classList.add('modal-open');
@@ -1169,9 +1294,16 @@ function render() {
   else if (state.view === 'time')  html = renderByTime();
   else if (state.view === 'week')  html = renderByWeek();
   document.getElementById('main').innerHTML = html;
-  if (DATA.generatedAt)
+  if (DATA.generatedAt) {
+    const genDate = new Date(DATA.generatedAt);
+    const ageMin  = (Date.now() - genDate.getTime()) / 60000;
     document.getElementById('updated').textContent =
-      'Actualizado: ' + new Date(DATA.generatedAt).toLocaleString('es-ES');
+      'Actualizado: ' + genDate.toLocaleString('es-ES');
+    const staleEl = document.getElementById('stale-warning');
+    if (staleEl) staleEl.innerHTML = ageMin > 120
+      ? ' <span class="stale-warn">· Datos desactualizados</span>'
+      : '';
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════
