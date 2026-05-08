@@ -10,7 +10,8 @@
       "PowerShell(python3 --version)",
       "PowerShell(py --version)",
       "PowerShell(node --version)",
-      "PowerShell(npm --version)"
+      "PowerShell(npm --version)",
+      "PowerShell(git -C \"c:\\\\Users\\\\trini\\\\Desktop\\\\cines-murcia\\\\cines-murcia\" status)"
     ]
   }
 }

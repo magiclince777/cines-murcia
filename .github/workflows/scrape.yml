@@ -23,6 +23,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Ejecutar scraper
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: |
           mkdir -p data
           python scraper.py > data/schedule.json

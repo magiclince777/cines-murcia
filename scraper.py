@@ -68,7 +68,7 @@ DAYS_AHEAD = 14
 # ── TMDB ────────────────────────────────────────────────────────────────────
 # Regístrate gratis en https://www.themoviedb.org/settings/api y pon tu clave:
 #export TMDB_API_KEY="a95b0d598e9119d6ec87906127a1fa1c"
-TMDB_API_KEY  = os.environ.get("TMDB_API_KEY", "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhOTViMGQ1OThlOTExOWQ2ZWM4NzkwNjEyN2ExZmExYyIsIm5iZiI6MTc3NzU2MjU0NC40MDIsInN1YiI6IjY5ZjM3M2IwYzE2ZjNjYWUxYzBlNjAyZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.7YM-IvQZRltdh0tlX8RbAp_swYXNNzJt4vtxsxKi2A8")
+TMDB_API_KEY  = os.environ.get("TMDB_API_KEY", "a95b0d598e9119d6ec87906127a1fa1c")
 TMDB_SEARCH   = "https://api.themoviedb.org/3/search/movie"
 TMDB_GENRES   = "https://api.themoviedb.org/3/genre/movie/list"
 TMDB_IMG_BASE = "https://image.tmdb.org/t/p/w342"
