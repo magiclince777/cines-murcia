@@ -36,6 +36,7 @@ CINEMAS_NEOCINE = [
         "area": "El Tiro, Murcia",
         "color": "#7c3aed",
         "neocine_url": "https://www.neocine.es/cine/5/hd-digital-myrtea--el-tiro---murcia-/lang/es",
+        "gql_cid": "MzY1NjYwNA",  # kinoheld cinemaId para shows(cinemaId)
     },
     {
         "id": "centrofama",
@@ -43,17 +44,21 @@ CINEMAS_NEOCINE = [
         "area": "Murcia centro",
         "color": "#0891b2",
         "neocine_url": "https://www.neocine.es/cine/1/centrofama--murcia-/lang/es",
+        "gql_cid": "2943",
     },
 ]
 
 GRAPHQL_URL = "https://entradas-next-live.kinoheld.de/graphql"
-GRAPHQL_QUERY = """
-query GetShow($id: ID!) {
-  show(id: $id) {
-    id
-    beginning
-    auditorium { id name }
-    cinema { id name }
+# Una sola consulta por cine devuelve todos los pases con urlSlug (= ID en la URL de entradas.com),
+# fecha/hora de inicio y nombre de sala — evita N peticiones individuales.
+GRAPHQL_SHOWS_QUERY = """
+query GetShows($cid: ID!) {
+  shows(cinemaId: $cid) {
+    data {
+      urlSlug
+      beginning
+      auditorium { name }
+    }
   }
 }
 """
@@ -209,30 +214,32 @@ def scrape_neocine_cinema(cinema: dict) -> list[dict]:
 
 
 # ============================================================
-# ENRIQUECIMIENTO VIA GRAPHQL
+# ENRIQUECIMIENTO VIA GRAPHQL (consulta masiva por cine)
 # ============================================================
-def enrich_with_graphql(show_ids: list[str]) -> dict:
-    results, total = {}, len(show_ids)
-    for i, sid in enumerate(show_ids):
-        if i and i % 20 == 0:
-            log(f"    GraphQL: {i}/{total}…")
-        try:
-            r = requests.post(
-                GRAPHQL_URL,
-                json={"query": GRAPHQL_QUERY, "variables": {"id": str(sid)}},
-                headers={"Content-Type": "application/json", "Accept-Language": "es", "User-Agent": USER_AGENT},
-                timeout=15,
-            )
-            data = r.json()
-            show = (data.get("data") or {}).get("show")
-            if show:
-                aud = show.get("auditorium") or {}
-                results[sid] = {"auditorium": aud.get("name"), "beginning": show.get("beginning")}
-            time.sleep(0.05)
-        except Exception as e:
-            log(f"    Fallo en show {sid}: {e}")
-    log(f"    GraphQL completo: {len(results)}/{total} respondidos")
-    return results
+def fetch_cinema_shows(cinema: dict) -> dict:
+    """Una sola petición devuelve todos los pases del cine.
+    Retorna mapa urlSlug → {auditorium, beginning}.
+    urlSlug == el ID numérico en la URL de entradas.com (ej. "422182").
+    """
+    try:
+        r = requests.post(
+            GRAPHQL_URL,
+            json={"query": GRAPHQL_SHOWS_QUERY, "variables": {"cid": cinema["gql_cid"]}},
+            headers={"Content-Type": "application/json", "Accept-Language": "es", "User-Agent": USER_AGENT},
+            timeout=30,
+        )
+        items = (r.json().get("data") or {}).get("shows", {}).get("data", [])
+        results = {}
+        for s in items:
+            slug = s.get("urlSlug")
+            if slug:
+                aud = (s.get("auditorium") or {}).get("name")
+                results[slug] = {"auditorium": aud, "beginning": s.get("beginning")}
+        log(f"    GraphQL {cinema['name']}: {len(results)} pases")
+        return results
+    except Exception as e:
+        log(f"    GraphQL error {cinema['name']}: {e}")
+        return {}
 
 
 # ============================================================
@@ -425,7 +432,7 @@ def main() -> None:
     for cfg in CINEMAS_NEOCINE:
         try:
             raw      = scrape_neocine_cinema(cfg)
-            enriched = enrich_with_graphql([s["show_id"] for s in raw])
+            enriched = fetch_cinema_shows(cfg)  # urlSlug → {auditorium, beginning}
         except Exception as e:
             log(f"  ERROR scrapeando {cfg['name']}: {e}")
             continue

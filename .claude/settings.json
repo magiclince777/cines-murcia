@@ -1,0 +1,53 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -oP '\"id\":\\\\d+[^,]{0,100}')",
+      "Bash(grep -oP '\"sala[^\"]*\"[^,]{0,100}')",
+      "Bash(grep -oP '\"beginning\"[^,]{0,80}')",
+      "Bash(grep -oP '\"auditoriumName\"[^,]{0,100}')",
+      "Bash(grep -oP '\"name\"[^,]{0,80}')",
+      "Bash(curl -sL \"https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422182\")",
+      "Bash(grep -oP '\"auditorium\":\\\\{[^}]{0,200}\\\\}')",
+      "Bash(grep -oP 'data-nuxt-data[^>]*>\\(.{0,500}\\)')",
+      "Bash(grep -oP '\"name\":\"[^\"]{0,30}\"')",
+      "Bash(curl -s -X POST https://entradas-next-live.kinoheld.de/graphql -H 'Content-Type: application/json' -d '{\"query\":\"query S\\($id:ID!\\){show\\(id:$id\\){id beginning auditorium{name}}}\",\"variables\":{\"id\":\"125061645\"}}')",
+      "Bash(curl -s -X POST \"https://entradas-next-live.kinoheld.de/graphql\" -H \"Content-Type: application/json\" -d '{\"query\":\"query{shows\\(cinemaId:3017,movieId:null\\){data{id beginning urlSlug auditorium{name}}}}\"}')",
+      "Bash(curl -s -X POST \"https://entradas-next-live.kinoheld.de/graphql\" -H \"Content-Type: application/json\" -d '{\"query\":\"query{cinema\\(id:3017\\){shows{data{id beginning urlSlug auditorium{name}}}}}\"}')",
+      "Bash(curl -s -X POST \"https://entradas-next-live.kinoheld.de/graphql\" -H \"Content-Type: application/json\" -d '{\"query\":\"query{showGroup\\(id:\\\\\"neocine-myrtea-HD-digital\\\\\"\\){shows{id beginning auditorium{name}}}}\"}')",
+      "Bash(curl -s -X POST \"https://entradas-next-live.kinoheld.de/graphql\" -H \"Content-Type: application/json\" -d '{\"query\":\"query{cinema\\(urlSlug:\\\\\"neocine-myrtea-HD-digital\\\\\"\\){id name shows{data{id beginning urlSlug auditorium{name}}}}}\"}')",
+      "Bash(curl -s -X POST \"https://entradas-next-live.kinoheld.de/graphql\" -H \"Content-Type: application/json\" -d '{\"query\":\"query{shows\\(cinemaUrlSlug:\\\\\"neocine-myrtea-HD-digital\\\\\"\\){data{id beginning urlSlug auditorium{name}}}}\"}')",
+      "Bash(curl -s -X POST \"https://entradas-next-live.kinoheld.de/graphql\" -H \"Content-Type: application/json\" -d '{\"query\":\"query{shows\\(cinemaId:\\\\\"MzY1NjYwNA\\\\\"\\){data{id beginning urlSlug auditorium{name}}}}\"}')",
+      "Bash(curl -sL \"https://cine.entradas.com/cine/murcia/centrofama--murcia-/evento/422182\")",
+      "Bash(curl -sL \"https://www.neocine.es/cine/1/centrofama--murcia-/lang/es\")",
+      "Bash(curl -sL \"https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422923\")",
+      "Bash(grep -oP '\"MzY[^\"]{0,20}\"')",
+      "Bash(grep -oP '\"neocine-centrofama\"[^}]{0,300}')",
+      "Bash(curl -s -X POST \"https://entradas-next-live.kinoheld.de/graphql\" -H \"Content-Type: application/json\" -d '{\"query\":\"query{shows\\(cinemaId:\\\\\"MzY1NjYwNQ\\\\\"\\){data{id urlSlug beginning auditorium{name}}}}\"}')",
+      "Bash(curl -sL \"https://cine.entradas.com/cine/murcia/neocine-centrofama\")",
+      "Bash(grep -oP '\"MzY[^\"]{0,15}\"')",
+      "Bash(grep -oP 'MzY[A-Za-z0-9+/=]{4,15}')",
+      "Bash(curl -s -X POST \"https://entradas-next-live.kinoheld.de/graphql\" -H \"Content-Type: application/json\" -d '{\"query\":\"query{show\\(urlSlug:\\\\\"422923\\\\\"\\){id beginning auditorium{name} cinema{id name}}}\"}')",
+      "Bash(curl -s -X POST \"https://entradas-next-live.kinoheld.de/graphql\" -H \"Content-Type: application/json\" -d '{\"query\":\"query{cinema\\(urlSlug:\\\\\"neocine-centrofama\\\\\"\\){id name cid:id}}\"}')",
+      "Bash(curl -s -X POST \"https://entradas-next-live.kinoheld.de/graphql\" -H \"Content-Type: application/json\" -d '{\"query\":\"{ __type\\(name:\\\\\"Query\\\\\"\\) { fields { name args { name type { name kind ofType { name } } } } } }\"}')",
+      "Bash(curl -s -X POST \"https://entradas-next-live.kinoheld.de/graphql\" -H \"Content-Type: application/json\" -d '{\"query\":\"query{show\\(urlSlug:\\\\\"422182\\\\\"\\){id beginning urlSlug auditorium{name}}}\"}')",
+      "Bash(curl -s -X POST \"https://entradas-next-live.kinoheld.de/graphql\" -H \"Content-Type: application/json\" -d '{\"query\":\"query{programByDay\\(cinemaIds:[\\\\\"MzY1NjYwNA\\\\\"],first:100\\){data{date shows{id urlSlug beginning auditorium{name} movie{name}}}}}\"}')",
+      "Bash(curl -s -X POST \"https://entradas-next-live.kinoheld.de/graphql\" -H \"Content-Type: application/json\" -d '{\"query\":\"query{show\\(urlSlug:\\\\\"422182\\\\\",cinemaId:\\\\\"MzY1NjYwNA\\\\\"\\){id beginning urlSlug auditorium{name}}}\"}')",
+      "Bash(curl -s -X POST \"https://entradas-next-live.kinoheld.de/graphql\" -H \"Content-Type: application/json\" -d '{\"query\":\"{ __type\\(name:\\\\\"ProgramGroupByDay\\\\\"\\) { fields { name } } }\"}')",
+      "Bash(curl -s -X POST \"https://entradas-next-live.kinoheld.de/graphql\" -H \"Content-Type: application/json\" -d '{\"query\":\"query{cinema\\(urlSlug:\\\\\"neocine-centrofama\\\\\",cityUrlSlug:\\\\\"murcia\\\\\"\\){id name}}\"}')",
+      "Read(//tmp/**)",
+      "Bash(grep -oP '\"urlSlug\":\"[^\"]+\",\"auditorium\":\\\\{\"name\":\"[^\"]+\"')",
+      "Bash(curl -s -X POST \"https://entradas-next-live.kinoheld.de/graphql\" -H \"Content-Type: application/json\" -d '{\"query\":\"query{shows\\(cinemaId:\\\\\"2943\\\\\"\\){data{id beginning urlSlug auditorium{name}}}}\"}')",
+      "Bash(grep -oP '\"urlSlug\":\"[^\"]+\",\"beginning\":\"[^\"]+\",\"auditorium\":\\\\{\"name\":\"[^\"]+\"')",
+      "Bash(grep -oP '\"urlSlug\":\"\\(\\\\d+\\)\",\"auditorium\":\\\\{\"name\":\"\\([^\"]+\\)\",\"beginning\":\"\\([^\"]+\\)\"')",
+      "Bash(grep -oP '\"urlSlug\":\"\\(\\\\d+\\)\",\"auditorium\":\\\\{\"name\":\"\\([^\"]+\\)\"\\\\}' /tmp/myrtea_shows.json)",
+      "Bash(grep -oP '\"urlSlug\":\"\\(\\\\d+\\)\",\"auditorium\":\\\\{\"name\":\"\\([^\"]+\\)\"\\\\}' /tmp/centrofama_shows.json)",
+      "Bash(sed 's/\"salas\": \\\\[\\\\],\\\\n.*\"id\": \"myrtea\"//g' /tmp/schedule_fixed.json)",
+      "Bash(sed 's/\"salas\": \\\\[\\\\],\\\\\\(.*\"id\": \"myrtea\"\\\\\\)/\"salas\": [\"SALA 1 Premium\",\"SALA 2 Premium\",\"SALA 3\",\"SALA 4\",\"SALA 5\",\"SALA 6\",\"SALA 7\",\"SALA 8\",\"SALA 9\",\"SALA 10\"],\\\\1/g' /tmp/schedule_fixed.json)",
+      "Bash(cp /tmp/schedule_final.json \"c:/Users/trini/Desktop/cines-murcia/cines-murcia/data/schedule.json\" && echo \"Done\" && grep -c '\"sala\": \"SALA' \"c:/Users/trini/Desktop/cines-murcia/cines-murcia/data/schedule.json\")",
+      "Bash(grep -oP '\"urlSlug\":\"\\(422931|422946\\)\",\"auditorium\":\\\\{\"name\":\"[^\"]+\"' /tmp/centrofama_shows.json)"
+    ],
+    "additionalDirectories": [
+      "\\tmp"
+    ]
+  }
+}

@@ -14,18 +14,21 @@ const TMDB_IMG    = 'https://image.tmdb.org/t/p/w342';
 const GQL_URL   = 'https://entradas-next-live.kinoheld.de/graphql';
 // GraphQL necesita POST — usamos corsproxy.io que sí reenvía el body
 const GQL_PROXY = `https://corsproxy.io/?${encodeURIComponent(GQL_URL)}`;
-const GQL_QUERY = 'query S($id:ID!){show(id:$id){id beginning auditorium{name}}}';
+// Consulta masiva por cine: una sola petición devuelve todos los pases con urlSlug + sala
+const GQL_SHOWS_QUERY = 'query S($cid:ID!){shows(cinemaId:$cid){data{urlSlug beginning auditorium{name}}}}';
 
 // Bump la versión cuando el formato de caché cambie para limpiar datos viejos
-const CACHE_KEY = 'cines-murcia-live-v4';
+const CACHE_KEY = 'cines-murcia-live-v5';
 const CACHE_TTL = 3 * 60 * 60 * 1000; // 3 horas
 const DAYS_AHEAD = 14;
 
 const CINEMAS_CFG = [
   { id:'myrtea',     name:'Myrtea Premium',  area:'El Tiro, Murcia', color:'#7c3aed',
-    url:'https://www.neocine.es/cine/5/hd-digital-myrtea--el-tiro---murcia-/lang/es' },
+    url:'https://www.neocine.es/cine/5/hd-digital-myrtea--el-tiro---murcia-/lang/es',
+    cid:'MzY1NjYwNA' },   // kinoheld cinemaId para shows(cinemaId)
   { id:'centrofama', name:'Centrofama',       area:'Murcia centro',   color:'#0891b2',
-    url:'https://www.neocine.es/cine/1/centrofama--murcia-/lang/es' },
+    url:'https://www.neocine.es/cine/1/centrofama--murcia-/lang/es',
+    cid:'2943' },
 ];
 
 const FILMOTECA_BASE = 'https://filmotecamurcia.carm.es';
@@ -163,33 +166,27 @@ async function scrapeNeocine(cinema) {
 }
 
 // ── GraphQL (via corsproxy.io para evitar CORS) ───────────────────────────
+// Una sola petición por cine devuelve todos los pases con urlSlug, beginning y auditorium.
+// urlSlug == el ID numérico de la URL de entradas.com (ej. "422182").
 
-async function fetchOneShow(id) {
+async function fetchCinemaShows(cinema) {
   try {
     const r = await fetch(GQL_PROXY, {
       method: 'POST',
       headers: { 'Content-Type':'application/json', 'Accept-Language':'es' },
-      body: JSON.stringify({ query:GQL_QUERY, variables:{ id:String(id) } }),
+      body: JSON.stringify({ query:GQL_SHOWS_QUERY, variables:{ cid:cinema.cid } }),
     });
     const j = await r.json();
-    const show = j?.data?.show;
-    if (show) return [id, { beginning:show.beginning, auditorium:show.auditorium?.name }];
-  } catch {}
-  return [id, null];
-}
-
-async function enrichWithGraphQL(showIds, onProgress) {
-  const BATCH=12, results={};
-  for (let i=0;i<showIds.length;i+=BATCH) {
-    const pairs = await Promise.all(showIds.slice(i,i+BATCH).map(fetchOneShow));
-    pairs.forEach(([id,d])=>{ if(d) results[id]=d; });
-    onProgress(
-      `Cargando horarios… ${Math.min(i+BATCH,showIds.length)}/${showIds.length}`,
-      20+(Math.min(i+BATCH,showIds.length)/showIds.length)*35
-    );
+    const items = j?.data?.shows?.data || [];
+    // Construir mapa urlSlug → {beginning, auditorium}
+    const map = {};
+    items.forEach(s => { if(s.urlSlug) map[s.urlSlug] = { beginning:s.beginning, auditorium:s.auditorium?.name }; });
+    console.log(`[graphql] ${cinema.id}: ${items.length} pases recibidos`);
+    return map;
+  } catch(e) {
+    console.warn('[graphql]', cinema.id, e.message);
+    return {};
   }
-  console.log(`[graphql] ${Object.keys(results).length}/${showIds.length} respondidos`);
-  return results;
 }
 
 // ── Filmoteca ─────────────────────────────────────────────────────────────
@@ -323,30 +320,30 @@ async function fetchLiveData(onProgress=()=>{}) {
   const todayStr=localDateStr(today);
   const maxStr=localDateStr(new Date(today.getTime()+DAYS_AHEAD*86400000));
 
-  // 1. Páginas HTML en paralelo
+  // 1. HTML + GraphQL bulk en paralelo (2 peticiones GQL en vez de N individuales)
   onProgress('Leyendo cartelera de cines…',5);
-  const [myrteaShows, centrofamaShows, filmoEvents] = await Promise.all([
+  const [myrteaShows, centrofamaShows, filmoEvents, gqlMyrtea, gqlCentrofama] = await Promise.all([
     scrapeNeocine(CINEMAS_CFG[0]),
     scrapeNeocine(CINEMAS_CFG[1]),
     scrapeFilmotecaList(todayStr, maxStr),
+    fetchCinemaShows(CINEMAS_CFG[0]),
+    fetchCinemaShows(CINEMAS_CFG[1]),
   ]);
+  const gqlByCinema = { myrtea: gqlMyrtea, centrofama: gqlCentrofama };
+  onProgress('Horarios y salas cargados…', 40);
 
-  // 2. GraphQL para fechas/horas/sala
-  const allIds=[...myrteaShows,...centrofamaShows].map(s=>s.showId);
-  onProgress(`Cargando horarios (${allIds.length} sesiones)…`,18);
-  const gql = allIds.length ? await enrichWithGraphQL(allIds, onProgress) : {};
-
-  // 3. Detalles Filmoteca
-  onProgress(`Cargando detalles Filmoteca (${filmoEvents.length} eventos)…`,56);
+  // 2. Detalles Filmoteca
+  onProgress(`Cargando detalles Filmoteca (${filmoEvents.length} eventos)…`,46);
   const details=await batchMap(filmoEvents,e=>fetchFilmotecaDetail(e.url),4);
   filmoEvents.forEach((e,i)=>{ e.sala=details[i].sala; e._poster=details[i].poster; e._overview=details[i].overview; });
 
-  // 4. Construir cines comerciales
+  // 3. Construir cines comerciales
   const cinemas=[];
   for (const [cfg,shows] of [[CINEMAS_CFG[0],myrteaShows],[CINEMAS_CFG[1],centrofamaShows]]) {
+    const gql = gqlByCinema[cfg.id];
     const sessions=[], salas=new Set();
     shows.forEach(show=>{
-      const extra=gql[show.showId];
+      const extra=gql[show.showId];  // showId == urlSlug (número en la URL de entradas.com)
       if(!extra?.beginning) return;
       const dt=new Date(extra.beginning);
       const date=localDateStr(dt);
