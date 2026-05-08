@@ -53,26 +53,50 @@ body::before {
   z-index: 200; transition: opacity .5s;
 }
 #loading-overlay.hidden { opacity: 0; pointer-events: none; }
-.loading-box { text-align: center; padding: 24px; }
+.loading-box { text-align: center; padding: 24px; max-width: 320px; }
+.loading-top { display: flex; align-items: center; justify-content: center; gap: 16px; margin-bottom: 20px; }
 .loading-spinner {
-  width: 48px; height: 48px; margin: 0 auto 20px;
+  width: 40px; height: 40px; flex-shrink: 0;
   border: 3px solid rgba(255,255,255,.1);
   border-top-color: var(--primary);
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
+.loading-app-name {
+  font-size: 32px; font-weight: 800; letter-spacing: -1px;
+  background: linear-gradient(135deg, #fff 40%, var(--primary));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 @keyframes spin { to { transform: rotate(360deg); } }
-#loading-msg { color: var(--text-muted); font-size: 14px; margin-bottom: 14px; min-height: 1.4em; }
+#loading-msg { color: var(--text-muted); font-size: 13px; margin-bottom: 12px; min-height: 1.4em; }
 .loading-bar {
   width: 220px; height: 3px;
   background: rgba(255,255,255,.08);
-  border-radius: 2px; margin: 0 auto;
+  border-radius: 2px; margin: 0 auto 28px;
 }
 #loading-bar-fill {
   height: 100%; background: var(--primary);
-  border-radius: 2px; transition: width .4s ease;
-  width: 0%;
+  border-radius: 2px; transition: width .4s ease; width: 0%;
 }
+.loading-rec {
+  border-top: 1px solid rgba(255,255,255,.07);
+  padding-top: 20px; animation: fadeIn .6s ease;
+}
+.loading-rec-label {
+  font-size: 9px; letter-spacing: 1.5px; color: var(--primary);
+  font-weight: 700; margin-bottom: 10px;
+}
+.loading-rec-title {
+  font-size: 17px; font-weight: 700; color: var(--text);
+  margin-bottom: 5px; min-height: 1.3em;
+  transition: opacity .4s;
+}
+.loading-rec-sub {
+  font-size: 12px; color: var(--text-muted); min-height: 1.3em;
+  transition: opacity .4s;
+}
+@keyframes fadeIn { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:none} }
 
 /* ── HERO HEADER ───────────────────────────────────────────── */
 .hero-header {
@@ -492,9 +516,17 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
 
 <div id="loading-overlay">
   <div class="loading-box">
-    <div class="loading-spinner"></div>
+    <div class="loading-top">
+      <div class="loading-spinner"></div>
+      <p class="loading-app-name">cinemur</p>
+    </div>
     <p id="loading-msg">Cargando cartelera…</p>
     <div class="loading-bar"><div id="loading-bar-fill"></div></div>
+    <div class="loading-rec" id="loading-rec">
+      <p class="loading-rec-label">MIENTRAS ESPERAS TE RECOMENDAMOS</p>
+      <p class="loading-rec-title" id="loading-rec-title"></p>
+      <p class="loading-rec-sub" id="loading-rec-sub"></p>
+    </div>
   </div>
 </div>
 
@@ -547,9 +579,46 @@ window.toggleFavoritesOnly = function() {
 // CARGA
 // ═══════════════════════════════════════════════════════════════
 function forceRefresh() {
-  try { localStorage.removeItem('cines-murcia-live-v2'); } catch {}
+  // Limpiar todas las versiones de caché posibles
+  ['v1','v2','v3','v4'].forEach(v => {
+    try { localStorage.removeItem('cines-murcia-live-' + v); } catch {}
+  });
   location.reload();
 }
+
+// Recomendaciones durante la carga
+const LOADING_RECS = [
+  { title: 'Cinema Paradiso',       sub: 'Giuseppe Tornatore · 1988 · Un homenaje al amor por el cine' },
+  { title: 'Todo sobre mi madre',   sub: 'Pedro Almodóvar · 1999 · Mejor película extranjera en los Oscar' },
+  { title: 'El laberinto del fauno',sub: 'Guillermo del Toro · 2006 · Fantasía oscura española' },
+  { title: 'Mulholland Drive',      sub: 'David Lynch · 2001 · El misterio hecho película' },
+  { title: 'Oldboy',                sub: 'Park Chan-wook · 2003 · Palma de Oro del jurado en Cannes' },
+  { title: 'La vida es bella',      sub: 'Roberto Benigni · 1997 · Emoción en estado puro' },
+  { title: 'Blade Runner 2049',     sub: 'Denis Villeneuve · 2017 · Ciencia ficción visual impactante' },
+  { title: 'Dancer in the Dark',    sub: 'Lars von Trier · 2000 · Palma de Oro Cannes · Con Björk' },
+  { title: 'El gran Lebowski',      sub: 'Coen Brothers · 1998 · Comedia de culto absoluto' },
+  { title: 'Amélie',                sub: 'Jean-Pierre Jeunet · 2001 · La película más francesa del mundo' },
+];
+
+(function startLoadingRec() {
+  const recs = LOADING_RECS.slice().sort(() => Math.random() - .5);
+  let idx = 0;
+  const titleEl = document.getElementById('loading-rec-title');
+  const subEl   = document.getElementById('loading-rec-sub');
+  if (!titleEl) return;
+  function show() {
+    const r = recs[idx % recs.length];
+    [titleEl, subEl].forEach(el => { el.style.opacity = '0'; });
+    setTimeout(() => {
+      titleEl.textContent = r.title;
+      subEl.textContent   = r.sub;
+      [titleEl, subEl].forEach(el => { el.style.opacity = '1'; });
+    }, 300);
+    idx++;
+  }
+  show();
+  window._recInterval = setInterval(show, 3500);
+})();
 
 function setLoadingProgress(msg, pct) {
   const msgEl  = document.getElementById('loading-msg');
@@ -559,6 +628,7 @@ function setLoadingProgress(msg, pct) {
 }
 
 function hideLoadingOverlay() {
+  clearInterval(window._recInterval);
   const ov = document.getElementById('loading-overlay');
   if (!ov) return;
   ov.classList.add('hidden');
@@ -588,6 +658,13 @@ async function load() {
   }
   state.cinemas = Object.fromEntries(DATA.cinemas.map(c => [c.id, true]));
   state.selectedDate = today();
+
+  // Si hoy no tiene sesiones, saltar a la fecha más próxima que sí tenga
+  const allDates = [...new Set(DATA.cinemas.flatMap(c => c.sessions.map(s => s.date)))].sort();
+  if (allDates.length && !allDates.includes(state.selectedDate)) {
+    const future = allDates.filter(d => d >= state.selectedDate);
+    state.selectedDate = future.length ? future[0] : allDates[allDates.length - 1];
+  }
 
   document.addEventListener('input', e => {
     if (e.target.id === 'movie-search') { state.search = e.target.value; render(); }
