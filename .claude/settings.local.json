@@ -11,7 +11,14 @@
       "PowerShell(py --version)",
       "PowerShell(node --version)",
       "PowerShell(npm --version)",
-      "PowerShell(git -C \"c:\\\\Users\\\\trini\\\\Desktop\\\\cines-murcia\\\\cines-murcia\" status)"
+      "PowerShell(git -C \"c:\\\\Users\\\\trini\\\\Desktop\\\\cines-murcia\\\\cines-murcia\" status)",
+      "Bash(node -e ' *)",
+      "Bash(curl -s -X POST https://entradas-next-live.kinoheld.de/graphql -H 'Content-Type: application/json' -H 'Accept-Language: es' -H 'Origin: https://cine.entradas.com' -H 'Referer: https://cine.entradas.com/' -d '{\"query\":\"query S\\($cid:ID!\\){shows\\(cinemaId:$cid\\){data{urlSlug beginning auditorium{name}}}}\",\"variables\":{\"cid\":\"MzY1NjYwNA\"}}')",
+      "Bash(curl -s --max-time 20 -X POST https://entradas-next-live.kinoheld.de/graphql -H 'Content-Type: application/json' -H 'Accept-Language: es' -H 'Origin: https://cine.entradas.com' -H 'Referer: https://cine.entradas.com/' -d '{\"query\":\"query S\\($cid:ID!\\){shows\\(cinemaId:$cid\\){data{urlSlug beginning auditorium{name}}}}\",\"variables\":{\"cid\":\"MzY1NjYwNA\"}}')",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(curl -s -X POST https://entradas-next-live.kinoheld.de/graphql -H 'Content-Type: application/json' -H 'Accept-Language: es' -H 'Origin: https://cine.entradas.com' -d '{\"query\":\"query S\\($cid:ID!\\){shows\\(cinemaId:$cid\\){data{urlSlug beginning auditorium{name} movie{name}}}}\",\"variables\":{\"cid\":\"MzY1NjYwNA\"}}')",
+      "Bash(curl -s -X POST https://entradas-next-live.kinoheld.de/graphql -H 'Content-Type: application/json' -H 'Accept-Language: es' -H 'Origin: https://cine.entradas.com' -d '{\"query\":\"query S\\($cid:ID!\\){shows\\(cinemaId:$cid\\){data{urlSlug beginning auditorium{name} movie{title}}}}\",\"variables\":{\"cid\":\"MzY1NjYwNA\"}}')",
+      "WebFetch(domain:api.allorigins.win)"
     ]
   }
 }

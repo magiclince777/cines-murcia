@@ -22,6 +22,12 @@ import re
 import sys
 import time
 from datetime import datetime, timedelta, timezone
+try:
+    from zoneinfo import ZoneInfo
+    SPAIN_TZ = ZoneInfo("Europe/Madrid")
+except ImportError:
+    import pytz
+    SPAIN_TZ = pytz.timezone("Europe/Madrid")
 
 import requests
 from bs4 import BeautifulSoup
@@ -36,7 +42,8 @@ CINEMAS_NEOCINE = [
         "area": "El Tiro, Murcia",
         "color": "#7c3aed",
         "neocine_url": "https://www.neocine.es/cine/5/hd-digital-myrtea--el-tiro---murcia-/lang/es",
-        "gql_cid": "MzY1NjYwNA",  # kinoheld cinemaId para shows(cinemaId)
+        "gql_cid": "MzY1NjYwNA",
+        "entrada_slug": "neocine-myrtea-HD-digital",
     },
     {
         "id": "centrofama",
@@ -45,6 +52,7 @@ CINEMAS_NEOCINE = [
         "color": "#0891b2",
         "neocine_url": "https://www.neocine.es/cine/1/centrofama--murcia-/lang/es",
         "gql_cid": "2943",
+        "entrada_slug": "neocine-centrofama-HD-digital",
     },
 ]
 
@@ -58,6 +66,7 @@ query GetShows($cid: ID!) {
       urlSlug
       beginning
       auditorium { name }
+      movie { name }
     }
   }
 }
@@ -233,8 +242,13 @@ def fetch_cinema_shows(cinema: dict) -> dict:
         for s in items:
             slug = s.get("urlSlug")
             if slug:
-                aud = (s.get("auditorium") or {}).get("name")
-                results[slug] = {"auditorium": aud, "beginning": s.get("beginning")}
+                aud        = (s.get("auditorium") or {}).get("name")
+                movie_name = (s.get("movie")      or {}).get("name")
+                results[slug] = {
+                    "auditorium": aud,
+                    "beginning":  s.get("beginning"),
+                    "movie_name": movie_name,
+                }
         log(f"    GraphQL {cinema['name']}: {len(results)} pases")
         return results
     except Exception as e:
@@ -429,22 +443,27 @@ def main() -> None:
     }
 
     # ── Cines comerciales (Neocine) ─────────────────────────────
+    # Estrategia: GraphQL es la fuente completa (todas las salas).
+    # El HTML scrape aporta duración, calificación y título exacto.
+    # Iteramos GraphQL para no perder pases que el HTML no muestre (ej: SALA 5).
     for cfg in CINEMAS_NEOCINE:
         try:
             raw      = scrape_neocine_cinema(cfg)
-            enriched = fetch_cinema_shows(cfg)  # urlSlug → {auditorium, beginning}
+            enriched = fetch_cinema_shows(cfg)  # urlSlug → {auditorium, beginning, movie_name}
         except Exception as e:
             log(f"  ERROR scrapeando {cfg['name']}: {e}")
             continue
 
+        # Mapa showId → datos del HTML
+        html_map = {s["show_id"]: s for s in raw}
+
         sessions, salas = [], set()
-        for s in raw:
-            extra = enriched.get(s["show_id"])
-            if not extra or not extra.get("beginning"):
+        for show_id, extra in enriched.items():
+            if not extra.get("beginning"):
                 continue
             try:
                 dt    = datetime.fromisoformat(extra["beginning"].replace("Z", "+00:00"))
-                local = dt.astimezone()
+                local = dt.astimezone(SPAIN_TZ)  # siempre hora española, sea cual sea el servidor
                 d     = local.date()
             except Exception:
                 continue
@@ -456,18 +475,25 @@ def main() -> None:
             if sala and sala != "?":
                 salas.add(sala)
 
+            html = html_map.get(show_id, {})
+            # Título: preferimos el de neocine.es (HTML), si no el de kinoheld
+            movie = html.get("movie") or extra.get("movie_name") or "?"
+            url   = html.get("neocine_url") or \
+                    f"https://cine.entradas.com/cine/murcia/{cfg['entrada_slug']}/evento/{show_id}"
+
             sessions.append({
-                "movie":    s["movie"],
+                "movie":    movie,
                 "date":     d.isoformat(),
                 "time":     local.strftime("%H:%M"),
-                "duration": s["duration"],
-                "rating":   s["rating"],
+                "duration": html.get("duration"),
+                "rating":   html.get("rating") or "?",
                 "sala":     sala,
                 "vose":     vose,
                 "format":   fmt or None,
-                "url":      s["neocine_url"],
+                "url":      url,
             })
 
+        sessions.sort(key=lambda s: (s["date"], s["time"]))
         output["cinemas"].append({
             "id":       cfg["id"],
             "name":     cfg["name"],

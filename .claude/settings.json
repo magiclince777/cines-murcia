@@ -46,7 +46,8 @@
       "Bash(cp /tmp/schedule_final.json \"c:/Users/trini/Desktop/cines-murcia/cines-murcia/data/schedule.json\" && echo \"Done\" && grep -c '\"sala\": \"SALA' \"c:/Users/trini/Desktop/cines-murcia/cines-murcia/data/schedule.json\")",
       "Bash(grep -oP '\"urlSlug\":\"\\(422931|422946\\)\",\"auditorium\":\\\\{\"name\":\"[^\"]+\"' /tmp/centrofama_shows.json)",
       "Bash(awk ' *)",
-      "Bash(cp /tmp/resolved.json data/schedule.json)"
+      "Bash(cp /tmp/resolved.json data/schedule.json)",
+      "Bash(python3 -c ' *)"
     ],
     "additionalDirectories": [
       "\\tmp"
