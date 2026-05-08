@@ -45,6 +45,35 @@ body::before {
 
 .container { max-width: 1400px; margin: 0 auto; padding: 16px; }
 
+/* ── LOADING OVERLAY ──────────────────────────────────────── */
+#loading-overlay {
+  position: fixed; inset: 0;
+  background: #14070b;
+  display: flex; align-items: center; justify-content: center;
+  z-index: 200; transition: opacity .5s;
+}
+#loading-overlay.hidden { opacity: 0; pointer-events: none; }
+.loading-box { text-align: center; padding: 24px; }
+.loading-spinner {
+  width: 48px; height: 48px; margin: 0 auto 20px;
+  border: 3px solid rgba(255,255,255,.1);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+#loading-msg { color: var(--text-muted); font-size: 14px; margin-bottom: 14px; min-height: 1.4em; }
+.loading-bar {
+  width: 220px; height: 3px;
+  background: rgba(255,255,255,.08);
+  border-radius: 2px; margin: 0 auto;
+}
+#loading-bar-fill {
+  height: 100%; background: var(--primary);
+  border-radius: 2px; transition: width .4s ease;
+  width: 0%;
+}
+
 /* ── HERO HEADER ───────────────────────────────────────────── */
 .hero-header {
   position: sticky; top: 0; z-index: 50;
@@ -397,6 +426,12 @@ footer {
   font-size: 11px; color: var(--text-muted); border-top: 1px solid var(--border);
 }
 footer a { color: var(--primary); text-decoration: none; font-weight: 700; }
+.refresh-btn {
+  background: none; border: 1px solid var(--border); color: var(--text-muted);
+  padding: 2px 8px; border-radius: 4px; cursor: pointer; font-size: 11px;
+  transition: border-color .2s, color .2s;
+}
+.refresh-btn:hover { border-color: var(--primary); color: var(--primary); }
 button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 ::selection { background: rgba(158,27,50,.15); }
 </style>
@@ -455,18 +490,26 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
 <div id="cinema-pills" class="controls"></div>
 <div class="views" id="view-switcher"></div>
 
-<main id="main">
-  <div class="empty">Cargando programación…</div>
-</main>
+<div id="loading-overlay">
+  <div class="loading-box">
+    <div class="loading-spinner"></div>
+    <p id="loading-msg">Cargando cartelera…</p>
+    <div class="loading-bar"><div id="loading-bar-fill"></div></div>
+  </div>
+</div>
+
+<main id="main"></main>
 
 <footer>
   Datos de neocine.es y filmotecamurcia.carm.es ·
   <span id="updated"></span> ·
+  <button class="refresh-btn" onclick="forceRefresh()" title="Actualizar datos">↺ Actualizar</button> ·
   Hecho con amor desde Murcia 🌞
 </footer>
 
 </div><!-- /container -->
 
+<script src="fetch-data.js"></script>
 <script>
 // ═══════════════════════════════════════════════════════════════
 // ESTADO
@@ -503,15 +546,41 @@ window.toggleFavoritesOnly = function() {
 // ═══════════════════════════════════════════════════════════════
 // CARGA
 // ═══════════════════════════════════════════════════════════════
+function forceRefresh() {
+  try { localStorage.removeItem('cines-murcia-live-v2'); } catch {}
+  location.reload();
+}
+
+function setLoadingProgress(msg, pct) {
+  const msgEl  = document.getElementById('loading-msg');
+  const fillEl = document.getElementById('loading-bar-fill');
+  if (msgEl)  msgEl.textContent   = msg;
+  if (fillEl) fillEl.style.width  = Math.min(100, pct) + '%';
+}
+
+function hideLoadingOverlay() {
+  const ov = document.getElementById('loading-overlay');
+  if (!ov) return;
+  ov.classList.add('hidden');
+  setTimeout(() => ov.remove(), 500);
+}
+
 async function load() {
   try {
-    const r = await fetch('./data/schedule.json?ts=' + Date.now());
-    DATA = await r.json();
+    DATA = await fetchLiveData(setLoadingProgress);
   } catch (e) {
-    document.getElementById('main').innerHTML =
-      '<div class="empty">No se pudo cargar la programación. ¿Está generado <code>data/schedule.json</code>?</div>';
-    return;
+    console.error('fetchLiveData falló, intentando JSON estático…', e);
+    try {
+      const r = await fetch('./data/schedule.json?ts=' + Date.now());
+      DATA = await r.json();
+    } catch (e2) {
+      hideLoadingOverlay();
+      document.getElementById('main').innerHTML =
+        '<div class="empty">No se pudo cargar la programación. Comprueba tu conexión a internet.</div>';
+      return;
+    }
   }
+  hideLoadingOverlay();
   // Normalizar: soportar tanto DATA.movies (nuevo) como DATA.posters (antiguo)
   if (!DATA.movies) {
     DATA.movies = {};

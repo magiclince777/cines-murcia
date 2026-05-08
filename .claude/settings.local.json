@@ -8,7 +8,9 @@
       "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\trini\\\\Desktop\\\\cines-murcia\\\\cines-murcia\\\\icons\")",
       "PowerShell(cd \"c:\\\\Users\\\\trini\\\\Desktop\\\\cines-murcia\\\\cines-murcia\"; $env:TMDB_API_KEY = \"a95b0d598e9119d6ec87906127a1fa1c\"; python scraper.py 2>&1)",
       "PowerShell(python3 --version)",
-      "PowerShell(py --version)"
+      "PowerShell(py --version)",
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)"
     ]
   }
 }
