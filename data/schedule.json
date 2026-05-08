@@ -8,7 +8,6 @@
       "name": "Myrtea Premium",
       "area": "El Tiro, Murcia",
       "color": "#7c3aed",
-<<<<<<< HEAD
       "salas": ["SALA 1 Premium","SALA 2 Premium","SALA 3","SALA 4","SALA 5","SALA 6","SALA 7","SALA 8","SALA 9","SALA 10"],
       "sessions": [
         {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-08", "time": "15:50", "duration": 120, "rating": "+7", "sala": "SALA 1 Premium", "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422182"},
@@ -93,17 +92,12 @@
         {"movie": "La Momia de Lee Cronin", "date": "2026-05-12", "time": "20:00", "duration": 133, "rating": "+18", "sala": "SALA 9", "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422416"},
         {"movie": "La Comunidad del Anillo", "date": "2026-05-15", "time": "17:30", "duration": 212, "rating": "+12", "sala": "SALA 9", "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/418914"}
       ]
-=======
-      "salas": [],
-      "sessions": []
->>>>>>> 4e5003c7864219f6728bdfb5c28439f14aac33a1
     },
     {
       "id": "centrofama",
       "name": "Centrofama",
       "area": "Murcia centro",
       "color": "#0891b2",
-<<<<<<< HEAD
       "salas": ["SALA 1","SALA 2"],
       "sessions": [
         {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-08", "time": "17:15", "duration": 120, "rating": "+7", "sala": "SALA 1", "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422923"},
@@ -148,10 +142,6 @@
 
         {"movie": "La Bohème", "date": "2026-05-21", "time": "19:45", "duration": 123, "rating": "TP", "sala": "SALA 1", "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/407341"}
       ]
-=======
-      "salas": [],
-      "sessions": []
->>>>>>> 4e5003c7864219f6728bdfb5c28439f14aac33a1
     },
     {
       "id": "filmoteca",

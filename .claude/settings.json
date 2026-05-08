@@ -44,7 +44,9 @@
       "Bash(sed 's/\"salas\": \\\\[\\\\],\\\\n.*\"id\": \"myrtea\"//g' /tmp/schedule_fixed.json)",
       "Bash(sed 's/\"salas\": \\\\[\\\\],\\\\\\(.*\"id\": \"myrtea\"\\\\\\)/\"salas\": [\"SALA 1 Premium\",\"SALA 2 Premium\",\"SALA 3\",\"SALA 4\",\"SALA 5\",\"SALA 6\",\"SALA 7\",\"SALA 8\",\"SALA 9\",\"SALA 10\"],\\\\1/g' /tmp/schedule_fixed.json)",
       "Bash(cp /tmp/schedule_final.json \"c:/Users/trini/Desktop/cines-murcia/cines-murcia/data/schedule.json\" && echo \"Done\" && grep -c '\"sala\": \"SALA' \"c:/Users/trini/Desktop/cines-murcia/cines-murcia/data/schedule.json\")",
-      "Bash(grep -oP '\"urlSlug\":\"\\(422931|422946\\)\",\"auditorium\":\\\\{\"name\":\"[^\"]+\"' /tmp/centrofama_shows.json)"
+      "Bash(grep -oP '\"urlSlug\":\"\\(422931|422946\\)\",\"auditorium\":\\\\{\"name\":\"[^\"]+\"' /tmp/centrofama_shows.json)",
+      "Bash(awk ' *)",
+      "Bash(cp /tmp/resolved.json data/schedule.json)"
     ],
     "additionalDirectories": [
       "\\tmp"
