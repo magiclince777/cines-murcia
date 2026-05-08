@@ -886,7 +886,7 @@ function renderTopBars() {
   // Pestañas de día
   const days = new Set();
   DATA.cinemas.forEach(c => c.sessions.forEach(s => days.add(s.date)));
-  const sortedDays = [...days].sort().filter(d => d >= today());
+  const sortedDays = [...days].sort();
   const dayTabsEl = document.getElementById('day-tabs');
   dayTabsEl.style.display = state.view === 'week' ? 'none' : '';
   dayTabsEl.innerHTML = sortedDays.slice(0,7).map(d => {

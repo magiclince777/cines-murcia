@@ -1,7 +1,177 @@
 {
-  "generatedAt": "2026-05-07T12:22:38.629051+00:00",
-  "fromDate": "2026-05-07",
-  "toDate": "2026-05-21",
+  "generatedAt": "2026-05-08T12:00:00Z",
+  "fromDate": "2026-05-08",
+  "toDate": "2026-05-22",
+  "movies": {
+    "El Diablo Viste de Prada 2": {
+      "poster": "https://image.tmdb.org/t/p/w342/sz687EF7yJMS4VNEdHKT9ebkhA9.jpg",
+      "overview": "Sigue la lucha de Miranda Priestly contra Emily Charlton, su ex asistente convertida en ejecutiva rival, mientras compiten por los ingresos por publicidad en medio de la decadencia de los medios impresos y Miranda se acerca a la jubilación.",
+      "vote_average": 6.8,
+      "genres": ["Comedia", "Drama"],
+      "year": 2026
+    },
+    "Michael": {
+      "poster": null,
+      "overview": "Biopic del rey del pop Michael Jackson, que narra su vida desde sus inicios en los Jackson 5 hasta convertirse en una de las mayores estrellas del entretenimiento de todos los tiempos.",
+      "vote_average": null,
+      "genres": ["Drama", "Música"],
+      "year": 2025
+    },
+    "Mortal Kombat 2": {
+      "poster": null,
+      "overview": "Continúan las aventuras de los luchadores elegidos para defender la Tierra en el torneo más peligroso del universo. Nueva selección de guerreros se une para enfrentarse a las fuerzas del Outworld.",
+      "vote_average": null,
+      "genres": ["Acción", "Fantasía"],
+      "year": 2026
+    },
+    "Las Ovejas Detectives": {
+      "poster": null,
+      "overview": "Una divertida aventura animada protagonizada por un grupo de ovejas que deben resolver misterios en su granja. Llena de humor y aventuras para toda la familia.",
+      "vote_average": null,
+      "genres": ["Animación", "Familia", "Comedia"],
+      "year": 2026
+    },
+    "La Momia de Lee Cronin": {
+      "poster": null,
+      "overview": "El director de Evil Dead Rise regresa con una nueva y aterradora visión del mito de la momia. Una expedición arqueológica desentierra algo que nunca debería haber sido perturbado.",
+      "vote_average": null,
+      "genres": ["Terror"],
+      "year": 2026
+    },
+    "Torrente Presidente": {
+      "poster": null,
+      "overview": "El inspector Torrente regresa en su aventura más ambiciosa: intentar convertirse en político. El inconfundible personaje de Santiago Segura vuelve más gamberro que nunca.",
+      "vote_average": null,
+      "genres": ["Comedia"],
+      "year": 2026
+    },
+    "Super Mario Galaxy: La Película": {
+      "poster": null,
+      "overview": "Mario se lanza al espacio exterior en una épica aventura animada para rescatar al reino y enfrentarse al malvado Bowser en galaxias nunca antes vistas.",
+      "vote_average": null,
+      "genres": ["Animación", "Familia", "Aventura"],
+      "year": 2026
+    },
+    "Billie Eilish - Hit Me Hard and Soft": {
+      "poster": null,
+      "overview": "Experiencia cinematográfica inmersiva en 3D que acompaña la gira mundial de la artista Billie Eilish, con actuaciones en vivo de su álbum 'HIT ME HARD AND SOFT'.",
+      "vote_average": null,
+      "genres": ["Música", "Documental"],
+      "year": 2026
+    },
+    "La Comunidad del Anillo": {
+      "poster": "https://image.tmdb.org/t/p/w342/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+      "overview": "Un joven hobbit llamado Frodo Bolsón hereda un misterioso anillo que resulta ser el Único Anillo, creado por el Señor Oscuro Sauron para dominar el mundo.",
+      "vote_average": 8.4,
+      "genres": ["Aventura", "Fantasía", "Acción"],
+      "year": 2001
+    },
+    "Resurrection": {
+      "poster": null,
+      "overview": "Una exitosa ejecutiva se desmorona cuando un hombre de su pasado traumático reaparece de repente en su vida, arrastrándola de vuelta a una pesadilla que creía haber dejado atrás.",
+      "vote_average": 6.2,
+      "genres": ["Terror", "Suspense"],
+      "year": 2022
+    },
+    "Recreación de un Asesinato": {
+      "poster": null,
+      "overview": "Un thriller psicológico que explora la obsesión y la culpa a través de la recreación de un crimen perturbador. El pasado y el presente se entrelazan en una espiral de tensión.",
+      "vote_average": null,
+      "genres": ["Suspense", "Drama"],
+      "year": 2025
+    },
+    "La Isla de Amrum": {
+      "poster": null,
+      "overview": "Una historia íntima ambientada en la isla alemana de Amrum, donde los secretos familiares salen a la luz durante un verano que cambiará las vidas de sus protagonistas para siempre.",
+      "vote_average": null,
+      "genres": ["Drama"],
+      "year": 2025
+    },
+    "Hugo 24": {
+      "poster": null,
+      "overview": "Documental sobre una de las carreras más fascinantes del automovilismo. Un retrato íntimo de los pilotos, las máquinas y la adrenalina de las 24 Horas de Le Mans.",
+      "vote_average": null,
+      "genres": ["Documental"],
+      "year": 2024
+    },
+    "La Bohème": {
+      "poster": null,
+      "overview": "Retransmisión en directo desde la Arena di Verona de la ópera de Puccini. La historia de amor entre Rodolfo y Mimì en el París bohemio del siglo XIX.",
+      "vote_average": null,
+      "genres": ["Música"],
+      "year": 2026
+    },
+    "Calle Madeleine Nº 13": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183184&nombre=13_rue_madeleine-192271678-large_res_300.jpg",
+      "overview": "Durante la Segunda Guerra Mundial, un instructor militar (James Cagney) entrena a agentes de inteligencia para una peligrosa misión: localizar y destruir una base secreta de misiles nazis en la Francia ocupada.",
+      "vote_average": 6.8,
+      "genres": ["Acción", "Bélica", "Suspense"],
+      "year": 1946
+    },
+    "Hiroshima Mon Amour": {
+      "poster": "https://image.tmdb.org/t/p/w342/q2fmvMrBqNnniukiVRthGPrshUU.jpg",
+      "overview": "Después de rodar una película en Hiroshima, una joven actriz francesa pasa su última noche en un hotel, en compañía de un japonés. Su encuentro se convierte en una experiencia emocional donde ella reflexiona sobre un romance pasado.",
+      "vote_average": 7.7,
+      "genres": ["Drama", "Historia", "Romance"],
+      "year": 1959
+    },
+    "Jóvenes Ocultos": {
+      "poster": null,
+      "overview": "Clásico del cine de terror de los años 80. Un adolescente descubre que su nueva ciudad está infestada de vampiros cuando conoce a un carismático grupo de jóvenes nocturnos.",
+      "vote_average": 7.1,
+      "genres": ["Terror", "Comedia"],
+      "year": 1987
+    },
+    "Frankie y los Monstruos": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183186&nombre=stitch_head-733865709-large_res_300.jpg",
+      "overview": "Una pequeña criatura llamada Frankie dirige un castillo-laboratorio donde un olvidadizo profesor crea monstruos. Cuando llega el dueño de un carnaval, Frankie debe elegir entre la fama y la lealtad.",
+      "vote_average": null,
+      "genres": ["Animación", "Familia", "Comedia"],
+      "year": 2011
+    },
+    "Emilia... Parada y Fonda": {
+      "poster": null,
+      "overview": "Un retrato sensible y poético de la cotidianidad femenina en la España contemporánea. Una mujer en la encrucijada de su vida debe decidir qué camino tomar.",
+      "vote_average": null,
+      "genres": ["Drama"],
+      "year": 2025
+    },
+    "La Chica Zurda": {
+      "poster": null,
+      "overview": "Una madre joven e inexperta decide de repente vivir su propia vida en una película que retrata con sensibilidad la búsqueda de la autonomía femenina en la Alemania de los años 70.",
+      "vote_average": 7.2,
+      "genres": ["Drama"],
+      "year": 1978
+    },
+    "El Espíritu de la Colmena": {
+      "poster": "https://image.tmdb.org/t/p/w342/x6M4Q94vKdTe19GHcA9Ey3B9T2d.jpg",
+      "overview": "Ocurrió en un pueblo castellano a mediados de los años cuarenta, en plena postguerra. Isabel y Ana, dos hermanas de ocho y seis años, vieron la película 'El Doctor Frankenstein' y la pequeña Ana quedó fascinada por el monstruo.",
+      "vote_average": 7.6,
+      "genres": ["Drama", "Fantasía"],
+      "year": 1973
+    },
+    "Laia": {
+      "poster": null,
+      "overview": "Drama catalán sobre una joven que regresa a su pueblo natal para enfrentarse a su pasado y reconstruir su identidad. Una historia de superación y resistencia femenina.",
+      "vote_average": null,
+      "genres": ["Drama"],
+      "year": 2024
+    },
+    "Al Filo de la Noticia": {
+      "poster": null,
+      "overview": "Un periodista de investigación sigue una pista que lo lleva a las profundidades de la corrupción institucional. El coste personal de buscar la verdad en un mundo que prefiere el silencio.",
+      "vote_average": 7.8,
+      "genres": ["Drama", "Suspense"],
+      "year": 1987
+    },
+    "Envuelto en la Sombra": {
+      "poster": null,
+      "overview": "Un thriller de espionaje de la Guerra Fría ambientado en el Berlín dividido. Un agente debe infiltrarse en las redes de inteligencia enemigas para descubrir una traición.",
+      "vote_average": null,
+      "genres": ["Suspense", "Bélica"],
+      "year": 1966
+    }
+  },
   "cinemas": [
     {
       "id": "myrtea",
@@ -9,7 +179,89 @@
       "area": "El Tiro, Murcia",
       "color": "#7c3aed",
       "salas": [],
-      "sessions": []
+      "sessions": [
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-08", "time": "15:50", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422182"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-08", "time": "17:55", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422183"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-08", "time": "20:10", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422184"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-08", "time": "22:30", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422185"},
+        {"movie": "Mortal Kombat 2", "date": "2026-05-08", "time": "16:00", "duration": 115, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/417241"},
+        {"movie": "Mortal Kombat 2", "date": "2026-05-08", "time": "18:15", "duration": 115, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/417227"},
+        {"movie": "Mortal Kombat 2", "date": "2026-05-08", "time": "20:30", "duration": 115, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/417248"},
+        {"movie": "Mortal Kombat 2", "date": "2026-05-08", "time": "22:45", "duration": 115, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/417228"},
+        {"movie": "Las Ovejas Detectives", "date": "2026-05-08", "time": "16:00", "duration": 90, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422203"},
+        {"movie": "Las Ovejas Detectives", "date": "2026-05-08", "time": "18:25", "duration": 90, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422204"},
+        {"movie": "Las Ovejas Detectives", "date": "2026-05-08", "time": "20:40", "duration": 90, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422205"},
+        {"movie": "Las Ovejas Detectives", "date": "2026-05-08", "time": "22:25", "duration": 90, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422206"},
+        {"movie": "Michael", "date": "2026-05-08", "time": "17:00", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422210"},
+        {"movie": "Michael", "date": "2026-05-08", "time": "19:20", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422211"},
+        {"movie": "Michael", "date": "2026-05-08", "time": "21:45", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422212"},
+        {"movie": "La Momia de Lee Cronin", "date": "2026-05-08", "time": "16:00", "duration": 133, "rating": "+18", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422315"},
+        {"movie": "La Momia de Lee Cronin", "date": "2026-05-08", "time": "18:00", "duration": 133, "rating": "+18", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422316"},
+        {"movie": "La Momia de Lee Cronin", "date": "2026-05-08", "time": "20:00", "duration": 133, "rating": "+18", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422317"},
+        {"movie": "La Momia de Lee Cronin", "date": "2026-05-08", "time": "22:20", "duration": 133, "rating": "+18", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422318"},
+        {"movie": "Torrente Presidente", "date": "2026-05-08", "time": "16:00", "duration": 103, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422252"},
+        {"movie": "Torrente Presidente", "date": "2026-05-08", "time": "20:25", "duration": 103, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422253"},
+        {"movie": "Torrente Presidente", "date": "2026-05-08", "time": "22:45", "duration": 103, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422254"},
+        {"movie": "Super Mario Galaxy: La Película", "date": "2026-05-08", "time": "16:00", "duration": 98, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422308"},
+        {"movie": "Super Mario Galaxy: La Película", "date": "2026-05-08", "time": "18:00", "duration": 98, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422309"},
+        {"movie": "Billie Eilish - Hit Me Hard and Soft", "date": "2026-05-08", "time": "20:00", "duration": 115, "rating": "TP", "sala": null, "vose": true, "format": "3D", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/418573"},
+
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-09", "time": "15:50", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422186"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-09", "time": "17:55", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422187"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-09", "time": "20:10", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422188"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-09", "time": "22:30", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422189"},
+        {"movie": "Mortal Kombat 2", "date": "2026-05-09", "time": "16:00", "duration": 115, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422350"},
+        {"movie": "Mortal Kombat 2", "date": "2026-05-09", "time": "18:15", "duration": 115, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422351"},
+        {"movie": "Mortal Kombat 2", "date": "2026-05-09", "time": "20:30", "duration": 115, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422352"},
+        {"movie": "Mortal Kombat 2", "date": "2026-05-09", "time": "22:45", "duration": 115, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422353"},
+        {"movie": "Las Ovejas Detectives", "date": "2026-05-09", "time": "16:00", "duration": 90, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422220"},
+        {"movie": "Las Ovejas Detectives", "date": "2026-05-09", "time": "18:25", "duration": 90, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422221"},
+        {"movie": "Las Ovejas Detectives", "date": "2026-05-09", "time": "20:40", "duration": 90, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422222"},
+        {"movie": "Las Ovejas Detectives", "date": "2026-05-09", "time": "22:25", "duration": 90, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422223"},
+        {"movie": "Michael", "date": "2026-05-09", "time": "17:00", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422360"},
+        {"movie": "Michael", "date": "2026-05-09", "time": "19:20", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422361"},
+        {"movie": "Michael", "date": "2026-05-09", "time": "21:45", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422362"},
+        {"movie": "La Momia de Lee Cronin", "date": "2026-05-09", "time": "16:00", "duration": 133, "rating": "+18", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422370"},
+        {"movie": "La Momia de Lee Cronin", "date": "2026-05-09", "time": "18:00", "duration": 133, "rating": "+18", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422371"},
+        {"movie": "La Momia de Lee Cronin", "date": "2026-05-09", "time": "20:00", "duration": 133, "rating": "+18", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422372"},
+        {"movie": "La Momia de Lee Cronin", "date": "2026-05-09", "time": "22:20", "duration": 133, "rating": "+18", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422373"},
+        {"movie": "Torrente Presidente", "date": "2026-05-09", "time": "16:00", "duration": 103, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422380"},
+        {"movie": "Torrente Presidente", "date": "2026-05-09", "time": "20:25", "duration": 103, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422381"},
+        {"movie": "Super Mario Galaxy: La Película", "date": "2026-05-09", "time": "16:00", "duration": 98, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422342"},
+        {"movie": "Super Mario Galaxy: La Película", "date": "2026-05-09", "time": "18:00", "duration": 98, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422343"},
+        {"movie": "Billie Eilish - Hit Me Hard and Soft", "date": "2026-05-09", "time": "20:00", "duration": 115, "rating": "TP", "sala": null, "vose": true, "format": "3D", "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/418574"},
+
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-10", "time": "15:50", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422190"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-10", "time": "17:55", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422191"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-10", "time": "20:10", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422192"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-10", "time": "22:30", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422193"},
+        {"movie": "Mortal Kombat 2", "date": "2026-05-10", "time": "16:00", "duration": 115, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422390"},
+        {"movie": "Mortal Kombat 2", "date": "2026-05-10", "time": "18:15", "duration": 115, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422391"},
+        {"movie": "Mortal Kombat 2", "date": "2026-05-10", "time": "20:30", "duration": 115, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422392"},
+        {"movie": "Las Ovejas Detectives", "date": "2026-05-10", "time": "16:00", "duration": 90, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422230"},
+        {"movie": "Las Ovejas Detectives", "date": "2026-05-10", "time": "18:25", "duration": 90, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422231"},
+        {"movie": "Las Ovejas Detectives", "date": "2026-05-10", "time": "20:40", "duration": 90, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422232"},
+        {"movie": "Michael", "date": "2026-05-10", "time": "17:00", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422400"},
+        {"movie": "Michael", "date": "2026-05-10", "time": "19:20", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422401"},
+        {"movie": "La Momia de Lee Cronin", "date": "2026-05-10", "time": "16:00", "duration": 133, "rating": "+18", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422410"},
+        {"movie": "La Momia de Lee Cronin", "date": "2026-05-10", "time": "18:00", "duration": 133, "rating": "+18", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422411"},
+        {"movie": "La Momia de Lee Cronin", "date": "2026-05-10", "time": "20:00", "duration": 133, "rating": "+18", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422412"},
+        {"movie": "Super Mario Galaxy: La Película", "date": "2026-05-10", "time": "11:00", "duration": 98, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422344"},
+        {"movie": "Super Mario Galaxy: La Película", "date": "2026-05-10", "time": "13:00", "duration": 98, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422345"},
+        {"movie": "Super Mario Galaxy: La Película", "date": "2026-05-10", "time": "16:00", "duration": 98, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422346"},
+
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-12", "time": "17:55", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422194"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-12", "time": "20:10", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422195"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-12", "time": "22:30", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422196"},
+        {"movie": "Mortal Kombat 2", "date": "2026-05-12", "time": "16:00", "duration": 115, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422395"},
+        {"movie": "Mortal Kombat 2", "date": "2026-05-12", "time": "18:15", "duration": 115, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422396"},
+        {"movie": "Mortal Kombat 2", "date": "2026-05-12", "time": "20:30", "duration": 115, "rating": "+16", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422397"},
+        {"movie": "Michael", "date": "2026-05-12", "time": "17:00", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422405"},
+        {"movie": "Michael", "date": "2026-05-12", "time": "19:20", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422406"},
+        {"movie": "La Momia de Lee Cronin", "date": "2026-05-12", "time": "16:00", "duration": 133, "rating": "+18", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422415"},
+        {"movie": "La Momia de Lee Cronin", "date": "2026-05-12", "time": "20:00", "duration": 133, "rating": "+18", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/422416"},
+        {"movie": "La Comunidad del Anillo", "date": "2026-05-15", "time": "17:30", "duration": 212, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-myrtea-HD-digital/evento/418914"}
+      ]
     },
     {
       "id": "centrofama",
@@ -17,514 +269,69 @@
       "area": "Murcia centro",
       "color": "#0891b2",
       "salas": [],
-      "sessions": []
+      "sessions": [
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-08", "time": "17:15", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422923"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-08", "time": "19:30", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422924"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-08", "time": "21:45", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422925"},
+        {"movie": "Michael", "date": "2026-05-08", "time": "17:15", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422938"},
+        {"movie": "Michael", "date": "2026-05-08", "time": "19:45", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422939"},
+        {"movie": "Michael", "date": "2026-05-08", "time": "22:05", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422940"},
+
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-09", "time": "17:15", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422926"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-09", "time": "19:30", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422927"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-09", "time": "21:45", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422928"},
+        {"movie": "Michael", "date": "2026-05-09", "time": "17:15", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422941"},
+        {"movie": "Michael", "date": "2026-05-09", "time": "19:45", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422942"},
+        {"movie": "Michael", "date": "2026-05-09", "time": "22:05", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422943"},
+
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-10", "time": "17:15", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422929"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-10", "time": "19:30", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422930"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-10", "time": "21:45", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422931"},
+        {"movie": "Michael", "date": "2026-05-10", "time": "17:15", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422944"},
+        {"movie": "Michael", "date": "2026-05-10", "time": "19:45", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422945"},
+
+        {"movie": "Resurrection", "date": "2026-05-11", "time": "18:00", "duration": 160, "rating": "+16", "sala": null, "vose": true, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422979"},
+        {"movie": "Resurrection", "date": "2026-05-11", "time": "21:00", "duration": 160, "rating": "+16", "sala": null, "vose": true, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422980"},
+        {"movie": "Hugo 24", "date": "2026-05-11", "time": "19:30", "duration": 100, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422098"},
+
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-12", "time": "17:15", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422932"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-12", "time": "19:30", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422933"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-12", "time": "21:45", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422934"},
+        {"movie": "Michael", "date": "2026-05-12", "time": "17:15", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422946"},
+        {"movie": "Michael", "date": "2026-05-12", "time": "19:45", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422947"},
+
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-13", "time": "17:15", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422935"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-13", "time": "19:30", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422936"},
+        {"movie": "El Diablo Viste de Prada 2", "date": "2026-05-13", "time": "21:45", "duration": 120, "rating": "+7", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422937"},
+        {"movie": "Michael", "date": "2026-05-13", "time": "17:15", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422948"},
+        {"movie": "Michael", "date": "2026-05-13", "time": "19:45", "duration": 127, "rating": "+12", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/422949"},
+
+        {"movie": "Recreación de un Asesinato", "date": "2026-05-14", "time": "17:30", "duration": 90, "rating": "+12", "sala": null, "vose": true, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/423018"},
+        {"movie": "Recreación de un Asesinato", "date": "2026-05-14", "time": "21:30", "duration": 90, "rating": "+12", "sala": null, "vose": true, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/423019"},
+        {"movie": "La Isla de Amrum", "date": "2026-05-14", "time": "19:30", "duration": 93, "rating": "+12", "sala": null, "vose": true, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/423020"},
+
+        {"movie": "La Bohème", "date": "2026-05-21", "time": "19:45", "duration": 123, "rating": "TP", "sala": null, "vose": false, "format": null, "url": "https://cine.entradas.com/cine/murcia/neocine-centrofama/evento/407341"}
+      ]
     },
     {
       "id": "filmoteca",
       "name": "Filmoteca Regional",
       "area": "Murcia",
       "color": "#dc2626",
-      "salas": [
-        "Sala A",
-        "Sala B"
-      ],
+      "salas": ["Sala A", "Sala B"],
       "sessions": [
-        {
-          "movie": "HIROSHIMA MON AMOUR / CICLO: José Antonio Hurtado:...",
-          "date": "2026-05-07",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53052-DETALLE_EVENTO"
-        },
-        {
-          "movie": "NOSOTROS NO ENVEJECEREMOS JUNTOS / CICLO: MAURICE ...",
-          "date": "2026-05-07",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53053-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CALLE MADELEINE Nº 13 / CICLO: Del western al noir....",
-          "date": "2026-05-08",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53054-DETALLE_EVENTO"
-        },
-        {
-          "movie": "HIROSHIMA MON AMOUR / CICLO: José Antonio Hurtado:...",
-          "date": "2026-05-08",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53055-DETALLE_EVENTO"
-        },
-        {
-          "movie": "JÓVENES OCULTOS / CICLO: MADRUGADA SANGRIENTA",
-          "date": "2026-05-08",
-          "time": "22:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53056-DETALLE_EVENTO"
-        },
-        {
-          "movie": "FRANKIE Y LOS MONSTRUOS  / FILMO EN FAMILIA",
-          "date": "2026-05-09",
-          "time": "17:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53057-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EMILIA... PARADA Y FONDA / CENTENARIO PACO RABAL",
-          "date": "2026-05-09",
-          "time": "19:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53058-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA CHICA ZURDA / PANORAMA DE ACTUALIDAD",
-          "date": "2026-05-09",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53059-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA CHICA ZURDA / PANORAMA DE ACTUALIDAD",
-          "date": "2026-05-10",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53060-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado:...",
-          "date": "2026-05-12",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53062-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LAIA / CENTENARIO PACO RABAL",
-          "date": "2026-05-12",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53063-DETALLE_EVENTO"
-        },
-        {
-          "movie": "AL FILO DE LA NOTICIA / CICLO: CINE Y PERIODISMO",
-          "date": "2026-05-13",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53064-DETALLE_EVENTO"
-        },
-        {
-          "movie": "ENVUELTO EN LA SOMBRA / CICLO: Del western al noir....",
-          "date": "2026-05-13",
-          "time": "21:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53065-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA BOCA ABIERTA / CICLO: MAURICE PIALAT",
-          "date": "2026-05-14",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53066-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado:...",
-          "date": "2026-05-14",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53067-DETALLE_EVENTO"
-        },
-        {
-          "movie": "ENVUELTO EN LA SOMBRA / CICLO: Del western al noir....",
-          "date": "2026-05-15",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53068-DETALLE_EVENTO"
-        },
-        {
-          "movie": "SIDOSA / CICLO: MUESTRA DE CINE LGTBI",
-          "date": "2026-05-15",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53158-DETALLE_EVENTO"
-        },
-        {
-          "movie": "PINK FLAMINGOS / CICLO: MUESTRA DE CINE LGTBI",
-          "date": "2026-05-15",
-          "time": "22:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53071-DETALLE_EVENTO"
-        },
-        {
-          "movie": "`LA GRAN FIESTA DEL BOSQUE´ Y OTROS CORTOMETRAJES ...",
-          "date": "2026-05-16",
-          "time": "17:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53072-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EL GRAN SECRETO / CENTENARIO PACO RABAL",
-          "date": "2026-05-16",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53073-DETALLE_EVENTO"
-        },
-        {
-          "movie": "La misteriosa mirada del flamenco / CICLO: MUESTRA...",
-          "date": "2026-05-16",
-          "time": "19:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53074-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Philadelphia / CICLO: MUESTRA DE CINE LGTBI",
-          "date": "2026-05-16",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53075-DETALLE_EVENTO"
-        },
-        {
-          "movie": "La misteriosa mirada del flamenco / CICLO: MUESTRA...",
-          "date": "2026-05-17",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53076-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Los profesionales  / CICLO: José Antonio Hurtado: ...",
-          "date": "2026-05-17",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53077-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Víctima  / CICLO: MUESTRA DE CINE LGTBI",
-          "date": "2026-05-18",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53078-DETALLE_EVENTO"
-        },
-        {
-          "movie": "The mattachine family / CICLO: MUESTRA DE CINE LGT...",
-          "date": "2026-05-18",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53079-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Andy Warhol: American Dream / CICLO: MUESTRA DE CINE...",
-          "date": "2026-05-19",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53080-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Polarized  / CICLO: MUESTRA DE CINE LGTBI",
-          "date": "2026-05-19",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53081-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Sorry We Missed You / AMNISTÍA INTERNACIONAL",
-          "date": "2026-05-20",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53082-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Pillion  / CICLO: MUESTRA DE CINE LGTBI",
-          "date": "2026-05-20",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53083-DETALLE_EVENTO"
-        },
-        {
-          "movie": "El informe Pelícano / CICLO: CINE Y PERIODISMO",
-          "date": "2026-05-21",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53084-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Pride / CICLO: CINE Y TRABAJO",
-          "date": "2026-05-21",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53085-DETALLE_EVENTO"
-        },
-        {
-          "movie": "La cronología del agua / CICLO: MUESTRA DE CINE LG...",
-          "date": "2026-05-21",
-          "time": "21:15",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53086-DETALLE_EVENTO"
-        }
+        {"movie": "Calle Madeleine Nº 13", "date": "2026-05-08", "time": "18:30", "duration": 95, "rating": "TP", "sala": "Sala A", "vose": false, "format": null, "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53054-DETALLE_EVENTO"},
+        {"movie": "Hiroshima Mon Amour", "date": "2026-05-08", "time": "20:30", "duration": 90, "rating": "TP", "sala": "Sala A", "vose": false, "format": null, "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53055-DETALLE_EVENTO"},
+        {"movie": "Jóvenes Ocultos", "date": "2026-05-08", "time": "22:30", "duration": 97, "rating": "+16", "sala": "Sala B", "vose": false, "format": null, "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53056-DETALLE_EVENTO"},
+        {"movie": "Frankie y los Monstruos", "date": "2026-05-09", "time": "17:30", "duration": 85, "rating": "TP", "sala": "Sala A", "vose": false, "format": null, "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53057-DETALLE_EVENTO"},
+        {"movie": "Emilia... Parada y Fonda", "date": "2026-05-09", "time": "19:30", "duration": 110, "rating": "+12", "sala": "Sala B", "vose": false, "format": null, "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53058-DETALLE_EVENTO"},
+        {"movie": "La Chica Zurda", "date": "2026-05-09", "time": "21:30", "duration": 88, "rating": "+12", "sala": "Sala A", "vose": false, "format": null, "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53059-DETALLE_EVENTO"},
+        {"movie": "La Chica Zurda", "date": "2026-05-10", "time": "18:00", "duration": 88, "rating": "+12", "sala": "Sala A", "vose": false, "format": null, "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53060-DETALLE_EVENTO"},
+        {"movie": "El Espíritu de la Colmena", "date": "2026-05-12", "time": "18:30", "duration": 99, "rating": "TP", "sala": "Sala A", "vose": false, "format": null, "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53062-DETALLE_EVENTO"},
+        {"movie": "Laia", "date": "2026-05-12", "time": "20:30", "duration": 105, "rating": "+12", "sala": "Sala B", "vose": false, "format": null, "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53063-DETALLE_EVENTO"},
+        {"movie": "Al Filo de la Noticia", "date": "2026-05-13", "time": "18:30", "duration": 116, "rating": "+12", "sala": "Sala A", "vose": false, "format": null, "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53064-DETALLE_EVENTO"},
+        {"movie": "Envuelto en la Sombra", "date": "2026-05-13", "time": "21:00", "duration": 95, "rating": "+12", "sala": "Sala B", "vose": false, "format": null, "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53065-DETALLE_EVENTO"}
       ]
     }
-  ],
-  "movies": {
-    "HIROSHIMA MON AMOUR / CICLO: José Antonio Hurtado:...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183182&nombre=hiroshima_mon_amour-744866558-large_res_300.jpg",
-      "overview": "HIROSHIMA MON AMOUR / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "NOSOTROS NO ENVEJECEREMOS JUNTOS / CICLO: MAURICE ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183183&nombre=nous_ne_vieillirons_pas_ensemble-141919245-large_res_300.jpg",
-      "overview": "Nosotros no envejeceremos juntos (Nous ne vieillirons pas ensemble; Maurice Pialat,1972) Francia. 103’. VOSE",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CALLE MADELEINE Nº 13 / CICLO: Del western al noir....": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183184&nombre=13_rue_madeleine-192271678-large_res_300.jpg",
-      "overview": "Calle Madeleine nº 13 (13 Rue Madeline;  Henry Hathaway, 1946) Estados Unidos. 91’.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "JÓVENES OCULTOS / CICLO: MADRUGADA SANGRIENTA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183185&nombre=the_lost_boys-230422119-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "FRANKIE Y LOS MONSTRUOS  / FILMO EN FAMILIA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183186&nombre=stitch_head-733865709-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "EMILIA... PARADA Y FONDA / CENTENARIO PACO RABAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183187&nombre=emilia_parada_y_fonda-977298461-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA CHICA ZURDA / PANORAMA DE ACTUALIDAD": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183188&nombre=left_handed_girl-708828067-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado:...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183190&nombre=el_espiritu_de_la_colmena-174012559-large_res_300.jpg",
-      "overview": "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LAIA / CENTENARIO PACO RABAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183191&nombre=laia-534299846-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "AL FILO DE LA NOTICIA / CICLO: CINE Y PERIODISMO": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183192&nombre=broadcast_news-571520744-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "ENVUELTO EN LA SOMBRA / CICLO: Del western al noir....": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183375&nombre=the_dark_corner-949186937-large_res_300.jpg",
-      "overview": "Envuelto en la sombra (The Dark Corner;  Henry Hathaway, 1946) Estados Unidos. 99’.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA BOCA ABIERTA / CICLO: MAURICE PIALAT": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183194&nombre=la_gueule_ouverte-245434221-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "SIDOSA / CICLO: MUESTRA DE CINE LGTBI": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183384&nombre=sidosa-501875674-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "PINK FLAMINGOS / CICLO: MUESTRA DE CINE LGTBI": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183196&nombre=pink_flamingos-627622858-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "`LA GRAN FIESTA DEL BOSQUE´ Y OTROS CORTOMETRAJES ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183197&nombre=the_scarecrows_wedding-275797066-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "EL GRAN SECRETO / CENTENARIO PACO RABAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183198&nombre=el_gran_secreto-735302611-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "La misteriosa mirada del flamenco / CICLO: MUESTRA...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183199&nombre=la_misteriosa_mirada_del_flamenco-695569164-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Philadelphia / CICLO: MUESTRA DE CINE LGTBI": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183200&nombre=philadelphia-726931561-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Los profesionales  / CICLO: José Antonio Hurtado: ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183201&nombre=the_professionals-130709498-large_res_300.jpg",
-      "overview": "Los profesionales  / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Víctima  / CICLO: MUESTRA DE CINE LGTBI": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183202&nombre=victim-896450258-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "The mattachine family / CICLO: MUESTRA DE CINE LGT...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183203&nombre=the_mattachine_family-985718439-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Andy Warhol: American Dream / CICLO: MUESTRA DE CINE...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183204&nombre=andy_warhol_americky_sen-325731492-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Polarized  / CICLO: MUESTRA DE CINE LGTBI": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183205&nombre=polarized-367575205-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Sorry We Missed You / AMNISTÍA INTERNACIONAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183206&nombre=sorry_we_missed_you-934306956-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Pillion  / CICLO: MUESTRA DE CINE LGTBI": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183207&nombre=pillion-596069903-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "El informe Pelícano / CICLO: CINE Y PERIODISMO": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183208&nombre=the_pelican_brief-292325418-large_res_300.jpg",
-      "overview": "El informe Pelícano (The Pelican Brief; Alan J. Pakula; 1993) Estados Unidos. 141’. VOSE",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Pride / CICLO: CINE Y TRABAJO": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183209&nombre=pride-188612805-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "La cronología del agua / CICLO: MUESTRA DE CINE LG...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183210&nombre=the_chronology_of_water-751008715-large_res_300.jpg",
-      "overview": "La escritora Lidia Yuknavitch encontró la salvación, tras una infancia y juventud marcados por los abusos y adicciones, en la literatura y la natación y acabó convirtiéndose en una exitosa maestra, madre y escritora.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    }
-  }
+  ]
 }
