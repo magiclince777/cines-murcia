@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-09T10:16:45.637336+00:00",
-  "fromDate": "2026-05-09",
-  "toDate": "2026-05-23",
+  "generatedAt": "2026-05-10T10:47:00.027861+00:00",
+  "fromDate": "2026-05-10",
+  "toDate": "2026-05-24",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,33 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "FRANKIE Y LOS MONSTRUOS  / FILMO EN FAMILIA",
-          "date": "2026-05-09",
-          "time": "17:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53057-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EMILIA... PARADA Y FONDA / CENTENARIO PACO RABAL",
-          "date": "2026-05-09",
-          "time": "19:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53058-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA CHICA ZURDA / PANORAMA DE ACTUALIDAD",
-          "date": "2026-05-09",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53059-DETALLE_EVENTO"
-        },
         {
           "movie": "LA CHICA ZURDA / PANORAMA DE ACTUALIDAD",
           "date": "2026-05-10",
@@ -307,25 +280,20 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53088-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Andy Warhol: American Dream / CICLO: MUESTRA DE CINE...",
+          "date": "2026-05-24",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53089-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "FRANKIE Y LOS MONSTRUOS  / FILMO EN FAMILIA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183186&nombre=stitch_head-733865709-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "EMILIA... PARADA Y FONDA / CENTENARIO PACO RABAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183187&nombre=emilia_parada_y_fonda-977298461-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "LA CHICA ZURDA / PANORAMA DE ACTUALIDAD": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183188&nombre=left_handed_girl-708828067-large_res_300.jpg",
       "overview": null,
