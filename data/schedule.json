@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-10T10:47:00.027861+00:00",
-  "fromDate": "2026-05-10",
-  "toDate": "2026-05-24",
+  "generatedAt": "2026-05-11T16:19:37.132410+00:00",
+  "fromDate": "2026-05-11",
+  "toDate": "2026-05-25",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,15 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "LA CHICA ZURDA / PANORAMA DE ACTUALIDAD",
-          "date": "2026-05-10",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53060-DETALLE_EVENTO"
-        },
         {
           "movie": "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado:...",
           "date": "2026-05-12",
@@ -294,13 +285,6 @@
     }
   ],
   "movies": {
-    "LA CHICA ZURDA / PANORAMA DE ACTUALIDAD": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183188&nombre=left_handed_girl-708828067-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado:...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183190&nombre=el_espiritu_de_la_colmena-174012559-large_res_300.jpg",
       "overview": "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
