@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-11T16:19:37.132410+00:00",
-  "fromDate": "2026-05-11",
-  "toDate": "2026-05-25",
+  "generatedAt": "2026-05-12T13:22:45.330241+00:00",
+  "fromDate": "2026-05-12",
+  "toDate": "2026-05-26",
   "cinemas": [
     {
       "id": "myrtea",
@@ -111,7 +111,7 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53071-DETALLE_EVENTO"
         },
         {
-          "movie": "`LA GRAN FIESTA DEL BOSQUE´ Y OTROS CORTOMETRAJES ...",
+          "movie": "`LA BODA DEL ESPANTAPÁJAROS´ Y OTROS CORTOMETRAJES...",
           "date": "2026-05-16",
           "time": "17:30",
           "duration": null,
@@ -280,6 +280,33 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53089-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Tanzträume / PANTALLA EN DANZA",
+          "date": "2026-05-26",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-52633-DETALLE_EVENTO"
+        },
+        {
+          "movie": "El beso de la muerte / CICLO: Del western al noir....",
+          "date": "2026-05-26",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53091-DETALLE_EVENTO"
+        },
+        {
+          "movie": "A nuestros amores / CICLO: MAURICE PIALAT",
+          "date": "2026-05-26",
+          "time": "21:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53092-DETALLE_EVENTO"
         }
       ]
     }
@@ -334,7 +361,7 @@
       "genres": [],
       "year": null
     },
-    "`LA GRAN FIESTA DEL BOSQUE´ Y OTROS CORTOMETRAJES ...": {
+    "`LA BODA DEL ESPANTAPÁJAROS´ Y OTROS CORTOMETRAJES...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183197&nombre=the_scarecrows_wedding-275797066-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
@@ -448,6 +475,27 @@
     },
     "Memorias del Ángel caído / CICLO: ÓPERA PRIMA. EL ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183212&nombre=memorias_del_angel_caido-662647678-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Tanzträume / PANTALLA EN DANZA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_182470&nombre=tanztraume-159404169-mmed_res_300.jpg",
+      "overview": "En 2008, Pina Bausch, pocos meses antes de su muerte, decide reanudar su famoso espectáculo Kontakthof, contratando adolescentes de 14 a 18 años que nunca han estudiado ballet ni se han subido a un escenario.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "El beso de la muerte / CICLO: Del western al noir....": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183215&nombre=kiss_of_death-489864466-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "A nuestros amores / CICLO: MAURICE PIALAT": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183216&nombre=a_nos_amours-410695679-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
