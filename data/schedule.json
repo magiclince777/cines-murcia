@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-12T13:22:45.330241+00:00",
-  "fromDate": "2026-05-12",
-  "toDate": "2026-05-26",
+  "generatedAt": "2026-05-13T16:08:08.180582+00:00",
+  "fromDate": "2026-05-13",
+  "toDate": "2026-05-27",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,24 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado:...",
-          "date": "2026-05-12",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53062-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LAIA / CENTENARIO PACO RABAL",
-          "date": "2026-05-12",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53063-DETALLE_EVENTO"
-        },
         {
           "movie": "AL FILO DE LA NOTICIA / CICLO: CINE Y PERIODISMO",
           "date": "2026-05-13",
@@ -307,25 +289,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53092-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Scoop  / CICLO: CINE Y PERIODISMO",
+          "date": "2026-05-27",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53093-DETALLE_EVENTO"
+        },
+        {
+          "movie": "No estás sola: La lucha contra la Manada / CICLO: ...",
+          "date": "2026-05-27",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53094-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Il pleut sur Ouaga -  Bablinga / CICLO: BURKINA FASO....",
+          "date": "2026-05-27",
+          "time": "20:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53095-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado:...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183190&nombre=el_espiritu_de_la_colmena-174012559-large_res_300.jpg",
-      "overview": "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LAIA / CENTENARIO PACO RABAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183191&nombre=laia-534299846-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "AL FILO DE LA NOTICIA / CICLO: CINE Y PERIODISMO": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183192&nombre=broadcast_news-571520744-large_res_300.jpg",
       "overview": null,
@@ -343,6 +338,13 @@
     "LA BOCA ABIERTA / CICLO: MAURICE PIALAT": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183194&nombre=la_gueule_ouverte-245434221-large_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado:...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183190&nombre=el_espiritu_de_la_colmena-174012559-large_res_300.jpg",
+      "overview": "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
       "vote_average": null,
       "genres": [],
       "year": null
@@ -497,6 +499,27 @@
     "A nuestros amores / CICLO: MAURICE PIALAT": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183216&nombre=a_nos_amours-410695679-large_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Scoop  / CICLO: CINE Y PERIODISMO": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183217&nombre=scoop-962656700-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "No estás sola: La lucha contra la Manada / CICLO: ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183218&nombre=no_estas_sola_la_lucha_contra_la_manada-687691426-large_res_300.jpg",
+      "overview": "No estás sola: La lucha contra la Manada (Almudena Carracedo, 2024) España. 101’.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Il pleut sur Ouaga -  Bablinga / CICLO: BURKINA FASO....": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183219&nombre=il_pleut_sur_ouaga-170192224-large_res_300.jpg",
+      "overview": "Moktar, tras años con su bar, decide cerrarlo y volver a casa, pero la duda y los fantasmas del pasado lo invaden.",
       "vote_average": null,
       "genres": [],
       "year": null
