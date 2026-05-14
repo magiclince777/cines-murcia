@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-13T16:08:08.180582+00:00",
-  "fromDate": "2026-05-13",
-  "toDate": "2026-05-27",
+  "generatedAt": "2026-05-14T12:19:08.047332+00:00",
+  "fromDate": "2026-05-14",
+  "toDate": "2026-05-28",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,24 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "AL FILO DE LA NOTICIA / CICLO: CINE Y PERIODISMO",
-          "date": "2026-05-13",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53064-DETALLE_EVENTO"
-        },
-        {
-          "movie": "ENVUELTO EN LA SOMBRA / CICLO: Del western al noir....",
-          "date": "2026-05-13",
-          "time": "21:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53065-DETALLE_EVENTO"
-        },
         {
           "movie": "LA BOCA ABIERTA / CICLO: MAURICE PIALAT",
           "date": "2026-05-14",
@@ -228,6 +210,15 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53086-DETALLE_EVENTO"
         },
         {
+          "movie": "DINOSAURIOS - FILMO EN FAMILIA",
+          "date": "2026-05-23",
+          "time": "17:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53199-DETALLE_EVENTO"
+        },
+        {
           "movie": "La colmena / CENTENARIO PACO RABAL",
           "date": "2026-05-23",
           "time": "19:30",
@@ -316,25 +307,20 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53095-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Subsuelo   / LA SALA DE LOS CINEASTAS",
+          "date": "2026-05-28",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53096-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "AL FILO DE LA NOTICIA / CICLO: CINE Y PERIODISMO": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183192&nombre=broadcast_news-571520744-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "ENVUELTO EN LA SOMBRA / CICLO: Del western al noir....": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183375&nombre=the_dark_corner-949186937-large_res_300.jpg",
-      "overview": "Envuelto en la sombra (The Dark Corner;  Henry Hathaway, 1946) Estados Unidos. 99’.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "LA BOCA ABIERTA / CICLO: MAURICE PIALAT": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183194&nombre=la_gueule_ouverte-245434221-large_res_300.jpg",
       "overview": null,
@@ -345,6 +331,13 @@
     "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado:...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183190&nombre=el_espiritu_de_la_colmena-174012559-large_res_300.jpg",
       "overview": "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ENVUELTO EN LA SOMBRA / CICLO: Del western al noir....": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183375&nombre=the_dark_corner-949186937-large_res_300.jpg",
+      "overview": "Un detective privado, que casi vive en la miseria, descubre un día que lo están siguiendo. Tras acorralar a su perseguidor, averigua que actúa a las órdenes de un antiguo socio con el que acabó enemistado. Poco después se ve envuelto en un calculado plan de asesinato.",
       "vote_average": null,
       "genres": [],
       "year": null
@@ -461,6 +454,13 @@
       "genres": [],
       "year": null
     },
+    "DINOSAURIOS - FILMO EN FAMILIA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183463&nombre=dino_time-296187219-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
     "La colmena / CENTENARIO PACO RABAL": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183211&nombre=la_colmena-735462330-large_res_300.jpg",
       "overview": null,
@@ -520,6 +520,13 @@
     "Il pleut sur Ouaga -  Bablinga / CICLO: BURKINA FASO....": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183219&nombre=il_pleut_sur_ouaga-170192224-large_res_300.jpg",
       "overview": "Moktar, tras años con su bar, decide cerrarlo y volver a casa, pero la duda y los fantasmas del pasado lo invaden.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Subsuelo   / LA SALA DE LOS CINEASTAS": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183220&nombre=subsuelo-232153408-mmed_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
