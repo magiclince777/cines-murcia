@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-14T12:19:08.047332+00:00",
-  "fromDate": "2026-05-14",
-  "toDate": "2026-05-28",
+  "generatedAt": "2026-05-15T12:26:27.112577+00:00",
+  "fromDate": "2026-05-15",
+  "toDate": "2026-05-29",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,24 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "LA BOCA ABIERTA / CICLO: MAURICE PIALAT",
-          "date": "2026-05-14",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53066-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado:...",
-          "date": "2026-05-14",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53067-DETALLE_EVENTO"
-        },
         {
           "movie": "ENVUELTO EN LA SOMBRA / CICLO: Del western al noir....",
           "date": "2026-05-15",
@@ -228,15 +210,6 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53087-DETALLE_EVENTO"
         },
         {
-          "movie": "Primero aprueba el Bachillerato / CICLO: MAURICE P...",
-          "date": "2026-05-23",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53090-DETALLE_EVENTO"
-        },
-        {
           "movie": "Memorias del Ángel caído / CICLO: ÓPERA PRIMA. EL ...",
           "date": "2026-05-23",
           "time": "21:30",
@@ -253,6 +226,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53089-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Primero aprueba el Bachillerato / CICLO: MAURICE P...",
+          "date": "2026-05-24",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53090-DETALLE_EVENTO"
         },
         {
           "movie": "Tanzträume / PANTALLA EN DANZA",
@@ -287,7 +269,7 @@
           "time": "18:30",
           "duration": null,
           "rating": "?",
-          "sala": "Sala B",
+          "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53093-DETALLE_EVENTO"
         },
         {
@@ -316,25 +298,38 @@
           "rating": "?",
           "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53096-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Loulou  / CICLO: MAURICE PIALAT",
+          "date": "2026-05-29",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53097-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Paris, Texas  / CICLO: José Antonio Hurtado: Memoria...",
+          "date": "2026-05-29",
+          "time": "20:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53098-DETALLE_EVENTO"
+        },
+        {
+          "movie": "El terror llama a su puerta / CICLO: MADRUGADA SAN...",
+          "date": "2026-05-29",
+          "time": "23:15",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53099-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "LA BOCA ABIERTA / CICLO: MAURICE PIALAT": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183194&nombre=la_gueule_ouverte-245434221-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado:...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183190&nombre=el_espiritu_de_la_colmena-174012559-large_res_300.jpg",
-      "overview": "EL ESPÍRITU DE LA COLMENA / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "ENVUELTO EN LA SOMBRA / CICLO: Del western al noir....": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183375&nombre=the_dark_corner-949186937-large_res_300.jpg",
       "overview": "Un detective privado, que casi vive en la miseria, descubre un día que lo están siguiendo. Tras acorralar a su perseguidor, averigua que actúa a las órdenes de un antiguo socio con el que acabó enemistado. Poco después se ve envuelto en un calculado plan de asesinato.",
@@ -468,16 +463,16 @@
       "genres": [],
       "year": null
     },
-    "Primero aprueba el Bachillerato / CICLO: MAURICE P...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183213&nombre=passe_ton_bac_d_abord-704474962-mmed_res_300.jpg",
-      "overview": "Primero aprueba el Bachillerato (Passe ton bac d’abord; Maurice Pialat,1978) Francia. 86’. VOSE",
+    "Memorias del Ángel caído / CICLO: ÓPERA PRIMA. EL ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183212&nombre=memorias_del_angel_caido-662647678-large_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
     },
-    "Memorias del Ángel caído / CICLO: ÓPERA PRIMA. EL ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183212&nombre=memorias_del_angel_caido-662647678-large_res_300.jpg",
-      "overview": null,
+    "Primero aprueba el Bachillerato / CICLO: MAURICE P...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183213&nombre=passe_ton_bac_d_abord-704474962-mmed_res_300.jpg",
+      "overview": "Primero aprueba el Bachillerato (Passe ton bac d’abord; Maurice Pialat,1978) Francia. 86’. VOSE",
       "vote_average": null,
       "genres": [],
       "year": null
@@ -527,6 +522,27 @@
     "Subsuelo   / LA SALA DE LOS CINEASTAS": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183220&nombre=subsuelo-232153408-mmed_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Loulou  / CICLO: MAURICE PIALAT": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183221&nombre=loulou-374710303-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Paris, Texas  / CICLO: José Antonio Hurtado: Memoria...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183222&nombre=paris_texas-661284170-mmed_res_300.jpg",
+      "overview": "Paris, Texas  / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "El terror llama a su puerta / CICLO: MADRUGADA SAN...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183223&nombre=night_of_the_creeps-724598219-large_res_300.jpg",
+      "overview": "El terror llama a su puerta (Night of the creeps; Fred Dekker,1986) Estados Unidos. 88’.",
       "vote_average": null,
       "genres": [],
       "year": null
