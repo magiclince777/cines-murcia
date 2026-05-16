@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-15T12:26:27.112577+00:00",
-  "fromDate": "2026-05-15",
-  "toDate": "2026-05-29",
+  "generatedAt": "2026-05-16T10:47:37.656942+00:00",
+  "fromDate": "2026-05-16",
+  "toDate": "2026-05-30",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,33 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "ENVUELTO EN LA SOMBRA / CICLO: Del western al noir....",
-          "date": "2026-05-15",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53068-DETALLE_EVENTO"
-        },
-        {
-          "movie": "SIDOSA / CICLO: MUESTRA DE CINE LGTBI",
-          "date": "2026-05-15",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53158-DETALLE_EVENTO"
-        },
-        {
-          "movie": "PINK FLAMINGOS / CICLO: MUESTRA DE CINE LGTBI",
-          "date": "2026-05-15",
-          "time": "22:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53071-DETALLE_EVENTO"
-        },
         {
           "movie": "`LA BODA DEL ESPANTAPÁJAROS´ Y OTROS CORTOMETRAJES...",
           "date": "2026-05-16",
@@ -325,32 +298,47 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53099-DETALLE_EVENTO"
+        },
+        {
+          "movie": "David   / FILMO EN FAMILIA",
+          "date": "2026-05-30",
+          "time": "17:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53100-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Los zancos / CENTENARIO PACO RABAL",
+          "date": "2026-05-30",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53102-DETALLE_EVENTO"
+        },
+        {
+          "movie": "El beso de la muerte / CICLO: Del western al noir....",
+          "date": "2026-05-30",
+          "time": "19:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53103-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Vacas / CICLO: ÓPERA PRIMA. EL DEBUT NOTABLE",
+          "date": "2026-05-30",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53104-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "ENVUELTO EN LA SOMBRA / CICLO: Del western al noir....": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183375&nombre=the_dark_corner-949186937-large_res_300.jpg",
-      "overview": "Un detective privado, que casi vive en la miseria, descubre un día que lo están siguiendo. Tras acorralar a su perseguidor, averigua que actúa a las órdenes de un antiguo socio con el que acabó enemistado. Poco después se ve envuelto en un calculado plan de asesinato.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "SIDOSA / CICLO: MUESTRA DE CINE LGTBI": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183384&nombre=sidosa-501875674-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "PINK FLAMINGOS / CICLO: MUESTRA DE CINE LGTBI": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183196&nombre=pink_flamingos-627622858-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "`LA BODA DEL ESPANTAPÁJAROS´ Y OTROS CORTOMETRAJES...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183197&nombre=the_scarecrows_wedding-275797066-large_res_300.jpg",
       "overview": null,
@@ -543,6 +531,27 @@
     "El terror llama a su puerta / CICLO: MADRUGADA SAN...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183223&nombre=night_of_the_creeps-724598219-large_res_300.jpg",
       "overview": "El terror llama a su puerta (Night of the creeps; Fred Dekker,1986) Estados Unidos. 88’.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "David   / FILMO EN FAMILIA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183224&nombre=david-734892201-mmed_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Los zancos / CENTENARIO PACO RABAL": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183225&nombre=los_zancos-964004831-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Vacas / CICLO: ÓPERA PRIMA. EL DEBUT NOTABLE": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183226&nombre=vacas-896325308-mmed_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
