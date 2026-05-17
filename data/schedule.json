@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-16T10:47:37.656942+00:00",
-  "fromDate": "2026-05-16",
-  "toDate": "2026-05-30",
+  "generatedAt": "2026-05-17T10:54:37.468155+00:00",
+  "fromDate": "2026-05-17",
+  "toDate": "2026-05-31",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,42 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "`LA BODA DEL ESPANTAPÁJAROS´ Y OTROS CORTOMETRAJES...",
-          "date": "2026-05-16",
-          "time": "17:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53072-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EL GRAN SECRETO / CENTENARIO PACO RABAL",
-          "date": "2026-05-16",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53073-DETALLE_EVENTO"
-        },
-        {
-          "movie": "La misteriosa mirada del flamenco / CICLO: MUESTRA...",
-          "date": "2026-05-16",
-          "time": "19:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53074-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Philadelphia / CICLO: MUESTRA DE CINE LGTBI",
-          "date": "2026-05-16",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53075-DETALLE_EVENTO"
-        },
         {
           "movie": "La misteriosa mirada del flamenco / CICLO: MUESTRA...",
           "date": "2026-05-17",
@@ -334,34 +298,31 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53104-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Paris, Texas  / CICLO: José Antonio Hurtado: Memoria...",
+          "date": "2026-05-31",
+          "time": "17:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53105-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Epílogo / CENTENARIO PACO RABAL",
+          "date": "2026-05-31",
+          "time": "20:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53106-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "`LA BODA DEL ESPANTAPÁJAROS´ Y OTROS CORTOMETRAJES...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183197&nombre=the_scarecrows_wedding-275797066-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "EL GRAN SECRETO / CENTENARIO PACO RABAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183198&nombre=el_gran_secreto-735302611-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "La misteriosa mirada del flamenco / CICLO: MUESTRA...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183199&nombre=la_misteriosa_mirada_del_flamenco-695569164-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Philadelphia / CICLO: MUESTRA DE CINE LGTBI": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183200&nombre=philadelphia-726931561-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -551,6 +512,13 @@
     },
     "Vacas / CICLO: ÓPERA PRIMA. EL DEBUT NOTABLE": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183226&nombre=vacas-896325308-mmed_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Epílogo / CENTENARIO PACO RABAL": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183227&nombre=epilogo-199561594-mmed_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
