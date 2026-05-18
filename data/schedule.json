@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-17T10:54:37.468155+00:00",
-  "fromDate": "2026-05-17",
-  "toDate": "2026-05-31",
+  "generatedAt": "2026-05-18T17:17:54.692171+00:00",
+  "fromDate": "2026-05-18",
+  "toDate": "2026-06-01",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,24 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "La misteriosa mirada del flamenco / CICLO: MUESTRA...",
-          "date": "2026-05-17",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53076-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Los profesionales  / CICLO: José Antonio Hurtado: ...",
-          "date": "2026-05-17",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53077-DETALLE_EVENTO"
-        },
         {
           "movie": "Víctima  / CICLO: MUESTRA DE CINE LGTBI",
           "date": "2026-05-18",
@@ -127,6 +109,42 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53086-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA CRONOLOGIA DEL AGUA - CICLO LGTBI",
+          "date": "2026-05-22",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53203-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Marruecos y los movimientos de liberación en Áfric...",
+          "date": "2026-05-22",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53206-DETALLE_EVENTO"
+        },
+        {
+          "movie": "UN ALTRE HOME - CICLO LGTBI",
+          "date": "2026-05-22",
+          "time": "21:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53208-DETALLE_EVENTO"
+        },
+        {
+          "movie": "THE ROCKY HORROR PICTURE SHOW - CICLO LGTBI",
+          "date": "2026-05-22",
+          "time": "22:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53207-DETALLE_EVENTO"
         },
         {
           "movie": "DINOSAURIOS - FILMO EN FAMILIA",
@@ -321,20 +339,6 @@
     }
   ],
   "movies": {
-    "La misteriosa mirada del flamenco / CICLO: MUESTRA...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183199&nombre=la_misteriosa_mirada_del_flamenco-695569164-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Los profesionales  / CICLO: José Antonio Hurtado: ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183201&nombre=the_professionals-130709498-large_res_300.jpg",
-      "overview": "Los profesionales  / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "Víctima  / CICLO: MUESTRA DE CINE LGTBI": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183202&nombre=victim-896450258-large_res_300.jpg",
       "overview": null,
@@ -394,6 +398,34 @@
     "La cronología del agua / CICLO: MUESTRA DE CINE LG...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183210&nombre=the_chronology_of_water-751008715-large_res_300.jpg",
       "overview": "La escritora Lidia Yuknavitch encontró la salvación, tras una infancia y juventud marcados por los abusos y adicciones, en la literatura y la natación y acabó convirtiéndose en una exitosa maestra, madre y escritora.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA CRONOLOGIA DEL AGUA - CICLO LGTBI": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183210&nombre=the_chronology_of_water-751008715-large_res_300.jpg",
+      "overview": "La escritora Lidia Yuknavitch encontró la salvación, tras una infancia y juventud marcados por los abusos y adicciones, en la literatura y la natación y acabó convirtiéndose en una exitosa maestra, madre y escritora.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Marruecos y los movimientos de liberación en Áfric...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183476&nombre=Bertina-Lopes-Mozambique-Omenagem-a-Amilcar-Cabral-1973_res_300.jpg",
+      "overview": "Documental que describe el largo camino hacia la unidad y la liberación del continente africano y el rol central del Reino de Marruecos durante el proceso.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "UN ALTRE HOME - CICLO LGTBI": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183477&nombre=un_altre_home-234951375-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "THE ROCKY HORROR PICTURE SHOW - CICLO LGTBI": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_94084&nombre=Rocky-Horror-Picture-Show-Posters_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
