@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-18T17:17:54.692171+00:00",
-  "fromDate": "2026-05-18",
-  "toDate": "2026-06-01",
+  "generatedAt": "2026-05-19T17:28:41.097787+00:00",
+  "fromDate": "2026-05-19",
+  "toDate": "2026-06-02",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,24 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "Víctima  / CICLO: MUESTRA DE CINE LGTBI",
-          "date": "2026-05-18",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53078-DETALLE_EVENTO"
-        },
-        {
-          "movie": "The mattachine family / CICLO: MUESTRA DE CINE LGT...",
-          "date": "2026-05-18",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53079-DETALLE_EVENTO"
-        },
         {
           "movie": "Andy Warhol: American Dream / CICLO: MUESTRA DE CINE...",
           "date": "2026-05-19",
@@ -334,25 +316,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53106-DETALLE_EVENTO"
+        },
+        {
+          "movie": "La sombra del poder  / CICLO: CINE Y PERIODISMO",
+          "date": "2026-06-02",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53136-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Yo creo en ti  / CICLO: Del western al noir. El cine...",
+          "date": "2026-06-02",
+          "time": "21:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53137-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "Víctima  / CICLO: MUESTRA DE CINE LGTBI": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183202&nombre=victim-896450258-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "The mattachine family / CICLO: MUESTRA DE CINE LGT...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183203&nombre=the_mattachine_family-985718439-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "Andy Warhol: American Dream / CICLO: MUESTRA DE CINE...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183204&nombre=andy_warhol_americky_sen-325731492-large_res_300.jpg",
       "overview": null,
@@ -551,6 +537,20 @@
     },
     "Epílogo / CENTENARIO PACO RABAL": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183227&nombre=epilogo-199561594-mmed_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "La sombra del poder  / CICLO: CINE Y PERIODISMO": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183304&nombre=state_of_play-436826260-mmed_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Yo creo en ti  / CICLO: Del western al noir. El cine...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183306&nombre=call_northside_777-140521834-mmed_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
