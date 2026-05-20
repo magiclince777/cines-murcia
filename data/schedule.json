@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-19T17:28:41.097787+00:00",
-  "fromDate": "2026-05-19",
-  "toDate": "2026-06-02",
+  "generatedAt": "2026-05-20T17:46:36.830005+00:00",
+  "fromDate": "2026-05-20",
+  "toDate": "2026-06-03",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,24 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "Andy Warhol: American Dream / CICLO: MUESTRA DE CINE...",
-          "date": "2026-05-19",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53080-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Polarized  / CICLO: MUESTRA DE CINE LGTBI",
-          "date": "2026-05-19",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53081-DETALLE_EVENTO"
-        },
         {
           "movie": "Sorry We Missed You / AMNISTÍA INTERNACIONAL",
           "date": "2026-05-20",
@@ -334,25 +316,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53137-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL DISPUTADO VOTO DEL SR. CAYO - CENTENARIO PACO R...",
+          "date": "2026-06-03",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53210-DETALLE_EVENTO"
+        },
+        {
+          "movie": "POLICE - CICLO: MAURICE PIALAT",
+          "date": "2026-06-03",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53211-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "Andy Warhol: American Dream / CICLO: MUESTRA DE CINE...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183204&nombre=andy_warhol_americky_sen-325731492-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Polarized  / CICLO: MUESTRA DE CINE LGTBI": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183205&nombre=polarized-367575205-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "Sorry We Missed You / AMNISTÍA INTERNACIONAL": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183206&nombre=sorry_we_missed_you-934306956-large_res_300.jpg",
       "overview": null,
@@ -432,6 +418,13 @@
     },
     "Memorias del Ángel caído / CICLO: ÓPERA PRIMA. EL ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183212&nombre=memorias_del_angel_caido-662647678-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Andy Warhol: American Dream / CICLO: MUESTRA DE CINE...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183204&nombre=andy_warhol_americky_sen-325731492-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -551,6 +544,20 @@
     },
     "Yo creo en ti  / CICLO: Del western al noir. El cine...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183306&nombre=call_northside_777-140521834-mmed_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL DISPUTADO VOTO DEL SR. CAYO - CENTENARIO PACO R...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183497&nombre=eldisputadovoto_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "POLICE - CICLO: MAURICE PIALAT": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183496&nombre=police-807585948-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
