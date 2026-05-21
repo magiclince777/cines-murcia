@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-20T17:46:36.830005+00:00",
-  "fromDate": "2026-05-20",
-  "toDate": "2026-06-03",
+  "generatedAt": "2026-05-21T16:45:13.782330+00:00",
+  "fromDate": "2026-05-21",
+  "toDate": "2026-06-04",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,24 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "Sorry We Missed You / AMNISTÍA INTERNACIONAL",
-          "date": "2026-05-20",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53082-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Pillion  / CICLO: MUESTRA DE CINE LGTBI",
-          "date": "2026-05-20",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53083-DETALLE_EVENTO"
-        },
         {
           "movie": "El informe Pelícano / CICLO: CINE Y PERIODISMO",
           "date": "2026-05-21",
@@ -334,25 +316,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53211-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA LOLA SE VA A LOS PUERTOS. CICLO: CENTENARIO PACO...",
+          "date": "2026-06-04",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53212-DETALLE_EVENTO"
+        },
+        {
+          "movie": "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado:...",
+          "date": "2026-06-04",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53213-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "Sorry We Missed You / AMNISTÍA INTERNACIONAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183206&nombre=sorry_we_missed_you-934306956-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Pillion  / CICLO: MUESTRA DE CINE LGTBI": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183207&nombre=pillion-596069903-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "El informe Pelícano / CICLO: CINE Y PERIODISMO": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183208&nombre=the_pelican_brief-292325418-large_res_300.jpg",
       "overview": "El informe Pelícano (The Pelican Brief; Alan J. Pakula; 1993) Estados Unidos. 141’. VOSE",
@@ -559,6 +545,20 @@
     "POLICE - CICLO: MAURICE PIALAT": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183496&nombre=police-807585948-large_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA LOLA SE VA A LOS PUERTOS. CICLO: CENTENARIO PACO...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_177763&nombre=LA_LOLA_SE_VA_A_LOS_PUERTOS_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado:...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183499&nombre=the_straight_story_res_300.jpg",
+      "overview": "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
       "vote_average": null,
       "genres": [],
       "year": null
