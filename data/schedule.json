@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-21T16:45:13.782330+00:00",
-  "fromDate": "2026-05-21",
-  "toDate": "2026-06-04",
+  "generatedAt": "2026-05-22T16:02:53.587048+00:00",
+  "fromDate": "2026-05-22",
+  "toDate": "2026-06-05",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
       ],
       "sessions": [
         {
-          "movie": "El informe Pelícano / CICLO: CINE Y PERIODISMO",
-          "date": "2026-05-21",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53084-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Pride / CICLO: CINE Y TRABAJO",
-          "date": "2026-05-21",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53085-DETALLE_EVENTO"
-        },
-        {
-          "movie": "La cronología del agua / CICLO: MUESTRA DE CINE LG...",
-          "date": "2026-05-21",
-          "time": "21:15",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53086-DETALLE_EVENTO"
-        },
-        {
           "movie": "LA CRONOLOGIA DEL AGUA - CICLO LGTBI",
           "date": "2026-05-22",
           "time": "18:30",
@@ -68,11 +41,11 @@
         {
           "movie": "Marruecos y los movimientos de liberación en Áfric...",
           "date": "2026-05-22",
-          "time": "20:00",
+          "time": "19:00",
           "duration": null,
           "rating": "?",
           "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53206-DETALLE_EVENTO"
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53205-DETALLE_EVENTO"
         },
         {
           "movie": "UN ALTRE HOME - CICLO LGTBI",
@@ -154,6 +127,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53091-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA ALGAMECA CHICA / REALIZADORES MURCIANOS",
+          "date": "2026-05-26",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53263-DETALLE_EVENTO"
         },
         {
           "movie": "A nuestros amores / CICLO: MAURICE PIALAT",
@@ -334,32 +316,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53213-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CALLE MÁLAGA - PANORAMA DE ACTUALIDAD",
+          "date": "2026-06-05",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53214-DETALLE_EVENTO"
+        },
+        {
+          "movie": "PELICULA ESCONDIDA",
+          "date": "2026-06-05",
+          "time": "21:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53215-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LO OCULTO / CICLO: MADRUGADA SANGRIENTA",
+          "date": "2026-06-05",
+          "time": "23:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53217-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "El informe Pelícano / CICLO: CINE Y PERIODISMO": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183208&nombre=the_pelican_brief-292325418-large_res_300.jpg",
-      "overview": "El informe Pelícano (The Pelican Brief; Alan J. Pakula; 1993) Estados Unidos. 141’. VOSE",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Pride / CICLO: CINE Y TRABAJO": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183209&nombre=pride-188612805-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "La cronología del agua / CICLO: MUESTRA DE CINE LG...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183210&nombre=the_chronology_of_water-751008715-large_res_300.jpg",
-      "overview": "La escritora Lidia Yuknavitch encontró la salvación, tras una infancia y juventud marcados por los abusos y adicciones, en la literatura y la natación y acabó convirtiéndose en una exitosa maestra, madre y escritora.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "LA CRONOLOGIA DEL AGUA - CICLO LGTBI": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183210&nombre=the_chronology_of_water-751008715-large_res_300.jpg",
       "overview": "La escritora Lidia Yuknavitch encontró la salvación, tras una infancia y juventud marcados por los abusos y adicciones, en la literatura y la natación y acabó convirtiéndose en una exitosa maestra, madre y escritora.",
@@ -433,6 +421,13 @@
     "El beso de la muerte / CICLO: Del western al noir....": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183215&nombre=kiss_of_death-489864466-large_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA ALGAMECA CHICA / REALIZADORES MURCIANOS": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183546&nombre=2026052210572013546_res_300.jpg",
+      "overview": "El documental reúne diferentes voces para construir una visión plural del enclave. Entre los participantes se encuentra el historiador José Ibarra , especialista en el poblamiento de la Algameca Chica y con experiencia en producciones documentales como El año del descubrimiento . También interviene el sociólogo Diego Fernández , de la Universidad de Murcia, que aporta una lectura social del territorio y de sus dinámicas comunitarias.",
       "vote_average": null,
       "genres": [],
       "year": null
@@ -559,6 +554,27 @@
     "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado:...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183499&nombre=the_straight_story_res_300.jpg",
       "overview": "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CALLE MÁLAGA - PANORAMA DE ACTUALIDAD": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183500&nombre=calle_malaga_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "PELICULA ESCONDIDA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183502&nombre=Designer_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LO OCULTO / CICLO: MADRUGADA SANGRIENTA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183504&nombre=the_hidden_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
