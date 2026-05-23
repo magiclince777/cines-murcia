@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-22T16:02:53.587048+00:00",
-  "fromDate": "2026-05-22",
-  "toDate": "2026-06-05",
+  "generatedAt": "2026-05-23T11:01:27.831261+00:00",
+  "fromDate": "2026-05-23",
+  "toDate": "2026-06-06",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,42 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "LA CRONOLOGIA DEL AGUA - CICLO LGTBI",
-          "date": "2026-05-22",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53203-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Marruecos y los movimientos de liberación en Áfric...",
-          "date": "2026-05-22",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53205-DETALLE_EVENTO"
-        },
-        {
-          "movie": "UN ALTRE HOME - CICLO LGTBI",
-          "date": "2026-05-22",
-          "time": "21:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53208-DETALLE_EVENTO"
-        },
-        {
-          "movie": "THE ROCKY HORROR PICTURE SHOW - CICLO LGTBI",
-          "date": "2026-05-22",
-          "time": "22:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53207-DETALLE_EVENTO"
-        },
         {
           "movie": "DINOSAURIOS - FILMO EN FAMILIA",
           "date": "2026-05-23",
@@ -343,39 +307,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53217-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LITTLE AMELIE. FILMO EN FAMILIA",
+          "date": "2026-06-06",
+          "time": "17:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53216-DETALLE_EVENTO"
+        },
+        {
+          "movie": "TIEMPO DE SILENCIO / CENTENARIO PACO RABAL",
+          "date": "2026-06-06",
+          "time": "19:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53218-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CALLE MÁLAGA - PANORAMA DE ACTUALIDAD",
+          "date": "2026-06-06",
+          "time": "21:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53219-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "LA CRONOLOGIA DEL AGUA - CICLO LGTBI": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183210&nombre=the_chronology_of_water-751008715-large_res_300.jpg",
-      "overview": "La escritora Lidia Yuknavitch encontró la salvación, tras una infancia y juventud marcados por los abusos y adicciones, en la literatura y la natación y acabó convirtiéndose en una exitosa maestra, madre y escritora.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Marruecos y los movimientos de liberación en Áfric...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183476&nombre=Bertina-Lopes-Mozambique-Omenagem-a-Amilcar-Cabral-1973_res_300.jpg",
-      "overview": "Documental que describe el largo camino hacia la unidad y la liberación del continente africano y el rol central del Reino de Marruecos durante el proceso.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "UN ALTRE HOME - CICLO LGTBI": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183477&nombre=un_altre_home-234951375-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "THE ROCKY HORROR PICTURE SHOW - CICLO LGTBI": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_94084&nombre=Rocky-Horror-Picture-Show-Posters_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "DINOSAURIOS - FILMO EN FAMILIA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183463&nombre=dino_time-296187219-large_res_300.jpg",
       "overview": null,
@@ -574,6 +537,20 @@
     },
     "LO OCULTO / CICLO: MADRUGADA SANGRIENTA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183504&nombre=the_hidden_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LITTLE AMELIE. FILMO EN FAMILIA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183503&nombre=amelie_et_la_res_300.jpg",
+      "overview": "(Amélie et la Métaphysique des tubes) Mailys Vallade , Liane-Cho Han Jin Kuang , 2025 Francia  77´ VE",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "TIEMPO DE SILENCIO / CENTENARIO PACO RABAL": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183505&nombre=tiempo_de_silencio_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
