@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-23T11:01:27.831261+00:00",
-  "fromDate": "2026-05-23",
-  "toDate": "2026-06-06",
+  "generatedAt": "2026-05-24T11:04:04.237636+00:00",
+  "fromDate": "2026-05-24",
+  "toDate": "2026-06-07",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,33 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "DINOSAURIOS - FILMO EN FAMILIA",
-          "date": "2026-05-23",
-          "time": "17:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53199-DETALLE_EVENTO"
-        },
-        {
-          "movie": "La colmena / CENTENARIO PACO RABAL",
-          "date": "2026-05-23",
-          "time": "19:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53087-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Memorias del Ángel caído / CICLO: ÓPERA PRIMA. EL ...",
-          "date": "2026-05-23",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53088-DETALLE_EVENTO"
-        },
         {
           "movie": "Andy Warhol: American Dream / CICLO: MUESTRA DE CINE...",
           "date": "2026-05-24",
@@ -334,32 +307,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53219-DETALLE_EVENTO"
+        },
+        {
+          "movie": "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado:...",
+          "date": "2026-06-07",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53220-DETALLE_EVENTO"
+        },
+        {
+          "movie": "YO CREO EN TI / CICLO: Del western al noir. El cine...",
+          "date": "2026-06-07",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53221-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "DINOSAURIOS - FILMO EN FAMILIA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183463&nombre=dino_time-296187219-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "La colmena / CENTENARIO PACO RABAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183211&nombre=la_colmena-735462330-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Memorias del Ángel caído / CICLO: ÓPERA PRIMA. EL ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183212&nombre=memorias_del_angel_caido-662647678-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "Andy Warhol: American Dream / CICLO: MUESTRA DE CINE...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183204&nombre=andy_warhol_americky_sen-325731492-large_res_300.jpg",
       "overview": null,
@@ -551,6 +521,13 @@
     },
     "TIEMPO DE SILENCIO / CENTENARIO PACO RABAL": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183505&nombre=tiempo_de_silencio_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "YO CREO EN TI / CICLO: Del western al noir. El cine...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183306&nombre=call_northside_777-140521834-mmed_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
