@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-24T11:04:04.237636+00:00",
-  "fromDate": "2026-05-24",
-  "toDate": "2026-06-07",
+  "generatedAt": "2026-05-25T16:08:13.094693+00:00",
+  "fromDate": "2026-05-25",
+  "toDate": "2026-06-08",
   "cinemas": [
     {
       "id": "myrtea",
@@ -26,34 +26,17 @@
       "color": "#dc2626",
       "salas": [
         "Sala A",
-        "Sala B"
+        "Sala B",
+        "Sala única"
       ],
       "sessions": [
         {
-          "movie": "Andy Warhol: American Dream / CICLO: MUESTRA DE CINE...",
-          "date": "2026-05-24",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53089-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Primero aprueba el Bachillerato / CICLO: MAURICE P...",
-          "date": "2026-05-24",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53090-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Tanzträume / PANTALLA EN DANZA",
+          "movie": "TANZTRÄUME / CICLO: Pantalla en danza",
           "date": "2026-05-26",
           "time": "18:30",
           "duration": null,
           "rating": "?",
-          "sala": "Sala A",
+          "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-52633-DETALLE_EVENTO"
         },
         {
@@ -75,22 +58,13 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53263-DETALLE_EVENTO"
         },
         {
-          "movie": "A nuestros amores / CICLO: MAURICE PIALAT",
+          "movie": "A nuestros amores / CICLO: Maurice Pialat",
           "date": "2026-05-26",
           "time": "21:00",
           "duration": null,
           "rating": "?",
-          "sala": "Sala A",
+          "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53092-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Scoop  / CICLO: CINE Y PERIODISMO",
-          "date": "2026-05-27",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53093-DETALLE_EVENTO"
         },
         {
           "movie": "No estás sola: La lucha contra la Manada / CICLO: ...",
@@ -109,6 +83,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53095-DETALLE_EVENTO"
+        },
+        {
+          "movie": "FESTIVAL YO LO CORTO",
+          "date": "2026-05-28",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53271-DETALLE_EVENTO"
         },
         {
           "movie": "Subsuelo   / LA SALA DE LOS CINEASTAS",
@@ -237,6 +220,15 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53211-DETALLE_EVENTO"
         },
         {
+          "movie": "LA LOLA SE VA A LOS PUERTOS. CARTAGENA",
+          "date": "2026-06-04",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53270-DETALLE_EVENTO"
+        },
+        {
           "movie": "LA LOLA SE VA A LOS PUERTOS. CICLO: CENTENARIO PACO...",
           "date": "2026-06-04",
           "time": "18:45",
@@ -325,26 +317,30 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53221-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL CAZADOR / CICLO: José Antonio Hurtado: Memoria ...",
+          "date": "2026-06-08",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53222-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ALAS DE MARIPOSA / CICLO: ÓPERA PRIMA. EL DEBUT NO...",
+          "date": "2026-06-08",
+          "time": "21:15",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53223-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "Andy Warhol: American Dream / CICLO: MUESTRA DE CINE...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183204&nombre=andy_warhol_americky_sen-325731492-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Primero aprueba el Bachillerato / CICLO: MAURICE P...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183213&nombre=passe_ton_bac_d_abord-704474962-mmed_res_300.jpg",
-      "overview": "Primero aprueba el Bachillerato (Passe ton bac d’abord; Maurice Pialat,1978) Francia. 86’. VOSE",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Tanzträume / PANTALLA EN DANZA": {
+    "TANZTRÄUME / CICLO: Pantalla en danza": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_182470&nombre=tanztraume-159404169-mmed_res_300.jpg",
       "overview": "En 2008, Pina Bausch, pocos meses antes de su muerte, decide reanudar su famoso espectáculo Kontakthof, contratando adolescentes de 14 a 18 años que nunca han estudiado ballet ni se han subido a un escenario.",
       "vote_average": null,
@@ -365,16 +361,9 @@
       "genres": [],
       "year": null
     },
-    "A nuestros amores / CICLO: MAURICE PIALAT": {
+    "A nuestros amores / CICLO: Maurice Pialat": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183216&nombre=a_nos_amours-410695679-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Scoop  / CICLO: CINE Y PERIODISMO": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183217&nombre=scoop-962656700-large_res_300.jpg",
-      "overview": null,
+      "overview": "Suzanne es una joven de 16 años que, a pesar de su edad, tiene una vida sexual muy activa, pero sus relaciones con los chicos no van más allá del sexo; para ella son simplemente una forma de encontrar alivio de su estresante familia parisina. Su ambiente en casa es todo menos agradable: tiene una madre neurótica, un padre dominante al que no le gusta su manera de ser y un hermano que la golpea.",
       "vote_average": null,
       "genres": [],
       "year": null
@@ -389,6 +378,13 @@
     "Il pleut sur Ouaga -  Bablinga / CICLO: BURKINA FASO....": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183219&nombre=il_pleut_sur_ouaga-170192224-large_res_300.jpg",
       "overview": "Moktar, tras años con su bar, decide cerrarlo y volver a casa, pero la duda y los fantasmas del pasado lo invaden.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "FESTIVAL YO LO CORTO": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183557&nombre=Yo_lo_corto_res_300.jpg",
+      "overview": "Corcurso de Cortos Escolares, una iniciativa para dar voz al alumnado a través del cine y reflexionar sobre la convivencia en el aula, y ayudar a sensibilizar sobre el respeto y la empatía.",
       "vote_average": null,
       "genres": [],
       "year": null
@@ -477,6 +473,13 @@
       "genres": [],
       "year": null
     },
+    "LA LOLA SE VA A LOS PUERTOS. CARTAGENA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_177763&nombre=LA_LOLA_SE_VA_A_LOS_PUERTOS_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
     "LA LOLA SE VA A LOS PUERTOS. CICLO: CENTENARIO PACO...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_177763&nombre=LA_LOLA_SE_VA_A_LOS_PUERTOS_res_300.jpg",
       "overview": null,
@@ -528,6 +531,20 @@
     },
     "YO CREO EN TI / CICLO: Del western al noir. El cine...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183306&nombre=call_northside_777-140521834-mmed_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL CAZADOR / CICLO: José Antonio Hurtado: Memoria ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183508&nombre=dersu_uzala_res_300.jpg",
+      "overview": "EL CAZADOR / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos de una sala oscura",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ALAS DE MARIPOSA / CICLO: ÓPERA PRIMA. EL DEBUT NO...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183509&nombre=alas_de_mariposa_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
