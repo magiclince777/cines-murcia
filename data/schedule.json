@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-25T16:08:13.094693+00:00",
-  "fromDate": "2026-05-25",
-  "toDate": "2026-06-08",
+  "generatedAt": "2026-05-26T10:33:55.524066+00:00",
+  "fromDate": "2026-05-26",
+  "toDate": "2026-06-09",
   "cinemas": [
     {
       "id": "myrtea",
@@ -335,6 +335,24 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53223-DETALLE_EVENTO"
+        },
+        {
+          "movie": "PAJARICO / CENTENARIO PACO RABAL",
+          "date": "2026-06-09",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53225-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL JARDIN DEL DIABLO / CICLO: Del western al noir....",
+          "date": "2026-06-09",
+          "time": "21:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53226-DETALLE_EVENTO"
         }
       ]
     }
@@ -545,6 +563,20 @@
     },
     "ALAS DE MARIPOSA / CICLO: ÓPERA PRIMA. EL DEBUT NO...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183509&nombre=alas_de_mariposa_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "PAJARICO / CENTENARIO PACO RABAL": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_122697&nombre=pajarico_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL JARDIN DEL DIABLO / CICLO: Del western al noir....": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183510&nombre=garden_of_evil_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
