@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-26T10:33:55.524066+00:00",
-  "fromDate": "2026-05-26",
-  "toDate": "2026-06-09",
+  "generatedAt": "2026-05-27T10:38:45.756219+00:00",
+  "fromDate": "2026-05-27",
+  "toDate": "2026-06-10",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,42 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "TANZTRÄUME / CICLO: Pantalla en danza",
-          "date": "2026-05-26",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-52633-DETALLE_EVENTO"
-        },
-        {
-          "movie": "El beso de la muerte / CICLO: Del western al noir....",
-          "date": "2026-05-26",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53091-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA ALGAMECA CHICA / REALIZADORES MURCIANOS",
-          "date": "2026-05-26",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53263-DETALLE_EVENTO"
-        },
-        {
-          "movie": "A nuestros amores / CICLO: Maurice Pialat",
-          "date": "2026-05-26",
-          "time": "21:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53092-DETALLE_EVENTO"
-        },
         {
           "movie": "No estás sola: La lucha contra la Manada / CICLO: ...",
           "date": "2026-05-27",
@@ -353,39 +317,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53226-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ORLANDO. MI BIOGRAFIA POLITICA / CICLO: Amnistía I...",
+          "date": "2026-06-10",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53227-DETALLE_EVENTO"
+        },
+        {
+          "movie": "PRIMICIA MORTAL / CICLO: Cine y periodismo",
+          "date": "2026-06-10",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53229-DETALLE_EVENTO"
+        },
+        {
+          "movie": "NIAGARA / CICLO: Del western al noir. El cine de Henry...",
+          "date": "2026-06-10",
+          "time": "21:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53228-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "TANZTRÄUME / CICLO: Pantalla en danza": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_182470&nombre=tanztraume-159404169-mmed_res_300.jpg",
-      "overview": "En 2008, Pina Bausch, pocos meses antes de su muerte, decide reanudar su famoso espectáculo Kontakthof, contratando adolescentes de 14 a 18 años que nunca han estudiado ballet ni se han subido a un escenario.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "El beso de la muerte / CICLO: Del western al noir....": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183215&nombre=kiss_of_death-489864466-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA ALGAMECA CHICA / REALIZADORES MURCIANOS": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183546&nombre=2026052210572013546_res_300.jpg",
-      "overview": "El documental reúne diferentes voces para construir una visión plural del enclave. Entre los participantes se encuentra el historiador José Ibarra , especialista en el poblamiento de la Algameca Chica y con experiencia en producciones documentales como El año del descubrimiento . También interviene el sociólogo Diego Fernández , de la Universidad de Murcia, que aporta una lectura social del territorio y de sus dinámicas comunitarias.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "A nuestros amores / CICLO: Maurice Pialat": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183216&nombre=a_nos_amours-410695679-large_res_300.jpg",
-      "overview": "Suzanne es una joven de 16 años que, a pesar de su edad, tiene una vida sexual muy activa, pero sus relaciones con los chicos no van más allá del sexo; para ella son simplemente una forma de encontrar alivio de su estresante familia parisina. Su ambiente en casa es todo menos agradable: tiene una madre neurótica, un padre dominante al que no le gusta su manera de ser y un hermano que la golpea.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "No estás sola: La lucha contra la Manada / CICLO: ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183218&nombre=no_estas_sola_la_lucha_contra_la_manada-687691426-large_res_300.jpg",
       "overview": "No estás sola: La lucha contra la Manada (Almudena Carracedo, 2024) España. 101’.",
@@ -401,7 +364,7 @@
       "year": null
     },
     "FESTIVAL YO LO CORTO": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183557&nombre=Yo_lo_corto_res_300.jpg",
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183562&nombre=img26_res_300.jpg",
       "overview": "Corcurso de Cortos Escolares, una iniciativa para dar voz al alumnado a través del cine y reflexionar sobre la convivencia en el aula, y ayudar a sensibilizar sobre el respeto y la empatía.",
       "vote_average": null,
       "genres": [],
@@ -444,6 +407,13 @@
     },
     "Los zancos / CENTENARIO PACO RABAL": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183225&nombre=los_zancos-964004831-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "El beso de la muerte / CICLO: Del western al noir....": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183215&nombre=kiss_of_death-489864466-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -577,6 +547,27 @@
     },
     "EL JARDIN DEL DIABLO / CICLO: Del western al noir....": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183510&nombre=garden_of_evil_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ORLANDO. MI BIOGRAFIA POLITICA / CICLO: Amnistía I...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_180312&nombre=orlando_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "PRIMICIA MORTAL / CICLO: Cine y periodismo": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183512&nombre=nightcrawler_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "NIAGARA / CICLO: Del western al noir. El cine de Henry...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183511&nombre=niagara_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
