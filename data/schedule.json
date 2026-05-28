@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-27T10:38:45.756219+00:00",
-  "fromDate": "2026-05-27",
-  "toDate": "2026-06-10",
+  "generatedAt": "2026-05-28T10:38:27.609828+00:00",
+  "fromDate": "2026-05-28",
+  "toDate": "2026-06-11",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,24 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "No estás sola: La lucha contra la Manada / CICLO: ...",
-          "date": "2026-05-27",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53094-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Il pleut sur Ouaga -  Bablinga / CICLO: BURKINA FASO....",
-          "date": "2026-05-27",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53095-DETALLE_EVENTO"
-        },
         {
           "movie": "FESTIVAL YO LO CORTO",
           "date": "2026-05-28",
@@ -344,25 +326,20 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53228-DETALLE_EVENTO"
+        },
+        {
+          "movie": "HORAS NO ESTÁS SOLA. La lucha contra La Manada / CICLO: ...",
+          "date": "2026-06-11",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53230-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "No estás sola: La lucha contra la Manada / CICLO: ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183218&nombre=no_estas_sola_la_lucha_contra_la_manada-687691426-large_res_300.jpg",
-      "overview": "No estás sola: La lucha contra la Manada (Almudena Carracedo, 2024) España. 101’.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Il pleut sur Ouaga -  Bablinga / CICLO: BURKINA FASO....": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183219&nombre=il_pleut_sur_ouaga-170192224-large_res_300.jpg",
-      "overview": "Moktar, tras años con su bar, decide cerrarlo y volver a casa, pero la duda y los fantasmas del pasado lo invaden.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "FESTIVAL YO LO CORTO": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183562&nombre=img26_res_300.jpg",
       "overview": "Corcurso de Cortos Escolares, una iniciativa para dar voz al alumnado a través del cine y reflexionar sobre la convivencia en el aula, y ayudar a sensibilizar sobre el respeto y la empatía.",
@@ -568,6 +545,13 @@
     },
     "NIAGARA / CICLO: Del western al noir. El cine de Henry...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183511&nombre=niagara_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "HORAS NO ESTÁS SOLA. La lucha contra La Manada / CICLO: ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183279&nombre=no_estas_sola_la_lucha_contra_la_manada-687691426-mmed_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
