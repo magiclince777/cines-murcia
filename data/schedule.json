@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-28T10:38:27.609828+00:00",
-  "fromDate": "2026-05-28",
-  "toDate": "2026-06-11",
+  "generatedAt": "2026-05-29T10:30:48.649699+00:00",
+  "fromDate": "2026-05-29",
+  "toDate": "2026-06-12",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,24 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "FESTIVAL YO LO CORTO",
-          "date": "2026-05-28",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53271-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Subsuelo   / LA SALA DE LOS CINEASTAS",
-          "date": "2026-05-28",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53096-DETALLE_EVENTO"
-        },
         {
           "movie": "Loulou  / CICLO: MAURICE PIALAT",
           "date": "2026-05-29",
@@ -335,25 +317,38 @@
           "rating": "?",
           "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53230-DETALLE_EVENTO"
+        },
+        {
+          "movie": "BAJO EL SOL DE SATÁN / CICLO: MAURICE PIALAT",
+          "date": "2026-06-12",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53232-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL CAZADOR / CICLO: José Antonio Hurtado: Memoria ...",
+          "date": "2026-06-12",
+          "time": "20:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53233-DETALLE_EVENTO"
+        },
+        {
+          "movie": "TEMBLORES / CICLO: Madrugada sangrienta",
+          "date": "2026-06-12",
+          "time": "23:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53234-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "FESTIVAL YO LO CORTO": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183562&nombre=img26_res_300.jpg",
-      "overview": "Corcurso de Cortos Escolares, una iniciativa para dar voz al alumnado a través del cine y reflexionar sobre la convivencia en el aula, y ayudar a sensibilizar sobre el respeto y la empatía.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Subsuelo   / LA SALA DE LOS CINEASTAS": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183220&nombre=subsuelo-232153408-mmed_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "Loulou  / CICLO: MAURICE PIALAT": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183221&nombre=loulou-374710303-large_res_300.jpg",
       "overview": null,
@@ -552,6 +547,20 @@
     },
     "HORAS NO ESTÁS SOLA. La lucha contra La Manada / CICLO: ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183279&nombre=no_estas_sola_la_lucha_contra_la_manada-687691426-mmed_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "BAJO EL SOL DE SATÁN / CICLO: MAURICE PIALAT": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183518&nombre=sous_le_soleil_de_satan_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "TEMBLORES / CICLO: Madrugada sangrienta": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183519&nombre=tremors_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
