@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-30T09:00:15.215304+00:00",
-  "fromDate": "2026-05-30",
-  "toDate": "2026-06-13",
+  "generatedAt": "2026-05-31T09:32:50.826505+00:00",
+  "fromDate": "2026-05-31",
+  "toDate": "2026-06-14",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,42 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "David   / FILMO EN FAMILIA",
-          "date": "2026-05-30",
-          "time": "17:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53100-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Los zancos / CENTENARIO PACO RABAL",
-          "date": "2026-05-30",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53102-DETALLE_EVENTO"
-        },
-        {
-          "movie": "El beso de la muerte / CICLO: Del western al noir....",
-          "date": "2026-05-30",
-          "time": "19:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53103-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Vacas / CICLO: ÓPERA PRIMA. EL DEBUT NOTABLE",
-          "date": "2026-05-30",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53104-DETALLE_EVENTO"
-        },
         {
           "movie": "Paris, Texas  / CICLO: José Antonio Hurtado: Memoria...",
           "date": "2026-05-31",
@@ -344,39 +308,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53237-DETALLE_EVENTO"
+        },
+        {
+          "movie": "¡ÁTAME! / Centenario Paco Rabal",
+          "date": "2026-06-14",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53238-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL JARDIN DEL DIABLO / CICLO: Del western al noir....",
+          "date": "2026-06-14",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53239-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "David   / FILMO EN FAMILIA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183224&nombre=david-734892201-mmed_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Los zancos / CENTENARIO PACO RABAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183225&nombre=los_zancos-964004831-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "El beso de la muerte / CICLO: Del western al noir....": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183215&nombre=kiss_of_death-489864466-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Vacas / CICLO: ÓPERA PRIMA. EL DEBUT NOTABLE": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183226&nombre=vacas-896325308-mmed_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "Paris, Texas  / CICLO: José Antonio Hurtado: Memoria...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183222&nombre=paris_texas-661284170-mmed_res_300.jpg",
       "overview": "Paris, Texas  / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
