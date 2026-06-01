@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-31T09:32:50.826505+00:00",
-  "fromDate": "2026-05-31",
-  "toDate": "2026-06-14",
+  "generatedAt": "2026-06-01T12:17:21.724998+00:00",
+  "fromDate": "2026-06-01",
+  "toDate": "2026-06-15",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,24 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "Paris, Texas  / CICLO: José Antonio Hurtado: Memoria...",
-          "date": "2026-05-31",
-          "time": "17:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53105-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Epílogo / CENTENARIO PACO RABAL",
-          "date": "2026-05-31",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53106-DETALLE_EVENTO"
-        },
         {
           "movie": "La sombra del poder  / CICLO: CINE Y PERIODISMO",
           "date": "2026-06-02",
@@ -326,25 +308,20 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53239-DETALLE_EVENTO"
+        },
+        {
+          "movie": "DESPUÉS DEL DILUVIO / CENTENARIO PACO RABAL",
+          "date": "2026-06-15",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53231-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "Paris, Texas  / CICLO: José Antonio Hurtado: Memoria...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183222&nombre=paris_texas-661284170-mmed_res_300.jpg",
-      "overview": "Paris, Texas  / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Epílogo / CENTENARIO PACO RABAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183227&nombre=epilogo-199561594-mmed_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "La sombra del poder  / CICLO: CINE Y PERIODISMO": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183304&nombre=state_of_play-436826260-mmed_res_300.jpg",
       "overview": null,
@@ -515,6 +492,13 @@
     },
     "¡ÁTAME! / Centenario Paco Rabal": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183278&nombre=atame-524656185-mmed_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "DESPUÉS DEL DILUVIO / CENTENARIO PACO RABAL": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183517&nombre=despues_del_diluvio-402008866-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
