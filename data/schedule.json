@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-01T12:17:21.724998+00:00",
-  "fromDate": "2026-06-01",
-  "toDate": "2026-06-15",
+  "generatedAt": "2026-06-02T11:05:43.277819+00:00",
+  "fromDate": "2026-06-02",
+  "toDate": "2026-06-16",
   "cinemas": [
     {
       "id": "myrtea",
@@ -317,6 +317,24 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53231-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Mr JONES / CICLO: Cine y periodismo",
+          "date": "2026-06-16",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53240-DETALLE_EVENTO"
+        },
+        {
+          "movie": "DEL INFIERNO A TEXAS /  CICLO: Del western al noir....",
+          "date": "2026-06-16",
+          "time": "21:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53241-DETALLE_EVENTO"
         }
       ]
     }
@@ -499,6 +517,20 @@
     },
     "DESPUÉS DEL DILUVIO / CENTENARIO PACO RABAL": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183517&nombre=despues_del_diluvio-402008866-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Mr JONES / CICLO: Cine y periodismo": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183521&nombre=mr_jones_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "DEL INFIERNO A TEXAS /  CICLO: Del western al noir....": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183523&nombre=from_hell_to_texas_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
