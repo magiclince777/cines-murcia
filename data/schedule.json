@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-02T11:05:43.277819+00:00",
-  "fromDate": "2026-06-02",
-  "toDate": "2026-06-16",
+  "generatedAt": "2026-06-03T11:27:44.240274+00:00",
+  "fromDate": "2026-06-03",
+  "toDate": "2026-06-17",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,24 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "La sombra del poder  / CICLO: CINE Y PERIODISMO",
-          "date": "2026-06-02",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53136-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Yo creo en ti  / CICLO: Del western al noir. El cine...",
-          "date": "2026-06-02",
-          "time": "21:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53137-DETALLE_EVENTO"
-        },
         {
           "movie": "EL DISPUTADO VOTO DEL SR. CAYO - CENTENARIO PACO R...",
           "date": "2026-06-03",
@@ -175,12 +157,21 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53222-DETALLE_EVENTO"
         },
         {
+          "movie": "LA ALGAMECA CHICA / REALIZADORES MURCIANOS",
+          "date": "2026-06-08",
+          "time": "21:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53277-DETALLE_EVENTO"
+        },
+        {
           "movie": "ALAS DE MARIPOSA / CICLO: ÓPERA PRIMA. EL DEBUT NO...",
           "date": "2026-06-08",
           "time": "21:15",
           "duration": null,
           "rating": "?",
-          "sala": "Sala A",
+          "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53223-DETALLE_EVENTO"
         },
         {
@@ -335,25 +326,20 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53241-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA CONQUISTA DEL OESTE / CICLO: Del western al noir....",
+          "date": "2026-06-17",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53242-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "La sombra del poder  / CICLO: CINE Y PERIODISMO": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183304&nombre=state_of_play-436826260-mmed_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Yo creo en ti  / CICLO: Del western al noir. El cine...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183306&nombre=call_northside_777-140521834-mmed_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "EL DISPUTADO VOTO DEL SR. CAYO - CENTENARIO PACO R...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183497&nombre=eldisputadovoto_res_300.jpg",
       "overview": null,
@@ -434,6 +420,13 @@
     "EL CAZADOR / CICLO: José Antonio Hurtado: Memoria ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183508&nombre=dersu_uzala_res_300.jpg",
       "overview": "EL CAZADOR / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos de una sala oscura",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA ALGAMECA CHICA / REALIZADORES MURCIANOS": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183546&nombre=2026052210572013546_res_300.jpg",
+      "overview": "El documental reúne diferentes voces para construir una visión plural del enclave. Entre los participantes se encuentra el historiador José Ibarra , especialista en el poblamiento de la Algameca Chica y con experiencia en producciones documentales como El año del descubrimiento . También interviene el sociólogo Diego Fernández , de la Universidad de Murcia, que aporta una lectura social del territorio y de sus dinámicas comunitarias.",
       "vote_average": null,
       "genres": [],
       "year": null
@@ -532,6 +525,13 @@
     "DEL INFIERNO A TEXAS /  CICLO: Del western al noir....": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183523&nombre=from_hell_to_texas_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA CONQUISTA DEL OESTE / CICLO: Del western al noir....": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183524&nombre=how_the_west_was_won_res_300.jpg",
+      "overview": "(How the West Was Won) Henry Hathaway , John Ford , George Marshall , Richard Thorpe , 1962  EEUU  164´ VOSE",
       "vote_average": null,
       "genres": [],
       "year": null
