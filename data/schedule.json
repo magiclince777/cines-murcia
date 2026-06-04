@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-03T11:27:44.240274+00:00",
-  "fromDate": "2026-06-03",
-  "toDate": "2026-06-17",
+  "generatedAt": "2026-06-04T10:25:54.871450+00:00",
+  "fromDate": "2026-06-04",
+  "toDate": "2026-06-18",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,24 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "EL DISPUTADO VOTO DEL SR. CAYO - CENTENARIO PACO R...",
-          "date": "2026-06-03",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53210-DETALLE_EVENTO"
-        },
-        {
-          "movie": "POLICE - CICLO: MAURICE PIALAT",
-          "date": "2026-06-03",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53211-DETALLE_EVENTO"
-        },
         {
           "movie": "LA LOLA SE VA A LOS PUERTOS. CARTAGENA",
           "date": "2026-06-04",
@@ -83,6 +65,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53214-DETALLE_EVENTO"
+        },
+        {
+          "movie": "PROYECTOS ACADÉMICOS - REALIZADORES MURCIANOS",
+          "date": "2026-06-05",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53278-DETALLE_EVENTO"
         },
         {
           "movie": "PELICULA ESCONDIDA",
@@ -335,25 +326,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53242-DETALLE_EVENTO"
+        },
+        {
+          "movie": "SORDA / CICLO: Cine y mediación",
+          "date": "2026-06-18",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53243-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ALASKA, TIERRA DE ORO / CICLO: Del western al noir....",
+          "date": "2026-06-18",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53244-DETALLE_EVENTO"
+        },
+        {
+          "movie": "FAMILIA / CICLO: Ópera prima: El debut notable",
+          "date": "2026-06-18",
+          "time": "21:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53245-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "EL DISPUTADO VOTO DEL SR. CAYO - CENTENARIO PACO R...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183497&nombre=eldisputadovoto_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "POLICE - CICLO: MAURICE PIALAT": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183496&nombre=police-807585948-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "LA LOLA SE VA A LOS PUERTOS. CARTAGENA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_177763&nombre=LA_LOLA_SE_VA_A_LOS_PUERTOS_res_300.jpg",
       "overview": null,
@@ -378,6 +382,13 @@
     "CALLE MÁLAGA - PANORAMA DE ACTUALIDAD": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183500&nombre=calle_malaga_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "PROYECTOS ACADÉMICOS - REALIZADORES MURCIANOS": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183580&nombre=Cartel_ESI_cortos_cine_2026_res_300.jpg",
+      "overview": "Verdades Cruzadas (Martina Sanz) Pseudoterapia (Antonio Castelló) Magra (Helena Iniesta) Últimos momentos (Pablo Pozo) Los jardines de Babilonia (Laura Mayordomo) El búnker (Pedro Guerrero)",
       "vote_average": null,
       "genres": [],
       "year": null
@@ -532,6 +543,27 @@
     "LA CONQUISTA DEL OESTE / CICLO: Del western al noir....": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183524&nombre=how_the_west_was_won_res_300.jpg",
       "overview": "(How the West Was Won) Henry Hathaway , John Ford , George Marshall , Richard Thorpe , 1962  EEUU  164´ VOSE",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "SORDA / CICLO: Cine y mediación": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175271&nombre=Cartel_SORDA_vertical_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ALASKA, TIERRA DE ORO / CICLO: Del western al noir....": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183525&nombre=north_to_alaska_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "FAMILIA / CICLO: Ópera prima: El debut notable": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183526&nombre=familia_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
