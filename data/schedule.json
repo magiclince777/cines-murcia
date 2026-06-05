@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-04T10:25:54.871450+00:00",
-  "fromDate": "2026-06-04",
-  "toDate": "2026-06-18",
+  "generatedAt": "2026-06-05T10:32:29.588109+00:00",
+  "fromDate": "2026-06-05",
+  "toDate": "2026-06-19",
   "cinemas": [
     {
       "id": "myrtea",
@@ -26,37 +26,9 @@
       "color": "#dc2626",
       "salas": [
         "Sala A",
-        "Sala B",
-        "Sala única"
+        "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "LA LOLA SE VA A LOS PUERTOS. CARTAGENA",
-          "date": "2026-06-04",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53270-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA LOLA SE VA A LOS PUERTOS. CICLO: CENTENARIO PACO...",
-          "date": "2026-06-04",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53212-DETALLE_EVENTO"
-        },
-        {
-          "movie": "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado:...",
-          "date": "2026-06-04",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53213-DETALLE_EVENTO"
-        },
         {
           "movie": "CALLE MÁLAGA - PANORAMA DE ACTUALIDAD",
           "date": "2026-06-05",
@@ -353,32 +325,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53245-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL NIÑO / CICLO: Maurice Pialat",
+          "date": "2026-06-19",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53246-DETALLE_EVENTO"
+        },
+        {
+          "movie": "IX EDICIÓN MUESTRA DE REALIZADORES MURCIANOS",
+          "date": "2026-06-19",
+          "time": "20:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53247-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "LA LOLA SE VA A LOS PUERTOS. CARTAGENA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_177763&nombre=LA_LOLA_SE_VA_A_LOS_PUERTOS_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA LOLA SE VA A LOS PUERTOS. CICLO: CENTENARIO PACO...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_177763&nombre=LA_LOLA_SE_VA_A_LOS_PUERTOS_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado:...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183499&nombre=the_straight_story_res_300.jpg",
-      "overview": "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CALLE MÁLAGA - PANORAMA DE ACTUALIDAD": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183500&nombre=calle_malaga_res_300.jpg",
       "overview": null,
@@ -417,6 +386,13 @@
     "TIEMPO DE SILENCIO / CENTENARIO PACO RABAL": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183505&nombre=tiempo_de_silencio_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado:...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183499&nombre=the_straight_story_res_300.jpg",
+      "overview": "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
       "vote_average": null,
       "genres": [],
       "year": null
@@ -563,6 +539,20 @@
     },
     "FAMILIA / CICLO: Ópera prima: El debut notable": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183526&nombre=familia_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL NIÑO / CICLO: Maurice Pialat": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183527&nombre=El_nino_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "IX EDICIÓN MUESTRA DE REALIZADORES MURCIANOS": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183553&nombre=CARTEL_REALIZADORES_MURCIANOS_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
