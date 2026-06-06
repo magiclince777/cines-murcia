@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-05T10:32:29.588109+00:00",
-  "fromDate": "2026-06-05",
-  "toDate": "2026-06-19",
+  "generatedAt": "2026-06-06T09:07:59.548873+00:00",
+  "fromDate": "2026-06-06",
+  "toDate": "2026-06-20",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,42 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "CALLE MÁLAGA - PANORAMA DE ACTUALIDAD",
-          "date": "2026-06-05",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53214-DETALLE_EVENTO"
-        },
-        {
-          "movie": "PROYECTOS ACADÉMICOS - REALIZADORES MURCIANOS",
-          "date": "2026-06-05",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53278-DETALLE_EVENTO"
-        },
-        {
-          "movie": "PELICULA ESCONDIDA",
-          "date": "2026-06-05",
-          "time": "21:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53215-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LO OCULTO / CICLO: MADRUGADA SANGRIENTA",
-          "date": "2026-06-05",
-          "time": "23:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53217-DETALLE_EVENTO"
-        },
         {
           "movie": "LITTLE AMELIE. FILMO EN FAMILIA",
           "date": "2026-06-06",
@@ -343,39 +307,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53247-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL TIGRE PERDIDO / FILMO EN FAMILIA",
+          "date": "2026-06-20",
+          "time": "17:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53249-DETALLE_EVENTO"
+        },
+        {
+          "movie": "A 23 PASOS DE BAKER STREET / / CICLO: Del western ...",
+          "date": "2026-06-20",
+          "time": "19:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53250-DETALLE_EVENTO"
+        },
+        {
+          "movie": "TRES ADIOSES / PANORAMA DE ACTUALIDAD",
+          "date": "2026-06-20",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53251-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "CALLE MÁLAGA - PANORAMA DE ACTUALIDAD": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183500&nombre=calle_malaga_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "PROYECTOS ACADÉMICOS - REALIZADORES MURCIANOS": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183580&nombre=Cartel_ESI_cortos_cine_2026_res_300.jpg",
-      "overview": "Verdades Cruzadas (Martina Sanz) Pseudoterapia (Antonio Castelló) Magra (Helena Iniesta) Últimos momentos (Pablo Pozo) Los jardines de Babilonia (Laura Mayordomo) El búnker (Pedro Guerrero)",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "PELICULA ESCONDIDA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183502&nombre=Designer_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LO OCULTO / CICLO: MADRUGADA SANGRIENTA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183504&nombre=the_hidden_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "LITTLE AMELIE. FILMO EN FAMILIA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183503&nombre=amelie_et_la_res_300.jpg",
       "overview": "(Amélie et la Métaphysique des tubes) Mailys Vallade , Liane-Cho Han Jin Kuang , 2025 Francia  77´ VE",
@@ -385,6 +348,13 @@
     },
     "TIEMPO DE SILENCIO / CENTENARIO PACO RABAL": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183505&nombre=tiempo_de_silencio_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CALLE MÁLAGA - PANORAMA DE ACTUALIDAD": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183500&nombre=calle_malaga_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -553,6 +523,27 @@
     },
     "IX EDICIÓN MUESTRA DE REALIZADORES MURCIANOS": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183553&nombre=CARTEL_REALIZADORES_MURCIANOS_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL TIGRE PERDIDO / FILMO EN FAMILIA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183531&nombre=the_lost_tiger_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "A 23 PASOS DE BAKER STREET / / CICLO: Del western ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183532&nombre=23_paces_to_baker_street_res_300.jpg",
+      "overview": "A 23 PASOS DE BAKER STREET / / CICLO: Del western al noir. El cine de Henry Hathaway",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "TRES ADIOSES / PANORAMA DE ACTUALIDAD": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183533&nombre=tre_ciotole_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
