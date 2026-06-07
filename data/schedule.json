@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-06T09:07:59.548873+00:00",
-  "fromDate": "2026-06-06",
-  "toDate": "2026-06-20",
+  "generatedAt": "2026-06-07T09:46:53.156673+00:00",
+  "fromDate": "2026-06-07",
+  "toDate": "2026-06-21",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,33 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "LITTLE AMELIE. FILMO EN FAMILIA",
-          "date": "2026-06-06",
-          "time": "17:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53216-DETALLE_EVENTO"
-        },
-        {
-          "movie": "TIEMPO DE SILENCIO / CENTENARIO PACO RABAL",
-          "date": "2026-06-06",
-          "time": "19:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53218-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CALLE MÁLAGA - PANORAMA DE ACTUALIDAD",
-          "date": "2026-06-06",
-          "time": "21:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53219-DETALLE_EVENTO"
-        },
         {
           "movie": "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado:...",
           "date": "2026-06-07",
@@ -334,32 +307,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53251-DETALLE_EVENTO"
+        },
+        {
+          "movie": "TRES ADIOSES / PANORAMA DE ACTUALIDAD",
+          "date": "2026-06-21",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53253-DETALLE_EVENTO"
+        },
+        {
+          "movie": "TASIO / CICLO: Ópera prima: El debut notable",
+          "date": "2026-06-21",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53254-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "LITTLE AMELIE. FILMO EN FAMILIA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183503&nombre=amelie_et_la_res_300.jpg",
-      "overview": "(Amélie et la Métaphysique des tubes) Mailys Vallade , Liane-Cho Han Jin Kuang , 2025 Francia  77´ VE",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "TIEMPO DE SILENCIO / CENTENARIO PACO RABAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183505&nombre=tiempo_de_silencio_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CALLE MÁLAGA - PANORAMA DE ACTUALIDAD": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183500&nombre=calle_malaga_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado:...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183499&nombre=the_straight_story_res_300.jpg",
       "overview": "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
@@ -544,6 +514,13 @@
     },
     "TRES ADIOSES / PANORAMA DE ACTUALIDAD": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183533&nombre=tre_ciotole_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "TASIO / CICLO: Ópera prima: El debut notable": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183534&nombre=tasio_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
