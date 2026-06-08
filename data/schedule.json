@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-07T09:46:53.156673+00:00",
-  "fromDate": "2026-06-07",
-  "toDate": "2026-06-21",
+  "generatedAt": "2026-06-08T11:26:33.100451+00:00",
+  "fromDate": "2026-06-08",
+  "toDate": "2026-06-22",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,24 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado:...",
-          "date": "2026-06-07",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53220-DETALLE_EVENTO"
-        },
-        {
-          "movie": "YO CREO EN TI / CICLO: Del western al noir. El cine...",
-          "date": "2026-06-07",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53221-DETALLE_EVENTO"
-        },
         {
           "movie": "EL CAZADOR / CICLO: José Antonio Hurtado: Memoria ...",
           "date": "2026-06-08",
@@ -325,25 +307,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53254-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LAS LINEAS DISCONTINUAS",
+          "date": "2026-06-22",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53255-DETALLE_EVENTO"
+        },
+        {
+          "movie": "HOLA, ¿ESTÁS SOLA? / CICLO: Ópera prima: El debut ...",
+          "date": "2026-06-22",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53256-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado:...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183499&nombre=the_straight_story_res_300.jpg",
-      "overview": "UNA HISTORIA VERDADERA / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos en una sala oscura",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "YO CREO EN TI / CICLO: Del western al noir. El cine...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183306&nombre=call_northside_777-140521834-mmed_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "EL CAZADOR / CICLO: José Antonio Hurtado: Memoria ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183508&nombre=dersu_uzala_res_300.jpg",
       "overview": "EL CAZADOR / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos de una sala oscura",
@@ -521,6 +507,23 @@
     },
     "TASIO / CICLO: Ópera prima: El debut notable": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183534&nombre=tasio_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LAS LINEAS DISCONTINUAS": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183535&nombre=as_linas_descontinuas_res_300.jpg",
+      "overview": "Bea es una mujer de 50 años que se está separando de su marido. El día en el que tiene que abandonar el hogar en el que ha vivido los últimos veinte años llega a su casa y se encuentra todo patas arriba y a uno de los ladrones dormido en su cama. Denís es un chico de 28 años que, a pesar de haber estudiado una carrera, lucha con la precariedad laboral y la falta de oportunidades. Después de pasar tres días juntos, cada uno deberá continuar su camino.",
+      "vote_average": 6.0,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "year": 2026
+    },
+    "HOLA, ¿ESTÁS SOLA? / CICLO: Ópera prima: El debut ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183536&nombre=hola_estas_sola_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
