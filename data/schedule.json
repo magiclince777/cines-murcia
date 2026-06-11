@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-10T10:41:02.880320+00:00",
-  "fromDate": "2026-06-10",
-  "toDate": "2026-06-24",
+  "generatedAt": "2026-06-11T11:10:05.893905+00:00",
+  "fromDate": "2026-06-11",
+  "toDate": "2026-06-25",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,33 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "ORLANDO. MI BIOGRAFIA POLITICA / CICLO: Amnistía I...",
-          "date": "2026-06-10",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53227-DETALLE_EVENTO"
-        },
-        {
-          "movie": "PRIMICIA MORTAL / CICLO: Cine y periodismo",
-          "date": "2026-06-10",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53229-DETALLE_EVENTO"
-        },
-        {
-          "movie": "NIAGARA / CICLO: Del western al noir. El cine de Henry...",
-          "date": "2026-06-10",
-          "time": "21:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53228-DETALLE_EVENTO"
-        },
         {
           "movie": "HORAS NO ESTÁS SOLA. La lucha contra La Manada / CICLO: ...",
           "date": "2026-06-11",
@@ -325,32 +298,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53261-DETALLE_EVENTO"
+        },
+        {
+          "movie": "VALOR DE LEY / CICLO: Del western al noir. El cine...",
+          "date": "2026-06-25",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53264-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA LUCHA / CICLO: Sala de los Cineastas",
+          "date": "2026-06-25",
+          "time": "20:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53265-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "ORLANDO. MI BIOGRAFIA POLITICA / CICLO: Amnistía I...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_180312&nombre=orlando_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "PRIMICIA MORTAL / CICLO: Cine y periodismo": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183512&nombre=nightcrawler_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "NIAGARA / CICLO: Del western al noir. El cine de Henry...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183511&nombre=niagara_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "HORAS NO ESTÁS SOLA. La lucha contra La Manada / CICLO: ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183279&nombre=no_estas_sola_la_lucha_contra_la_manada-687691426-mmed_res_300.jpg",
       "overview": null,
@@ -381,6 +351,13 @@
     },
     "LOS LEGENDARIOS / FILMO EN FAMILIA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183520&nombre=les_legendaires_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "NIAGARA / CICLO: Del western al noir. El cine de Henry...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183511&nombre=niagara_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -539,6 +516,20 @@
     "LOS CUATRO HIJOS DE KATIE ELDER / CICLO: Del western...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183541&nombre=the_sons_of_katie_elder_res_300.jpg",
       "overview": "LOS CUATRO HIJOS DE KATIE ELDER / CICLO: Del western al noir. El cine de Henry Hathaway",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "VALOR DE LEY / CICLO: Del western al noir. El cine...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183547&nombre=true_grit-457751056-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA LUCHA / CICLO: Sala de los Cineastas": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183548&nombre=la_lucha_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
