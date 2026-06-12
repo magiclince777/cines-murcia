@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-11T11:10:05.893905+00:00",
-  "fromDate": "2026-06-11",
-  "toDate": "2026-06-25",
+  "generatedAt": "2026-06-12T10:49:46.611731+00:00",
+  "fromDate": "2026-06-12",
+  "toDate": "2026-06-26",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,15 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "HORAS NO ESTÁS SOLA. La lucha contra La Manada / CICLO: ...",
-          "date": "2026-06-11",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53230-DETALLE_EVENTO"
-        },
         {
           "movie": "BAJO EL SOL DE SATÁN / CICLO: MAURICE PIALAT",
           "date": "2026-06-12",
@@ -316,18 +307,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53265-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL AIRE DE UN CRIMEN / CENTENARIO PACO RABAL",
+          "date": "2026-06-26",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53266-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LAS LINEAS DISCONTINUAS",
+          "date": "2026-06-26",
+          "time": "21:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53268-DETALLE_EVENTO"
+        },
+        {
+          "movie": "PIRAÑA / CICLO: Madrugada sangrienta",
+          "date": "2026-06-26",
+          "time": "22:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53269-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "HORAS NO ESTÁS SOLA. La lucha contra La Manada / CICLO: ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183279&nombre=no_estas_sola_la_lucha_contra_la_manada-687691426-mmed_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "BAJO EL SOL DE SATÁN / CICLO: MAURICE PIALAT": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183518&nombre=sous_le_soleil_de_satan_res_300.jpg",
       "overview": null,
@@ -529,6 +540,20 @@
     },
     "LA LUCHA / CICLO: Sala de los Cineastas": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183548&nombre=la_lucha_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL AIRE DE UN CRIMEN / CENTENARIO PACO RABAL": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_20811&nombre=El_Aire_de_un_crimen_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "PIRAÑA / CICLO: Madrugada sangrienta": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183550&nombre=piranha-768591760-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
