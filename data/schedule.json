@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-12T10:49:46.611731+00:00",
-  "fromDate": "2026-06-12",
-  "toDate": "2026-06-26",
+  "generatedAt": "2026-06-13T09:43:16.848389+00:00",
+  "fromDate": "2026-06-13",
+  "toDate": "2026-06-27",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,33 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "BAJO EL SOL DE SATÁN / CICLO: MAURICE PIALAT",
-          "date": "2026-06-12",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53232-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EL CAZADOR / CICLO: José Antonio Hurtado: Memoria ...",
-          "date": "2026-06-12",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53233-DETALLE_EVENTO"
-        },
-        {
-          "movie": "TEMBLORES / CICLO: Madrugada sangrienta",
-          "date": "2026-06-12",
-          "time": "23:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53234-DETALLE_EVENTO"
-        },
         {
           "movie": "LOS LEGENDARIOS / FILMO EN FAMILIA",
           "date": "2026-06-13",
@@ -339,27 +312,6 @@
     }
   ],
   "movies": {
-    "BAJO EL SOL DE SATÁN / CICLO: MAURICE PIALAT": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183518&nombre=sous_le_soleil_de_satan_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "EL CAZADOR / CICLO: José Antonio Hurtado: Memoria ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183508&nombre=dersu_uzala_res_300.jpg",
-      "overview": "EL CAZADOR / CICLO: José Antonio Hurtado: Memoria y Cinefilia. Recuerdos de una sala oscura",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "TEMBLORES / CICLO: Madrugada sangrienta": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183519&nombre=tremors_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "LOS LEGENDARIOS / FILMO EN FAMILIA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183520&nombre=les_legendaires_res_300.jpg",
       "overview": null,
