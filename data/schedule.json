@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-13T09:43:16.848389+00:00",
-  "fromDate": "2026-06-13",
-  "toDate": "2026-06-27",
+  "generatedAt": "2026-06-14T10:03:42.998305+00:00",
+  "fromDate": "2026-06-14",
+  "toDate": "2026-06-28",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,33 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "LOS LEGENDARIOS / FILMO EN FAMILIA",
-          "date": "2026-06-13",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53235-DETALLE_EVENTO"
-        },
-        {
-          "movie": "NIAGARA / CICLO: Del western al noir. El cine de Henry...",
-          "date": "2026-06-13",
-          "time": "19:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53236-DETALLE_EVENTO"
-        },
-        {
-          "movie": "¡ÁTAME! / Centenario Paco Rabal",
-          "date": "2026-06-13",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53237-DETALLE_EVENTO"
-        },
         {
           "movie": "¡ÁTAME! / Centenario Paco Rabal",
           "date": "2026-06-14",
@@ -312,20 +285,6 @@
     }
   ],
   "movies": {
-    "LOS LEGENDARIOS / FILMO EN FAMILIA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183520&nombre=les_legendaires_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "NIAGARA / CICLO: Del western al noir. El cine de Henry...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183511&nombre=niagara_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "¡ÁTAME! / Centenario Paco Rabal": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183278&nombre=atame-524656185-mmed_res_300.jpg",
       "overview": null,
