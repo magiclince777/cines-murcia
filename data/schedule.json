@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-14T10:03:42.998305+00:00",
-  "fromDate": "2026-06-14",
-  "toDate": "2026-06-28",
+  "generatedAt": "2026-06-15T12:49:16.345833+00:00",
+  "fromDate": "2026-06-15",
+  "toDate": "2026-06-29",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,24 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "¡ÁTAME! / Centenario Paco Rabal",
-          "date": "2026-06-14",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53238-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EL JARDIN DEL DIABLO / CICLO: Del western al noir....",
-          "date": "2026-06-14",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53239-DETALLE_EVENTO"
-        },
         {
           "movie": "DESPUÉS DEL DILUVIO / CENTENARIO PACO RABAL",
           "date": "2026-06-15",
@@ -285,20 +267,6 @@
     }
   ],
   "movies": {
-    "¡ÁTAME! / Centenario Paco Rabal": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183278&nombre=atame-524656185-mmed_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "EL JARDIN DEL DIABLO / CICLO: Del western al noir....": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183510&nombre=garden_of_evil_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "DESPUÉS DEL DILUVIO / CENTENARIO PACO RABAL": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183517&nombre=despues_del_diluvio-402008866-large_res_300.jpg",
       "overview": null,
