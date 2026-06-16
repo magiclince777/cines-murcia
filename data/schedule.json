@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-15T12:49:16.345833+00:00",
-  "fromDate": "2026-06-15",
-  "toDate": "2026-06-29",
+  "generatedAt": "2026-06-16T11:41:40.970779+00:00",
+  "fromDate": "2026-06-16",
+  "toDate": "2026-06-30",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,15 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "DESPUÉS DEL DILUVIO / CENTENARIO PACO RABAL",
-          "date": "2026-06-15",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53231-DETALLE_EVENTO"
-        },
         {
           "movie": "Mr JONES / CICLO: Cine y periodismo",
           "date": "2026-06-16",
@@ -109,6 +100,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53247-DETALLE_EVENTO"
+        },
+        {
+          "movie": "RE-SONATOR - CICLO: MADRUGADA SANGRIENTA",
+          "date": "2026-06-19",
+          "time": "22:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53287-DETALLE_EVENTO"
         },
         {
           "movie": "EL TIGRE PERDIDO / FILMO EN FAMILIA",
@@ -267,13 +267,6 @@
     }
   ],
   "movies": {
-    "DESPUÉS DEL DILUVIO / CENTENARIO PACO RABAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183517&nombre=despues_del_diluvio-402008866-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "Mr JONES / CICLO: Cine y periodismo": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183521&nombre=mr_jones_res_300.jpg",
       "overview": null,
@@ -325,6 +318,13 @@
     },
     "IX EDICIÓN MUESTRA DE REALIZADORES MURCIANOS": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183553&nombre=CARTEL_REALIZADORES_MURCIANOS_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "RE-SONATOR - CICLO: MADRUGADA SANGRIENTA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183611&nombre=from_beyond-175721300-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
