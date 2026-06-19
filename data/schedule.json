@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-18T10:54:45.977218+00:00",
-  "fromDate": "2026-06-18",
-  "toDate": "2026-07-02",
+  "generatedAt": "2026-06-19T11:05:12.708115+00:00",
+  "fromDate": "2026-06-19",
+  "toDate": "2026-07-03",
   "cinemas": [
     {
       "id": "myrtea",
@@ -26,36 +26,10 @@
       "color": "#dc2626",
       "salas": [
         "Sala A",
-        "Sala B"
+        "Sala B",
+        "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "SORDA / CICLO: Cine y mediación",
-          "date": "2026-06-18",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53243-DETALLE_EVENTO"
-        },
-        {
-          "movie": "ALASKA, TIERRA DE ORO / CICLO: Del western al noir....",
-          "date": "2026-06-18",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53244-DETALLE_EVENTO"
-        },
-        {
-          "movie": "FAMILIA / CICLO: Ópera prima: El debut notable",
-          "date": "2026-06-18",
-          "time": "21:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53245-DETALLE_EVENTO"
-        },
         {
           "movie": "EL NIÑO / CICLO: Maurice Pialat",
           "date": "2026-06-19",
@@ -235,32 +209,20 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53269-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE DE BAJO LAS ESTRELLAS - REGRESO AL FUTURO",
+          "date": "2026-07-01",
+          "time": "21:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53293-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "SORDA / CICLO: Cine y mediación": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175271&nombre=Cartel_SORDA_vertical_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "ALASKA, TIERRA DE ORO / CICLO: Del western al noir....": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183525&nombre=north_to_alaska_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "FAMILIA / CICLO: Ópera prima: El debut notable": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183526&nombre=familia_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "EL NIÑO / CICLO: Maurice Pialat": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183527&nombre=El_nino_res_300.jpg",
       "overview": null,
@@ -385,6 +347,13 @@
     },
     "PIRAÑA / CICLO: Madrugada sangrienta": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183550&nombre=piranha-768591760-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE DE BAJO LAS ESTRELLAS - REGRESO AL FUTURO": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173412&nombre=back_to_the_future-100822308-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
