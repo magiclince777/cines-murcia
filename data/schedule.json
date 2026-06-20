@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-19T11:05:12.708115+00:00",
-  "fromDate": "2026-06-19",
-  "toDate": "2026-07-03",
+  "generatedAt": "2026-06-20T09:49:25.800131+00:00",
+  "fromDate": "2026-06-20",
+  "toDate": "2026-07-04",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "EL NIÑO / CICLO: Maurice Pialat",
-          "date": "2026-06-19",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53246-DETALLE_EVENTO"
-        },
-        {
-          "movie": "IX EDICIÓN MUESTRA DE REALIZADORES MURCIANOS",
-          "date": "2026-06-19",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53247-DETALLE_EVENTO"
-        },
-        {
-          "movie": "RE-SONATOR - CICLO: MADRUGADA SANGRIENTA",
-          "date": "2026-06-19",
-          "time": "22:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53287-DETALLE_EVENTO"
-        },
         {
           "movie": "EL TIGRE PERDIDO / FILMO EN FAMILIA",
           "date": "2026-06-20",
@@ -139,6 +112,15 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53257-DETALLE_EVENTO"
         },
         {
+          "movie": "NEVADA SMITH / CICLO: Del western al noir. El cine...",
+          "date": "2026-06-23",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53258-DETALLE_EVENTO"
+        },
+        {
           "movie": "EL ESCÁNDALO / CICLO: Cine y periodismo",
           "date": "2026-06-24",
           "time": "18:45",
@@ -171,7 +153,7 @@
           "time": "18:30",
           "duration": null,
           "rating": "?",
-          "sala": "Sala A",
+          "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53264-DETALLE_EVENTO"
         },
         {
@@ -180,7 +162,7 @@
           "time": "20:30",
           "duration": null,
           "rating": "?",
-          "sala": "Sala A",
+          "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53265-DETALLE_EVENTO"
         },
         {
@@ -223,27 +205,6 @@
     }
   ],
   "movies": {
-    "EL NIÑO / CICLO: Maurice Pialat": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183527&nombre=El_nino_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "IX EDICIÓN MUESTRA DE REALIZADORES MURCIANOS": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183553&nombre=CARTEL_REALIZADORES_MURCIANOS_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "RE-SONATOR - CICLO: MADRUGADA SANGRIENTA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183611&nombre=from_beyond-175721300-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "EL TIGRE PERDIDO / FILMO EN FAMILIA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183531&nombre=the_lost_tiger_res_300.jpg",
       "overview": null,
@@ -298,6 +259,13 @@
     },
     "DIVINAS PALABRAS / CENTENARIO PACO RABAL": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183537&nombre=divinas_palabras_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "NEVADA SMITH / CICLO: Del western al noir. El cine...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183538&nombre=nevada_smith_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
