@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-20T09:49:25.800131+00:00",
-  "fromDate": "2026-06-20",
-  "toDate": "2026-07-04",
+  "generatedAt": "2026-06-21T10:09:44.713600+00:00",
+  "fromDate": "2026-06-21",
+  "toDate": "2026-07-05",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "EL TIGRE PERDIDO / FILMO EN FAMILIA",
-          "date": "2026-06-20",
-          "time": "17:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53249-DETALLE_EVENTO"
-        },
-        {
-          "movie": "A 23 PASOS DE BAKER STREET / / CICLO: Del western ...",
-          "date": "2026-06-20",
-          "time": "19:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53250-DETALLE_EVENTO"
-        },
-        {
-          "movie": "TRES ADIOSES / PANORAMA DE ACTUALIDAD",
-          "date": "2026-06-20",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53251-DETALLE_EVENTO"
-        },
         {
           "movie": "TRES ADIOSES / PANORAMA DE ACTUALIDAD",
           "date": "2026-06-21",
@@ -205,20 +178,6 @@
     }
   ],
   "movies": {
-    "EL TIGRE PERDIDO / FILMO EN FAMILIA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183531&nombre=the_lost_tiger_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "A 23 PASOS DE BAKER STREET / / CICLO: Del western ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183532&nombre=23_paces_to_baker_street_res_300.jpg",
-      "overview": "A 23 PASOS DE BAKER STREET / / CICLO: Del western al noir. El cine de Henry Hathaway",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "TRES ADIOSES / PANORAMA DE ACTUALIDAD": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183533&nombre=tre_ciotole_res_300.jpg",
       "overview": null,
