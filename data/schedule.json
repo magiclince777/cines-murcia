@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-22T12:33:53.730091+00:00",
-  "fromDate": "2026-06-22",
-  "toDate": "2026-07-06",
+  "generatedAt": "2026-06-23T10:10:55.974078+00:00",
+  "fromDate": "2026-06-23",
+  "toDate": "2026-07-07",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,24 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "LAS LINEAS DISCONTINUAS",
-          "date": "2026-06-22",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53255-DETALLE_EVENTO"
-        },
-        {
-          "movie": "HOLA, ¿ESTÁS SOLA? / CICLO: Ópera prima: El debut ...",
-          "date": "2026-06-22",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53256-DETALLE_EVENTO"
-        },
         {
           "movie": "La noche de San Juan / PANTALLA EN DANZA",
           "date": "2026-06-23",
@@ -160,23 +142,6 @@
     }
   ],
   "movies": {
-    "LAS LINEAS DISCONTINUAS": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183535&nombre=as_linas_descontinuas_res_300.jpg",
-      "overview": "Bea es una mujer de 50 años que se está separando de su marido. El día en el que tiene que abandonar el hogar en el que ha vivido los últimos veinte años llega a su casa y se encuentra todo patas arriba y a uno de los ladrones dormido en su cama. Denís es un chico de 28 años que, a pesar de haber estudiado una carrera, lucha con la precariedad laboral y la falta de oportunidades. Después de pasar tres días juntos, cada uno deberá continuar su camino.",
-      "vote_average": 6.0,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "year": 2026
-    },
-    "HOLA, ¿ESTÁS SOLA? / CICLO: Ópera prima: El debut ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183536&nombre=hola_estas_sola_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "La noche de San Juan / PANTALLA EN DANZA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_182471&nombre=lanochedesanjuan-antonioruz-01_res_300.jpg",
       "overview": "La Noche de San Juan (Soirées de Barcelone) es un ballet con música de Roberto Gerhard, esceno- grafía de Joan Junyer y argumento de Ventura Gas- sol que quedó inédito en 1939 por los avatares de la Guerra Civil. La recuperación de este ballet más de ochenta años después de su creación, en lo que supone su estreno absoluto, bebe de todo ese rico legado del pasado, pero trasciende con un nuevo enfoque del siglo xxi.",
@@ -239,6 +204,16 @@
       "vote_average": null,
       "genres": [],
       "year": null
+    },
+    "LAS LINEAS DISCONTINUAS": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183549&nombre=as_linas_descontinuas_res_300.jpg",
+      "overview": "Bea es una mujer de 50 años que se está separando de su marido. El día en el que tiene que abandonar el hogar en el que ha vivido los últimos veinte años llega a su casa y se encuentra todo patas arriba y a uno de los ladrones dormido en su cama. Denís es un chico de 28 años que, a pesar de haber estudiado una carrera, lucha con la precariedad laboral y la falta de oportunidades. Después de pasar tres días juntos, cada uno deberá continuar su camino.",
+      "vote_average": 6.0,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "year": 2026
     },
     "PIRAÑA / CICLO: Madrugada sangrienta": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183550&nombre=piranha-768591760-large_res_300.jpg",
