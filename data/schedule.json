@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-23T10:10:55.974078+00:00",
-  "fromDate": "2026-06-23",
-  "toDate": "2026-07-07",
+  "generatedAt": "2026-06-24T09:57:31.954430+00:00",
+  "fromDate": "2026-06-24",
+  "toDate": "2026-07-08",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "La noche de San Juan / PANTALLA EN DANZA",
-          "date": "2026-06-23",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-52634-DETALLE_EVENTO"
-        },
-        {
-          "movie": "DIVINAS PALABRAS / CENTENARIO PACO RABAL",
-          "date": "2026-06-23",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53257-DETALLE_EVENTO"
-        },
-        {
-          "movie": "NEVADA SMITH / CICLO: Del western al noir. El cine...",
-          "date": "2026-06-23",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53258-DETALLE_EVENTO"
-        },
         {
           "movie": "EL ESCÁNDALO / CICLO: Cine y periodismo",
           "date": "2026-06-24",
@@ -137,32 +110,56 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53293-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - REGRESO AL FUTURO II",
+          "date": "2026-07-01",
+          "time": "23:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53294-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - MI VECINO TOTORO",
+          "date": "2026-07-02",
+          "time": "21:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53295-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - EL JOVENCITO FRANKENSTEI...",
+          "date": "2026-07-03",
+          "time": "21:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53296-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - EL BAILE DE LOS VAMPIROS",
+          "date": "2026-07-03",
+          "time": "23:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53297-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - EL SECRETO DE LA PIRÁMID...",
+          "date": "2026-07-08",
+          "time": "21:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53298-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "La noche de San Juan / PANTALLA EN DANZA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_182471&nombre=lanochedesanjuan-antonioruz-01_res_300.jpg",
-      "overview": "La Noche de San Juan (Soirées de Barcelone) es un ballet con música de Roberto Gerhard, esceno- grafía de Joan Junyer y argumento de Ventura Gas- sol que quedó inédito en 1939 por los avatares de la Guerra Civil. La recuperación de este ballet más de ochenta años después de su creación, en lo que supone su estreno absoluto, bebe de todo ese rico legado del pasado, pero trasciende con un nuevo enfoque del siglo xxi.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "DIVINAS PALABRAS / CENTENARIO PACO RABAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183537&nombre=divinas_palabras_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "NEVADA SMITH / CICLO: Del western al noir. El cine...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183538&nombre=nevada_smith_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "EL ESCÁNDALO / CICLO: Cine y periodismo": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183539&nombre=bombshell_res_300.jpg",
       "overview": null,
@@ -224,6 +221,41 @@
     },
     "CINE DE BAJO LAS ESTRELLAS - REGRESO AL FUTURO": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173412&nombre=back_to_the_future-100822308-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - REGRESO AL FUTURO II": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173413&nombre=back_to_the_future_part_ii-865007932-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - MI VECINO TOTORO": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_168587&nombre=tonari_no_totoro-974352061-large_res_300.jpg",
+      "overview": "En los años 50, una familia japonesa se traslada al campo. Las dos hijas, Satsuki y Mei, entablan amistad con Totoro, un espíritu del bosque. El padre es un profesor universitario que estimula la imaginación de sus hijas relatándoles fábulas e historias mágicas sobre duendes, fantasmas y espíritus protectores de los hogares, mientras la madre se encuentra enferma en el hospital.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - EL JOVENCITO FRANKENSTEI...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183630&nombre=young_frankenstein_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - EL BAILE DE LOS VAMPIROS": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_168413&nombre=dance_of_the_vampires-942575963-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - EL SECRETO DE LA PIRÁMID...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183631&nombre=young_sherlock_holmes_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
