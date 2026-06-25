@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-24T09:57:31.954430+00:00",
-  "fromDate": "2026-06-24",
-  "toDate": "2026-07-08",
+  "generatedAt": "2026-06-25T09:52:25.173573+00:00",
+  "fromDate": "2026-06-25",
+  "toDate": "2026-07-09",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "EL ESCÁNDALO / CICLO: Cine y periodismo",
-          "date": "2026-06-24",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53259-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CRÓNICAS TURCAS / MAURICE PIALAT",
-          "date": "2026-06-24",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53260-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LOS CUATRO HIJOS DE KATIE ELDER / CICLO: Del western...",
-          "date": "2026-06-24",
-          "time": "21:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53261-DETALLE_EVENTO"
-        },
         {
           "movie": "VALOR DE LEY / CICLO: Del western al noir. El cine...",
           "date": "2026-06-25",
@@ -103,7 +76,7 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53269-DETALLE_EVENTO"
         },
         {
-          "movie": "CINE DE BAJO LAS ESTRELLAS - REGRESO AL FUTURO",
+          "movie": "CINE BAJO LAS ESTRELLAS - REGRESO AL FUTURO",
           "date": "2026-07-01",
           "time": "21:45",
           "duration": null,
@@ -155,32 +128,20 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53298-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - LA HISTORIA INTERMINABLE",
+          "date": "2026-07-09",
+          "time": "21:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53299-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "EL ESCÁNDALO / CICLO: Cine y periodismo": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183539&nombre=bombshell_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CRÓNICAS TURCAS / MAURICE PIALAT": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183540&nombre=Captura_de_pantalla_2026-05-21_152956_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LOS CUATRO HIJOS DE KATIE ELDER / CICLO: Del western...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183541&nombre=the_sons_of_katie_elder_res_300.jpg",
-      "overview": "LOS CUATRO HIJOS DE KATIE ELDER / CICLO: Del western al noir. El cine de Henry Hathaway",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "VALOR DE LEY / CICLO: Del western al noir. El cine...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183547&nombre=true_grit-457751056-large_res_300.jpg",
       "overview": null,
@@ -219,7 +180,7 @@
       "genres": [],
       "year": null
     },
-    "CINE DE BAJO LAS ESTRELLAS - REGRESO AL FUTURO": {
+    "CINE BAJO LAS ESTRELLAS - REGRESO AL FUTURO": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173412&nombre=back_to_the_future-100822308-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
@@ -256,6 +217,13 @@
     },
     "CINE BAJO LAS ESTRELLAS - EL SECRETO DE LA PIRÁMID...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183631&nombre=young_sherlock_holmes_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - LA HISTORIA INTERMINABLE": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_158964&nombre=cartel_la_historia_interminable_0_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
