@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-25T09:52:25.173573+00:00",
-  "fromDate": "2026-06-25",
-  "toDate": "2026-07-09",
+  "generatedAt": "2026-06-26T09:58:27.503183+00:00",
+  "fromDate": "2026-06-26",
+  "toDate": "2026-07-10",
   "cinemas": [
     {
       "id": "myrtea",
@@ -26,28 +26,9 @@
       "color": "#dc2626",
       "salas": [
         "Sala A",
-        "Sala B",
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "VALOR DE LEY / CICLO: Del western al noir. El cine...",
-          "date": "2026-06-25",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53264-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA LUCHA / CICLO: Sala de los Cineastas",
-          "date": "2026-06-25",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53265-DETALLE_EVENTO"
-        },
         {
           "movie": "EL AIRE DE UN CRIMEN / CENTENARIO PACO RABAL",
           "date": "2026-06-26",
@@ -137,25 +118,29 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53299-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - MANHATTAN",
+          "date": "2026-07-10",
+          "time": "21:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53300-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - MISTERIOSO ASESINATO EN ...",
+          "date": "2026-07-10",
+          "time": "23:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53301-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "VALOR DE LEY / CICLO: Del western al noir. El cine...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183547&nombre=true_grit-457751056-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA LUCHA / CICLO: Sala de los Cineastas": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183548&nombre=la_lucha_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "EL AIRE DE UN CRIMEN / CENTENARIO PACO RABAL": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_20811&nombre=El_Aire_de_un_crimen_res_300.jpg",
       "overview": null,
@@ -224,6 +209,20 @@
     },
     "CINE BAJO LAS ESTRELLAS - LA HISTORIA INTERMINABLE": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_158964&nombre=cartel_la_historia_interminable_0_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - MANHATTAN": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_152523&nombre=MANHATTAN_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - MISTERIOSO ASESINATO EN ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183632&nombre=manhattan_murder_mystery_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
