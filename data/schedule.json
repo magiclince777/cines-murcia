@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-26T09:58:27.503183+00:00",
-  "fromDate": "2026-06-26",
-  "toDate": "2026-07-10",
+  "generatedAt": "2026-06-27T09:11:50.104161+00:00",
+  "fromDate": "2026-06-27",
+  "toDate": "2026-07-11",
   "cinemas": [
     {
       "id": "myrtea",
@@ -25,37 +25,9 @@
       "area": "Murcia",
       "color": "#dc2626",
       "salas": [
-        "Sala A",
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "EL AIRE DE UN CRIMEN / CENTENARIO PACO RABAL",
-          "date": "2026-06-26",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53266-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LAS LINEAS DISCONTINUAS",
-          "date": "2026-06-26",
-          "time": "21:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53268-DETALLE_EVENTO"
-        },
-        {
-          "movie": "PIRAÑA / CICLO: Madrugada sangrienta",
-          "date": "2026-06-26",
-          "time": "22:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53269-DETALLE_EVENTO"
-        },
         {
           "movie": "CINE BAJO LAS ESTRELLAS - REGRESO AL FUTURO",
           "date": "2026-07-01",
@@ -141,30 +113,6 @@
     }
   ],
   "movies": {
-    "EL AIRE DE UN CRIMEN / CENTENARIO PACO RABAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_20811&nombre=El_Aire_de_un_crimen_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LAS LINEAS DISCONTINUAS": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183549&nombre=as_linas_descontinuas_res_300.jpg",
-      "overview": "Bea es una mujer de 50 años que se está separando de su marido. El día en el que tiene que abandonar el hogar en el que ha vivido los últimos veinte años llega a su casa y se encuentra todo patas arriba y a uno de los ladrones dormido en su cama. Denís es un chico de 28 años que, a pesar de haber estudiado una carrera, lucha con la precariedad laboral y la falta de oportunidades. Después de pasar tres días juntos, cada uno deberá continuar su camino.",
-      "vote_average": 6.0,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "year": 2026
-    },
-    "PIRAÑA / CICLO: Madrugada sangrienta": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183550&nombre=piranha-768591760-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - REGRESO AL FUTURO": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173412&nombre=back_to_the_future-100822308-large_res_300.jpg",
       "overview": null,
