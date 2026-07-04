@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-03T09:42:19.011356+00:00",
-  "fromDate": "2026-07-03",
-  "toDate": "2026-07-17",
+  "generatedAt": "2026-07-04T09:05:19.928451+00:00",
+  "fromDate": "2026-07-04",
+  "toDate": "2026-07-18",
   "cinemas": [
     {
       "id": "myrtea",
@@ -28,24 +28,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - EL JOVENCITO FRANKENSTEI...",
-          "date": "2026-07-03",
-          "time": "21:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53296-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - EL BAILE DE LOS VAMPIROS",
-          "date": "2026-07-03",
-          "time": "23:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53297-DETALLE_EVENTO"
-        },
         {
           "movie": "CINE BAJO LAS ESTRELLAS - EL SECRETO DE LA PIRÁMID...",
           "date": "2026-07-08",
@@ -131,20 +113,6 @@
     }
   ],
   "movies": {
-    "CINE BAJO LAS ESTRELLAS - EL JOVENCITO FRANKENSTEI...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183630&nombre=young_frankenstein_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CINE BAJO LAS ESTRELLAS - EL BAILE DE LOS VAMPIROS": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_168413&nombre=dance_of_the_vampires-942575963-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - EL SECRETO DE LA PIRÁMID...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183631&nombre=young_sherlock_holmes_res_300.jpg",
       "overview": null,
