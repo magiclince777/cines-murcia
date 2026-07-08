@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-07T10:06:09.836443+00:00",
-  "fromDate": "2026-07-07",
-  "toDate": "2026-07-21",
+  "generatedAt": "2026-07-08T09:07:17.028307+00:00",
+  "fromDate": "2026-07-08",
+  "toDate": "2026-07-22",
   "cinemas": [
     {
       "id": "myrtea",
@@ -108,6 +108,15 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53307-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - TIBURÓN",
+          "date": "2026-07-22",
+          "time": "21:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53308-DETALLE_EVENTO"
         }
       ]
     }
@@ -171,6 +180,13 @@
     },
     "CINE BAJO LAS ESTRELLAS - MAMMA MIA! LA PELÍCULA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_137250&nombre=mammamia_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - TIBURÓN": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175800&nombre=jaws-195807307-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
