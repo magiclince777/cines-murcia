@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-08T09:07:17.028307+00:00",
-  "fromDate": "2026-07-08",
-  "toDate": "2026-07-22",
+  "generatedAt": "2026-07-09T10:04:08.853613+00:00",
+  "fromDate": "2026-07-09",
+  "toDate": "2026-07-23",
   "cinemas": [
     {
       "id": "myrtea",
@@ -28,15 +28,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - EL SECRETO DE LA PIRÁMID...",
-          "date": "2026-07-08",
-          "time": "21:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53298-DETALLE_EVENTO"
-        },
         {
           "movie": "CINE BAJO LAS ESTRELLAS - LA HISTORIA INTERMINABLE",
           "date": "2026-07-09",
@@ -117,18 +108,29 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53308-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - CASPER",
+          "date": "2026-07-23",
+          "time": "00:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53311-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - LA FAMILIA ADDAMS",
+          "date": "2026-07-23",
+          "time": "21:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53310-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "CINE BAJO LAS ESTRELLAS - EL SECRETO DE LA PIRÁMID...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183631&nombre=young_sherlock_holmes_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - LA HISTORIA INTERMINABLE": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_158964&nombre=cartel_la_historia_interminable_0_res_300.jpg",
       "overview": null,
@@ -187,6 +189,20 @@
     },
     "CINE BAJO LAS ESTRELLAS - TIBURÓN": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175800&nombre=jaws-195807307-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - CASPER": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183636&nombre=casper-_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - LA FAMILIA ADDAMS": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183635&nombre=the_addams_family_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
