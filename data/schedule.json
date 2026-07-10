@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-09T10:04:08.853613+00:00",
-  "fromDate": "2026-07-09",
-  "toDate": "2026-07-23",
+  "generatedAt": "2026-07-10T10:00:13.120801+00:00",
+  "fromDate": "2026-07-10",
+  "toDate": "2026-07-24",
   "cinemas": [
     {
       "id": "myrtea",
@@ -28,15 +28,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - LA HISTORIA INTERMINABLE",
-          "date": "2026-07-09",
-          "time": "21:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53299-DETALLE_EVENTO"
-        },
         {
           "movie": "CINE BAJO LAS ESTRELLAS - MANHATTAN",
           "date": "2026-07-10",
@@ -126,18 +117,29 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53310-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - LOS PÁJAROS",
+          "date": "2026-07-24",
+          "time": "00:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53313-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - CON LA MUERTE EN LOS TAL...",
+          "date": "2026-07-24",
+          "time": "21:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53312-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "CINE BAJO LAS ESTRELLAS - LA HISTORIA INTERMINABLE": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_158964&nombre=cartel_la_historia_interminable_0_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - MANHATTAN": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_152523&nombre=MANHATTAN_res_300.jpg",
       "overview": null,
@@ -203,6 +205,20 @@
     },
     "CINE BAJO LAS ESTRELLAS - LA FAMILIA ADDAMS": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183635&nombre=the_addams_family_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - LOS PÁJAROS": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183638&nombre=alfred_hitchcock_s_the_birds_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - CON LA MUERTE EN LOS TAL...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183637&nombre=north_by_northwest_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
