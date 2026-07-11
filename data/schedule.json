@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-10T10:00:13.120801+00:00",
-  "fromDate": "2026-07-10",
-  "toDate": "2026-07-24",
+  "generatedAt": "2026-07-11T08:20:14.722256+00:00",
+  "fromDate": "2026-07-11",
+  "toDate": "2026-07-25",
   "cinemas": [
     {
       "id": "myrtea",
@@ -28,24 +28,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - MANHATTAN",
-          "date": "2026-07-10",
-          "time": "21:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53300-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - MISTERIOSO ASESINATO EN ...",
-          "date": "2026-07-10",
-          "time": "23:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53301-DETALLE_EVENTO"
-        },
         {
           "movie": "CINE BAJO LAS ESTRELLAS - PARQUE JURÁSICO",
           "date": "2026-07-15",
@@ -140,20 +122,6 @@
     }
   ],
   "movies": {
-    "CINE BAJO LAS ESTRELLAS - MANHATTAN": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_152523&nombre=MANHATTAN_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CINE BAJO LAS ESTRELLAS - MISTERIOSO ASESINATO EN ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183632&nombre=manhattan_murder_mystery_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - PARQUE JURÁSICO": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_171872&nombre=jurassic_park-187298880-large_res_300.jpg",
       "overview": null,
