@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-14T08:36:28.555465+00:00",
-  "fromDate": "2026-07-14",
-  "toDate": "2026-07-28",
+  "generatedAt": "2026-07-15T08:42:27.821251+00:00",
+  "fromDate": "2026-07-15",
+  "toDate": "2026-07-29",
   "cinemas": [
     {
       "id": "myrtea",
@@ -117,6 +117,15 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53312-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - CHARLIE Y LA FÁBRICA DE ...",
+          "date": "2026-07-29",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53314-DETALLE_EVENTO"
         }
       ]
     }
@@ -187,6 +196,13 @@
     },
     "CINE BAJO LAS ESTRELLAS - CON LA MUERTE EN LOS TAL...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183637&nombre=north_by_northwest_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - CHARLIE Y LA FÁBRICA DE ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183657&nombre=charlie_and_thejpg_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
