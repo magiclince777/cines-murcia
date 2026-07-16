@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-15T08:42:27.821251+00:00",
-  "fromDate": "2026-07-15",
-  "toDate": "2026-07-29",
+  "generatedAt": "2026-07-16T08:40:53.782549+00:00",
+  "fromDate": "2026-07-16",
+  "toDate": "2026-07-30",
   "cinemas": [
     {
       "id": "myrtea",
@@ -28,15 +28,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - PARQUE JURÁSICO",
-          "date": "2026-07-15",
-          "time": "21:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53302-DETALLE_EVENTO"
-        },
         {
           "movie": "CINE BAJO LAS ESTRELLAS - DRAGONHEART",
           "date": "2026-07-16",
@@ -126,18 +117,29 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53314-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - EXPLORADORES",
+          "date": "2026-07-30",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53315-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - ATERRIZA COMO PUEDAS",
+          "date": "2026-07-30",
+          "time": "23:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53316-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "CINE BAJO LAS ESTRELLAS - PARQUE JURÁSICO": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_171872&nombre=jurassic_park-187298880-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - DRAGONHEART": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183633&nombre=dragonheart_res_300.jpg",
       "overview": null,
@@ -204,6 +206,20 @@
     "CINE BAJO LAS ESTRELLAS - CHARLIE Y LA FÁBRICA DE ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183657&nombre=charlie_and_thejpg_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - EXPLORADORES": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_176891&nombre=EXPLORADORES_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - ATERRIZA COMO PUEDAS": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_165055&nombre=airplane-337402243-large_res_300.jpg",
+      "overview": "(Airplane!), Jim Abrahams, David Zucker, Jerry Zucker 1980 Estados Unidos. 88’  VE",
       "vote_average": null,
       "genres": [],
       "year": null
