@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-16T08:40:53.782549+00:00",
-  "fromDate": "2026-07-16",
-  "toDate": "2026-07-30",
+  "generatedAt": "2026-07-17T08:35:31.393701+00:00",
+  "fromDate": "2026-07-17",
+  "toDate": "2026-07-31",
   "cinemas": [
     {
       "id": "myrtea",
@@ -28,24 +28,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - DRAGONHEART",
-          "date": "2026-07-16",
-          "time": "21:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53303-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - ASÍ EN EL CIELO COMO EN ...",
-          "date": "2026-07-16",
-          "time": "23:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53304-DETALLE_EVENTO"
-        },
         {
           "movie": "CINE BAJO LAS ESTRELLAS - GREASE",
           "date": "2026-07-17",
@@ -135,25 +117,29 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53316-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - AMANECE, QUE NO ES POCO",
+          "date": "2026-07-31",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53318-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - LA FIERA DE MI NIÑA",
+          "date": "2026-07-31",
+          "time": "23:15",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53319-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "CINE BAJO LAS ESTRELLAS - DRAGONHEART": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183633&nombre=dragonheart_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CINE BAJO LAS ESTRELLAS - ASÍ EN EL CIELO COMO EN ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173436&nombre=asi_en_el_cielo_como_en_la_tierra-267562700-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - GREASE": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_176966&nombre=grease-949856059-large_res_300.jpg",
       "overview": null,
@@ -220,6 +206,20 @@
     "CINE BAJO LAS ESTRELLAS - ATERRIZA COMO PUEDAS": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_165055&nombre=airplane-337402243-large_res_300.jpg",
       "overview": "(Airplane!), Jim Abrahams, David Zucker, Jerry Zucker 1980 Estados Unidos. 88’  VE",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - AMANECE, QUE NO ES POCO": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173382&nombre=amanece_que_no_es_poco-558688617-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - LA FIERA DE MI NIÑA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_156312&nombre=bringing_up_baby-308706906-large_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
