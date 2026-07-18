@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-17T08:35:31.393701+00:00",
-  "fromDate": "2026-07-17",
-  "toDate": "2026-07-31",
+  "generatedAt": "2026-07-18T08:21:07.458301+00:00",
+  "fromDate": "2026-07-18",
+  "toDate": "2026-08-01",
   "cinemas": [
     {
       "id": "myrtea",
@@ -28,24 +28,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - GREASE",
-          "date": "2026-07-17",
-          "time": "21:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53306-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - MAMMA MIA! LA PELÍCULA",
-          "date": "2026-07-17",
-          "time": "23:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53307-DETALLE_EVENTO"
-        },
         {
           "movie": "CINE BAJO LAS ESTRELLAS - TIBURÓN",
           "date": "2026-07-22",
@@ -140,20 +122,6 @@
     }
   ],
   "movies": {
-    "CINE BAJO LAS ESTRELLAS - GREASE": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_176966&nombre=grease-949856059-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CINE BAJO LAS ESTRELLAS - MAMMA MIA! LA PELÍCULA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_137250&nombre=mammamia_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - TIBURÓN": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175800&nombre=jaws-195807307-large_res_300.jpg",
       "overview": null,
