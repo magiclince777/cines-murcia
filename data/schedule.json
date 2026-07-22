@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-21T09:09:31.257697+00:00",
-  "fromDate": "2026-07-21",
-  "toDate": "2026-08-04",
+  "generatedAt": "2026-07-22T09:09:27.850398+00:00",
+  "fromDate": "2026-07-22",
+  "toDate": "2026-08-05",
   "cinemas": [
     {
       "id": "myrtea",
@@ -117,6 +117,24 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53319-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - WAR HORSE",
+          "date": "2026-08-05",
+          "time": "00:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53323-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - WONDER WOMAN",
+          "date": "2026-08-05",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53322-DETALLE_EVENTO"
         }
       ]
     }
@@ -187,6 +205,20 @@
     },
     "CINE BAJO LAS ESTRELLAS - LA FIERA DE MI NIÑA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_156312&nombre=bringing_up_baby-308706906-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - WAR HORSE": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183644&nombre=war_horse_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - WONDER WOMAN": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183643&nombre=wonder_woman_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
