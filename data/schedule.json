@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-23T09:07:54.261826+00:00",
-  "fromDate": "2026-07-23",
-  "toDate": "2026-08-06",
+  "generatedAt": "2026-07-24T09:03:29.405019+00:00",
+  "fromDate": "2026-07-24",
+  "toDate": "2026-08-07",
   "cinemas": [
     {
       "id": "myrtea",
@@ -28,24 +28,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - CASPER",
-          "date": "2026-07-23",
-          "time": "00:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53311-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - LA FAMILIA ADDAMS",
-          "date": "2026-07-23",
-          "time": "21:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53310-DETALLE_EVENTO"
-        },
         {
           "movie": "CINE BAJO LAS ESTRELLAS - LOS PÁJAROS",
           "date": "2026-07-24",
@@ -144,25 +126,29 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53325-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - LA DILIGENCIA",
+          "date": "2026-08-07",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53326-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - ME SIENTO REJUVENECER",
+          "date": "2026-08-07",
+          "time": "23:15",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53327-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "CINE BAJO LAS ESTRELLAS - CASPER": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183636&nombre=casper-_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CINE BAJO LAS ESTRELLAS - LA FAMILIA ADDAMS": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183635&nombre=the_addams_family_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - LOS PÁJAROS": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183638&nombre=alfred_hitchcock_s_the_birds_res_300.jpg",
       "overview": null,
@@ -235,6 +221,20 @@
     },
     "CINE BAJO LAS ESTRELLAS - EL GUATEQUE": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_161417&nombre=el_guateque_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - LA DILIGENCIA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175060&nombre=stagecoach-479896236-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - ME SIENTO REJUVENECER": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_156497&nombre=monkey_business-271659698-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
