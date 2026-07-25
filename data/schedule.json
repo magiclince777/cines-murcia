@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-24T09:03:29.405019+00:00",
-  "fromDate": "2026-07-24",
-  "toDate": "2026-08-07",
+  "generatedAt": "2026-07-25T08:30:25.787620+00:00",
+  "fromDate": "2026-07-25",
+  "toDate": "2026-08-08",
   "cinemas": [
     {
       "id": "myrtea",
@@ -28,24 +28,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - LOS PÁJAROS",
-          "date": "2026-07-24",
-          "time": "00:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53313-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - CON LA MUERTE EN LOS TAL...",
-          "date": "2026-07-24",
-          "time": "21:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53312-DETALLE_EVENTO"
-        },
         {
           "movie": "CINE BAJO LAS ESTRELLAS - CHARLIE Y LA FÁBRICA DE ...",
           "date": "2026-07-29",
@@ -149,20 +131,6 @@
     }
   ],
   "movies": {
-    "CINE BAJO LAS ESTRELLAS - LOS PÁJAROS": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183638&nombre=alfred_hitchcock_s_the_birds_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CINE BAJO LAS ESTRELLAS - CON LA MUERTE EN LOS TAL...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183637&nombre=north_by_northwest_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - CHARLIE Y LA FÁBRICA DE ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183657&nombre=charlie_and_thejpg_res_300.jpg",
       "overview": null,
