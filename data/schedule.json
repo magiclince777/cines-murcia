@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-28T09:17:35.540001+00:00",
-  "fromDate": "2026-07-28",
-  "toDate": "2026-08-11",
+  "generatedAt": "2026-07-29T09:22:01.324563+00:00",
+  "fromDate": "2026-07-29",
+  "toDate": "2026-08-12",
   "cinemas": [
     {
       "id": "myrtea",
@@ -126,6 +126,15 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53327-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - SUPERMAN",
+          "date": "2026-08-12",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53328-DETALLE_EVENTO"
         }
       ]
     }
@@ -203,6 +212,13 @@
     },
     "CINE BAJO LAS ESTRELLAS - ME SIENTO REJUVENECER": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_156497&nombre=monkey_business-271659698-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - SUPERMAN": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_165042&nombre=superman_the_movie-219321225-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
