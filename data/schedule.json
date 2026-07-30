@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-29T09:22:01.324563+00:00",
-  "fromDate": "2026-07-29",
-  "toDate": "2026-08-12",
+  "generatedAt": "2026-07-30T09:14:42.020556+00:00",
+  "fromDate": "2026-07-30",
+  "toDate": "2026-08-13",
   "cinemas": [
     {
       "id": "myrtea",
@@ -28,15 +28,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - CHARLIE Y LA FÁBRICA DE ...",
-          "date": "2026-07-29",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53314-DETALLE_EVENTO"
-        },
         {
           "movie": "CINE BAJO LAS ESTRELLAS - EXPLORADORES",
           "date": "2026-07-30",
@@ -135,18 +126,29 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53328-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - SEÑORA DOUBTFIRE, PAPÁ DE...",
+          "date": "2026-08-13",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53329-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - EL CLUB DE LOS POETAS MU...",
+          "date": "2026-08-13",
+          "time": "23:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53330-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "CINE BAJO LAS ESTRELLAS - CHARLIE Y LA FÁBRICA DE ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183657&nombre=charlie_and_thejpg_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - EXPLORADORES": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_176891&nombre=EXPLORADORES_res_300.jpg",
       "overview": null,
@@ -219,6 +221,20 @@
     },
     "CINE BAJO LAS ESTRELLAS - SUPERMAN": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_165042&nombre=superman_the_movie-219321225-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - SEÑORA DOUBTFIRE, PAPÁ DE...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183646&nombre=mrs_doubtfire_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - EL CLUB DE LOS POETAS MU...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_170144&nombre=dead_poets_society-968708915-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
