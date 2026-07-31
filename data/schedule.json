@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-30T09:14:42.020556+00:00",
-  "fromDate": "2026-07-30",
-  "toDate": "2026-08-13",
+  "generatedAt": "2026-07-31T09:24:29.067240+00:00",
+  "fromDate": "2026-07-31",
+  "toDate": "2026-08-14",
   "cinemas": [
     {
       "id": "myrtea",
@@ -28,24 +28,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - EXPLORADORES",
-          "date": "2026-07-30",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53315-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - ATERRIZA COMO PUEDAS",
-          "date": "2026-07-30",
-          "time": "23:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53316-DETALLE_EVENTO"
-        },
         {
           "movie": "CINE BAJO LAS ESTRELLAS - AMANECE, QUE NO ES POCO",
           "date": "2026-07-31",
@@ -144,25 +126,29 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53330-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - EL HALCÓN MALTÉS",
+          "date": "2026-08-14",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53331-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - LAURA",
+          "date": "2026-08-14",
+          "time": "23:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53332-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "CINE BAJO LAS ESTRELLAS - EXPLORADORES": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_176891&nombre=EXPLORADORES_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CINE BAJO LAS ESTRELLAS - ATERRIZA COMO PUEDAS": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_165055&nombre=airplane-337402243-large_res_300.jpg",
-      "overview": "(Airplane!), Jim Abrahams, David Zucker, Jerry Zucker 1980 Estados Unidos. 88’  VE",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - AMANECE, QUE NO ES POCO": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173382&nombre=amanece_que_no_es_poco-558688617-large_res_300.jpg",
       "overview": null,
@@ -235,6 +221,20 @@
     },
     "CINE BAJO LAS ESTRELLAS - EL CLUB DE LOS POETAS MU...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_170144&nombre=dead_poets_society-968708915-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - EL HALCÓN MALTÉS": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_159600&nombre=EL_HALCON_MALTES_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - LAURA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_154708&nombre=LAURA_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
