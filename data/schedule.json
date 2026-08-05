@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-04T09:20:39.582778+00:00",
-  "fromDate": "2026-08-04",
-  "toDate": "2026-08-18",
+  "generatedAt": "2026-08-05T09:18:56.530655+00:00",
+  "fromDate": "2026-08-05",
+  "toDate": "2026-08-19",
   "cinemas": [
     {
       "id": "myrtea",
@@ -126,6 +126,15 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53332-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - GREMLINS 2, LA NUEVA GEN...",
+          "date": "2026-08-19",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53333-DETALLE_EVENTO"
         }
       ]
     }
@@ -203,6 +212,13 @@
     },
     "CINE BAJO LAS ESTRELLAS - LAURA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_154708&nombre=LAURA_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - GREMLINS 2, LA NUEVA GEN...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183647&nombre=gremlins_2_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
