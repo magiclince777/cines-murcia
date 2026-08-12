@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-11T07:46:14.324675+00:00",
-  "fromDate": "2026-08-11",
-  "toDate": "2026-08-25",
+  "generatedAt": "2026-08-12T07:59:35.619071+00:00",
+  "fromDate": "2026-08-12",
+  "toDate": "2026-08-26",
   "cinemas": [
     {
       "id": "myrtea",
@@ -117,6 +117,15 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53337-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - TERMINATOR",
+          "date": "2026-08-26",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53338-DETALLE_EVENTO"
         }
       ]
     }
@@ -187,6 +196,13 @@
     },
     "CINE BAJO LAS ESTRELLAS - LA VAQUILLA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175456&nombre=la_vaquilla-561240437-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - TERMINATOR": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_170017&nombre=the_terminator-778052251-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
