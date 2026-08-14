@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-13T08:01:00.314779+00:00",
-  "fromDate": "2026-08-13",
-  "toDate": "2026-08-27",
+  "generatedAt": "2026-08-14T07:57:01.505688+00:00",
+  "fromDate": "2026-08-14",
+  "toDate": "2026-08-28",
   "cinemas": [
     {
       "id": "myrtea",
@@ -28,24 +28,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - SEÑORA DOUBTFIRE, PAPÁ DE...",
-          "date": "2026-08-13",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53329-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - EL CLUB DE LOS POETAS MU...",
-          "date": "2026-08-13",
-          "time": "23:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53330-DETALLE_EVENTO"
-        },
         {
           "movie": "CINE BAJO LAS ESTRELLAS - EL HALCÓN MALTÉS",
           "date": "2026-08-14",
@@ -135,25 +117,29 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53340-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - UNO, DOS, TRES",
+          "date": "2026-08-28",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53341-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CINE BAJO LAS ESTRELLAS - TESTIGO DE CARGO",
+          "date": "2026-08-28",
+          "time": "23:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53342-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "CINE BAJO LAS ESTRELLAS - SEÑORA DOUBTFIRE, PAPÁ DE...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183646&nombre=mrs_doubtfire_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CINE BAJO LAS ESTRELLAS - EL CLUB DE LOS POETAS MU...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_170144&nombre=dead_poets_society-968708915-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - EL HALCÓN MALTÉS": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_159600&nombre=EL_HALCON_MALTES_res_300.jpg",
       "overview": null,
@@ -219,6 +205,20 @@
     },
     "CINE BAJO LAS ESTRELLAS - UN CADAVER A LOS POSTRES": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_157847&nombre=murder_by_death-724210519-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - UNO, DOS, TRES": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183650&nombre=one_two_three_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CINE BAJO LAS ESTRELLAS - TESTIGO DE CARGO": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_165002&nombre=witness_for_the_prosecution-236651370-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
