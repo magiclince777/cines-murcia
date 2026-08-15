@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-14T07:57:01.505688+00:00",
-  "fromDate": "2026-08-14",
-  "toDate": "2026-08-28",
+  "generatedAt": "2026-08-15T07:07:25.168578+00:00",
+  "fromDate": "2026-08-15",
+  "toDate": "2026-08-29",
   "cinemas": [
     {
       "id": "myrtea",
@@ -28,24 +28,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - EL HALCÓN MALTÉS",
-          "date": "2026-08-14",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53331-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - LAURA",
-          "date": "2026-08-14",
-          "time": "23:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53332-DETALLE_EVENTO"
-        },
         {
           "movie": "CINE BAJO LAS ESTRELLAS - GREMLINS 2, LA NUEVA GEN...",
           "date": "2026-08-19",
@@ -140,20 +122,6 @@
     }
   ],
   "movies": {
-    "CINE BAJO LAS ESTRELLAS - EL HALCÓN MALTÉS": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_159600&nombre=EL_HALCON_MALTES_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CINE BAJO LAS ESTRELLAS - LAURA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_154708&nombre=LAURA_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - GREMLINS 2, LA NUEVA GEN...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183647&nombre=gremlins_2_res_300.jpg",
       "overview": null,
