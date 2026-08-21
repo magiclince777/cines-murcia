@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-20T07:23:23.993629+00:00",
-  "fromDate": "2026-08-20",
-  "toDate": "2026-09-03",
+  "generatedAt": "2026-08-21T07:23:49.207939+00:00",
+  "fromDate": "2026-08-21",
+  "toDate": "2026-09-04",
   "cinemas": [
     {
       "id": "myrtea",
@@ -28,24 +28,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - PESADILLA ANTES DE NAVID...",
-          "date": "2026-08-20",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53334-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - LA NOVIA CADAVER",
-          "date": "2026-08-20",
-          "time": "23:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53335-DETALLE_EVENTO"
-        },
         {
           "movie": "CINE BAJO LAS ESTRELLAS - LA ESCOPETA NACIONAL",
           "date": "2026-08-21",
@@ -113,20 +95,6 @@
     }
   ],
   "movies": {
-    "CINE BAJO LAS ESTRELLAS - PESADILLA ANTES DE NAVID...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_165054&nombre=the_nightmare_before_christmas-136057718-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CINE BAJO LAS ESTRELLAS - LA NOVIA CADAVER": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183648&nombre=corpse_bride_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - LA ESCOPETA NACIONAL": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175200&nombre=la_escopeta_nacional-587555234-large_res_300.jpg",
       "overview": null,
