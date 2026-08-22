@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-21T07:23:49.207939+00:00",
-  "fromDate": "2026-08-21",
-  "toDate": "2026-09-04",
+  "generatedAt": "2026-08-22T07:09:29.711359+00:00",
+  "fromDate": "2026-08-22",
+  "toDate": "2026-09-05",
   "cinemas": [
     {
       "id": "myrtea",
@@ -28,24 +28,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - LA ESCOPETA NACIONAL",
-          "date": "2026-08-21",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53336-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - LA VAQUILLA",
-          "date": "2026-08-21",
-          "time": "23:15",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53337-DETALLE_EVENTO"
-        },
         {
           "movie": "CINE BAJO LAS ESTRELLAS - TERMINATOR",
           "date": "2026-08-26",
@@ -95,20 +77,6 @@
     }
   ],
   "movies": {
-    "CINE BAJO LAS ESTRELLAS - LA ESCOPETA NACIONAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175200&nombre=la_escopeta_nacional-587555234-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CINE BAJO LAS ESTRELLAS - LA VAQUILLA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175456&nombre=la_vaquilla-561240437-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - TERMINATOR": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_170017&nombre=the_terminator-778052251-large_res_300.jpg",
       "overview": null,
