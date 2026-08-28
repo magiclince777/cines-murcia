@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-27T17:50:59.107193+00:00",
-  "fromDate": "2026-08-27",
-  "toDate": "2026-09-10",
+  "generatedAt": "2026-08-28T18:56:13.756112+00:00",
+  "fromDate": "2026-08-28",
+  "toDate": "2026-09-11",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,24 +29,6 @@
       ],
       "sessions": [
         {
-          "movie": "CINE BAJO LAS ESTRELLAS - CARIÑO, HE ENCOGIDO A LOS...",
-          "date": "2026-08-27",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53339-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CINE BAJO LAS ESTRELLAS - UN CADAVER A LOS POSTRES",
-          "date": "2026-08-27",
-          "time": "23:15",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53340-DETALLE_EVENTO"
-        },
-        {
           "movie": "CINE BAJO LAS ESTRELLAS - UNO, DOS, TRES",
           "date": "2026-08-28",
           "time": "21:30",
@@ -68,20 +50,6 @@
     }
   ],
   "movies": {
-    "CINE BAJO LAS ESTRELLAS - CARIÑO, HE ENCOGIDO A LOS...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183649&nombre=honey_i_shrunk_the_kids_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CINE BAJO LAS ESTRELLAS - UN CADAVER A LOS POSTRES": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_157847&nombre=murder_by_death-724210519-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CINE BAJO LAS ESTRELLAS - UNO, DOS, TRES": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183650&nombre=one_two_three_res_300.jpg",
       "overview": null,
