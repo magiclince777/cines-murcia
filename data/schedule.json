@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-04T11:35:46.583468+00:00",
-  "fromDate": "2026-09-04",
-  "toDate": "2026-09-18",
+  "generatedAt": "2026-09-05T10:51:11.762121+00:00",
+  "fromDate": "2026-09-05",
+  "toDate": "2026-09-19",
   "cinemas": [
     {
       "id": "myrtea",
@@ -64,6 +64,33 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53386-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LOS PÁJAROS - CICLO: LAS NOCHES DEL FOFÓ",
+          "date": "2026-09-19",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53388-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA GUINDA - CICLO: REALIZADORES MURCIANOS",
+          "date": "2026-09-19",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53389-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ME SIENTO REJUVENECER - CICLO: LAS NOCHES DEL FOFÓ",
+          "date": "2026-09-19",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53390-DETALLE_EVENTO"
         }
       ]
     }
@@ -93,6 +120,27 @@
     "UN CADAVER A LOS POSTRES - CICLO: LAS NOCHES DEL F...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_157847&nombre=murder_by_death-724210519-large_res_300.jpg",
       "overview": "El excéntrico multimillonario Lionel Twain invita a cenar a su castillo a los cinco detectives más importantes de la historia: el chino Sidney Wang, el neoyorquino Dick Charleston, la inglesa Jessica Marbles, el belga Milo Perrier y el norteamericano Sam Diamond, que llega acompañado de su rubia secretaria. Después de ser recibidos por un mayordomo ciego (Alec Guiness), Twain les explica durante la cena el motivo de la reunión: a medianoche se producirá un asesinato; el que sea capaz de resolverlo ganará un millón de dólares.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LOS PÁJAROS - CICLO: LAS NOCHES DEL FOFÓ": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183638&nombre=alfred_hitchcock_s_the_birds_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA GUINDA - CICLO: REALIZADORES MURCIANOS": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_143348&nombre=portada1_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ME SIENTO REJUVENECER - CICLO: LAS NOCHES DEL FOFÓ": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_156497&nombre=monkey_business-271659698-large_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
