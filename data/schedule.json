@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-07T12:55:42.926269+00:00",
-  "fromDate": "2026-09-07",
-  "toDate": "2026-09-21",
+  "generatedAt": "2026-09-08T11:37:53.055534+00:00",
+  "fromDate": "2026-09-08",
+  "toDate": "2026-09-22",
   "cinemas": [
     {
       "id": "myrtea",
@@ -91,6 +91,33 @@
           "rating": "?",
           "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53390-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA ESCOPETA NACIONAL - CENTENARIO AZCONA: El guionista...",
+          "date": "2026-09-22",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53391-DETALLE_EVENTO"
+        },
+        {
+          "movie": "TANGO - CICLO: PANTALLA EN DANZA",
+          "date": "2026-09-22",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53392-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL ANACORETA - CENTENARIO AZCONA: El guionista de ...",
+          "date": "2026-09-22",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53393-DETALLE_EVENTO"
         }
       ]
     }
@@ -140,6 +167,27 @@
     },
     "ME SIENTO REJUVENECER - CICLO: LAS NOCHES DEL FOFÓ": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_156497&nombre=monkey_business-271659698-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA ESCOPETA NACIONAL - CENTENARIO AZCONA: El guionista...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175200&nombre=la_escopeta_nacional-587555234-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "TANGO - CICLO: PANTALLA EN DANZA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183741&nombre=tango_no_me_dejes_nunca-422913047-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL ANACORETA - CENTENARIO AZCONA: El guionista de ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183742&nombre=el_anacoreta_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
