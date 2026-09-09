@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-08T11:37:53.055534+00:00",
-  "fromDate": "2026-09-08",
-  "toDate": "2026-09-22",
+  "generatedAt": "2026-09-09T11:44:21.675058+00:00",
+  "fromDate": "2026-09-09",
+  "toDate": "2026-09-23",
   "cinemas": [
     {
       "id": "myrtea",
@@ -118,6 +118,24 @@
           "rating": "?",
           "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53393-DETALLE_EVENTO"
+        },
+        {
+          "movie": "TESTIGO DE CARGO - LA DAMA DEL CRIMEN: CENTENARIO ...",
+          "date": "2026-09-23",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53394-DETALLE_EVENTO"
+        },
+        {
+          "movie": "PATRIMONIO NACIONAL - CENTENARIO AZCONA: EL GUIONISTA...",
+          "date": "2026-09-23",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53395-DETALLE_EVENTO"
         }
       ]
     }
@@ -188,6 +206,20 @@
     },
     "EL ANACORETA - CENTENARIO AZCONA: El guionista de ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183742&nombre=el_anacoreta_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "TESTIGO DE CARGO - LA DAMA DEL CRIMEN: CENTENARIO ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_165002&nombre=witness_for_the_prosecution-236651370-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "PATRIMONIO NACIONAL - CENTENARIO AZCONA: EL GUIONISTA...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175130&nombre=PATRIMONIO_NACIONAL_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
