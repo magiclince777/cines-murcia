@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-09T11:44:21.675058+00:00",
-  "fromDate": "2026-09-09",
-  "toDate": "2026-09-23",
+  "generatedAt": "2026-09-10T11:41:43.274890+00:00",
+  "fromDate": "2026-09-10",
+  "toDate": "2026-09-24",
   "cinemas": [
     {
       "id": "myrtea",
@@ -136,6 +136,24 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53395-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL 47 - CINE Y MEDIACIÓN",
+          "date": "2026-09-24",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53396-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA BUENA HIJA - SALA DE CINEASTAS",
+          "date": "2026-09-24",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53397-DETALLE_EVENTO"
         }
       ]
     }
@@ -220,6 +238,20 @@
     },
     "PATRIMONIO NACIONAL - CENTENARIO AZCONA: EL GUIONISTA...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175130&nombre=PATRIMONIO_NACIONAL_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL 47 - CINE Y MEDIACIÓN": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_182653&nombre=el_47-838476618-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA BUENA HIJA - SALA DE CINEASTAS": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183743&nombre=la_buena_hija_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
