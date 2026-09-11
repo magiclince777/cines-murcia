@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-10T11:41:43.274890+00:00",
-  "fromDate": "2026-09-10",
-  "toDate": "2026-09-24",
+  "generatedAt": "2026-09-11T11:41:50.137540+00:00",
+  "fromDate": "2026-09-11",
+  "toDate": "2026-09-25",
   "cinemas": [
     {
       "id": "myrtea",
@@ -154,6 +154,33 @@
           "rating": "?",
           "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53397-DETALLE_EVENTO"
+        },
+        {
+          "movie": "NACIONAL III - CENTENARIO AZCONA: EL GUIONISTA DE ...",
+          "date": "2026-09-25",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53398-DETALLE_EVENTO"
+        },
+        {
+          "movie": "TESTIGO DE CARGO - LA DAMA DEL CRIMEN: CENTENARIO ...",
+          "date": "2026-09-25",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53400-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA CENTINELA - MADRUGADA SANGRIENTA",
+          "date": "2026-09-25",
+          "time": "23:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53401-DETALLE_EVENTO"
         }
       ]
     }
@@ -252,6 +279,20 @@
     },
     "LA BUENA HIJA - SALA DE CINEASTAS": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183743&nombre=la_buena_hija_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "NACIONAL III - CENTENARIO AZCONA: EL GUIONISTA DE ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183744&nombre=nacional_iii_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA CENTINELA - MADRUGADA SANGRIENTA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183747&nombre=the_sentinel_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
