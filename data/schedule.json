@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-11T11:41:50.137540+00:00",
-  "fromDate": "2026-09-11",
-  "toDate": "2026-09-25",
+  "generatedAt": "2026-09-12T11:07:49.665984+00:00",
+  "fromDate": "2026-09-12",
+  "toDate": "2026-09-26",
   "cinemas": [
     {
       "id": "myrtea",
@@ -181,6 +181,33 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53401-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LOS PÉREZ-OSOS - FILMO EN FAMILIA",
+          "date": "2026-09-26",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53402-DETALLE_EVENTO"
+        },
+        {
+          "movie": "PATRIMONIO NACIONAL - CENTENARIO AZCONA: EL GUIONISTA...",
+          "date": "2026-09-26",
+          "time": "19:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53403-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA FIERA DE MI NIÑA - CICLO: LAS NOCHES DEL FOFÓ",
+          "date": "2026-09-26",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53404-DETALLE_EVENTO"
         }
       ]
     }
@@ -293,6 +320,20 @@
     },
     "LA CENTINELA - MADRUGADA SANGRIENTA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183747&nombre=the_sentinel_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LOS PÉREZ-OSOS - FILMO EN FAMILIA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183748&nombre=the_sloth_lane_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA FIERA DE MI NIÑA - CICLO: LAS NOCHES DEL FOFÓ": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_156312&nombre=bringing_up_baby-308706906-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
