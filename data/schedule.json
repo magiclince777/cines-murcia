@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-12T11:07:49.665984+00:00",
-  "fromDate": "2026-09-12",
-  "toDate": "2026-09-26",
+  "generatedAt": "2026-09-13T12:12:39.226643+00:00",
+  "fromDate": "2026-09-13",
+  "toDate": "2026-09-27",
   "cinemas": [
     {
       "id": "myrtea",
@@ -208,6 +208,24 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53404-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA ESCOPETA NACIONAL - CENTENARIO AZCONA: El guionista...",
+          "date": "2026-09-27",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53405-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL ANACORETA - CENTENARIO AZCONA: El guionista de ...",
+          "date": "2026-09-27",
+          "time": "19:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53406-DETALLE_EVENTO"
         }
       ]
     }
