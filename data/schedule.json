@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-14T13:12:06.526721+00:00",
-  "fromDate": "2026-09-14",
-  "toDate": "2026-09-28",
+  "generatedAt": "2026-09-15T11:59:48.047573+00:00",
+  "fromDate": "2026-09-15",
+  "toDate": "2026-09-29",
   "cinemas": [
     {
       "id": "myrtea",
@@ -226,6 +226,24 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53406-DETALLE_EVENTO"
+        },
+        {
+          "movie": "RAFAEL, EL JOVEN PRODIGIO - DEL LIENZO A LA PANTAL...",
+          "date": "2026-09-29",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53407-DETALLE_EVENTO"
+        },
+        {
+          "movie": "MI HIJA HILDEGART - CENTENARIO AZCONA: El guionista...",
+          "date": "2026-09-29",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53408-DETALLE_EVENTO"
         }
       ]
     }
@@ -352,6 +370,20 @@
     },
     "LA FIERA DE MI NIÑA - CICLO: LAS NOCHES DEL FOFÓ": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_156312&nombre=bringing_up_baby-308706906-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "RAFAEL, EL JOVEN PRODIGIO - DEL LIENZO A LA PANTAL...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183749&nombre=raffaello_il_giovane_prodigio_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "MI HIJA HILDEGART - CENTENARIO AZCONA: El guionista...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183750&nombre=mi_hija_hildegart_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
