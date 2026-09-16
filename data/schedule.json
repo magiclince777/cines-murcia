@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-15T11:59:48.047573+00:00",
-  "fromDate": "2026-09-15",
-  "toDate": "2026-09-29",
+  "generatedAt": "2026-09-16T11:56:51.786714+00:00",
+  "fromDate": "2026-09-16",
+  "toDate": "2026-09-30",
   "cinemas": [
     {
       "id": "myrtea",
@@ -244,6 +244,24 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53408-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ME NIEGO A ODIAR - AMNISTÍA INTERNACIONAL",
+          "date": "2026-09-30",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53411-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA BUENA HIJA - BIENVENIDA UNIVERSITARIA",
+          "date": "2026-09-30",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53410-DETALLE_EVENTO"
         }
       ]
     }
@@ -384,6 +402,20 @@
     },
     "MI HIJA HILDEGART - CENTENARIO AZCONA: El guionista...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183750&nombre=mi_hija_hildegart_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ME NIEGO A ODIAR - AMNISTÍA INTERNACIONAL": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183751&nombre=un_medecin_pour_la_paix_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA BUENA HIJA - BIENVENIDA UNIVERSITARIA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183743&nombre=la_buena_hija_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
