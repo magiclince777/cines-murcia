@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-16T11:56:51.786714+00:00",
-  "fromDate": "2026-09-16",
-  "toDate": "2026-09-30",
+  "generatedAt": "2026-09-17T11:58:28.718625+00:00",
+  "fromDate": "2026-09-17",
+  "toDate": "2026-10-01",
   "cinemas": [
     {
       "id": "myrtea",
@@ -262,6 +262,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53410-DETALLE_EVENTO"
+        },
+        {
+          "movie": "AMANECE, QUE NO ES POCO - Bienvenida Universitaria",
+          "date": "2026-10-01",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53414-DETALLE_EVENTO"
         }
       ]
     }
@@ -416,6 +425,13 @@
     },
     "LA BUENA HIJA - BIENVENIDA UNIVERSITARIA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183743&nombre=la_buena_hija_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "AMANECE, QUE NO ES POCO - Bienvenida Universitaria": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173382&nombre=amanece_que_no_es_poco-558688617-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
