@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-17T11:58:28.718625+00:00",
-  "fromDate": "2026-09-17",
-  "toDate": "2026-10-01",
+  "generatedAt": "2026-09-18T11:39:28.026594+00:00",
+  "fromDate": "2026-09-18",
+  "toDate": "2026-10-02",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,15 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "Final del concurso de cortometrajes Creamurcia 202...",
-          "date": "2026-09-17",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53382-DETALLE_EVENTO"
-        },
         {
           "movie": "UN, DOS, TRES - CICLO: LAS NOCHES DEL FOFÓ",
           "date": "2026-09-18",
@@ -264,6 +255,15 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53410-DETALLE_EVENTO"
         },
         {
+          "movie": "CALLE MÁLAGA - PROYECCIÓN ESPECIAL",
+          "date": "2026-10-01",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53500-DETALLE_EVENTO"
+        },
+        {
           "movie": "AMANECE, QUE NO ES POCO - Bienvenida Universitaria",
           "date": "2026-10-01",
           "time": "21:30",
@@ -271,18 +271,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53414-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LOS AMANTES DE MONTPARNASSE - Hijos de Saturno. Dramas...",
+          "date": "2026-10-02",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53416-DETALLE_EVENTO"
+        },
+        {
+          "movie": "VIVIR LA TIERRA - BIENVENIDA UNIVERSITARIA",
+          "date": "2026-10-02",
+          "time": "21:15",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53417-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA MUJER DE ROJO - MADRUGADA OCHENTERA",
+          "date": "2026-10-02",
+          "time": "23:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53418-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "Final del concurso de cortometrajes Creamurcia 202...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183740&nombre=30648_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "UN, DOS, TRES - CICLO: LAS NOCHES DEL FOFÓ": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183650&nombre=one_two_three_res_300.jpg",
       "overview": "Época de la Guerra Fría. C.R. MacNamara, representante de una multinacional de refrescos en Berlín Occidental, hace tiempo que proyecta introducir su marca en la URSS. Sin embargo, en contra de sus deseos, lo que su jefe le encarga es cuidar de su hija Scarlett, que está a punto de llegar a Berlín. Se trata de una díscola y alocada joven de dieciocho años, que ya ha estado prometida cuatro veces. Pero lo peor es que, eludiendo la vigilancia de MacNamara, la chica se enamora de Otto Piffl, un joven comunista que vive en la Alemania Oriental.",
@@ -430,8 +450,36 @@
       "genres": [],
       "year": null
     },
+    "CALLE MÁLAGA - PROYECCIÓN ESPECIAL": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183500&nombre=calle_malaga_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
     "AMANECE, QUE NO ES POCO - Bienvenida Universitaria": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173382&nombre=amanece_que_no_es_poco-558688617-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LOS AMANTES DE MONTPARNASSE - Hijos de Saturno. Dramas...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183755&nombre=les_amants_de_montparnasse_res_300.jpg",
+      "overview": "Sinopsis Montparnasse, el barrio bohemio de París, está lleno de artistas que aspiran a triunfar, aunque pocos lo consiguen. En 1919 vivía allí el pintor italiano Modigliani, que arrastraba una miserable y tormentosa existencia, ya que su arte no era comprendido y su único consuelo eran el alcohol y las mujeres. Siempre enfermo y borracho, su vida se dividía entre una tabernera y una rica inglesa que le proporcionaba opio y pagaba sus facturas. Una mañana en la academia de dibujo conoce a Jeanne, una joven burguesa de la que se enamora inmediatamente. Decidido a emprender una nueva vida, le propone que se vaya a vivir con él.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "VIVIR LA TIERRA - BIENVENIDA UNIVERSITARIA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183756&nombre=sheng_xi_zhi_di_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA MUJER DE ROJO - MADRUGADA OCHENTERA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183757&nombre=the_woman_in_redjpg_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
