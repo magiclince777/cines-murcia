@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-18T11:39:28.026594+00:00",
-  "fromDate": "2026-09-18",
-  "toDate": "2026-10-02",
+  "generatedAt": "2026-09-19T11:22:37.541017+00:00",
+  "fromDate": "2026-09-19",
+  "toDate": "2026-10-03",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,33 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "UN, DOS, TRES - CICLO: LAS NOCHES DEL FOFÓ",
-          "date": "2026-09-18",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53385-DETALLE_EVENTO"
-        },
-        {
-          "movie": "Estreno del cortometraje Malos Cuentos - REALIZADORES...",
-          "date": "2026-09-18",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53387-DETALLE_EVENTO"
-        },
-        {
-          "movie": "UN CADAVER A LOS POSTRES - CICLO: LAS NOCHES DEL F...",
-          "date": "2026-09-18",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53386-DETALLE_EVENTO"
-        },
         {
           "movie": "LOS PÁJAROS - CICLO: LAS NOCHES DEL FOFÓ",
           "date": "2026-09-19",
@@ -118,6 +91,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53394-DETALLE_EVENTO"
+        },
+        {
+          "movie": "DUSSEL: LA FILOSOFÍA ES UN DON PARA EL MUNDO SIN SENTIDO...",
+          "date": "2026-09-23",
+          "time": "19:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53501-DETALLE_EVENTO"
         },
         {
           "movie": "PATRIMONIO NACIONAL - CENTENARIO AZCONA: EL GUIONISTA...",
@@ -298,32 +280,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53418-DETALLE_EVENTO"
+        },
+        {
+          "movie": "FLEAK - FILMO EN FAMILIA",
+          "date": "2026-10-03",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53419-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ASESINATO EN EL ORIENT EXPRESS - La dama del crimen:...",
+          "date": "2026-10-03",
+          "time": "19:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53420-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LOS AMANTES DE MONTPARNASSE - Hijos de Saturno. Dramas...",
+          "date": "2026-10-03",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53415-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "UN, DOS, TRES - CICLO: LAS NOCHES DEL FOFÓ": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183650&nombre=one_two_three_res_300.jpg",
-      "overview": "Época de la Guerra Fría. C.R. MacNamara, representante de una multinacional de refrescos en Berlín Occidental, hace tiempo que proyecta introducir su marca en la URSS. Sin embargo, en contra de sus deseos, lo que su jefe le encarga es cuidar de su hija Scarlett, que está a punto de llegar a Berlín. Se trata de una díscola y alocada joven de dieciocho años, que ya ha estado prometida cuatro veces. Pero lo peor es que, eludiendo la vigilancia de MacNamara, la chica se enamora de Otto Piffl, un joven comunista que vive en la Alemania Oriental.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "Estreno del cortometraje Malos Cuentos - REALIZADORES...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_143348&nombre=portada1_res_300.jpg",
-      "overview": "Toda esta red de egoísmo y \"malos cuentos\" se convierte en una parábola crítica y un homenaje directo a la defensa del Mar Menor . La obra confronta las acciones destructivas del ser humano con la urgente necesidad de proteger la naturaleza, apoyando firmemente el reconocimiento de la personalidad jurídica de este ecosistema único y visibilizando a quienes luchan día a día por preservarlo.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "UN CADAVER A LOS POSTRES - CICLO: LAS NOCHES DEL F...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_157847&nombre=murder_by_death-724210519-large_res_300.jpg",
-      "overview": "El excéntrico multimillonario Lionel Twain invita a cenar a su castillo a los cinco detectives más importantes de la historia: el chino Sidney Wang, el neoyorquino Dick Charleston, la inglesa Jessica Marbles, el belga Milo Perrier y el norteamericano Sam Diamond, que llega acompañado de su rubia secretaria. Después de ser recibidos por un mayordomo ciego (Alec Guiness), Twain les explica durante la cena el motivo de la reunión: a medianoche se producirá un asesinato; el que sea capaz de resolverlo ganará un millón de dólares.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "LOS PÁJAROS - CICLO: LAS NOCHES DEL FOFÓ": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183638&nombre=alfred_hitchcock_s_the_birds_res_300.jpg",
       "overview": null,
@@ -369,6 +357,13 @@
     "TESTIGO DE CARGO - LA DAMA DEL CRIMEN: CENTENARIO ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_165002&nombre=witness_for_the_prosecution-236651370-large_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "DUSSEL: LA FILOSOFÍA ES UN DON PARA EL MUNDO SIN SENTIDO...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183864&nombre=DUSSEL_CECILIA_FIEL_res_300.jpg",
+      "overview": "DUSSEL: LA FILOSOFÍA ES UN DON PARA EL MUNDO SIN SENTIDO -  CICLO: MUJERES CINEASTAS",
       "vote_average": null,
       "genres": [],
       "year": null
@@ -481,6 +476,20 @@
     "LA MUJER DE ROJO - MADRUGADA OCHENTERA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183757&nombre=the_woman_in_redjpg_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "FLEAK - FILMO EN FAMILIA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183758&nombre=fleak-260354406-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ASESINATO EN EL ORIENT EXPRESS - La dama del crimen:...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173981&nombre=murder_on_the_orient_express-556621437-large_res_300.jpg",
+      "overview": "ASESINATO EN EL ORIENT EXPRESS - La dama del crimen: Centenario de Agatha Christie",
       "vote_average": null,
       "genres": [],
       "year": null
