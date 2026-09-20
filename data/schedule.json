@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-19T11:22:37.541017+00:00",
-  "fromDate": "2026-09-19",
-  "toDate": "2026-10-03",
+  "generatedAt": "2026-09-20T11:43:33.530510+00:00",
+  "fromDate": "2026-09-20",
+  "toDate": "2026-10-04",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,33 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "LOS PÁJAROS - CICLO: LAS NOCHES DEL FOFÓ",
-          "date": "2026-09-19",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53388-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA GUINDA - CICLO: REALIZADORES MURCIANOS",
-          "date": "2026-09-19",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53389-DETALLE_EVENTO"
-        },
-        {
-          "movie": "ME SIENTO REJUVENECER - CICLO: LAS NOCHES DEL FOFÓ",
-          "date": "2026-09-19",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53390-DETALLE_EVENTO"
-        },
         {
           "movie": "LA ESCOPETA NACIONAL - CENTENARIO AZCONA: El guionista...",
           "date": "2026-09-22",
@@ -307,32 +280,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53415-DETALLE_EVENTO"
+        },
+        {
+          "movie": "RAFAEL, EL JOVEN PRODIGIO - Del lienzo a la pantal...",
+          "date": "2026-10-04",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53421-DETALLE_EVENTO"
+        },
+        {
+          "movie": "VIVIR LA TIERRA - Bienvenida universitaria",
+          "date": "2026-10-04",
+          "time": "19:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53422-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "LOS PÁJAROS - CICLO: LAS NOCHES DEL FOFÓ": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183638&nombre=alfred_hitchcock_s_the_birds_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA GUINDA - CICLO: REALIZADORES MURCIANOS": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_143348&nombre=portada1_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "ME SIENTO REJUVENECER - CICLO: LAS NOCHES DEL FOFÓ": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_156497&nombre=monkey_business-271659698-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "LA ESCOPETA NACIONAL - CENTENARIO AZCONA: El guionista...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175200&nombre=la_escopeta_nacional-587555234-large_res_300.jpg",
       "overview": null,
@@ -490,6 +460,20 @@
     "ASESINATO EN EL ORIENT EXPRESS - La dama del crimen:...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173981&nombre=murder_on_the_orient_express-556621437-large_res_300.jpg",
       "overview": "ASESINATO EN EL ORIENT EXPRESS - La dama del crimen: Centenario de Agatha Christie",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "RAFAEL, EL JOVEN PRODIGIO - Del lienzo a la pantal...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183749&nombre=raffaello_il_giovane_prodigio_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "VIVIR LA TIERRA - Bienvenida universitaria": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183756&nombre=sheng_xi_zhi_di_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
