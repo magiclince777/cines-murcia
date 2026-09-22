@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T13:11:44.002020+00:00",
-  "fromDate": "2026-09-21",
-  "toDate": "2026-10-05",
+  "generatedAt": "2026-09-22T11:57:44.632474+00:00",
+  "fromDate": "2026-09-22",
+  "toDate": "2026-10-06",
   "cinemas": [
     {
       "id": "myrtea",
@@ -298,6 +298,24 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53422-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL VERDUGO - Día del Cine Español",
+          "date": "2026-10-06",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53423-DETALLE_EVENTO"
+        },
+        {
+          "movie": "GOYA EN BURDEOS - Día del Cine Español",
+          "date": "2026-10-06",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53424-DETALLE_EVENTO"
         }
       ]
     }
@@ -473,6 +491,20 @@
     },
     "VIVIR LA TIERRA - Bienvenida universitaria": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183756&nombre=sheng_xi_zhi_di_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL VERDUGO - Día del Cine Español": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175057&nombre=el_verdugo-632789770-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "GOYA EN BURDEOS - Día del Cine Español": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_170045&nombre=goya_en_burdeos-508815714-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
