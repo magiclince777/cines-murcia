@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-22T11:57:44.632474+00:00",
-  "fromDate": "2026-09-22",
-  "toDate": "2026-10-06",
+  "generatedAt": "2026-09-23T11:59:12.089446+00:00",
+  "fromDate": "2026-09-23",
+  "toDate": "2026-10-07",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,33 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "LA ESCOPETA NACIONAL - CENTENARIO AZCONA: El guionista...",
-          "date": "2026-09-22",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53391-DETALLE_EVENTO"
-        },
-        {
-          "movie": "TANGO - CICLO: PANTALLA EN DANZA",
-          "date": "2026-09-22",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53392-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EL ANACORETA - CENTENARIO AZCONA: El guionista de ...",
-          "date": "2026-09-22",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53393-DETALLE_EVENTO"
-        },
         {
           "movie": "TESTIGO DE CARGO - LA DAMA DEL CRIMEN: CENTENARIO ...",
           "date": "2026-09-23",
@@ -316,32 +289,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53424-DETALLE_EVENTO"
+        },
+        {
+          "movie": "DIEZ NEGRITOS - La dama del crimen: Centenario de ...",
+          "date": "2026-10-07",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53425-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL VERDUGO - Día del Cine Español",
+          "date": "2026-10-07",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53428-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "LA ESCOPETA NACIONAL - CENTENARIO AZCONA: El guionista...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175200&nombre=la_escopeta_nacional-587555234-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "TANGO - CICLO: PANTALLA EN DANZA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183741&nombre=tango_no_me_dejes_nunca-422913047-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "EL ANACORETA - CENTENARIO AZCONA: El guionista de ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183742&nombre=el_anacoreta_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "TESTIGO DE CARGO - LA DAMA DEL CRIMEN: CENTENARIO ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_165002&nombre=witness_for_the_prosecution-236651370-large_res_300.jpg",
       "overview": null,
@@ -400,6 +370,20 @@
     },
     "LA FIERA DE MI NIÑA - CICLO: LAS NOCHES DEL FOFÓ": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_156312&nombre=bringing_up_baby-308706906-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA ESCOPETA NACIONAL - CENTENARIO AZCONA: El guionista...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175200&nombre=la_escopeta_nacional-587555234-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL ANACORETA - CENTENARIO AZCONA: El guionista de ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183742&nombre=el_anacoreta_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -505,6 +489,13 @@
     },
     "GOYA EN BURDEOS - Día del Cine Español": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_170045&nombre=goya_en_burdeos-508815714-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "DIEZ NEGRITOS - La dama del crimen: Centenario de ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183759&nombre=and_then_there_were_none_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
