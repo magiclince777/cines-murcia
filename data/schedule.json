@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-24T12:04:55.794663+00:00",
-  "fromDate": "2026-09-24",
-  "toDate": "2026-10-08",
+  "generatedAt": "2026-09-25T12:05:25.615307+00:00",
+  "fromDate": "2026-09-25",
+  "toDate": "2026-10-09",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,24 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "EL 47 - CINE Y MEDIACIÓN",
-          "date": "2026-09-24",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53396-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA BUENA HIJA - SALA DE CINEASTAS",
-          "date": "2026-09-24",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53397-DETALLE_EVENTO"
-        },
         {
           "movie": "NACIONAL III - CENTENARIO AZCONA: EL GUIONISTA DE ...",
           "date": "2026-09-25",
@@ -289,25 +271,20 @@
           "rating": "?",
           "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53429-DETALLE_EVENTO"
+        },
+        {
+          "movie": "MI HIJA HILDEGART - Centenario Azcona: El guionista...",
+          "date": "2026-10-09",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53430-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "EL 47 - CINE Y MEDIACIÓN": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_182653&nombre=el_47-838476618-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA BUENA HIJA - SALA DE CINEASTAS": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183743&nombre=la_buena_hija_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "NACIONAL III - CENTENARIO AZCONA: EL GUIONISTA DE ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183744&nombre=nacional_iii_res_300.jpg",
       "overview": null,
@@ -478,6 +455,13 @@
     },
     "MOULIN ROUGE - Hijos de Saturno. Dramas  filmados ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183761&nombre=moulin_rouge_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "MI HIJA HILDEGART - Centenario Azcona: El guionista...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183750&nombre=mi_hija_hildegart_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
