@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-25T12:05:25.615307+00:00",
-  "fromDate": "2026-09-25",
-  "toDate": "2026-10-09",
+  "generatedAt": "2026-09-26T11:41:31.487974+00:00",
+  "fromDate": "2026-09-26",
+  "toDate": "2026-10-10",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,33 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "NACIONAL III - CENTENARIO AZCONA: EL GUIONISTA DE ...",
-          "date": "2026-09-25",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53398-DETALLE_EVENTO"
-        },
-        {
-          "movie": "TESTIGO DE CARGO - LA DAMA DEL CRIMEN: CENTENARIO ...",
-          "date": "2026-09-25",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53400-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA CENTINELA - MADRUGADA SANGRIENTA",
-          "date": "2026-09-25",
-          "time": "23:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53401-DETALLE_EVENTO"
-        },
         {
           "movie": "LOS PÉREZ-OSOS - FILMO EN FAMILIA",
           "date": "2026-09-26",
@@ -285,27 +258,6 @@
     }
   ],
   "movies": {
-    "NACIONAL III - CENTENARIO AZCONA: EL GUIONISTA DE ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183744&nombre=nacional_iii_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "TESTIGO DE CARGO - LA DAMA DEL CRIMEN: CENTENARIO ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_165002&nombre=witness_for_the_prosecution-236651370-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA CENTINELA - MADRUGADA SANGRIENTA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183747&nombre=the_sentinel_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "LOS PÉREZ-OSOS - FILMO EN FAMILIA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183748&nombre=the_sloth_lane_res_300.jpg",
       "overview": null,
