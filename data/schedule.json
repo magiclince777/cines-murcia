@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-26T11:41:31.487974+00:00",
-  "fromDate": "2026-09-26",
-  "toDate": "2026-10-10",
+  "generatedAt": "2026-09-27T12:20:23.698375+00:00",
+  "fromDate": "2026-09-27",
+  "toDate": "2026-10-11",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,33 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "LOS PÉREZ-OSOS - FILMO EN FAMILIA",
-          "date": "2026-09-26",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53402-DETALLE_EVENTO"
-        },
-        {
-          "movie": "PATRIMONIO NACIONAL - CENTENARIO AZCONA: EL GUIONISTA...",
-          "date": "2026-09-26",
-          "time": "19:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53403-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA FIERA DE MI NIÑA - CICLO: LAS NOCHES DEL FOFÓ",
-          "date": "2026-09-26",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53404-DETALLE_EVENTO"
-        },
         {
           "movie": "LA ESCOPETA NACIONAL - CENTENARIO AZCONA: El guionista...",
           "date": "2026-09-27",
@@ -258,27 +231,6 @@
     }
   ],
   "movies": {
-    "LOS PÉREZ-OSOS - FILMO EN FAMILIA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183748&nombre=the_sloth_lane_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "PATRIMONIO NACIONAL - CENTENARIO AZCONA: EL GUIONISTA...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175130&nombre=PATRIMONIO_NACIONAL_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA FIERA DE MI NIÑA - CICLO: LAS NOCHES DEL FOFÓ": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_156312&nombre=bringing_up_baby-308706906-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "LA ESCOPETA NACIONAL - CENTENARIO AZCONA: El guionista...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175200&nombre=la_escopeta_nacional-587555234-large_res_300.jpg",
       "overview": null,
