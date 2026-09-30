@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-29T13:13:19.704050+00:00",
-  "fromDate": "2026-09-29",
-  "toDate": "2026-10-13",
+  "generatedAt": "2026-09-30T12:54:07.033359+00:00",
+  "fromDate": "2026-09-30",
+  "toDate": "2026-10-14",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,24 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "RAFAEL, EL JOVEN PRODIGIO - DEL LIENZO A LA PANTAL...",
-          "date": "2026-09-29",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53407-DETALLE_EVENTO"
-        },
-        {
-          "movie": "MI HIJA HILDEGART - CENTENARIO AZCONA: El guionista...",
-          "date": "2026-09-29",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53408-DETALLE_EVENTO"
-        },
         {
           "movie": "ME NIEGO A ODIAR - AMNISTÍA INTERNACIONAL",
           "date": "2026-09-30",
@@ -213,20 +195,6 @@
     }
   ],
   "movies": {
-    "RAFAEL, EL JOVEN PRODIGIO - DEL LIENZO A LA PANTAL...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183749&nombre=raffaello_il_giovane_prodigio_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "MI HIJA HILDEGART - CENTENARIO AZCONA: El guionista...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183750&nombre=mi_hija_hildegart_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "ME NIEGO A ODIAR - AMNISTÍA INTERNACIONAL": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183751&nombre=un_medecin_pour_la_paix_res_300.jpg",
       "overview": null,
