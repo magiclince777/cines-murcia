@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-30T12:54:07.033359+00:00",
-  "fromDate": "2026-09-30",
-  "toDate": "2026-10-14",
+  "generatedAt": "2026-10-01T13:45:45.855596+00:00",
+  "fromDate": "2026-10-01",
+  "toDate": "2026-10-15",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,24 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "ME NIEGO A ODIAR - AMNISTÍA INTERNACIONAL",
-          "date": "2026-09-30",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53411-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA BUENA HIJA - BIENVENIDA UNIVERSITARIA",
-          "date": "2026-09-30",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53410-DETALLE_EVENTO"
-        },
         {
           "movie": "CALLE MÁLAGA - PROYECCIÓN ESPECIAL",
           "date": "2026-10-01",
@@ -195,20 +177,6 @@
     }
   ],
   "movies": {
-    "ME NIEGO A ODIAR - AMNISTÍA INTERNACIONAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183751&nombre=un_medecin_pour_la_paix_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA BUENA HIJA - BIENVENIDA UNIVERSITARIA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183743&nombre=la_buena_hija_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CALLE MÁLAGA - PROYECCIÓN ESPECIAL": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183500&nombre=calle_malaga_res_300.jpg",
       "overview": null,
