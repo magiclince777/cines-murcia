@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-04T12:45:31.005510+00:00",
-  "fromDate": "2026-10-04",
-  "toDate": "2026-10-18",
+  "generatedAt": "2026-10-05T15:09:33.441611+00:00",
+  "fromDate": "2026-10-05",
+  "toDate": "2026-10-19",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,24 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "RAFAEL, EL JOVEN PRODIGIO - Del lienzo a la pantal...",
-          "date": "2026-10-04",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53421-DETALLE_EVENTO"
-        },
-        {
-          "movie": "VIVIR LA TIERRA - Bienvenida universitaria",
-          "date": "2026-10-04",
-          "time": "19:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53422-DETALLE_EVENTO"
-        },
         {
           "movie": "EL VERDUGO - Día del Cine Español",
           "date": "2026-10-06",
@@ -114,20 +96,6 @@
     }
   ],
   "movies": {
-    "RAFAEL, EL JOVEN PRODIGIO - Del lienzo a la pantal...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183749&nombre=raffaello_il_giovane_prodigio_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "VIVIR LA TIERRA - Bienvenida universitaria": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183756&nombre=sheng_xi_zhi_di_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "EL VERDUGO - Día del Cine Español": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175057&nombre=el_verdugo-632789770-large_res_300.jpg",
       "overview": null,
