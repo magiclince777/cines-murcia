@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-05T15:09:33.441611+00:00",
-  "fromDate": "2026-10-05",
-  "toDate": "2026-10-19",
+  "generatedAt": "2026-10-06T13:31:06.200249+00:00",
+  "fromDate": "2026-10-06",
+  "toDate": "2026-10-20",
   "cinemas": [
     {
       "id": "myrtea",
@@ -37,6 +37,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53423-DETALLE_EVENTO"
+        },
+        {
+          "movie": "PRESENTACIÓN DEL LIBRO: EL LEGADO DE PACO RABAL",
+          "date": "2026-10-06",
+          "time": "19:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53550-DETALLE_EVENTO"
         },
         {
           "movie": "GOYA EN BURDEOS - Día del Cine Español",
@@ -91,6 +100,33 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53433-DETALLE_EVENTO"
+        },
+        {
+          "movie": "VENECIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...",
+          "date": "2026-10-20",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53434-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA CONSAGRACIÓN DE LA PRIMAVERA & DIVERSION OF ANGELS...",
+          "date": "2026-10-20",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53435-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA VIRGEN ROJA - Centenario Lyceum Club Femenino",
+          "date": "2026-10-20",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53436-DETALLE_EVENTO"
         }
       ]
     }
@@ -99,6 +135,13 @@
     "EL VERDUGO - Día del Cine Español": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175057&nombre=el_verdugo-632789770-large_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "PRESENTACIÓN DEL LIBRO: EL LEGADO DE PACO RABAL": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183971&nombre=EL_LEGADO_DE_PACO_RABAL_res_300.jpg",
+      "overview": "La monografía más completa sobre Francisco Rabal realizada hasta la fecha, publicada por el Instituto de las Industrias Culturales y las Artes y editada por Joaquín Cánovas Belchí y Ángel Cruz Sánchez. La obra se articula en tres partes: una primera, más emocional; la segunda, centrada en la evolución artística de Francisco Rabal; y la tercera, que recoge un exhaustivo recorrido por la filmografía del actor.",
       "vote_average": null,
       "genres": [],
       "year": null
@@ -133,6 +176,27 @@
     },
     "MUERTE EN EL NILO - La dama del crimen: Centenario...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183763&nombre=death_on_the_nile_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "VENECIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183764&nombre=venezia_infinita_avanguardia_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA CONSAGRACIÓN DE LA PRIMAVERA & DIVERSION OF ANGELS...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183765&nombre=Diversion-of-Angels_res_300.jpg",
+      "overview": "La consagración de la primavera y Diversion of Angels son dos de las obras más emblemáticas de la Martha Graham Dance Company. Ambas representan el genio creativo de Martha Graham, la indiscutible \"madre de la danza moderna\", pero abordan temáticas, energías y mundos visuales completamente opuestos. Con frecuencia, la compañía reúne estas dos piezas en un mismo programa para mostrar los contrastes entre la luz lírica del amor y la fuerza visceral del ritual humano.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA VIRGEN ROJA - Centenario Lyceum Club Femenino": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183766&nombre=la_virgen_roja_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
