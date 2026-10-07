@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-06T13:31:06.200249+00:00",
-  "fromDate": "2026-10-06",
-  "toDate": "2026-10-20",
+  "generatedAt": "2026-10-07T13:44:44.946673+00:00",
+  "fromDate": "2026-10-07",
+  "toDate": "2026-10-21",
   "cinemas": [
     {
       "id": "myrtea",
@@ -29,33 +29,6 @@
         "Sala B"
       ],
       "sessions": [
-        {
-          "movie": "EL VERDUGO - Día del Cine Español",
-          "date": "2026-10-06",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53423-DETALLE_EVENTO"
-        },
-        {
-          "movie": "PRESENTACIÓN DEL LIBRO: EL LEGADO DE PACO RABAL",
-          "date": "2026-10-06",
-          "time": "19:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53550-DETALLE_EVENTO"
-        },
-        {
-          "movie": "GOYA EN BURDEOS - Día del Cine Español",
-          "date": "2026-10-06",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53424-DETALLE_EVENTO"
-        },
         {
           "movie": "DIEZ NEGRITOS - La dama del crimen: Centenario de ...",
           "date": "2026-10-07",
@@ -127,34 +100,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53436-DETALLE_EVENTO"
+        },
+        {
+          "movie": "SEPARATED - Amnistía Internacional",
+          "date": "2026-10-21",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53437-DETALLE_EVENTO"
+        },
+        {
+          "movie": "HERMANAS - Nosotras contamos",
+          "date": "2026-10-21",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53438-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "EL VERDUGO - Día del Cine Español": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175057&nombre=el_verdugo-632789770-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "PRESENTACIÓN DEL LIBRO: EL LEGADO DE PACO RABAL": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183971&nombre=EL_LEGADO_DE_PACO_RABAL_res_300.jpg",
-      "overview": "La monografía más completa sobre Francisco Rabal realizada hasta la fecha, publicada por el Instituto de las Industrias Culturales y las Artes y editada por Joaquín Cánovas Belchí y Ángel Cruz Sánchez. La obra se articula en tres partes: una primera, más emocional; la segunda, centrada en la evolución artística de Francisco Rabal; y la tercera, que recoge un exhaustivo recorrido por la filmografía del actor.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "GOYA EN BURDEOS - Día del Cine Español": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_170045&nombre=goya_en_burdeos-508815714-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "DIEZ NEGRITOS - La dama del crimen: Centenario de ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183759&nombre=and_then_there_were_none_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL VERDUGO - Día del Cine Español": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175057&nombre=el_verdugo-632789770-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -197,6 +174,20 @@
     },
     "LA VIRGEN ROJA - Centenario Lyceum Club Femenino": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183766&nombre=la_virgen_roja_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "SEPARATED - Amnistía Internacional": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183767&nombre=separated_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "HERMANAS - Nosotras contamos": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183768&nombre=hermanas_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
