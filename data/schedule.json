@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-07T13:44:44.946673+00:00",
-  "fromDate": "2026-10-07",
-  "toDate": "2026-10-21",
+  "generatedAt": "2026-10-08T13:52:29.660111+00:00",
+  "fromDate": "2026-10-08",
+  "toDate": "2026-10-22",
   "cinemas": [
     {
       "id": "myrtea",
@@ -26,26 +26,18 @@
       "color": "#dc2626",
       "salas": [
         "Sala A",
-        "Sala B"
+        "Sala B",
+        "Sala única"
       ],
       "sessions": [
         {
-          "movie": "DIEZ NEGRITOS - La dama del crimen: Centenario de ...",
-          "date": "2026-10-07",
-          "time": "18:45",
+          "movie": "GOYA EN BURDEOS - Centenario Paco Rabal - CARTAGEN...",
+          "date": "2026-10-08",
+          "time": "18:30",
           "duration": null,
           "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53425-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EL VERDUGO - Día del Cine Español",
-          "date": "2026-10-07",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53428-DETALLE_EVENTO"
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53555-DETALLE_EVENTO"
         },
         {
           "movie": "MOULIN ROUGE - Hijos de Saturno. Dramas  filmados ...",
@@ -64,6 +56,24 @@
           "rating": "?",
           "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53430-DETALLE_EVENTO"
+        },
+        {
+          "movie": "GOYA EN BURDEOS - CENTENARIO PACO RABAL - CARTAGEN...",
+          "date": "2026-10-15",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53556-DETALLE_EVENTO"
+        },
+        {
+          "movie": "NINO - Panorama de actualidad",
+          "date": "2026-10-17",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53567-DETALLE_EVENTO"
         },
         {
           "movie": "MUERTE EN EL NILO - La dama del crimen: Centenario...",
@@ -118,20 +128,40 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53438-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CLASE. 50 AÑOS DE STERM - Realizadores murcianos -...",
+          "date": "2026-10-22",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53557-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL MAESTRO QUE PROMETIÓ EL MAR - Cine y trabajo",
+          "date": "2026-10-22",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53439-DETALLE_EVENTO"
+        },
+        {
+          "movie": "DESPUÉS DE KIM - Nosotras contamos  / Bienvenida U...",
+          "date": "2026-10-22",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53440-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "DIEZ NEGRITOS - La dama del crimen: Centenario de ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183759&nombre=and_then_there_were_none_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "EL VERDUGO - Día del Cine Español": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175057&nombre=el_verdugo-632789770-large_res_300.jpg",
+    "GOYA EN BURDEOS - Centenario Paco Rabal - CARTAGEN...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_170045&nombre=goya_en_burdeos-508815714-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -146,6 +176,20 @@
     },
     "MI HIJA HILDEGART - Centenario Azcona: El guionista...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183750&nombre=mi_hija_hildegart_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "GOYA EN BURDEOS - CENTENARIO PACO RABAL - CARTAGEN...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_170045&nombre=goya_en_burdeos-508815714-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "NINO - Panorama de actualidad": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183991&nombre=nino_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -188,6 +232,27 @@
     },
     "HERMANAS - Nosotras contamos": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183768&nombre=hermanas_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CLASE. 50 AÑOS DE STERM - Realizadores murcianos -...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183987&nombre=images_(2)_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL MAESTRO QUE PROMETIÓ EL MAR - Cine y trabajo": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183769&nombre=el_mestre_que_va_prometre_el_mar_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "DESPUÉS DE KIM - Nosotras contamos  / Bienvenida U...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183770&nombre=despues_de_kim_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
