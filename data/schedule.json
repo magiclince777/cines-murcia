@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-08T13:52:29.660111+00:00",
-  "fromDate": "2026-10-08",
-  "toDate": "2026-10-22",
+  "generatedAt": "2026-10-09T13:37:22.577464+00:00",
+  "fromDate": "2026-10-09",
+  "toDate": "2026-10-23",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,24 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "GOYA EN BURDEOS - Centenario Paco Rabal - CARTAGEN...",
-          "date": "2026-10-08",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53555-DETALLE_EVENTO"
-        },
-        {
-          "movie": "MOULIN ROUGE - Hijos de Saturno. Dramas  filmados ...",
-          "date": "2026-10-08",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53429-DETALLE_EVENTO"
-        },
         {
           "movie": "MI HIJA HILDEGART - Centenario Azcona: El guionista...",
           "date": "2026-10-09",
@@ -155,25 +137,47 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53440-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL MAPA PARA TOCARTE - Nosotras contamos",
+          "date": "2026-10-23",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53441-DETALLE_EVENTO"
+        },
+        {
+          "movie": "SUEÑOS RETENIDOS - Realizadores Murcianos",
+          "date": "2026-10-23",
+          "time": "20:15",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53442-DETALLE_EVENTO"
+        },
+        {
+          "movie": "PADRE NUESTRO - Centenario Paco Rabal",
+          "date": "2026-10-23",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53443-DETALLE_EVENTO"
+        },
+        {
+          "movie": "PORKY´S - Madrugada ochentera",
+          "date": "2026-10-23",
+          "time": "23:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53444-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "GOYA EN BURDEOS - Centenario Paco Rabal - CARTAGEN...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_170045&nombre=goya_en_burdeos-508815714-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "MOULIN ROUGE - Hijos de Saturno. Dramas  filmados ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183761&nombre=moulin_rouge_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "MI HIJA HILDEGART - Centenario Azcona: El guionista...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183750&nombre=mi_hija_hildegart_res_300.jpg",
       "overview": null,
@@ -253,6 +257,34 @@
     },
     "DESPUÉS DE KIM - Nosotras contamos  / Bienvenida U...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183770&nombre=despues_de_kim_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL MAPA PARA TOCARTE - Nosotras contamos": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183771&nombre=el_mapa_para_tocarte_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "SUEÑOS RETENIDOS - Realizadores Murcianos": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_143348&nombre=portada1_res_300.jpg",
+      "overview": "\"SUEÑOS RETENIDOS\" es un documental centrado en la figura de la mujer rural como sujeto narrativo y protagonista. La obra aborda, desde una perspectiva crítica y de género, la renuncia o postergación de los proyectos personales, sueños y aspiraciones de muchas mujeres mayores, consecuencia directa de los roles tradicionales de género que las encasillaron en funciones de cuidado y labores domésticas no remuneradas. El documental se articula en torno a testimonios reales que visibilizan cómo el entorno rural y la carga estructural de género condicionan las trayectorias vitales de estas mujeres, relegando sus metas personales al ámbito de lo imposible o lo secundario. No obstante, muchas de ellas conservan vivos esos anhelos, convirtiéndose en ejemplos de resiliencia y resistencia silenciosa.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "PADRE NUESTRO - Centenario Paco Rabal": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183772&nombre=padre_nuestro_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "PORKY´S - Madrugada ochentera": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183773&nombre=porky_s_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
