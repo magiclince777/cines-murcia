@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-09T13:37:22.577464+00:00",
-  "fromDate": "2026-10-09",
-  "toDate": "2026-10-23",
+  "generatedAt": "2026-10-10T12:54:28.182283+00:00",
+  "fromDate": "2026-10-10",
+  "toDate": "2026-10-24",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,15 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "MI HIJA HILDEGART - Centenario Azcona: El guionista...",
-          "date": "2026-10-09",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53430-DETALLE_EVENTO"
-        },
         {
           "movie": "GOYA EN BURDEOS - CENTENARIO PACO RABAL - CARTAGEN...",
           "date": "2026-10-15",
@@ -173,18 +164,47 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53444-DETALLE_EVENTO"
+        },
+        {
+          "movie": "BABA YAGA Y EL LIBRO DE LOS HECHIZOS - Filmo en fa...",
+          "date": "2026-10-24",
+          "time": "17:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53445-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL TREN DE LAS 4:50 - La dama del crimen: Centenario...",
+          "date": "2026-10-24",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53446-DETALLE_EVENTO"
+        },
+        {
+          "movie": "YOONU DUNDU · CAMINO VIVO - Realizadores Murcianos",
+          "date": "2026-10-24",
+          "time": "19:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53447-DETALLE_EVENTO"
+        },
+        {
+          "movie": "YO NO MORIRÉ DE AMOR - Nosotras contamos",
+          "date": "2026-10-24",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53448-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "MI HIJA HILDEGART - Centenario Azcona: El guionista...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183750&nombre=mi_hija_hildegart_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "GOYA EN BURDEOS - CENTENARIO PACO RABAL - CARTAGEN...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_170045&nombre=goya_en_burdeos-508815714-large_res_300.jpg",
       "overview": null,
@@ -285,6 +305,34 @@
     },
     "PORKY´S - Madrugada ochentera": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183773&nombre=porky_s_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "BABA YAGA Y EL LIBRO DE LOS HECHIZOS - Filmo en fa...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183777&nombre=yaga_i_kniga_zaklinaniy_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL TREN DE LAS 4:50 - La dama del crimen: Centenario...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183778&nombre=murder_she_said_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "YOONU DUNDU · CAMINO VIVO - Realizadores Murcianos": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183961&nombre=CARTEL_YOONU_DUNDU_res_300.jpg",
+      "overview": "\" YOONU DUNDU · CAMINO VIVO \" es un largometraje documental que explora las realidades de la migración, la resiliencia y el arraigo cultural. A través de una mirada íntima y humanista, la obra sigue los recorridos vitales de personas migrantes que transitan o se asientan en España, rescatando sus historias personales, su memoria y la música o tradiciones que mantienen vivas sus raíces espirituales y emocionales mientras enfrentan los desafíos de la integración social.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "YO NO MORIRÉ DE AMOR - Nosotras contamos": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183779&nombre=yo_no_morire_de_amorjpg_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
