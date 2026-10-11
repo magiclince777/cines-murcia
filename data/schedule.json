@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-10T12:54:28.182283+00:00",
-  "fromDate": "2026-10-10",
-  "toDate": "2026-10-24",
+  "generatedAt": "2026-10-11T13:18:25.163427+00:00",
+  "fromDate": "2026-10-11",
+  "toDate": "2026-10-25",
   "cinemas": [
     {
       "id": "myrtea",
@@ -200,6 +200,24 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53448-DETALLE_EVENTO"
+        },
+        {
+          "movie": "VENEZIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...",
+          "date": "2026-10-25",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53449-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA VIRGEN ROJA - Bienvenida universitaria",
+          "date": "2026-10-25",
+          "time": "19:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53450-DETALLE_EVENTO"
         }
       ]
     }
@@ -333,6 +351,20 @@
     },
     "YO NO MORIRÉ DE AMOR - Nosotras contamos": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183779&nombre=yo_no_morire_de_amorjpg_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "VENEZIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183764&nombre=venezia_infinita_avanguardia_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA VIRGEN ROJA - Bienvenida universitaria": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183766&nombre=la_virgen_roja_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
