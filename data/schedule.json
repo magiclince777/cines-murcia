@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-12T15:55:33.206049+00:00",
-  "fromDate": "2026-10-12",
-  "toDate": "2026-10-26",
+  "generatedAt": "2026-10-13T14:28:51.150676+00:00",
+  "fromDate": "2026-10-13",
+  "toDate": "2026-10-27",
   "cinemas": [
     {
       "id": "myrtea",
@@ -49,7 +49,7 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53567-DETALLE_EVENTO"
         },
         {
-          "movie": "MUERTE EN EL NILO - La dama del crimen: Centenario...",
+          "movie": "MUERTE EN EL NILO - La dama del crimen",
           "date": "2026-10-18",
           "time": "18:00",
           "duration": null,
@@ -218,6 +218,24 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53450-DETALLE_EVENTO"
+        },
+        {
+          "movie": "DUELO EN EL VALLE - Centenario Youssef Chahine",
+          "date": "2026-10-27",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53451-DETALLE_EVENTO"
+        },
+        {
+          "movie": "MORREU O DEMO, ACABOUSE A PESETA - Festival Titere...",
+          "date": "2026-10-27",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53452-DETALLE_EVENTO"
         }
       ]
     }
@@ -237,7 +255,7 @@
       "genres": [],
       "year": null
     },
-    "MUERTE EN EL NILO - La dama del crimen: Centenario...": {
+    "MUERTE EN EL NILO - La dama del crimen": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183763&nombre=death_on_the_nile_res_300.jpg",
       "overview": null,
       "vote_average": null,
@@ -366,6 +384,20 @@
     "LA VIRGEN ROJA - Bienvenida universitaria": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183766&nombre=la_virgen_roja_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "DUELO EN EL VALLE - Centenario Youssef Chahine": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183780&nombre=siraa_fil_wadi_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "MORREU O DEMO, ACABOUSE A PESETA - Festival Titere...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183781&nombre=Silvent_res_300.jpg",
+      "overview": "Los detalles de la genealogía de Barriga Verde, así como de la historia de la familia Silvent, centran el documental Morreu o Demo, acabou-se a peseta , dirigido por el realizador Pedro Solla a partir de una idea original de Marcelo Martínez y con guión de ambos. José Silvent nació en Extremadura pero desarrolló toda su actividad como titiritero en Galicia tras su paso por Oporto. Alcanzó una enorme popularidad, primero actuando tras una simple cortina en las esquinas de las plazas, luego con el Pabellón de la Risa y más tarde con una barraca llamada Teatro Melodías de España.",
       "vote_average": null,
       "genres": [],
       "year": null
