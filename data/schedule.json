@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-13T14:28:51.150676+00:00",
-  "fromDate": "2026-10-13",
-  "toDate": "2026-10-27",
+  "generatedAt": "2026-10-14T12:14:38.979008+00:00",
+  "fromDate": "2026-10-14",
+  "toDate": "2026-10-28",
   "cinemas": [
     {
       "id": "myrtea",
@@ -31,13 +31,22 @@
       ],
       "sessions": [
         {
-          "movie": "GOYA EN BURDEOS - CENTENARIO PACO RABAL - CARTAGEN...",
+          "movie": "DIEZ NEGRITOS - La dama del crimen - CARTAGENA",
           "date": "2026-10-15",
           "time": "18:30",
           "duration": null,
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53556-DETALLE_EVENTO"
+        },
+        {
+          "movie": "VÉRTIGO - Buzón de sugerencias",
+          "date": "2026-10-16",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53583-DETALLE_EVENTO"
         },
         {
           "movie": "NINO - Panorama de actualidad",
@@ -236,13 +245,56 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53452-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Buzón de sugerencias",
+          "date": "2026-10-28",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53453-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA VOZ QUEBRADA - Panorama de actualidad",
+          "date": "2026-10-28",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53568-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Mujeres Cineastas - Película por confirmar",
+          "date": "2026-10-28",
+          "time": "19:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53454-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ANA Y LOS LOBOS - Centenario Azcona: El guionista ...",
+          "date": "2026-10-28",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53455-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "GOYA EN BURDEOS - CENTENARIO PACO RABAL - CARTAGEN...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_170045&nombre=goya_en_burdeos-508815714-large_res_300.jpg",
+    "DIEZ NEGRITOS - La dama del crimen - CARTAGENA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183759&nombre=and_then_there_were_none_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "VÉRTIGO - Buzón de sugerencias": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184018&nombre=vertigo_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -298,7 +350,7 @@
       "year": null
     },
     "CLASE. 50 AÑOS DE STERM - Realizadores murcianos -...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183987&nombre=images_(2)_res_300.jpg",
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184020&nombre=images_(2)_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -398,6 +450,34 @@
     "MORREU O DEMO, ACABOUSE A PESETA - Festival Titere...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183781&nombre=Silvent_res_300.jpg",
       "overview": "Los detalles de la genealogía de Barriga Verde, así como de la historia de la familia Silvent, centran el documental Morreu o Demo, acabou-se a peseta , dirigido por el realizador Pedro Solla a partir de una idea original de Marcelo Martínez y con guión de ambos. José Silvent nació en Extremadura pero desarrolló toda su actividad como titiritero en Galicia tras su paso por Oporto. Alcanzó una enorme popularidad, primero actuando tras una simple cortina en las esquinas de las plazas, luego con el Pabellón de la Risa y más tarde con una barraca llamada Teatro Melodías de España.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Buzón de sugerencias": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173381&nombre=_MG_7284-1-R_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA VOZ QUEBRADA - Panorama de actualidad": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183992&nombre=la_voz_quebrada_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "Mujeres Cineastas - Película por confirmar": {
+      "poster": null,
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ANA Y LOS LOBOS - Centenario Azcona: El guionista ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183782&nombre=ana_y_los_lobosjpg_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
