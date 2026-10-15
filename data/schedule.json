@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-14T12:14:38.979008+00:00",
-  "fromDate": "2026-10-14",
-  "toDate": "2026-10-28",
+  "generatedAt": "2026-10-15T11:56:24.354710+00:00",
+  "fromDate": "2026-10-15",
+  "toDate": "2026-10-29",
   "cinemas": [
     {
       "id": "myrtea",
@@ -184,7 +184,7 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53445-DETALLE_EVENTO"
         },
         {
-          "movie": "EL TREN DE LAS 4:50 - La dama del crimen: Centenario...",
+          "movie": "EL TREN DE LAS 4:50 - La dama del crimen",
           "date": "2026-10-24",
           "time": "19:00",
           "duration": null,
@@ -274,13 +274,40 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53454-DETALLE_EVENTO"
         },
         {
-          "movie": "ANA Y LOS LOBOS - Centenario Azcona: El guionista ...",
+          "movie": "ANA Y LOS LOBOS - Centenario Azcona",
           "date": "2026-10-28",
           "time": "20:45",
           "duration": null,
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53455-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL MAESTRO QUE PROMETIÓ EL MAR - Cine y trabajo - ...",
+          "date": "2026-10-29",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53558-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA RED SOCIAL - SALA A  Cine y Economía",
+          "date": "2026-10-29",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53456-DETALLE_EVENTO"
+        },
+        {
+          "movie": "UNA PELÍCULA DE MIEDO - La sala de los cineastas",
+          "date": "2026-10-29",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53457-DETALLE_EVENTO"
         }
       ]
     }
@@ -405,7 +432,7 @@
       "genres": [],
       "year": null
     },
-    "EL TREN DE LAS 4:50 - La dama del crimen: Centenario...": {
+    "EL TREN DE LAS 4:50 - La dama del crimen": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183778&nombre=murder_she_said_res_300.jpg",
       "overview": null,
       "vote_average": null,
@@ -413,7 +440,7 @@
       "year": null
     },
     "YOONU DUNDU · CAMINO VIVO - Realizadores Murcianos": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183961&nombre=CARTEL_YOONU_DUNDU_res_300.jpg",
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184021&nombre=CARTEL_YOONU_DUNDU_res_300.jpg",
       "overview": "\" YOONU DUNDU · CAMINO VIVO \" es un largometraje documental que explora las realidades de la migración, la resiliencia y el arraigo cultural. A través de una mirada íntima y humanista, la obra sigue los recorridos vitales de personas migrantes que transitan o se asientan en España, rescatando sus historias personales, su memoria y la música o tradiciones que mantienen vivas sus raíces espirituales y emocionales mientras enfrentan los desafíos de la integración social.",
       "vote_average": null,
       "genres": [],
@@ -469,15 +496,36 @@
       "year": null
     },
     "Mujeres Cineastas - Película por confirmar": {
-      "poster": null,
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184022&nombre=AMMA_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
     },
-    "ANA Y LOS LOBOS - Centenario Azcona: El guionista ...": {
+    "ANA Y LOS LOBOS - Centenario Azcona": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183782&nombre=ana_y_los_lobosjpg_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL MAESTRO QUE PROMETIÓ EL MAR - Cine y trabajo - ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183769&nombre=el_mestre_que_va_prometre_el_mar_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA RED SOCIAL - SALA A  Cine y Economía": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183783&nombre=the_social_network_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "UNA PELÍCULA DE MIEDO - La sala de los cineastas": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183970&nombre=una_pelicula_de_miedo_res_300.jpg",
+      "overview": "Durante las vacaciones de verano, un director de documentales y su hijo de doce años se alojan en un hotel abandonado de Lisboa: un hotel vacío como el de la película 'El resplandor'.",
       "vote_average": null,
       "genres": [],
       "year": null
