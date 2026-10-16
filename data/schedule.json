@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-15T11:56:24.354710+00:00",
-  "fromDate": "2026-10-15",
-  "toDate": "2026-10-29",
+  "generatedAt": "2026-10-16T11:46:56.189182+00:00",
+  "fromDate": "2026-10-16",
+  "toDate": "2026-10-30",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,15 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "DIEZ NEGRITOS - La dama del crimen - CARTAGENA",
-          "date": "2026-10-15",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53556-DETALLE_EVENTO"
-        },
         {
           "movie": "VÉRTIGO - Buzón de sugerencias",
           "date": "2026-10-16",
@@ -292,7 +283,7 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53558-DETALLE_EVENTO"
         },
         {
-          "movie": "LA RED SOCIAL - SALA A  Cine y Economía",
+          "movie": "LA RED SOCIAL - Cine y Economía",
           "date": "2026-10-29",
           "time": "19:00",
           "duration": null,
@@ -308,18 +299,38 @@
           "rating": "?",
           "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53457-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ANA Y LOS LOBOS - Centenario Azcona",
+          "date": "2026-10-30",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53458-DETALLE_EVENTO"
+        },
+        {
+          "movie": "BACKROOMS - Halloween 2026",
+          "date": "2026-10-30",
+          "time": "20:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53459-DETALLE_EVENTO"
+        },
+        {
+          "movie": "MUÑECO DIABÓLICO - Halloween 2026",
+          "date": "2026-10-30",
+          "time": "22:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53460-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "DIEZ NEGRITOS - La dama del crimen - CARTAGENA": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183759&nombre=and_then_there_were_none_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "VÉRTIGO - Buzón de sugerencias": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184018&nombre=vertigo_res_300.jpg",
       "overview": null,
@@ -516,7 +527,7 @@
       "genres": [],
       "year": null
     },
-    "LA RED SOCIAL - SALA A  Cine y Economía": {
+    "LA RED SOCIAL - Cine y Economía": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183783&nombre=the_social_network_res_300.jpg",
       "overview": null,
       "vote_average": null,
@@ -526,6 +537,20 @@
     "UNA PELÍCULA DE MIEDO - La sala de los cineastas": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183970&nombre=una_pelicula_de_miedo_res_300.jpg",
       "overview": "Durante las vacaciones de verano, un director de documentales y su hijo de doce años se alojan en un hotel abandonado de Lisboa: un hotel vacío como el de la película 'El resplandor'.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "BACKROOMS - Halloween 2026": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183785&nombre=backrooms_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "MUÑECO DIABÓLICO - Halloween 2026": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183786&nombre=child_s_play_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
