@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-16T11:46:56.189182+00:00",
-  "fromDate": "2026-10-16",
-  "toDate": "2026-10-30",
+  "generatedAt": "2026-10-17T11:03:47.355862+00:00",
+  "fromDate": "2026-10-17",
+  "toDate": "2026-10-31",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,15 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "VÉRTIGO - Buzón de sugerencias",
-          "date": "2026-10-16",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53583-DETALLE_EVENTO"
-        },
         {
           "movie": "NINO - Panorama de actualidad",
           "date": "2026-10-17",
@@ -247,15 +238,6 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53453-DETALLE_EVENTO"
         },
         {
-          "movie": "LA VOZ QUEBRADA - Panorama de actualidad",
-          "date": "2026-10-28",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53568-DETALLE_EVENTO"
-        },
-        {
           "movie": "Mujeres Cineastas - Película por confirmar",
           "date": "2026-10-28",
           "time": "19:30",
@@ -326,18 +308,56 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53460-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA FAMILIA ADDAMS - Filmo en Familia / Halloween 2...",
+          "date": "2026-10-31",
+          "time": "17:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53461-DETALLE_EVENTO"
+        },
+        {
+          "movie": "BACKROOMS - Halloween 2026",
+          "date": "2026-10-31",
+          "time": "19:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53462-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LUCES DE BOHEMIA - Centenario Paco Rabal",
+          "date": "2026-10-31",
+          "time": "19:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53463-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ABIERTO HASTA EL AMANECER - Halloween 2026",
+          "date": "2026-10-31",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53464-DETALLE_EVENTO"
+        },
+        {
+          "movie": "SCREAM. VIGILA QUIÉN LLAMA - Halloween 2026",
+          "date": "2026-10-31",
+          "time": "23:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53465-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "VÉRTIGO - Buzón de sugerencias": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184018&nombre=vertigo_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "NINO - Panorama de actualidad": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183991&nombre=nino_res_300.jpg",
       "overview": null,
@@ -499,13 +519,6 @@
       "genres": [],
       "year": null
     },
-    "LA VOZ QUEBRADA - Panorama de actualidad": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183992&nombre=la_voz_quebrada_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "Mujeres Cineastas - Película por confirmar": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184022&nombre=AMMA_res_300.jpg",
       "overview": null,
@@ -550,6 +563,34 @@
     },
     "MUÑECO DIABÓLICO - Halloween 2026": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183786&nombre=child_s_play_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA FAMILIA ADDAMS - Filmo en Familia / Halloween 2...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183635&nombre=the_addams_family_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LUCES DE BOHEMIA - Centenario Paco Rabal": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183787&nombre=luces_de_bohemia_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ABIERTO HASTA EL AMANECER - Halloween 2026": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183788&nombre=from_dusk_till_dawn_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "SCREAM. VIGILA QUIÉN LLAMA - Halloween 2026": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183789&nombre=scream_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
