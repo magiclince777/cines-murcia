@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-17T11:03:47.355862+00:00",
-  "fromDate": "2026-10-17",
-  "toDate": "2026-10-31",
+  "generatedAt": "2026-10-18T11:34:20.490399+00:00",
+  "fromDate": "2026-10-18",
+  "toDate": "2026-11-01",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,15 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "NINO - Panorama de actualidad",
-          "date": "2026-10-17",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53567-DETALLE_EVENTO"
-        },
         {
           "movie": "MUERTE EN EL NILO - La dama del crimen",
           "date": "2026-10-18",
@@ -238,6 +229,15 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53453-DETALLE_EVENTO"
         },
         {
+          "movie": "LA VOZ QUEBRADA - Panorama de actualidad",
+          "date": "2026-10-28",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53568-DETALLE_EVENTO"
+        },
+        {
           "movie": "Mujeres Cineastas - Película por confirmar",
           "date": "2026-10-28",
           "time": "19:30",
@@ -353,18 +353,20 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53465-DETALLE_EVENTO"
+        },
+        {
+          "movie": "NOSFERATU - HALLOWEEN 2026",
+          "date": "2026-11-01",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53502-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "NINO - Panorama de actualidad": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183991&nombre=nino_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "MUERTE EN EL NILO - La dama del crimen": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183763&nombre=death_on_the_nile_res_300.jpg",
       "overview": null,
@@ -519,6 +521,13 @@
       "genres": [],
       "year": null
     },
+    "LA VOZ QUEBRADA - Panorama de actualidad": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183992&nombre=la_voz_quebrada_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
     "Mujeres Cineastas - Película por confirmar": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184022&nombre=AMMA_res_300.jpg",
       "overview": null,
@@ -591,6 +600,13 @@
     },
     "SCREAM. VIGILA QUIÉN LLAMA - Halloween 2026": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183789&nombre=scream_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "NOSFERATU - HALLOWEEN 2026": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_172697&nombre=nosferatu_nosferatu_eine_symphonie_des_grauens-257840643-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
