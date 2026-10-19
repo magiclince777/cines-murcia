@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-18T11:34:20.490399+00:00",
-  "fromDate": "2026-10-18",
-  "toDate": "2026-11-01",
+  "generatedAt": "2026-10-19T13:48:41.880483+00:00",
+  "fromDate": "2026-10-19",
+  "toDate": "2026-11-02",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,15 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "MUERTE EN EL NILO - La dama del crimen",
-          "date": "2026-10-18",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53433-DETALLE_EVENTO"
-        },
         {
           "movie": "VENECIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...",
           "date": "2026-10-20",
@@ -220,15 +211,6 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53452-DETALLE_EVENTO"
         },
         {
-          "movie": "Buzón de sugerencias",
-          "date": "2026-10-28",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53453-DETALLE_EVENTO"
-        },
-        {
           "movie": "LA VOZ QUEBRADA - Panorama de actualidad",
           "date": "2026-10-28",
           "time": "18:45",
@@ -236,6 +218,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53568-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Buzón de sugerencias",
+          "date": "2026-10-28",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53453-DETALLE_EVENTO"
         },
         {
           "movie": "Mujeres Cineastas - Película por confirmar",
@@ -362,18 +353,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53502-DETALLE_EVENTO"
+        },
+        {
+          "movie": "DUELO EN LOS MUELLES - CENTENARIO YOUSSEF CHAHINE",
+          "date": "2026-11-02",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53503-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL LOCO DEL PELO ROJO - HIJOS DE SATURNO",
+          "date": "2026-11-02",
+          "time": "21:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53504-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "MUERTE EN EL NILO - La dama del crimen": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183763&nombre=death_on_the_nile_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "VENECIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183764&nombre=venezia_infinita_avanguardia_res_300.jpg",
       "overview": null,
@@ -514,15 +516,15 @@
       "genres": [],
       "year": null
     },
-    "Buzón de sugerencias": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173381&nombre=_MG_7284-1-R_res_300.jpg",
+    "LA VOZ QUEBRADA - Panorama de actualidad": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183992&nombre=la_voz_quebrada_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
     },
-    "LA VOZ QUEBRADA - Panorama de actualidad": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183992&nombre=la_voz_quebrada_res_300.jpg",
+    "Buzón de sugerencias": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173381&nombre=_MG_7284-1-R_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -607,6 +609,20 @@
     },
     "NOSFERATU - HALLOWEEN 2026": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_172697&nombre=nosferatu_nosferatu_eine_symphonie_des_grauens-257840643-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "DUELO EN LOS MUELLES - CENTENARIO YOUSSEF CHAHINE": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183869&nombre=siraa_fil_mina_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL LOCO DEL PELO ROJO - HIJOS DE SATURNO": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_157955&nombre=el_loco_del_pelo_rojo_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
