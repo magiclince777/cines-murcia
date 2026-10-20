@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-19T13:48:41.880483+00:00",
-  "fromDate": "2026-10-19",
-  "toDate": "2026-11-02",
+  "generatedAt": "2026-10-20T11:57:32.450713+00:00",
+  "fromDate": "2026-10-20",
+  "toDate": "2026-11-03",
   "cinemas": [
     {
       "id": "myrtea",
@@ -65,6 +65,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53437-DETALLE_EVENTO"
+        },
+        {
+          "movie": "SOMBRA NÓMADA - Nosotras contamos",
+          "date": "2026-10-21",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53611-DETALLE_EVENTO"
         },
         {
           "movie": "HERMANAS - Nosotras contamos",
@@ -211,15 +220,6 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53452-DETALLE_EVENTO"
         },
         {
-          "movie": "LA VOZ QUEBRADA - Panorama de actualidad",
-          "date": "2026-10-28",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53568-DETALLE_EVENTO"
-        },
-        {
           "movie": "Buzón de sugerencias",
           "date": "2026-10-28",
           "time": "18:45",
@@ -227,6 +227,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53453-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA VOZ QUEBRADA - Panorama de actualidad",
+          "date": "2026-10-28",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53568-DETALLE_EVENTO"
         },
         {
           "movie": "Mujeres Cineastas - Película por confirmar",
@@ -371,6 +380,24 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53504-DETALLE_EVENTO"
+        },
+        {
+          "movie": "MORTAL SUGESTIÓN - La dama del crimen",
+          "date": "2026-11-03",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53505-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LOS AHOGADOS - La Mar de Cine: Ecuador",
+          "date": "2026-11-03",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53506-DETALLE_EVENTO"
         }
       ]
     }
@@ -404,6 +431,13 @@
       "genres": [],
       "year": null
     },
+    "SOMBRA NÓMADA - Nosotras contamos": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184063&nombre=nomad_shadow_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
     "HERMANAS - Nosotras contamos": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183768&nombre=hermanas_res_300.jpg",
       "overview": null,
@@ -412,7 +446,7 @@
       "year": null
     },
     "CLASE. 50 AÑOS DE STERM - Realizadores murcianos -...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184020&nombre=images_(2)_res_300.jpg",
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184064&nombre=STERM_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -516,15 +550,15 @@
       "genres": [],
       "year": null
     },
-    "LA VOZ QUEBRADA - Panorama de actualidad": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183992&nombre=la_voz_quebrada_res_300.jpg",
+    "Buzón de sugerencias": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173381&nombre=_MG_7284-1-R_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
     },
-    "Buzón de sugerencias": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173381&nombre=_MG_7284-1-R_res_300.jpg",
+    "LA VOZ QUEBRADA - Panorama de actualidad": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183992&nombre=la_voz_quebrada_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -623,6 +657,20 @@
     },
     "EL LOCO DEL PELO ROJO - HIJOS DE SATURNO": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_157955&nombre=el_loco_del_pelo_rojo_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "MORTAL SUGESTIÓN - La dama del crimen": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183870&nombre=love_from_a_stranger_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LOS AHOGADOS - La Mar de Cine: Ecuador": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183871&nombre=los_ahogados_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
