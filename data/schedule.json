@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-21T12:12:20.791475+00:00",
-  "fromDate": "2026-10-21",
-  "toDate": "2026-11-04",
+  "generatedAt": "2026-10-22T12:15:25.306137+00:00",
+  "fromDate": "2026-10-22",
+  "toDate": "2026-11-05",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,24 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "SEPARATED - Amnistía Internacional",
-          "date": "2026-10-21",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53437-DETALLE_EVENTO"
-        },
-        {
-          "movie": "SOMBRA NÓMADA - Nosotras contamos",
-          "date": "2026-10-21",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53611-DETALLE_EVENTO"
-        },
         {
           "movie": "CLASE. 50 AÑOS DE STERM - Realizadores murcianos -...",
           "date": "2026-10-22",
@@ -380,25 +362,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53508-DETALLE_EVENTO"
+        },
+        {
+          "movie": "VENECIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...",
+          "date": "2026-11-05",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53559-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LE GRAND CHEMIN - Clásicos recuperados",
+          "date": "2026-11-05",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53509-DETALLE_EVENTO"
+        },
+        {
+          "movie": "NOSOTROS, MI PAPÁ Y EL PERRO - La Mar de Cine: Ecu...",
+          "date": "2026-11-05",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53510-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "SEPARATED - Amnistía Internacional": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183767&nombre=separated_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "SOMBRA NÓMADA - Nosotras contamos": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184063&nombre=nomad_shadow_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "CLASE. 50 AÑOS DE STERM - Realizadores murcianos -...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184064&nombre=STERM_res_300.jpg",
       "overview": null,
@@ -632,6 +627,27 @@
     },
     "LOS WÁNABIS - La Mar de Cine: Ecuador": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183872&nombre=los_wanabis_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "VENECIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183764&nombre=venezia_infinita_avanguardia_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LE GRAND CHEMIN - Clásicos recuperados": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183874&nombre=le_grand_chemin_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "NOSOTROS, MI PAPÁ Y EL PERRO - La Mar de Cine: Ecu...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183875&nombre=nosotros_mi_papa_y_el_perro_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
