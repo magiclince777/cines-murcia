@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-22T12:15:25.306137+00:00",
-  "fromDate": "2026-10-22",
-  "toDate": "2026-11-05",
+  "generatedAt": "2026-10-23T11:56:56.505186+00:00",
+  "fromDate": "2026-10-23",
+  "toDate": "2026-11-06",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "CLASE. 50 AÑOS DE STERM - Realizadores murcianos -...",
-          "date": "2026-10-22",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53557-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EL MAESTRO QUE PROMETIÓ EL MAR - Cine y trabajo",
-          "date": "2026-10-22",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53439-DETALLE_EVENTO"
-        },
-        {
-          "movie": "DESPUÉS DE KIM - Nosotras contamos  / Bienvenida U...",
-          "date": "2026-10-22",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53440-DETALLE_EVENTO"
-        },
         {
           "movie": "EL MAPA PARA TOCARTE - Nosotras contamos",
           "date": "2026-10-23",
@@ -166,15 +139,6 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53452-DETALLE_EVENTO"
         },
         {
-          "movie": "LA VOZ QUEBRADA - Panorama de actualidad",
-          "date": "2026-10-28",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53568-DETALLE_EVENTO"
-        },
-        {
           "movie": "Buzón de sugerencias",
           "date": "2026-10-28",
           "time": "18:45",
@@ -182,6 +146,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53453-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA VOZ QUEBRADA - Panorama de actualidad",
+          "date": "2026-10-28",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53568-DETALLE_EVENTO"
         },
         {
           "movie": "Mujeres Cineastas - Película por confirmar",
@@ -389,32 +362,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53510-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA VIEJA MÚSICA - Centenario Paco Rabal",
+          "date": "2026-11-06",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53511-DETALLE_EVENTO"
+        },
+        {
+          "movie": "HIEDRA - La Mar de Cine: Ecuador",
+          "date": "2026-11-06",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53513-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA TIENDA DE LOS HORRORES - Madrugada ochentera",
+          "date": "2026-11-06",
+          "time": "22:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53514-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "CLASE. 50 AÑOS DE STERM - Realizadores murcianos -...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184064&nombre=STERM_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "EL MAESTRO QUE PROMETIÓ EL MAR - Cine y trabajo": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183769&nombre=el_mestre_que_va_prometre_el_mar_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "DESPUÉS DE KIM - Nosotras contamos  / Bienvenida U...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183770&nombre=despues_de_kim_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "EL MAPA PARA TOCARTE - Nosotras contamos": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183771&nombre=el_mapa_para_tocarte_res_300.jpg",
       "overview": null,
@@ -499,15 +478,15 @@
       "genres": [],
       "year": null
     },
-    "LA VOZ QUEBRADA - Panorama de actualidad": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183992&nombre=la_voz_quebrada_res_300.jpg",
+    "Buzón de sugerencias": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173381&nombre=_MG_7284-1-R_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
     },
-    "Buzón de sugerencias": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173381&nombre=_MG_7284-1-R_res_300.jpg",
+    "LA VOZ QUEBRADA - Panorama de actualidad": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183992&nombre=la_voz_quebrada_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -648,6 +627,27 @@
     },
     "NOSOTROS, MI PAPÁ Y EL PERRO - La Mar de Cine: Ecu...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183875&nombre=nosotros_mi_papa_y_el_perro_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA VIEJA MÚSICA - Centenario Paco Rabal": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183876&nombre=la_vieja_musica_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "HIEDRA - La Mar de Cine: Ecuador": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183879&nombre=hiedra_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA TIENDA DE LOS HORRORES - Madrugada ochentera": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183880&nombre=little_shop_of_horrors_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
