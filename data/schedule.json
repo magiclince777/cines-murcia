@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-23T11:56:56.505186+00:00",
-  "fromDate": "2026-10-23",
-  "toDate": "2026-11-06",
+  "generatedAt": "2026-10-24T11:26:27.154972+00:00",
+  "fromDate": "2026-10-24",
+  "toDate": "2026-11-07",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,42 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "EL MAPA PARA TOCARTE - Nosotras contamos",
-          "date": "2026-10-23",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53441-DETALLE_EVENTO"
-        },
-        {
-          "movie": "SUEÑOS RETENIDOS - Realizadores Murcianos",
-          "date": "2026-10-23",
-          "time": "20:15",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53442-DETALLE_EVENTO"
-        },
-        {
-          "movie": "PADRE NUESTRO - Centenario Paco Rabal",
-          "date": "2026-10-23",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53443-DETALLE_EVENTO"
-        },
-        {
-          "movie": "PORKY´S - Madrugada ochentera",
-          "date": "2026-10-23",
-          "time": "23:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53444-DETALLE_EVENTO"
-        },
         {
           "movie": "BABA YAGA Y EL LIBRO DE LOS HECHIZOS - Filmo en fa...",
           "date": "2026-10-24",
@@ -139,15 +103,6 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53452-DETALLE_EVENTO"
         },
         {
-          "movie": "Buzón de sugerencias",
-          "date": "2026-10-28",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53453-DETALLE_EVENTO"
-        },
-        {
           "movie": "LA VOZ QUEBRADA - Panorama de actualidad",
           "date": "2026-10-28",
           "time": "18:45",
@@ -155,6 +110,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53568-DETALLE_EVENTO"
+        },
+        {
+          "movie": "Buzón de sugerencias",
+          "date": "2026-10-28",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53453-DETALLE_EVENTO"
         },
         {
           "movie": "Mujeres Cineastas - Película por confirmar",
@@ -389,39 +353,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53514-DETALLE_EVENTO"
+        },
+        {
+          "movie": "SIMONA KOSSAK - Cine Polska",
+          "date": "2026-11-07",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53569-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CERTAMEN FILMOCLIP -  Producción murciana - Docume...",
+          "date": "2026-11-07",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53577-DETALLE_EVENTO"
+        },
+        {
+          "movie": "VIEJOS MALDITOS - La Mar de Cine: Ecuador",
+          "date": "2026-11-07",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53570-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "EL MAPA PARA TOCARTE - Nosotras contamos": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183771&nombre=el_mapa_para_tocarte_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "SUEÑOS RETENIDOS - Realizadores Murcianos": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_143348&nombre=portada1_res_300.jpg",
-      "overview": "\"SUEÑOS RETENIDOS\" es un documental centrado en la figura de la mujer rural como sujeto narrativo y protagonista. La obra aborda, desde una perspectiva crítica y de género, la renuncia o postergación de los proyectos personales, sueños y aspiraciones de muchas mujeres mayores, consecuencia directa de los roles tradicionales de género que las encasillaron en funciones de cuidado y labores domésticas no remuneradas. El documental se articula en torno a testimonios reales que visibilizan cómo el entorno rural y la carga estructural de género condicionan las trayectorias vitales de estas mujeres, relegando sus metas personales al ámbito de lo imposible o lo secundario. No obstante, muchas de ellas conservan vivos esos anhelos, convirtiéndose en ejemplos de resiliencia y resistencia silenciosa.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "PADRE NUESTRO - Centenario Paco Rabal": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183772&nombre=padre_nuestro_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "PORKY´S - Madrugada ochentera": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183773&nombre=porky_s_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "BABA YAGA Y EL LIBRO DE LOS HECHIZOS - Filmo en fa...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183777&nombre=yaga_i_kniga_zaklinaniy_res_300.jpg",
       "overview": null,
@@ -478,15 +441,15 @@
       "genres": [],
       "year": null
     },
-    "Buzón de sugerencias": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173381&nombre=_MG_7284-1-R_res_300.jpg",
+    "LA VOZ QUEBRADA - Panorama de actualidad": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183992&nombre=la_voz_quebrada_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
     },
-    "LA VOZ QUEBRADA - Panorama de actualidad": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183992&nombre=la_voz_quebrada_res_300.jpg",
+    "Buzón de sugerencias": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173381&nombre=_MG_7284-1-R_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -648,6 +611,27 @@
     },
     "LA TIENDA DE LOS HORRORES - Madrugada ochentera": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183880&nombre=little_shop_of_horrors_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "SIMONA KOSSAK - Cine Polska": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183993&nombre=simona_kossak_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CERTAMEN FILMOCLIP -  Producción murciana - Docume...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183999&nombre=Logo_Filmoclip_JPG_res_300.jpg",
+      "overview": "Linze es una banda de rock 'n' roll procedente de Madrid, España, formada en 2011/2012 por cuatro integrantes . Su estilo mezcla la energía del rock clásico de los años 60, 70 y 80 con un toque actual y elegante. El realizador murciano Joaquín Maillo ha realizado un documental sobre su carrera musical y videográfica.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "VIEJOS MALDITOS - La Mar de Cine: Ecuador": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183883&nombre=viejos_malditos_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
