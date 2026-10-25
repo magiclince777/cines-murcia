@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-24T11:26:27.154972+00:00",
-  "fromDate": "2026-10-24",
-  "toDate": "2026-11-07",
+  "generatedAt": "2026-10-25T11:54:50.785731+00:00",
+  "fromDate": "2026-10-25",
+  "toDate": "2026-11-08",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,42 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "BABA YAGA Y EL LIBRO DE LOS HECHIZOS - Filmo en fa...",
-          "date": "2026-10-24",
-          "time": "17:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53445-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EL TREN DE LAS 4:50 - La dama del crimen",
-          "date": "2026-10-24",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53446-DETALLE_EVENTO"
-        },
-        {
-          "movie": "YOONU DUNDU · CAMINO VIVO - Realizadores Murcianos",
-          "date": "2026-10-24",
-          "time": "19:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53447-DETALLE_EVENTO"
-        },
-        {
-          "movie": "YO NO MORIRÉ DE AMOR - Nosotras contamos",
-          "date": "2026-10-24",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53448-DETALLE_EVENTO"
-        },
         {
           "movie": "VENEZIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...",
           "date": "2026-10-25",
@@ -103,15 +67,6 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53452-DETALLE_EVENTO"
         },
         {
-          "movie": "LA VOZ QUEBRADA - Panorama de actualidad",
-          "date": "2026-10-28",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53568-DETALLE_EVENTO"
-        },
-        {
           "movie": "Buzón de sugerencias",
           "date": "2026-10-28",
           "time": "18:45",
@@ -119,6 +74,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53453-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA VOZ QUEBRADA - Panorama de actualidad",
+          "date": "2026-10-28",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53568-DETALLE_EVENTO"
         },
         {
           "movie": "Mujeres Cineastas - Película por confirmar",
@@ -380,39 +344,29 @@
           "rating": "?",
           "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53570-DETALLE_EVENTO"
+        },
+        {
+          "movie": "HANDMADE: LA MAGIA DEL STOP MOTION - Festival Tite...",
+          "date": "2026-11-08",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53516-DETALLE_EVENTO"
+        },
+        {
+          "movie": "SONATA - Cine Polska",
+          "date": "2026-11-08",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53571-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "BABA YAGA Y EL LIBRO DE LOS HECHIZOS - Filmo en fa...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183777&nombre=yaga_i_kniga_zaklinaniy_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "EL TREN DE LAS 4:50 - La dama del crimen": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183778&nombre=murder_she_said_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "YOONU DUNDU · CAMINO VIVO - Realizadores Murcianos": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184021&nombre=CARTEL_YOONU_DUNDU_res_300.jpg",
-      "overview": "\" YOONU DUNDU · CAMINO VIVO \" es un largometraje documental que explora las realidades de la migración, la resiliencia y el arraigo cultural. A través de una mirada íntima y humanista, la obra sigue los recorridos vitales de personas migrantes que transitan o se asientan en España, rescatando sus historias personales, su memoria y la música o tradiciones que mantienen vivas sus raíces espirituales y emocionales mientras enfrentan los desafíos de la integración social.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "YO NO MORIRÉ DE AMOR - Nosotras contamos": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183779&nombre=yo_no_morire_de_amorjpg_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "VENEZIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183764&nombre=venezia_infinita_avanguardia_res_300.jpg",
       "overview": null,
@@ -441,15 +395,15 @@
       "genres": [],
       "year": null
     },
-    "LA VOZ QUEBRADA - Panorama de actualidad": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183992&nombre=la_voz_quebrada_res_300.jpg",
+    "Buzón de sugerencias": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173381&nombre=_MG_7284-1-R_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
     },
-    "Buzón de sugerencias": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173381&nombre=_MG_7284-1-R_res_300.jpg",
+    "LA VOZ QUEBRADA - Panorama de actualidad": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183992&nombre=la_voz_quebrada_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -632,6 +586,20 @@
     },
     "VIEJOS MALDITOS - La Mar de Cine: Ecuador": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183883&nombre=viejos_malditos_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "HANDMADE: LA MAGIA DEL STOP MOTION - Festival Tite...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183882&nombre=handmade_a_tale_of_stop_motion_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "SONATA - Cine Polska": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183994&nombre=sonata_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
