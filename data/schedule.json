@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-26T13:27:10.432306+00:00",
-  "fromDate": "2026-10-26",
-  "toDate": "2026-11-09",
+  "generatedAt": "2026-10-27T12:34:37.476457+00:00",
+  "fromDate": "2026-10-27",
+  "toDate": "2026-11-10",
   "cinemas": [
     {
       "id": "myrtea",
@@ -31,6 +31,15 @@
       ],
       "sessions": [
         {
+          "movie": "a 21:00 H EXPOSICIÓN DE LA MANIVELA AL LASER EN LA CALLE",
+          "date": "2026-10-27",
+          "time": "10:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53617-DETALLE_EVENTO"
+        },
+        {
           "movie": "DUELO EN EL VALLE - Centenario Youssef Chahine",
           "date": "2026-10-27",
           "time": "18:45",
@@ -38,6 +47,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53451-DETALLE_EVENTO"
+        },
+        {
+          "movie": "PROYECCIÓN ESPECIAL - DÍA MUNDIAL DEL PATRIMONIO A...",
+          "date": "2026-10-27",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53616-DETALLE_EVENTO"
         },
         {
           "movie": "MORREU O DEMO, ACABOUSE A PESETA - Festival Titere...",
@@ -49,15 +67,6 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53452-DETALLE_EVENTO"
         },
         {
-          "movie": "Buzón de sugerencias",
-          "date": "2026-10-28",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53453-DETALLE_EVENTO"
-        },
-        {
           "movie": "LA VOZ QUEBRADA - Panorama de actualidad",
           "date": "2026-10-28",
           "time": "18:45",
@@ -67,7 +76,7 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53568-DETALLE_EVENTO"
         },
         {
-          "movie": "Mujeres Cineastas - Película por confirmar",
+          "movie": "CÁRCELES BOLLERAS - Mujeres cineastas",
           "date": "2026-10-28",
           "time": "19:30",
           "duration": null,
@@ -362,13 +371,45 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53519-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ESTACIÓN CENTRAL - Centenario Youssef Chahine",
+          "date": "2026-11-10",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53520-DETALLE_EVENTO"
+        },
+        {
+          "movie": "PICASSO. UN REBELDE EN PARÍS - Del lienzo a la pan...",
+          "date": "2026-11-10",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53521-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
+    "a 21:00 H EXPOSICIÓN DE LA MANIVELA AL LASER EN LA CALLE": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184090&nombre=1000167103_res_300.jpg",
+      "overview": "Acércate a esta exposición al aire libre y disfruta de un recorrido por la historia de las imágenes en movimiento, desde los orígenes del cinematógrafo hasta la proyección digital del siglo XXI. Porque conservar el patrimonio audiovisual es también mantener viva nuestra memoria colectiva.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
     "DUELO EN EL VALLE - Centenario Youssef Chahine": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183780&nombre=siraa_fil_wadi_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "PROYECCIÓN ESPECIAL - DÍA MUNDIAL DEL PATRIMONIO A...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184089&nombre=Mr_Yo_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -381,13 +422,6 @@
       "genres": [],
       "year": null
     },
-    "Buzón de sugerencias": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173381&nombre=_MG_7284-1-R_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "LA VOZ QUEBRADA - Panorama de actualidad": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183992&nombre=la_voz_quebrada_res_300.jpg",
       "overview": null,
@@ -395,8 +429,8 @@
       "genres": [],
       "year": null
     },
-    "Mujeres Cineastas - Película por confirmar": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184022&nombre=AMMA_res_300.jpg",
+    "CÁRCELES BOLLERAS - Mujeres cineastas": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184091&nombre=carceles_bolleras_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -600,6 +634,13 @@
     },
     "EL AÑO DE LAS LUCES - Centenario Azcona": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183885&nombre=el_ano_de_las_luces_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ESTACIÓN CENTRAL - Centenario Youssef Chahine": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183886&nombre=bab_el_hadid_gare_centrale_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
