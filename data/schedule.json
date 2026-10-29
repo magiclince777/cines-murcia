@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-28T13:22:39.762369+00:00",
-  "fromDate": "2026-10-28",
-  "toDate": "2026-11-11",
+  "generatedAt": "2026-10-29T13:31:44.158995+00:00",
+  "fromDate": "2026-10-29",
+  "toDate": "2026-11-12",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "LA VOZ QUEBRADA - Panorama de actualidad",
-          "date": "2026-10-28",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53568-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CÁRCELES BOLLERAS - Mujeres cineastas",
-          "date": "2026-10-28",
-          "time": "19:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53454-DETALLE_EVENTO"
-        },
-        {
-          "movie": "ANA Y LOS LOBOS - Centenario Azcona",
-          "date": "2026-10-28",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53455-DETALLE_EVENTO"
-        },
         {
           "movie": "EL MAESTRO QUE PROMETIÓ EL MAR - Cine y trabajo - ...",
           "date": "2026-10-29",
@@ -166,6 +139,15 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53502-DETALLE_EVENTO"
         },
         {
+          "movie": "INCONTROLABLE - Ciclo de cine espiritual",
+          "date": "2026-11-02",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53624-DETALLE_EVENTO"
+        },
+        {
           "movie": "DUELO EN LOS MUELLES - CENTENARIO YOUSSEF CHAHINE",
           "date": "2026-11-02",
           "time": "18:45",
@@ -184,6 +166,15 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53504-DETALLE_EVENTO"
         },
         {
+          "movie": "RONDALLAS - Ciclo de cine espiritual",
+          "date": "2026-11-03",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53625-DETALLE_EVENTO"
+        },
+        {
           "movie": "MORTAL SUGESTIÓN - La dama del crimen",
           "date": "2026-11-03",
           "time": "18:45",
@@ -200,6 +191,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53506-DETALLE_EVENTO"
+        },
+        {
+          "movie": "DAVID: UNA AVENTURA GIGANTE - Ciclo cine espiritua...",
+          "date": "2026-11-04",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53630-DETALLE_EVENTO"
         },
         {
           "movie": "EL LOCO DEL PELO ROJO - HIJOS DE SATURNO",
@@ -245,6 +245,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53510-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ENEMIGOS - Ciclo de cine espiritual",
+          "date": "2026-11-06",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53626-DETALLE_EVENTO"
         },
         {
           "movie": "LA VIEJA MÚSICA - Centenario Paco Rabal",
@@ -371,32 +380,38 @@
           "rating": "?",
           "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53523-DETALLE_EVENTO"
+        },
+        {
+          "movie": "PICASSO. UN REBELDE EN PARÍS - Del lienzo a la pantalla...",
+          "date": "2026-11-12",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53560-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA ALGAMECA CHICA - Cine y trabajo",
+          "date": "2026-11-12",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53524-DETALLE_EVENTO"
+        },
+        {
+          "movie": "RONDALLAS - Día Internacional de la Mujer Rural",
+          "date": "2026-11-12",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53525-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "LA VOZ QUEBRADA - Panorama de actualidad": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183992&nombre=la_voz_quebrada_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CÁRCELES BOLLERAS - Mujeres cineastas": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184091&nombre=carceles_bolleras_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "ANA Y LOS LOBOS - Centenario Azcona": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183782&nombre=ana_y_los_lobosjpg_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "EL MAESTRO QUE PROMETIÓ EL MAR - Cine y trabajo - ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183769&nombre=el_mestre_que_va_prometre_el_mar_res_300.jpg",
       "overview": null,
@@ -414,6 +429,13 @@
     "UNA PELÍCULA DE MIEDO - La sala de los cineastas": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183970&nombre=una_pelicula_de_miedo_res_300.jpg",
       "overview": "Durante las vacaciones de verano, un director de documentales y su hijo de doce años se alojan en un hotel abandonado de Lisboa: un hotel vacío como el de la película 'El resplandor'.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ANA Y LOS LOBOS - Centenario Azcona": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183782&nombre=ana_y_los_lobosjpg_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
@@ -467,6 +489,13 @@
       "genres": [],
       "year": null
     },
+    "INCONTROLABLE - Ciclo de cine espiritual": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184097&nombre=i_swear_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
     "DUELO EN LOS MUELLES - CENTENARIO YOUSSEF CHAHINE": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183869&nombre=siraa_fil_mina_res_300.jpg",
       "overview": null,
@@ -481,6 +510,13 @@
       "genres": [],
       "year": null
     },
+    "RONDALLAS - Ciclo de cine espiritual": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183888&nombre=rondallas-842041198-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
     "MORTAL SUGESTIÓN - La dama del crimen": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183870&nombre=love_from_a_stranger_res_300.jpg",
       "overview": null,
@@ -490,6 +526,13 @@
     },
     "LOS AHOGADOS - La Mar de Cine: Ecuador": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183871&nombre=los_ahogados_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "DAVID: UNA AVENTURA GIGANTE - Ciclo cine espiritua...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184106&nombre=david_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -518,6 +561,13 @@
     },
     "NOSOTROS, MI PAPÁ Y EL PERRO - La Mar de Cine: Ecu...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183875&nombre=nosotros_mi_papa_y_el_perro_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ENEMIGOS - Ciclo de cine espiritual": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184098&nombre=enemigos_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -609,6 +659,27 @@
     },
     "LA HORA BRUJA - Centenario Paco Rabal": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_171874&nombre=la_hora_bruja-107625568-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "PICASSO. UN REBELDE EN PARÍS - Del lienzo a la pantalla...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183884&nombre=picasso_un_ribelle_a_parigi_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA ALGAMECA CHICA - Cine y trabajo": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183546&nombre=2026052210572013546_res_300.jpg",
+      "overview": "El documental reúne diferentes voces para construir una visión plural del enclave. Entre los participantes se encuentra el historiador José Ibarra , especialista en el poblamiento de la Algameca Chica y con experiencia en producciones documentales como El año del descubrimiento . También interviene el sociólogo Diego Fernández , de la Universidad de Murcia, que aporta una lectura social del territorio y de sus dinámicas comunitarias.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "RONDALLAS - Día Internacional de la Mujer Rural": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183888&nombre=rondallas-842041198-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
