@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-29T13:31:44.158995+00:00",
-  "fromDate": "2026-10-29",
-  "toDate": "2026-11-12",
+  "generatedAt": "2026-10-30T13:22:34.968909+00:00",
+  "fromDate": "2026-10-30",
+  "toDate": "2026-11-13",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "EL MAESTRO QUE PROMETIÓ EL MAR - Cine y trabajo - ...",
-          "date": "2026-10-29",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53558-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA RED SOCIAL - Cine y Economía",
-          "date": "2026-10-29",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53456-DETALLE_EVENTO"
-        },
-        {
-          "movie": "UNA PELÍCULA DE MIEDO - La sala de los cineastas",
-          "date": "2026-10-29",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53457-DETALLE_EVENTO"
-        },
         {
           "movie": "ANA Y LOS LOBOS - Centenario Azcona",
           "date": "2026-10-30",
@@ -229,6 +202,15 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53559-DETALLE_EVENTO"
         },
         {
+          "movie": "ENEMIGOS - Ciclo de cine espiritual",
+          "date": "2026-11-05",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53626-DETALLE_EVENTO"
+        },
+        {
           "movie": "LE GRAND CHEMIN - Clásicos recuperados",
           "date": "2026-11-05",
           "time": "18:45",
@@ -247,13 +229,13 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53510-DETALLE_EVENTO"
         },
         {
-          "movie": "ENEMIGOS - Ciclo de cine espiritual",
+          "movie": "LAS LOCAS DEL OBELISCO - Ciclo cine espiritual",
           "date": "2026-11-06",
           "time": "18:30",
           "duration": null,
           "rating": "?",
           "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53626-DETALLE_EVENTO"
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53631-DETALLE_EVENTO"
         },
         {
           "movie": "LA VIEJA MÚSICA - Centenario Paco Rabal",
@@ -407,32 +389,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53525-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL AÑO DE LAS LUCES - Centenario Azcona",
+          "date": "2026-11-13",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53527-DETALLE_EVENTO"
+        },
+        {
+          "movie": "MINGHUM - Cine Polska",
+          "date": "2026-11-13",
+          "time": "20:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53572-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CRITTERS - Madrugada sangrienta",
+          "date": "2026-11-13",
+          "time": "23:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53528-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "EL MAESTRO QUE PROMETIÓ EL MAR - Cine y trabajo - ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183769&nombre=el_mestre_que_va_prometre_el_mar_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA RED SOCIAL - Cine y Economía": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183783&nombre=the_social_network_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "UNA PELÍCULA DE MIEDO - La sala de los cineastas": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183970&nombre=una_pelicula_de_miedo_res_300.jpg",
-      "overview": "Durante las vacaciones de verano, un director de documentales y su hijo de doce años se alojan en un hotel abandonado de Lisboa: un hotel vacío como el de la película 'El resplandor'.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "ANA Y LOS LOBOS - Centenario Azcona": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183782&nombre=ana_y_los_lobosjpg_res_300.jpg",
       "overview": null,
@@ -552,6 +540,13 @@
       "genres": [],
       "year": null
     },
+    "ENEMIGOS - Ciclo de cine espiritual": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184098&nombre=enemigos_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
     "LE GRAND CHEMIN - Clásicos recuperados": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183874&nombre=le_grand_chemin_res_300.jpg",
       "overview": null,
@@ -566,8 +561,8 @@
       "genres": [],
       "year": null
     },
-    "ENEMIGOS - Ciclo de cine espiritual": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184098&nombre=enemigos_res_300.jpg",
+    "LAS LOCAS DEL OBELISCO - Ciclo cine espiritual": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184117&nombre=las_locas_del_obelisco_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -602,7 +597,7 @@
       "year": null
     },
     "CERTAMEN FILMOCLIP -  Producción murciana - Docume...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183999&nombre=Logo_Filmoclip_JPG_res_300.jpg",
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184118&nombre=Logo_Filmoclip_Vertical_res_300.jpg",
       "overview": "Linze es una banda de rock 'n' roll procedente de Madrid, España, formada en 2011/2012 por cuatro integrantes . Su estilo mezcla la energía del rock clásico de los años 60, 70 y 80 con un toque actual y elegante. El realizador murciano Joaquín Maillo ha realizado un documental sobre su carrera musical y videográfica.",
       "vote_average": null,
       "genres": [],
@@ -680,6 +675,20 @@
     },
     "RONDALLAS - Día Internacional de la Mujer Rural": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183888&nombre=rondallas-842041198-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "MINGHUM - Cine Polska": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183995&nombre=minghun_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CRITTERS - Madrugada sangrienta": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183890&nombre=critters-265888160-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
