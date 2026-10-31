@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-30T13:22:34.968909+00:00",
-  "fromDate": "2026-10-30",
-  "toDate": "2026-11-13",
+  "generatedAt": "2026-10-31T12:57:08.809123+00:00",
+  "fromDate": "2026-10-31",
+  "toDate": "2026-11-14",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "ANA Y LOS LOBOS - Centenario Azcona",
-          "date": "2026-10-30",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53458-DETALLE_EVENTO"
-        },
-        {
-          "movie": "BACKROOMS - Halloween 2026",
-          "date": "2026-10-30",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53459-DETALLE_EVENTO"
-        },
-        {
-          "movie": "MUÑECO DIABÓLICO - Halloween 2026",
-          "date": "2026-10-30",
-          "time": "22:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53460-DETALLE_EVENTO"
-        },
         {
           "movie": "LA FAMILIA ADDAMS - Filmo en Familia / Halloween 2...",
           "date": "2026-10-31",
@@ -166,15 +139,6 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53506-DETALLE_EVENTO"
         },
         {
-          "movie": "DAVID: UNA AVENTURA GIGANTE - Ciclo cine espiritua...",
-          "date": "2026-11-04",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53630-DETALLE_EVENTO"
-        },
-        {
           "movie": "EL LOCO DEL PELO ROJO - HIJOS DE SATURNO",
           "date": "2026-11-04",
           "time": "18:30",
@@ -182,6 +146,15 @@
           "rating": "?",
           "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53507-DETALLE_EVENTO"
+        },
+        {
+          "movie": "DAVID: UNA AVENTURA GIGANTE - Ciclo cine espiritua...",
+          "date": "2026-11-04",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53630-DETALLE_EVENTO"
         },
         {
           "movie": "LOS WÁNABIS - La Mar de Cine: Ecuador",
@@ -416,13 +389,49 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53528-DETALLE_EVENTO"
+        },
+        {
+          "movie": "RUFUS, LA SERPIENTE QUE NO SABÍA NADAR - Filmo en ...",
+          "date": "2026-11-14",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53529-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ASESINATO A BORDO - La dama del crimen",
+          "date": "2026-11-14",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53530-DETALLE_EVENTO"
+        },
+        {
+          "movie": "PUBLIC - Realizadores murcianos",
+          "date": "2026-11-14",
+          "time": "19:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53552-DETALLE_EVENTO"
+        },
+        {
+          "movie": "HOGAR, DULCE HOGAR - Cine Polska",
+          "date": "2026-11-14",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53573-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "ANA Y LOS LOBOS - Centenario Azcona": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183782&nombre=ana_y_los_lobosjpg_res_300.jpg",
+    "LA FAMILIA ADDAMS - Filmo en Familia / Halloween 2...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183635&nombre=the_addams_family_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -430,20 +439,6 @@
     },
     "BACKROOMS - Halloween 2026": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183785&nombre=backrooms_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "MUÑECO DIABÓLICO - Halloween 2026": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183786&nombre=child_s_play_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA FAMILIA ADDAMS - Filmo en Familia / Halloween 2...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183635&nombre=the_addams_family_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -690,6 +685,37 @@
     "CRITTERS - Madrugada sangrienta": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183890&nombre=critters-265888160-large_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "RUFUS, LA SERPIENTE QUE NO SABÍA NADAR - Filmo en ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183891&nombre=rufus_the_sea_serpent_res_300.jpg",
+      "overview": "(Rufus – The Sea Serpent Who Couldn’t Swim) Endre Skandfer, 2025 Noruega. 80’. VE",
+      "vote_average": 6.7,
+      "genres": [
+        "Animación",
+        "Familia"
+      ],
+      "year": 2025
+    },
+    "ASESINATO A BORDO - La dama del crimen": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183892&nombre=murder_ahoy_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "PUBLIC - Realizadores murcianos": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183979&nombre=PUBLIC_res_300.jpg",
+      "overview": "Tres actos nos hacen reflexionar sobre el paisaje, la memoria y la propia creación audiovisual, bajo una atmósfera intoxicada de surrealismo.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "HOGAR, DULCE HOGAR - Cine Polska": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183996&nombre=hogar_dulce_hogar_res_300.jpg",
+      "overview": "Una historia sobre la violencia doméstica. Brutal, pero ambigua, deja espacio para que el espectador construya su propia interpretación. Gracias a su gran fuerza emocional y a una mirada profunda sobre los vínculos familiares, la película aborda el tema de las heridas heredadas, los silencios y la posibilidad de romper con aquello que parece repetirse inevitablemente. Estamos ante un retrato incisivo de una víctima de la violencia, pero también ante un magnífico retrato del agresor.",
       "vote_average": null,
       "genres": [],
       "year": null
