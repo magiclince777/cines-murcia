@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-31T12:57:08.809123+00:00",
-  "fromDate": "2026-10-31",
-  "toDate": "2026-11-14",
+  "generatedAt": "2026-11-01T13:42:16.517302+00:00",
+  "fromDate": "2026-11-01",
+  "toDate": "2026-11-15",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,51 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "LA FAMILIA ADDAMS - Filmo en Familia / Halloween 2...",
-          "date": "2026-10-31",
-          "time": "17:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53461-DETALLE_EVENTO"
-        },
-        {
-          "movie": "BACKROOMS - Halloween 2026",
-          "date": "2026-10-31",
-          "time": "19:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53462-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LUCES DE BOHEMIA - Centenario Paco Rabal",
-          "date": "2026-10-31",
-          "time": "19:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53463-DETALLE_EVENTO"
-        },
-        {
-          "movie": "ABIERTO HASTA EL AMANECER - Halloween 2026",
-          "date": "2026-10-31",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53464-DETALLE_EVENTO"
-        },
-        {
-          "movie": "SCREAM. VIGILA QUIÉN LLAMA - Halloween 2026",
-          "date": "2026-10-31",
-          "time": "23:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53465-DETALLE_EVENTO"
-        },
         {
           "movie": "NOSFERATU - HALLOWEEN 2026",
           "date": "2026-11-01",
@@ -425,46 +380,29 @@
           "rating": "?",
           "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53573-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ANIMA, ANIMAE, ANIMARUM - Titeremurcia",
+          "date": "2026-11-15",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53531-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CHUZALONGO - La Mar de Cine: Ecuador",
+          "date": "2026-11-15",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53532-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "LA FAMILIA ADDAMS - Filmo en Familia / Halloween 2...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183635&nombre=the_addams_family_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "BACKROOMS - Halloween 2026": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183785&nombre=backrooms_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LUCES DE BOHEMIA - Centenario Paco Rabal": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183787&nombre=luces_de_bohemia_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "ABIERTO HASTA EL AMANECER - Halloween 2026": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183788&nombre=from_dusk_till_dawn_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "SCREAM. VIGILA QUIÉN LLAMA - Halloween 2026": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183789&nombre=scream_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "NOSFERATU - HALLOWEEN 2026": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_172697&nombre=nosferatu_nosferatu_eine_symphonie_des_grauens-257840643-large_res_300.jpg",
       "overview": null,
@@ -716,6 +654,20 @@
     "HOGAR, DULCE HOGAR - Cine Polska": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183996&nombre=hogar_dulce_hogar_res_300.jpg",
       "overview": "Una historia sobre la violencia doméstica. Brutal, pero ambigua, deja espacio para que el espectador construya su propia interpretación. Gracias a su gran fuerza emocional y a una mirada profunda sobre los vínculos familiares, la película aborda el tema de las heridas heredadas, los silencios y la posibilidad de romper con aquello que parece repetirse inevitablemente. Estamos ante un retrato incisivo de una víctima de la violencia, pero también ante un magnífico retrato del agresor.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ANIMA, ANIMAE, ANIMARUM - Titeremurcia": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184049&nombre=TITERE_res_300.jpg",
+      "overview": "El documental, producido por Zero en Conducta Produccions, investiga cómo los objetos adquieren alma y voz cuando son animados por el ser humano. Un documental homenaje a las personas que dedicaron su vida a compartir su alma con seres que nunca la tuvieron. A quienes regalaron voz y vida a objetos que tenían mucho que decir. A contar historias recuperadas del olvido. A los titiriteros que por su profesión no podían ser enterrados en cementerios por ser considerados seres sin alma.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CHUZALONGO - La Mar de Cine: Ecuador": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183894&nombre=chuzalongo_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
