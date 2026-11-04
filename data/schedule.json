@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-03T14:32:54.746107+00:00",
-  "fromDate": "2026-11-03",
-  "toDate": "2026-11-17",
+  "generatedAt": "2026-11-04T14:47:11.372399+00:00",
+  "fromDate": "2026-11-04",
+  "toDate": "2026-11-18",
   "cinemas": [
     {
       "id": "myrtea",
@@ -31,24 +31,6 @@
       ],
       "sessions": [
         {
-          "movie": "RONDALLAS - Ciclo de cine espiritual",
-          "date": "2026-11-03",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53625-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LOS AHOGADOS - La Mar de Cine: Ecuador",
-          "date": "2026-11-03",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53506-DETALLE_EVENTO"
-        },
-        {
           "movie": "EL LOCO DEL PELO ROJO - HIJOS DE SATURNO",
           "date": "2026-11-04",
           "time": "18:30",
@@ -76,15 +58,6 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53508-DETALLE_EVENTO"
         },
         {
-          "movie": "ENEMIGOS - Ciclo de cine espiritual",
-          "date": "2026-11-05",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53626-DETALLE_EVENTO"
-        },
-        {
           "movie": "VENECIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...",
           "date": "2026-11-05",
           "time": "18:30",
@@ -92,6 +65,15 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53559-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ENEMIGOS - Ciclo de cine espiritual",
+          "date": "2026-11-05",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53626-DETALLE_EVENTO"
         },
         {
           "movie": "LE GRAND CHEMIN - Clásicos recuperados",
@@ -380,25 +362,38 @@
           "rating": "?",
           "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53566-DETALLE_EVENTO"
+        },
+        {
+          "movie": "HISTORIAS DEL BUEN VALLE - Amnistía Internacional",
+          "date": "2026-11-18",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53584-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CERTAMEN FILMOCLIP - Espacio creadores",
+          "date": "2026-11-18",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53578-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL ALBA DE UN NUEVO DÍA - Centenario Youssef Chahi...",
+          "date": "2026-11-18",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53585-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "RONDALLAS - Ciclo de cine espiritual": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183888&nombre=rondallas-842041198-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LOS AHOGADOS - La Mar de Cine: Ecuador": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183871&nombre=los_ahogados_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "EL LOCO DEL PELO ROJO - HIJOS DE SATURNO": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_157955&nombre=el_loco_del_pelo_rojo_res_300.jpg",
       "overview": null,
@@ -420,15 +415,15 @@
       "genres": [],
       "year": null
     },
-    "ENEMIGOS - Ciclo de cine espiritual": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184098&nombre=enemigos_res_300.jpg",
+    "VENECIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183764&nombre=venezia_infinita_avanguardia_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
     },
-    "VENECIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183764&nombre=venezia_infinita_avanguardia_res_300.jpg",
+    "ENEMIGOS - Ciclo de cine espiritual": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184098&nombre=enemigos_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -648,6 +643,27 @@
         "Documental"
       ],
       "year": 2024
+    },
+    "HISTORIAS DEL BUEN VALLE - Amnistía Internacional": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183988&nombre=historias_del_buen_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CERTAMEN FILMOCLIP - Espacio creadores": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184118&nombre=Logo_Filmoclip_Vertical_res_300.jpg",
+      "overview": "Retrospectiva sobre la producción audiovisual del artista murciano Ruto Neón y coloquio posterior con presencia del artista.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL ALBA DE UN NUEVO DÍA - Centenario Youssef Chahi...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184025&nombre=fagr_yom_gedid_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
     }
   }
 }
