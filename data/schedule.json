@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-04T14:47:11.372399+00:00",
-  "fromDate": "2026-11-04",
-  "toDate": "2026-11-18",
+  "generatedAt": "2026-11-05T14:52:09.353966+00:00",
+  "fromDate": "2026-11-05",
+  "toDate": "2026-11-19",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "EL LOCO DEL PELO ROJO - HIJOS DE SATURNO",
-          "date": "2026-11-04",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53507-DETALLE_EVENTO"
-        },
-        {
-          "movie": "DAVID: UNA AVENTURA GIGANTE - Ciclo cine espiritua...",
-          "date": "2026-11-04",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53630-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LOS WÁNABIS - La Mar de Cine: Ecuador",
-          "date": "2026-11-04",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53508-DETALLE_EVENTO"
-        },
         {
           "movie": "VENECIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...",
           "date": "2026-11-05",
@@ -389,32 +362,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53585-DETALLE_EVENTO"
+        },
+        {
+          "movie": "HISTORIAS DEL BUEN VALLE - Amnistía internacional ...",
+          "date": "2026-11-19",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53561-DETALLE_EVENTO"
+        },
+        {
+          "movie": "INTOCABLE - Día internacional de los Derechos de la...",
+          "date": "2026-11-19",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53586-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LOS ILUSOS 13+13 - Sala de cineastas",
+          "date": "2026-11-19",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53587-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "EL LOCO DEL PELO ROJO - HIJOS DE SATURNO": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_157955&nombre=el_loco_del_pelo_rojo_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "DAVID: UNA AVENTURA GIGANTE - Ciclo cine espiritua...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184106&nombre=david_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LOS WÁNABIS - La Mar de Cine: Ecuador": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183872&nombre=los_wanabis_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "VENECIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183764&nombre=venezia_infinita_avanguardia_res_300.jpg",
       "overview": null,
@@ -660,6 +639,27 @@
     },
     "EL ALBA DE UN NUEVO DÍA - Centenario Youssef Chahi...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184025&nombre=fagr_yom_gedid_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "HISTORIAS DEL BUEN VALLE - Amnistía internacional ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183988&nombre=historias_del_buen_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "INTOCABLE - Día internacional de los Derechos de la...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_178479&nombre=intocables_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LOS ILUSOS 13+13 - Sala de cineastas": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184026&nombre=los_ilusos_13_13_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
