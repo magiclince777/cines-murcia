@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-05T14:52:09.353966+00:00",
-  "fromDate": "2026-11-05",
-  "toDate": "2026-11-19",
+  "generatedAt": "2026-11-06T14:30:08.884097+00:00",
+  "fromDate": "2026-11-06",
+  "toDate": "2026-11-20",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,42 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "VENECIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...",
-          "date": "2026-11-05",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53559-DETALLE_EVENTO"
-        },
-        {
-          "movie": "ENEMIGOS - Ciclo de cine espiritual",
-          "date": "2026-11-05",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53626-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LE GRAND CHEMIN - Clásicos recuperados",
-          "date": "2026-11-05",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53509-DETALLE_EVENTO"
-        },
-        {
-          "movie": "NOSOTROS, MI PAPÁ Y EL PERRO - La Mar de Cine: Ecu...",
-          "date": "2026-11-05",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53510-DETALLE_EVENTO"
-        },
         {
           "movie": "LAS LOCAS DEL OBELISCO - Ciclo cine espiritual",
           "date": "2026-11-06",
@@ -389,39 +353,29 @@
           "rating": "?",
           "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53587-DETALLE_EVENTO"
+        },
+        {
+          "movie": "MR. TURNER - Hijos de Saturno",
+          "date": "2026-11-20",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53588-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA MUJER EXPLOSIVA - Madrugada ochentera",
+          "date": "2026-11-20",
+          "time": "23:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53589-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "VENECIA: INFINITAMENTE VANGUARDISTA - Del lienzo a...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183764&nombre=venezia_infinita_avanguardia_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "ENEMIGOS - Ciclo de cine espiritual": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184098&nombre=enemigos_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LE GRAND CHEMIN - Clásicos recuperados": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183874&nombre=le_grand_chemin_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "NOSOTROS, MI PAPÁ Y EL PERRO - La Mar de Cine: Ecu...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183875&nombre=nosotros_mi_papa_y_el_perro_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "LAS LOCAS DEL OBELISCO - Ciclo cine espiritual": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184117&nombre=las_locas_del_obelisco_res_300.jpg",
       "overview": null,
@@ -660,6 +614,20 @@
     },
     "LOS ILUSOS 13+13 - Sala de cineastas": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184026&nombre=los_ilusos_13_13_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "MR. TURNER - Hijos de Saturno": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184027&nombre=mr_turner_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA MUJER EXPLOSIVA - Madrugada ochentera": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184028&nombre=weird_science_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
