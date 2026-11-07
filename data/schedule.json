@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-06T14:30:08.884097+00:00",
-  "fromDate": "2026-11-06",
-  "toDate": "2026-11-20",
+  "generatedAt": "2026-11-07T13:26:04.667151+00:00",
+  "fromDate": "2026-11-07",
+  "toDate": "2026-11-21",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,42 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "LAS LOCAS DEL OBELISCO - Ciclo cine espiritual",
-          "date": "2026-11-06",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53631-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA VIEJA MÚSICA - Centenario Paco Rabal",
-          "date": "2026-11-06",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53511-DETALLE_EVENTO"
-        },
-        {
-          "movie": "HIEDRA - La Mar de Cine: Ecuador",
-          "date": "2026-11-06",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53513-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA TIENDA DE LOS HORRORES - Madrugada ochentera",
-          "date": "2026-11-06",
-          "time": "22:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53514-DETALLE_EVENTO"
-        },
         {
           "movie": "SIMONA KOSSAK - Cine Polska",
           "date": "2026-11-07",
@@ -371,39 +335,47 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53589-DETALLE_EVENTO"
+        },
+        {
+          "movie": "MUMBO JUMBO SE HACE ENORME - Filmo en familia",
+          "date": "2026-11-21",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53590-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA SEÑORA McGINTY HA MUERTO - La dama del crimen",
+          "date": "2026-11-21",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53591-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CERTAMEN FILMOCLIP - La muestra",
+          "date": "2026-11-21",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53579-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LE QUATRIÈME MUR - La voz de Medio Oriente",
+          "date": "2026-11-21",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53592-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "LAS LOCAS DEL OBELISCO - Ciclo cine espiritual": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184117&nombre=las_locas_del_obelisco_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA VIEJA MÚSICA - Centenario Paco Rabal": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183876&nombre=la_vieja_musica_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "HIEDRA - La Mar de Cine: Ecuador": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183879&nombre=hiedra_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA TIENDA DE LOS HORRORES - Madrugada ochentera": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183880&nombre=little_shop_of_horrors_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "SIMONA KOSSAK - Cine Polska": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183993&nombre=simona_kossak_res_300.jpg",
       "overview": null,
@@ -628,6 +600,34 @@
     },
     "LA MUJER EXPLOSIVA - Madrugada ochentera": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184028&nombre=weird_science_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "MUMBO JUMBO SE HACE ENORME - Filmo en familia": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184029&nombre=da_mumbo_jumbo_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA SEÑORA McGINTY HA MUERTO - La dama del crimen": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184030&nombre=murder_most_foul_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CERTAMEN FILMOCLIP - La muestra": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184118&nombre=Logo_Filmoclip_Vertical_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LE QUATRIÈME MUR - La voz de Medio Oriente": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184031&nombre=le_quatrieme_mur_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
