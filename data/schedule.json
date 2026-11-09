@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-08T13:45:49.787147+00:00",
-  "fromDate": "2026-11-08",
-  "toDate": "2026-11-22",
+  "generatedAt": "2026-11-09T16:45:03.985146+00:00",
+  "fromDate": "2026-11-09",
+  "toDate": "2026-11-23",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,24 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "HANDMADE: LA MAGIA DEL STOP MOTION - Festival Tite...",
-          "date": "2026-11-08",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53516-DETALLE_EVENTO"
-        },
-        {
-          "movie": "SONATA - Cine Polska",
-          "date": "2026-11-08",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53571-DETALLE_EVENTO"
-        },
         {
           "movie": "PICASSO. UN REBELDE EN PARÍS - Del lienzo a la pan...",
           "date": "2026-11-09",
@@ -362,25 +344,20 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53594-DETALLE_EVENTO"
+        },
+        {
+          "movie": "PÉRDIDA DE EQUILIBRIO - Cine Polska",
+          "date": "2026-11-23",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53575-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "HANDMADE: LA MAGIA DEL STOP MOTION - Festival Tite...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183882&nombre=handmade_a_tale_of_stop_motion_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "SONATA - Cine Polska": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183994&nombre=sonata_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "PICASSO. UN REBELDE EN PARÍS - Del lienzo a la pan...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183884&nombre=picasso_un_ribelle_a_parigi_res_300.jpg",
       "overview": null,
@@ -599,6 +576,13 @@
     "LE QUATRIÈME MUR - La voz de Medio Oriente": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184031&nombre=le_quatrieme_mur_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "PÉRDIDA DE EQUILIBRIO - Cine Polska": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183998&nombre=utrata_rownowagi_res_300.jpg",
+      "overview": "Maja ha dedicado toda su vida a la interpretación, pero no cree en sus capacidades. Por eso, tras graduarse en interpretación, piensa presentarse a las oposiciones de marketing y gestión. Todo cambia cuando un nuevo director se cruza en el camino de Maja.",
       "vote_average": null,
       "genres": [],
       "year": null
