@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-09T16:45:03.985146+00:00",
-  "fromDate": "2026-11-09",
-  "toDate": "2026-11-23",
+  "generatedAt": "2026-11-10T15:08:18.848324+00:00",
+  "fromDate": "2026-11-10",
+  "toDate": "2026-11-24",
   "cinemas": [
     {
       "id": "myrtea",
@@ -31,24 +31,6 @@
       ],
       "sessions": [
         {
-          "movie": "PICASSO. UN REBELDE EN PARÍS - Del lienzo a la pan...",
-          "date": "2026-11-09",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53518-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EL AÑO DE LAS LUCES - Centenario Azcona",
-          "date": "2026-11-09",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53519-DETALLE_EVENTO"
-        },
-        {
           "movie": "ESTACIÓN CENTRAL - Centenario Youssef Chahine",
           "date": "2026-11-10",
           "time": "18:45",
@@ -56,6 +38,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53520-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA PANOCHA, Escuela de escalada - Realizadores mur...",
+          "date": "2026-11-10",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53669-DETALLE_EVENTO"
         },
         {
           "movie": "PICASSO. UN REBELDE EN PARÍS - Del lienzo a la pan...",
@@ -202,6 +193,15 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53602-DETALLE_EVENTO"
         },
         {
+          "movie": "TRANGO, EL HIMALAYA VERTICAL - Realizadores murcia...",
+          "date": "2026-11-16",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53671-DETALLE_EVENTO"
+        },
+        {
           "movie": "LOS MONAGUILLOS - Cine Polska",
           "date": "2026-11-16",
           "time": "20:30",
@@ -283,6 +283,15 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53588-DETALLE_EVENTO"
         },
         {
+          "movie": "JIM QUEEN - Panorama de actualidad",
+          "date": "2026-11-20",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53672-DETALLE_EVENTO"
+        },
+        {
           "movie": "LA MUJER EXPLOSIVA - Madrugada ochentera",
           "date": "2026-11-20",
           "time": "23:45",
@@ -353,27 +362,54 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53575-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ME LLAMO GENNET - Día Mundial de la Discapacidad",
+          "date": "2026-11-24",
+          "time": "17:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53595-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA REINA DE LOS JUEVES - Pantalla en danza",
+          "date": "2026-11-24",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53596-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL REGRESO DEL HIJO PRODIGIO - Centenario Youssef ...",
+          "date": "2026-11-24",
+          "time": "21:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53597-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "PICASSO. UN REBELDE EN PARÍS - Del lienzo a la pan...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183884&nombre=picasso_un_ribelle_a_parigi_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "EL AÑO DE LAS LUCES - Centenario Azcona": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183885&nombre=el_ano_de_las_luces_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "ESTACIÓN CENTRAL - Centenario Youssef Chahine": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183886&nombre=bab_el_hadid_gare_centrale_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA PANOCHA, Escuela de escalada - Realizadores mur...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184163&nombre=65a5e4dd-1a02-47dc-8ec1-c1b23276ff67_res_300.jpg",
+      "overview": "Aborda el pasado y el presente de la escalada murciana tomando como referencia los emblemáticos escenarios donde se desarrolla.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "PICASSO. UN REBELDE EN PARÍS - Del lienzo a la pan...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183884&nombre=picasso_un_ribelle_a_parigi_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -409,6 +445,13 @@
     },
     "RONDALLAS - Día Internacional de la Mujer Rural": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183888&nombre=rondallas-842041198-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL AÑO DE LAS LUCES - Centenario Azcona": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183885&nombre=el_ano_de_las_luces_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -480,6 +523,13 @@
       "genres": [],
       "year": null
     },
+    "TRANGO, EL HIMALAYA VERTICAL - Realizadores murcia...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184164&nombre=fb90cda7-5b78-4a12-908e-955237fcb82c_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
     "LOS MONAGUILLOS - Cine Polska": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183997&nombre=los_monaguillos_res_300.jpg",
       "overview": "A través de la mirada de un grupo de monaguillos, la película retrata el momento en que la infancia empieza a dejar paso a una comprensión más compleja del mundo. Entre la tradición religiosa, la familia y las expectativas de la comunidad, los jóvenes protagonistas descubren las contradicciones de los adultos mientras intentan definir sus propios principios. Con una puesta en escena natural y una gran sensibilidad hacia sus personajes, ofrece una reflexión sobre la pérdida de la inocencia, la amistad, la fe y la construcción de la identidad moral, componiendo un retrato honesto y profundamente humano del tránsito hacia la madurez. Una trama trepidante y sorprendente, junto con las soluciones poco convencionales a las que recurren los protagonistas, mantienen al espectador en vilo. En algunos momentos también provocan la risa, ya que la película contiene una buena dosis de humor.",
@@ -545,6 +595,13 @@
       "genres": [],
       "year": null
     },
+    "JIM QUEEN - Panorama de actualidad": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184166&nombre=jim_queen_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
     "LA MUJER EXPLOSIVA - Madrugada ochentera": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184028&nombre=weird_science_res_300.jpg",
       "overview": null,
@@ -583,6 +640,27 @@
     "PÉRDIDA DE EQUILIBRIO - Cine Polska": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183998&nombre=utrata_rownowagi_res_300.jpg",
       "overview": "Maja ha dedicado toda su vida a la interpretación, pero no cree en sus capacidades. Por eso, tras graduarse en interpretación, piensa presentarse a las oposiciones de marketing y gestión. Todo cambia cuando un nuevo director se cruza en el camino de Maja.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ME LLAMO GENNET - Día Mundial de la Discapacidad": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184032&nombre=me_llamo_gennet_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA REINA DE LOS JUEVES - Pantalla en danza": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184033&nombre=QoT_poster-2016-final-small_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL REGRESO DEL HIJO PRODIGIO - Centenario Youssef ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184034&nombre=awdat_al_ibn_al_dal_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
