@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-10T15:08:18.848324+00:00",
-  "fromDate": "2026-11-10",
-  "toDate": "2026-11-24",
+  "generatedAt": "2026-11-11T14:38:54.427859+00:00",
+  "fromDate": "2026-11-11",
+  "toDate": "2026-11-25",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "ESTACIÓN CENTRAL - Centenario Youssef Chahine",
-          "date": "2026-11-10",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53520-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA PANOCHA, Escuela de escalada - Realizadores mur...",
-          "date": "2026-11-10",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53669-DETALLE_EVENTO"
-        },
-        {
-          "movie": "PICASSO. UN REBELDE EN PARÍS - Del lienzo a la pan...",
-          "date": "2026-11-10",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53521-DETALLE_EVENTO"
-        },
         {
           "movie": "EL TORMENTO Y EL ÉXTASIS - Hijos de Saturno",
           "date": "2026-11-11",
@@ -389,32 +362,20 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53597-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ESPERANDO LA HORA - Cine y Economía",
+          "date": "2026-11-25",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53598-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "ESTACIÓN CENTRAL - Centenario Youssef Chahine": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183886&nombre=bab_el_hadid_gare_centrale_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA PANOCHA, Escuela de escalada - Realizadores mur...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184163&nombre=65a5e4dd-1a02-47dc-8ec1-c1b23276ff67_res_300.jpg",
-      "overview": "Aborda el pasado y el presente de la escalada murciana tomando como referencia los emblemáticos escenarios donde se desarrolla.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "PICASSO. UN REBELDE EN PARÍS - Del lienzo a la pan...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183884&nombre=picasso_un_ribelle_a_parigi_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "EL TORMENTO Y EL ÉXTASIS - Hijos de Saturno": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183887&nombre=the_agony_and_the_ecstasy_res_300.jpg",
       "overview": null,
@@ -661,6 +622,13 @@
     "EL REGRESO DEL HIJO PRODIGIO - Centenario Youssef ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184034&nombre=awdat_al_ibn_al_dal_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ESPERANDO LA HORA - Cine y Economía": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184035&nombre=clockwatchers_res_300.jpg",
+      "overview": "Sinopsis Cuatro mujeres jóvenes tienen en común la precariedad laboral y la esperanza de conseguir un contrato sin fecha de caducidad que les permita encauzar sus vidas. La llegada de una nueva empleada rompe su estabilidad laboral y personal. Aclamado debut cinematográfico de la directora Jill Sprecher, co-autora también junto a su hermana del guión. Una cinta de cine independiente que obtuvo el premio en el Festival de Turín 1998 a la mejor película.",
       "vote_average": null,
       "genres": [],
       "year": null
