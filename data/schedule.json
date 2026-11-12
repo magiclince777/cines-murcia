@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-11T14:38:54.427859+00:00",
-  "fromDate": "2026-11-11",
-  "toDate": "2026-11-25",
+  "generatedAt": "2026-11-12T15:30:09.546083+00:00",
+  "fromDate": "2026-11-12",
+  "toDate": "2026-11-26",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,24 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "EL TORMENTO Y EL ÉXTASIS - Hijos de Saturno",
-          "date": "2026-11-11",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53522-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA HORA BRUJA - Centenario Paco Rabal",
-          "date": "2026-11-11",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53523-DETALLE_EVENTO"
-        },
         {
           "movie": "PICASSO. UN REBELDE EN PARÍS - Del lienzo a la pantalla...",
           "date": "2026-11-12",
@@ -371,25 +353,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53598-DETALLE_EVENTO"
+        },
+        {
+          "movie": "NO ESTÁS LOCA - Día Internacional Violencia contra...",
+          "date": "2026-11-26",
+          "time": "17:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53599-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA ALGAMECA CHICA - Cine y trabajo - CARTAGENA",
+          "date": "2026-11-26",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53562-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "EL TORMENTO Y EL ÉXTASIS - Hijos de Saturno": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183887&nombre=the_agony_and_the_ecstasy_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA HORA BRUJA - Centenario Paco Rabal": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_171874&nombre=la_hora_bruja-107625568-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "PICASSO. UN REBELDE EN PARÍS - Del lienzo a la pantalla...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183884&nombre=picasso_un_ribelle_a_parigi_res_300.jpg",
       "overview": null,
@@ -629,6 +615,20 @@
     "ESPERANDO LA HORA - Cine y Economía": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184035&nombre=clockwatchers_res_300.jpg",
       "overview": "Sinopsis Cuatro mujeres jóvenes tienen en común la precariedad laboral y la esperanza de conseguir un contrato sin fecha de caducidad que les permita encauzar sus vidas. La llegada de una nueva empleada rompe su estabilidad laboral y personal. Aclamado debut cinematográfico de la directora Jill Sprecher, co-autora también junto a su hermana del guión. Una cinta de cine independiente que obtuvo el premio en el Festival de Turín 1998 a la mejor película.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "NO ESTÁS LOCA - Día Internacional Violencia contra...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184050&nombre=nO_ESTAS_LOCA_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA ALGAMECA CHICA - Cine y trabajo - CARTAGENA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183546&nombre=2026052210572013546_res_300.jpg",
+      "overview": "El documental reúne diferentes voces para construir una visión plural del enclave. Entre los participantes se encuentra el historiador José Ibarra , especialista en el poblamiento de la Algameca Chica y con experiencia en producciones documentales como El año del descubrimiento . También interviene el sociólogo Diego Fernández , de la Universidad de Murcia, que aporta una lectura social del territorio y de sus dinámicas comunitarias.",
       "vote_average": null,
       "genres": [],
       "year": null
