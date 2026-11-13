@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-12T15:30:09.546083+00:00",
-  "fromDate": "2026-11-12",
-  "toDate": "2026-11-26",
+  "generatedAt": "2026-11-13T14:49:09.861234+00:00",
+  "fromDate": "2026-11-13",
+  "toDate": "2026-11-27",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "PICASSO. UN REBELDE EN PARÍS - Del lienzo a la pantalla...",
-          "date": "2026-11-12",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala única",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53560-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA ALGAMECA CHICA - Cine y trabajo",
-          "date": "2026-11-12",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53524-DETALLE_EVENTO"
-        },
-        {
-          "movie": "RONDALLAS - Día Internacional de la Mujer Rural",
-          "date": "2026-11-12",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53525-DETALLE_EVENTO"
-        },
         {
           "movie": "EL AÑO DE LAS LUCES - Centenario Azcona",
           "date": "2026-11-13",
@@ -371,32 +344,38 @@
           "rating": "?",
           "sala": "Sala única",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53562-DETALLE_EVENTO"
+        },
+        {
+          "movie": "DETECTIVE CON RUBIA - La dama del crimen",
+          "date": "2026-11-27",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53600-DETALLE_EVENTO"
+        },
+        {
+          "movie": "NAZA - Panorama de actualidad",
+          "date": "2026-11-27",
+          "time": "20:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53667-DETALLE_EVENTO"
+        },
+        {
+          "movie": "THE FACULTY - Madrugada sangrienta",
+          "date": "2026-11-27",
+          "time": "23:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53601-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "PICASSO. UN REBELDE EN PARÍS - Del lienzo a la pantalla...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183884&nombre=picasso_un_ribelle_a_parigi_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA ALGAMECA CHICA - Cine y trabajo": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183546&nombre=2026052210572013546_res_300.jpg",
-      "overview": "El documental reúne diferentes voces para construir una visión plural del enclave. Entre los participantes se encuentra el historiador José Ibarra , especialista en el poblamiento de la Algameca Chica y con experiencia en producciones documentales como El año del descubrimiento . También interviene el sociólogo Diego Fernández , de la Universidad de Murcia, que aporta una lectura social del territorio y de sus dinámicas comunitarias.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "RONDALLAS - Día Internacional de la Mujer Rural": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183888&nombre=rondallas-842041198-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "EL AÑO DE LAS LUCES - Centenario Azcona": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183885&nombre=el_ano_de_las_luces_res_300.jpg",
       "overview": null,
@@ -629,6 +608,27 @@
     "LA ALGAMECA CHICA - Cine y trabajo - CARTAGENA": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183546&nombre=2026052210572013546_res_300.jpg",
       "overview": "El documental reúne diferentes voces para construir una visión plural del enclave. Entre los participantes se encuentra el historiador José Ibarra , especialista en el poblamiento de la Algameca Chica y con experiencia en producciones documentales como El año del descubrimiento . También interviene el sociólogo Diego Fernández , de la Universidad de Murcia, que aporta una lectura social del territorio y de sus dinámicas comunitarias.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "DETECTIVE CON RUBIA - La dama del crimen": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184037&nombre=the_alphabet_murders_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "NAZA - Panorama de actualidad": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184162&nombre=naza_res_300.jpg",
+      "overview": "Rodada por la noche en los tejados de Tel Aviv, la película revela con todo detalle los mecanismos que hay detrás del asesinato en masa y deliberado de civiles palestinos en Gaza por parte de las tropas de Israel. Naza es la palabra utilizada por el ejército israelí para denominar a las víctimas civiles como 'daños colaterales'. Documental de parte del equipo de 'No Man's Land', producido por el cineasta Jonathan Glazer y su productor James Wilson, ambos responsables de 'La zona de interés'.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "THE FACULTY - Madrugada sangrienta": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184038&nombre=the_faculty_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
