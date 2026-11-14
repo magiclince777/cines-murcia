@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-13T14:49:09.861234+00:00",
-  "fromDate": "2026-11-13",
-  "toDate": "2026-11-27",
+  "generatedAt": "2026-11-14T13:43:54.367102+00:00",
+  "fromDate": "2026-11-14",
+  "toDate": "2026-11-28",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "EL AÑO DE LAS LUCES - Centenario Azcona",
-          "date": "2026-11-13",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53527-DETALLE_EVENTO"
-        },
-        {
-          "movie": "MINGHUM - Cine Polska",
-          "date": "2026-11-13",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53572-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CRITTERS - Madrugada sangrienta",
-          "date": "2026-11-13",
-          "time": "23:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53528-DETALLE_EVENTO"
-        },
         {
           "movie": "RUFUS, LA SERPIENTE QUE NO SABÍA NADAR - Filmo en ...",
           "date": "2026-11-14",
@@ -371,32 +344,20 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53601-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA LEYENDA DE LA BALLENA CANTORA - Filmo en famili...",
+          "date": "2026-11-28",
+          "time": "17:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53604-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "EL AÑO DE LAS LUCES - Centenario Azcona": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183885&nombre=el_ano_de_las_luces_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "MINGHUM - Cine Polska": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183995&nombre=minghun_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CRITTERS - Madrugada sangrienta": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183890&nombre=critters-265888160-large_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "RUFUS, LA SERPIENTE QUE NO SABÍA NADAR - Filmo en ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183891&nombre=rufus_the_sea_serpent_res_300.jpg",
       "overview": "(Rufus – The Sea Serpent Who Couldn’t Swim) Endre Skandfer, 2025 Noruega. 80’. VE",
@@ -629,6 +590,13 @@
     "THE FACULTY - Madrugada sangrienta": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184038&nombre=the_faculty_res_300.jpg",
       "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA LEYENDA DE LA BALLENA CANTORA - Filmo en famili...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184055&nombre=der_letzte_walsanger_res_300.jpg",
+      "overview": "Sinopsis Vincent es una ballena jorobada adolescente que se ha quedado huérfana. Hijo del último Cantor de Ballenas, que protegía los océanos con su canto mágico, vive angustiado por la pérdida de sus padres y duda de sus propias habilidades. Cuando el monstruoso Leviatán escapa de un iceberg oscuro y empieza a amenazar toda la vida marina con su tinta venenosa, Vincent debe encontrar su propio canto para detenerlo. Pero, abrumado por la inseguridad, se embarca en un peligroso viaje hacia las profundidades del mar para rescatar a sus padres del mítico Estanque Estelar, con la esperanza de que sea el padre quien derrote al Leviatán. Acompañado de Walter, un pez rémora muy quisquilloso que le hace de niñera y de Darya, una valiente orca sorda, Vincent tendrá que afrontar sus miedos y descubrir su propio canto para salvar a los océanos.",
       "vote_average": null,
       "genres": [],
       "year": null
