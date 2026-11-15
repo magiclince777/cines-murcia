@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-14T13:43:54.367102+00:00",
-  "fromDate": "2026-11-14",
-  "toDate": "2026-11-28",
+  "generatedAt": "2026-11-15T14:13:38.241553+00:00",
+  "fromDate": "2026-11-15",
+  "toDate": "2026-11-29",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,42 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "RUFUS, LA SERPIENTE QUE NO SABÍA NADAR - Filmo en ...",
-          "date": "2026-11-14",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53529-DETALLE_EVENTO"
-        },
-        {
-          "movie": "ASESINATO A BORDO - La dama del crimen",
-          "date": "2026-11-14",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53530-DETALLE_EVENTO"
-        },
-        {
-          "movie": "PUBLIC - Realizadores murcianos",
-          "date": "2026-11-14",
-          "time": "19:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53552-DETALLE_EVENTO"
-        },
-        {
-          "movie": "HOGAR, DULCE HOGAR - Cine Polska",
-          "date": "2026-11-14",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53573-DETALLE_EVENTO"
-        },
         {
           "movie": "ANIMA, ANIMAE, ANIMARUM - Titeremurcia",
           "date": "2026-11-15",
@@ -353,42 +317,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53604-DETALLE_EVENTO"
+        },
+        {
+          "movie": "HISPANOAÉRICA, CANTO DE VIDA Y ESPERANZA - Del lienzo...",
+          "date": "2026-11-29",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53605-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL EVANGELIO DE LAS MARAVILLAS - Centenario Paco R...",
+          "date": "2026-11-29",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53606-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "RUFUS, LA SERPIENTE QUE NO SABÍA NADAR - Filmo en ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183891&nombre=rufus_the_sea_serpent_res_300.jpg",
-      "overview": "(Rufus – The Sea Serpent Who Couldn’t Swim) Endre Skandfer, 2025 Noruega. 80’. VE",
-      "vote_average": 6.7,
-      "genres": [
-        "Animación",
-        "Familia"
-      ],
-      "year": 2025
-    },
-    "ASESINATO A BORDO - La dama del crimen": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183892&nombre=murder_ahoy_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "PUBLIC - Realizadores murcianos": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183979&nombre=PUBLIC_res_300.jpg",
-      "overview": "Tres actos nos hacen reflexionar sobre el paisaje, la memoria y la propia creación audiovisual, bajo una atmósfera intoxicada de surrealismo.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "HOGAR, DULCE HOGAR - Cine Polska": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183996&nombre=hogar_dulce_hogar_res_300.jpg",
-      "overview": "Una historia sobre la violencia doméstica. Brutal, pero ambigua, deja espacio para que el espectador construya su propia interpretación. Gracias a su gran fuerza emocional y a una mirada profunda sobre los vínculos familiares, la película aborda el tema de las heridas heredadas, los silencios y la posibilidad de romper con aquello que parece repetirse inevitablemente. Estamos ante un retrato incisivo de una víctima de la violencia, pero también ante un magnífico retrato del agresor.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "ANIMA, ANIMAE, ANIMARUM - Titeremurcia": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184049&nombre=TITERE_res_300.jpg",
       "overview": "El documental, producido por Zero en Conducta Produccions, investiga cómo los objetos adquieren alma y voz cuando son animados por el ser humano. Un documental homenaje a las personas que dedicaron su vida a compartir su alma con seres que nunca la tuvieron. A quienes regalaron voz y vida a objetos que tenían mucho que decir. A contar historias recuperadas del olvido. A los titiriteros que por su profesión no podían ser enterrados en cementerios por ser considerados seres sin alma.",
@@ -597,6 +548,20 @@
     "LA LEYENDA DE LA BALLENA CANTORA - Filmo en famili...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184055&nombre=der_letzte_walsanger_res_300.jpg",
       "overview": "Sinopsis Vincent es una ballena jorobada adolescente que se ha quedado huérfana. Hijo del último Cantor de Ballenas, que protegía los océanos con su canto mágico, vive angustiado por la pérdida de sus padres y duda de sus propias habilidades. Cuando el monstruoso Leviatán escapa de un iceberg oscuro y empieza a amenazar toda la vida marina con su tinta venenosa, Vincent debe encontrar su propio canto para detenerlo. Pero, abrumado por la inseguridad, se embarca en un peligroso viaje hacia las profundidades del mar para rescatar a sus padres del mítico Estanque Estelar, con la esperanza de que sea el padre quien derrote al Leviatán. Acompañado de Walter, un pez rémora muy quisquilloso que le hace de niñera y de Darya, una valiente orca sorda, Vincent tendrá que afrontar sus miedos y descubrir su propio canto para salvar a los océanos.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "HISPANOAÉRICA, CANTO DE VIDA Y ESPERANZA - Del lienzo...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184056&nombre=hispanoamerica_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL EVANGELIO DE LAS MARAVILLAS - Centenario Paco R...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184057&nombre=el_evangelio_de_las_maravillas_res_300.jpg",
+      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
