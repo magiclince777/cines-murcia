@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-15T14:13:38.241553+00:00",
-  "fromDate": "2026-11-15",
-  "toDate": "2026-11-29",
+  "generatedAt": "2026-11-16T16:16:23.076032+00:00",
+  "fromDate": "2026-11-16",
+  "toDate": "2026-11-30",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,24 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "ANIMA, ANIMAE, ANIMARUM - Titeremurcia",
-          "date": "2026-11-15",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53531-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CHUZALONGO - La Mar de Cine: Ecuador",
-          "date": "2026-11-15",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53532-DETALLE_EVENTO"
-        },
         {
           "movie": "POR QUÉ NO ESCRIBO NADA - Panorama de actualidad",
           "date": "2026-11-16",
@@ -340,20 +322,6 @@
     }
   ],
   "movies": {
-    "ANIMA, ANIMAE, ANIMARUM - Titeremurcia": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184049&nombre=TITERE_res_300.jpg",
-      "overview": "El documental, producido por Zero en Conducta Produccions, investiga cómo los objetos adquieren alma y voz cuando son animados por el ser humano. Un documental homenaje a las personas que dedicaron su vida a compartir su alma con seres que nunca la tuvieron. A quienes regalaron voz y vida a objetos que tenían mucho que decir. A contar historias recuperadas del olvido. A los titiriteros que por su profesión no podían ser enterrados en cementerios por ser considerados seres sin alma.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CHUZALONGO - La Mar de Cine: Ecuador": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183894&nombre=chuzalongo_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "POR QUÉ NO ESCRIBO NADA - Panorama de actualidad": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184051&nombre=por_que_no_escribo_nada_res_300.jpg",
       "overview": null,
