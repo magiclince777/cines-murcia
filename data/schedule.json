@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-16T16:16:23.076032+00:00",
-  "fromDate": "2026-11-16",
-  "toDate": "2026-11-30",
+  "generatedAt": "2026-11-17T16:22:16.157920+00:00",
+  "fromDate": "2026-11-17",
+  "toDate": "2026-12-01",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "POR QUÉ NO ESCRIBO NADA - Panorama de actualidad",
-          "date": "2026-11-16",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53602-DETALLE_EVENTO"
-        },
-        {
-          "movie": "TRANGO, EL HIMALAYA VERTICAL - Realizadores murcia...",
-          "date": "2026-11-16",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53671-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LOS MONAGUILLOS - Cine Polska",
-          "date": "2026-11-16",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53574-DETALLE_EVENTO"
-        },
         {
           "movie": "JAGO, EL NUEVO GENIO DE LA ESCULTURA - Del lienzo ...",
           "date": "2026-11-17",
@@ -103,15 +76,6 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53561-DETALLE_EVENTO"
         },
         {
-          "movie": "INTOCABLE - Día internacional de los Derechos de la...",
-          "date": "2026-11-19",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53586-DETALLE_EVENTO"
-        },
-        {
           "movie": "LOS ILUSOS 13+13 - Sala de cineastas",
           "date": "2026-11-19",
           "time": "20:00",
@@ -119,6 +83,15 @@
           "rating": "?",
           "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53587-DETALLE_EVENTO"
+        },
+        {
+          "movie": "INTOCABLE - Día internacional de los Derechos de la...",
+          "date": "2026-11-19",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53586-DETALLE_EVENTO"
         },
         {
           "movie": "MR. TURNER - Hijos de Saturno",
@@ -317,32 +290,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53606-DETALLE_EVENTO"
+        },
+        {
+          "movie": "WE THE HISPANOS - Del lienzo a la pantalla",
+          "date": "2026-12-01",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53607-DETALLE_EVENTO"
+        },
+        {
+          "movie": "GRANDES ALMACENES - De Sica",
+          "date": "2026-12-01",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53608-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "POR QUÉ NO ESCRIBO NADA - Panorama de actualidad": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184051&nombre=por_que_no_escribo_nada_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "TRANGO, EL HIMALAYA VERTICAL - Realizadores murcia...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184164&nombre=fb90cda7-5b78-4a12-908e-955237fcb82c_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LOS MONAGUILLOS - Cine Polska": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183997&nombre=los_monaguillos_res_300.jpg",
-      "overview": "A través de la mirada de un grupo de monaguillos, la película retrata el momento en que la infancia empieza a dejar paso a una comprensión más compleja del mundo. Entre la tradición religiosa, la familia y las expectativas de la comunidad, los jóvenes protagonistas descubren las contradicciones de los adultos mientras intentan definir sus propios principios. Con una puesta en escena natural y una gran sensibilidad hacia sus personajes, ofrece una reflexión sobre la pérdida de la inocencia, la amistad, la fe y la construcción de la identidad moral, componiendo un retrato honesto y profundamente humano del tránsito hacia la madurez. Una trama trepidante y sorprendente, junto con las soluciones poco convencionales a las que recurren los protagonistas, mantienen al espectador en vilo. En algunos momentos también provocan la risa, ya que la película contiene una buena dosis de humor.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "JAGO, EL NUEVO GENIO DE LA ESCULTURA - Del lienzo ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183990&nombre=jago_into_the_white_res_300.jpg",
       "overview": "La vida, los viajes, los sueños y las ambiciones de un joven escultor italiano conocido en todo el mundo como «el nuevo Michelangelo». Este documental sigue a Jago durante dos años, desde que se traslada de Nueva York a Nápoles y, en completa soledad, trabaja día y noche en su nueva escultura: una versión moderna de La Piedad de Miguel Ángel. Durante muchos meses, solo estarán él y el mármol, en una relación de amor y odio, deseo y miedo.",
@@ -380,15 +350,15 @@
       "genres": [],
       "year": null
     },
-    "INTOCABLE - Día internacional de los Derechos de la...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_178479&nombre=intocables_res_300.jpg",
+    "LOS ILUSOS 13+13 - Sala de cineastas": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184026&nombre=los_ilusos_13_13_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
     },
-    "LOS ILUSOS 13+13 - Sala de cineastas": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184026&nombre=los_ilusos_13_13_res_300.jpg",
+    "INTOCABLE - Día internacional de los Derechos de la...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_178479&nombre=intocables_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -529,6 +499,20 @@
     },
     "EL EVANGELIO DE LAS MARAVILLAS - Centenario Paco R...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184057&nombre=el_evangelio_de_las_maravillas_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "WE THE HISPANOS - Del lienzo a la pantalla": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184058&nombre=we_the_hispanos_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "GRANDES ALMACENES - De Sica": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184059&nombre=i_grandi_magazzini_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
