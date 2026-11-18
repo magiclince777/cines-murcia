@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-17T16:22:16.157920+00:00",
-  "fromDate": "2026-11-17",
-  "toDate": "2026-12-01",
+  "generatedAt": "2026-11-18T15:54:19.635383+00:00",
+  "fromDate": "2026-11-18",
+  "toDate": "2026-12-02",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,15 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "JAGO, EL NUEVO GENIO DE LA ESCULTURA - Del lienzo ...",
-          "date": "2026-11-17",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53566-DETALLE_EVENTO"
-        },
         {
           "movie": "HISTORIAS DEL BUEN VALLE - Amnistía Internacional",
           "date": "2026-11-18",
@@ -76,15 +67,6 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53561-DETALLE_EVENTO"
         },
         {
-          "movie": "LOS ILUSOS 13+13 - Sala de cineastas",
-          "date": "2026-11-19",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53587-DETALLE_EVENTO"
-        },
-        {
           "movie": "INTOCABLE - Día internacional de los Derechos de la...",
           "date": "2026-11-19",
           "time": "20:00",
@@ -92,6 +74,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53586-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LOS ILUSOS 13+13 - Sala de cineastas",
+          "date": "2026-11-19",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53587-DETALLE_EVENTO"
         },
         {
           "movie": "MR. TURNER - Hijos de Saturno",
@@ -308,20 +299,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53608-DETALLE_EVENTO"
+        },
+        {
+          "movie": "GRANDES ALMACENES - De Sica",
+          "date": "2026-12-02",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53609-DETALLE_EVENTO"
+        },
+        {
+          "movie": "UNA HISTORIA EGIPCIA - Centenario Youssef Chahine",
+          "date": "2026-12-02",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53610-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "JAGO, EL NUEVO GENIO DE LA ESCULTURA - Del lienzo ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183990&nombre=jago_into_the_white_res_300.jpg",
-      "overview": "La vida, los viajes, los sueños y las ambiciones de un joven escultor italiano conocido en todo el mundo como «el nuevo Michelangelo». Este documental sigue a Jago durante dos años, desde que se traslada de Nueva York a Nápoles y, en completa soledad, trabaja día y noche en su nueva escultura: una versión moderna de La Piedad de Miguel Ángel. Durante muchos meses, solo estarán él y el mármol, en una relación de amor y odio, deseo y miedo.",
-      "vote_average": null,
-      "genres": [
-        "Documental"
-      ],
-      "year": 2024
-    },
     "HISTORIAS DEL BUEN VALLE - Amnistía Internacional": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183988&nombre=historias_del_buen_res_300.jpg",
       "overview": null,
@@ -350,15 +350,15 @@
       "genres": [],
       "year": null
     },
-    "LOS ILUSOS 13+13 - Sala de cineastas": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184026&nombre=los_ilusos_13_13_res_300.jpg",
+    "INTOCABLE - Día internacional de los Derechos de la...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_178479&nombre=intocables_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
     },
-    "INTOCABLE - Día internacional de los Derechos de la...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_178479&nombre=intocables_res_300.jpg",
+    "LOS ILUSOS 13+13 - Sala de cineastas": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184026&nombre=los_ilusos_13_13_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -412,6 +412,15 @@
       "vote_average": null,
       "genres": [],
       "year": null
+    },
+    "JAGO, EL NUEVO GENIO DE LA ESCULTURA - Del lienzo ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183990&nombre=jago_into_the_white_res_300.jpg",
+      "overview": "La vida, los viajes, los sueños y las ambiciones de un joven escultor italiano conocido en todo el mundo como «el nuevo Michelangelo». Este documental sigue a Jago durante dos años, desde que se traslada de Nueva York a Nápoles y, en completa soledad, trabaja día y noche en su nueva escultura: una versión moderna de La Piedad de Miguel Ángel. Durante muchos meses, solo estarán él y el mármol, en una relación de amor y odio, deseo y miedo.",
+      "vote_average": null,
+      "genres": [
+        "Documental"
+      ],
+      "year": 2024
     },
     "PÉRDIDA DE EQUILIBRIO - Cine Polska": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183998&nombre=utrata_rownowagi_res_300.jpg",
@@ -513,6 +522,13 @@
     },
     "GRANDES ALMACENES - De Sica": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184059&nombre=i_grandi_magazzini_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "UNA HISTORIA EGIPCIA - Centenario Youssef Chahine": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184060&nombre=hadduta_misriya_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
