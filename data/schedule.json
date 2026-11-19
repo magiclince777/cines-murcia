@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-18T15:54:19.635383+00:00",
-  "fromDate": "2026-11-18",
-  "toDate": "2026-12-02",
+  "generatedAt": "2026-11-19T15:58:36.256227+00:00",
+  "fromDate": "2026-11-19",
+  "toDate": "2026-12-03",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "HISTORIAS DEL BUEN VALLE - Amnistía Internacional",
-          "date": "2026-11-18",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53584-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CERTAMEN FILMOCLIP - Espacio creadores",
-          "date": "2026-11-18",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53578-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EL ALBA DE UN NUEVO DÍA - Centenario Youssef Chahi...",
-          "date": "2026-11-18",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53585-DETALLE_EVENTO"
-        },
         {
           "movie": "HISTORIAS DEL BUEN VALLE - Amnistía internacional ...",
           "date": "2026-11-19",
@@ -265,6 +238,15 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53604-DETALLE_EVENTO"
         },
         {
+          "movie": "PRIMER PREMIO REALIZADORES MURCIANOS",
+          "date": "2026-11-28",
+          "time": "20:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53717-DETALLE_EVENTO"
+        },
+        {
           "movie": "HISPANOAÉRICA, CANTO DE VIDA Y ESPERANZA - Del lienzo...",
           "date": "2026-11-29",
           "time": "18:00",
@@ -317,32 +299,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53610-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ESTACIÓN CENTRAL - Centenario Youssef Chahine - CA...",
+          "date": "2026-12-03",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53563-DETALLE_EVENTO"
+        },
+        {
+          "movie": "SUEÑOS DE SEDUCTOR - Diane Keaton por Woody Allen",
+          "date": "2026-12-03",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53619-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL DESTINO - Centenario Youssef Chahine",
+          "date": "2026-12-03",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53620-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "HISTORIAS DEL BUEN VALLE - Amnistía Internacional": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183988&nombre=historias_del_buen_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CERTAMEN FILMOCLIP - Espacio creadores": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184118&nombre=Logo_Filmoclip_Vertical_res_300.jpg",
-      "overview": "Retrospectiva sobre la producción audiovisual del artista murciano Ruto Neón y coloquio posterior con presencia del artista.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "EL ALBA DE UN NUEVO DÍA - Centenario Youssef Chahi...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184025&nombre=fagr_yom_gedid_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "HISTORIAS DEL BUEN VALLE - Amnistía internacional ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183988&nombre=historias_del_buen_res_300.jpg",
       "overview": null,
@@ -499,6 +487,13 @@
       "genres": [],
       "year": null
     },
+    "PRIMER PREMIO REALIZADORES MURCIANOS": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184210&nombre=DA_el_viento_que_golpea_mi_ventana_res_300.jpg",
+      "overview": "Es cineasta y montador, formado en Comunicación Audiovisual en la Universidad Complutense de Madrid. Debuta en la dirección con el mediometraje Avísame si me muero y posteriormente codirige el cortometraje Sé de un lugar , seleccionado en varios festivales y premiado en los de Cartagena (FICC) y de Murcia (IBAFF). A raíz de ese film funda, junto con Antonio Conesa, la productora Pesahombre, a través de la cual produce El viento que golpea mi ventana , seleccionado en Punto de Vista.",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
     "HISPANOAÉRICA, CANTO DE VIDA Y ESPERANZA - Del lienzo...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184056&nombre=hispanoamerica_res_300.jpg",
       "overview": null,
@@ -529,6 +524,27 @@
     },
     "UNA HISTORIA EGIPCIA - Centenario Youssef Chahine": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184060&nombre=hadduta_misriya_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ESTACIÓN CENTRAL - Centenario Youssef Chahine - CA...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183886&nombre=bab_el_hadid_gare_centrale_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "SUEÑOS DE SEDUCTOR - Diane Keaton por Woody Allen": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184094&nombre=play_it_again_sam_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL DESTINO - Centenario Youssef Chahine": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184095&nombre=al_massir_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
