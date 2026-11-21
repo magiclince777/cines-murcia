@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-20T15:41:20.891845+00:00",
-  "fromDate": "2026-11-20",
-  "toDate": "2026-12-04",
+  "generatedAt": "2026-11-21T14:51:56.990231+00:00",
+  "fromDate": "2026-11-21",
+  "toDate": "2026-12-05",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "MR. TURNER - Hijos de Saturno",
-          "date": "2026-11-20",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53588-DETALLE_EVENTO"
-        },
-        {
-          "movie": "JIM QUEEN - Panorama de actualidad",
-          "date": "2026-11-20",
-          "time": "21:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53672-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA MUJER EXPLOSIVA - Madrugada ochentera",
-          "date": "2026-11-20",
-          "time": "23:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53589-DETALLE_EVENTO"
-        },
         {
           "movie": "MUMBO JUMBO SE HACE ENORME - Filmo en familia",
           "date": "2026-11-21",
@@ -326,32 +299,47 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53623-DETALLE_EVENTO"
+        },
+        {
+          "movie": "MARACUDA - Filmo en familia",
+          "date": "2026-12-05",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53638-DETALLE_EVENTO"
+        },
+        {
+          "movie": "NACIDA EN VIERNES - Ciclo De Sica",
+          "date": "2026-12-05",
+          "time": "19:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53639-DETALLE_EVENTO"
+        },
+        {
+          "movie": "NOBLEZA BATURRA - Centenario del Lyceum Club Femen...",
+          "date": "2026-12-05",
+          "time": "19:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53640-DETALLE_EVENTO"
+        },
+        {
+          "movie": "AKIRA - Buzón de sugerencias",
+          "date": "2026-12-05",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53641-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "MR. TURNER - Hijos de Saturno": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184027&nombre=mr_turner_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "JIM QUEEN - Panorama de actualidad": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184166&nombre=jim_queen_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA MUJER EXPLOSIVA - Madrugada ochentera": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184028&nombre=weird_science_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "MUMBO JUMBO SE HACE ENORME - Filmo en familia": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184029&nombre=da_mumbo_jumbo_res_300.jpg",
       "overview": null,
@@ -388,6 +376,13 @@
         "Documental"
       ],
       "year": 2024
+    },
+    "MR. TURNER - Hijos de Saturno": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184027&nombre=mr_turner_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
     },
     "PÉRDIDA DE EQUILIBRIO - Cine Polska": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183998&nombre=utrata_rownowagi_res_300.jpg",
@@ -545,6 +540,34 @@
     },
     "PURPLE RAIN - Madrugada ochentera": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184096&nombre=purple_rain_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "MARACUDA - Filmo en familia": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184120&nombre=marakuda_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "NACIDA EN VIERNES - Ciclo De Sica": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184121&nombre=teresa_venerdi_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "NOBLEZA BATURRA - Centenario del Lyceum Club Femen...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184122&nombre=nobleza_baturra_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "AKIRA - Buzón de sugerencias": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_161457&nombre=akira-557684565-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
