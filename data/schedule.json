@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T14:51:56.990231+00:00",
-  "fromDate": "2026-11-21",
-  "toDate": "2026-12-05",
+  "generatedAt": "2026-11-22T14:48:05.500837+00:00",
+  "fromDate": "2026-11-22",
+  "toDate": "2026-12-06",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,42 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "MUMBO JUMBO SE HACE ENORME - Filmo en familia",
-          "date": "2026-11-21",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53590-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA SEÑORA McGINTY HA MUERTO - La dama del crimen",
-          "date": "2026-11-21",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53591-DETALLE_EVENTO"
-        },
-        {
-          "movie": "CERTAMEN FILMOCLIP - La muestra",
-          "date": "2026-11-21",
-          "time": "20:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53579-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LE QUATRIÈME MUR - La voz de Medio Oriente",
-          "date": "2026-11-21",
-          "time": "20:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53592-DETALLE_EVENTO"
-        },
         {
           "movie": "JAGO, EL NUEVO GENIO DE LA ESCULTURA - Del lienzo ...",
           "date": "2026-11-22",
@@ -182,6 +146,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53604-DETALLE_EVENTO"
+        },
+        {
+          "movie": "NAZA - Panorama de actualidad",
+          "date": "2026-11-28",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53719-DETALLE_EVENTO"
         },
         {
           "movie": "PRIMER PREMIO REALIZADORES MURCIANOS",
@@ -335,39 +308,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53641-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LEGENT - Nostalgia ochentera",
+          "date": "2026-12-06",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53642-DETALLE_EVENTO"
+        },
+        {
+          "movie": "AKIRA - Buzón de sugerencias",
+          "date": "2026-12-06",
+          "time": "19:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53643-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "MUMBO JUMBO SE HACE ENORME - Filmo en familia": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184029&nombre=da_mumbo_jumbo_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA SEÑORA McGINTY HA MUERTO - La dama del crimen": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184030&nombre=murder_most_foul_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "CERTAMEN FILMOCLIP - La muestra": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184118&nombre=Logo_Filmoclip_Vertical_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LE QUATRIÈME MUR - La voz de Medio Oriente": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184031&nombre=le_quatrieme_mur_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "JAGO, EL NUEVO GENIO DE LA ESCULTURA - Del lienzo ...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183990&nombre=jago_into_the_white_res_300.jpg",
       "overview": "La vida, los viajes, los sueños y las ambiciones de un joven escultor italiano conocido en todo el mundo como «el nuevo Michelangelo». Este documental sigue a Jago durante dos años, desde que se traslada de Nueva York a Nápoles y, en completa soledad, trabaja día y noche en su nueva escultura: una versión moderna de La Piedad de Miguel Ángel. Durante muchos meses, solo estarán él y el mármol, en una relación de amor y odio, deseo y miedo.",
@@ -463,7 +426,7 @@
     },
     "PRIMER PREMIO REALIZADORES MURCIANOS": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184210&nombre=DA_el_viento_que_golpea_mi_ventana_res_300.jpg",
-      "overview": "Es cineasta y montador, formado en Comunicación Audiovisual en la Universidad Complutense de Madrid. Debuta en la dirección con el mediometraje Avísame si me muero y posteriormente codirige el cortometraje Sé de un lugar , seleccionado en varios festivales y premiado en los de Cartagena (FICC) y de Murcia (IBAFF). A raíz de ese film funda, junto con Antonio Conesa, la productora Pesahombre, a través de la cual produce El viento que golpea mi ventana , seleccionado en Punto de Vista.",
+      "overview": "El bisabuelo de Emilio era minero y, a causa de ello, murió con cincuenta y tantos años de silicosis. Pero además de minero, el bisabuelo de Emilio escribía. Y ahora su bisnieto recupera un pequeño fragmento de su legado. El familiar, con unas entrevistas, divertidas y cariñosas, a algunos de sus descendentes, y el literario, con una carta que toca la fibra tal como el viento golpeaba, un día, la ventana del director.",
       "vote_average": null,
       "genres": [],
       "year": null
@@ -568,6 +531,13 @@
     },
     "AKIRA - Buzón de sugerencias": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_161457&nombre=akira-557684565-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LEGENT - Nostalgia ochentera": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184123&nombre=legend_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
