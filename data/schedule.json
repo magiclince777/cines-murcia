@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-22T14:48:05.500837+00:00",
-  "fromDate": "2026-11-22",
-  "toDate": "2026-12-06",
+  "generatedAt": "2026-11-23T18:38:40.760814+00:00",
+  "fromDate": "2026-11-23",
+  "toDate": "2026-12-07",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,24 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "JAGO, EL NUEVO GENIO DE LA ESCULTURA - Del lienzo ...",
-          "date": "2026-11-22",
-          "time": "18:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53593-DETALLE_EVENTO"
-        },
-        {
-          "movie": "MR. TURNER - Hijos de Saturno",
-          "date": "2026-11-22",
-          "time": "19:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53594-DETALLE_EVENTO"
-        },
         {
           "movie": "PÉRDIDA DE EQUILIBRIO - Cine Polska",
           "date": "2026-11-23",
@@ -326,27 +308,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53643-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA ÚLTIMA NOCHE DE BORIS GRUSHENKO - Ciclo Diane K...",
+          "date": "2026-12-07",
+          "time": "18:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53644-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA VAQUILLA - Centenario Azcona",
+          "date": "2026-12-07",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53645-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "JAGO, EL NUEVO GENIO DE LA ESCULTURA - Del lienzo ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183990&nombre=jago_into_the_white_res_300.jpg",
-      "overview": "La vida, los viajes, los sueños y las ambiciones de un joven escultor italiano conocido en todo el mundo como «el nuevo Michelangelo». Este documental sigue a Jago durante dos años, desde que se traslada de Nueva York a Nápoles y, en completa soledad, trabaja día y noche en su nueva escultura: una versión moderna de La Piedad de Miguel Ángel. Durante muchos meses, solo estarán él y el mármol, en una relación de amor y odio, deseo y miedo.",
-      "vote_average": null,
-      "genres": [
-        "Documental"
-      ],
-      "year": 2024
-    },
-    "MR. TURNER - Hijos de Saturno": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184027&nombre=mr_turner_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "PÉRDIDA DE EQUILIBRIO - Cine Polska": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183998&nombre=utrata_rownowagi_res_300.jpg",
       "overview": "Maja ha dedicado toda su vida a la interpretación, pero no cree en sus capacidades. Por eso, tras graduarse en interpretación, piensa presentarse a las oposiciones de marketing y gestión. Todo cambia cuando un nuevo director se cruza en el camino de Maja.",
@@ -538,6 +522,20 @@
     },
     "LEGENT - Nostalgia ochentera": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184123&nombre=legend_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA ÚLTIMA NOCHE DE BORIS GRUSHENKO - Ciclo Diane K...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184124&nombre=love_and_death_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA VAQUILLA - Centenario Azcona": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175456&nombre=la_vaquilla-561240437-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
