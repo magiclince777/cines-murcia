@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-23T18:38:40.760814+00:00",
-  "fromDate": "2026-11-23",
-  "toDate": "2026-12-07",
+  "generatedAt": "2026-11-24T18:07:16.548096+00:00",
+  "fromDate": "2026-11-24",
+  "toDate": "2026-12-08",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,15 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "PÉRDIDA DE EQUILIBRIO - Cine Polska",
-          "date": "2026-11-23",
-          "time": "18:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53575-DETALLE_EVENTO"
-        },
         {
           "movie": "ME LLAMO GENNET - Día Mundial de la Discapacidad",
           "date": "2026-11-24",
@@ -326,18 +317,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53645-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EXPLORADORES - Filmo en familia",
+          "date": "2026-12-08",
+          "time": "17:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53646-DETALLE_EVENTO"
+        },
+        {
+          "movie": "EL DORMILÓN - Ciclo Diane Keaton",
+          "date": "2026-12-08",
+          "time": "19:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53647-DETALLE_EVENTO"
+        },
+        {
+          "movie": "ASI EN EL CIELO COMO EN LA TIERRA - Centenario Paco...",
+          "date": "2026-12-08",
+          "time": "21:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53648-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "PÉRDIDA DE EQUILIBRIO - Cine Polska": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183998&nombre=utrata_rownowagi_res_300.jpg",
-      "overview": "Maja ha dedicado toda su vida a la interpretación, pero no cree en sus capacidades. Por eso, tras graduarse en interpretación, piensa presentarse a las oposiciones de marketing y gestión. Todo cambia cuando un nuevo director se cruza en el camino de Maja.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "ME LLAMO GENNET - Día Mundial de la Discapacidad": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184032&nombre=me_llamo_gennet_res_300.jpg",
       "overview": null,
@@ -536,6 +547,27 @@
     },
     "LA VAQUILLA - Centenario Azcona": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_175456&nombre=la_vaquilla-561240437-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EXPLORADORES - Filmo en familia": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184125&nombre=explorers_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "EL DORMILÓN - Ciclo Diane Keaton": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_177587&nombre=EL_DORMILON_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "ASI EN EL CIELO COMO EN LA TIERRA - Centenario Paco...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173436&nombre=asi_en_el_cielo_como_en_la_tierra-267562700-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
