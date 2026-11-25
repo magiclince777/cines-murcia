@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-24T18:07:16.548096+00:00",
-  "fromDate": "2026-11-24",
-  "toDate": "2026-12-08",
+  "generatedAt": "2026-11-25T17:30:26.403924+00:00",
+  "fromDate": "2026-11-25",
+  "toDate": "2026-12-09",
   "cinemas": [
     {
       "id": "myrtea",
@@ -31,33 +31,6 @@
       ],
       "sessions": [
         {
-          "movie": "ME LLAMO GENNET - Día Mundial de la Discapacidad",
-          "date": "2026-11-24",
-          "time": "17:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53595-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA REINA DE LOS JUEVES - Pantalla en danza",
-          "date": "2026-11-24",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53596-DETALLE_EVENTO"
-        },
-        {
-          "movie": "EL REGRESO DEL HIJO PRODIGIO - Centenario Youssef ...",
-          "date": "2026-11-24",
-          "time": "21:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53597-DETALLE_EVENTO"
-        },
-        {
           "movie": "ESPERANDO LA HORA - Cine y Economía",
           "date": "2026-11-25",
           "time": "19:00",
@@ -67,6 +40,15 @@
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53598-DETALLE_EVENTO"
         },
         {
+          "movie": "TALLER ¡Silencio, cámara y acción! Contra la violencia...",
+          "date": "2026-11-25",
+          "time": "19:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53720-DETALLE_EVENTO"
+        },
+        {
           "movie": "NO ESTÁS LOCA - Día Internacional Violencia contra...",
           "date": "2026-11-26",
           "time": "17:30",
@@ -74,6 +56,15 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53599-DETALLE_EVENTO"
+        },
+        {
+          "movie": "GENTE CORRIENTE. Cine y mediación.",
+          "date": "2026-11-26",
+          "time": "18:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53721-DETALLE_EVENTO"
         },
         {
           "movie": "LA ALGAMECA CHICA - Cine y trabajo - CARTAGENA",
@@ -344,32 +335,29 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53648-DETALLE_EVENTO"
+        },
+        {
+          "movie": "MEDIHA - Amnistía internacional",
+          "date": "2026-12-09",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53649-DETALLE_EVENTO"
+        },
+        {
+          "movie": "NACIDA EN VIERNES - Ciclo De Sica",
+          "date": "2026-12-09",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53650-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "ME LLAMO GENNET - Día Mundial de la Discapacidad": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184032&nombre=me_llamo_gennet_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA REINA DE LOS JUEVES - Pantalla en danza": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184033&nombre=QoT_poster-2016-final-small_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "EL REGRESO DEL HIJO PRODIGIO - Centenario Youssef ...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184034&nombre=awdat_al_ibn_al_dal_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "ESPERANDO LA HORA - Cine y Economía": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184035&nombre=clockwatchers_res_300.jpg",
       "overview": "Sinopsis Cuatro mujeres jóvenes tienen en común la precariedad laboral y la esperanza de conseguir un contrato sin fecha de caducidad que les permita encauzar sus vidas. La llegada de una nueva empleada rompe su estabilidad laboral y personal. Aclamado debut cinematográfico de la directora Jill Sprecher, co-autora también junto a su hermana del guión. Una cinta de cine independiente que obtuvo el premio en el Festival de Turín 1998 a la mejor película.",
@@ -377,8 +365,22 @@
       "genres": [],
       "year": null
     },
+    "TALLER ¡Silencio, cámara y acción! Contra la violencia...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184221&nombre=AMMA1_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
     "NO ESTÁS LOCA - Día Internacional Violencia contra...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184050&nombre=nO_ESTAS_LOCA_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "GENTE CORRIENTE. Cine y mediación.": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184222&nombre=ordinary_people_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
@@ -420,8 +422,8 @@
       "year": null
     },
     "PRIMER PREMIO REALIZADORES MURCIANOS": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184210&nombre=DA_el_viento_que_golpea_mi_ventana_res_300.jpg",
-      "overview": "El bisabuelo de Emilio era minero y, a causa de ello, murió con cincuenta y tantos años de silicosis. Pero además de minero, el bisabuelo de Emilio escribía. Y ahora su bisnieto recupera un pequeño fragmento de su legado. El familiar, con unas entrevistas, divertidas y cariñosas, a algunos de sus descendentes, y el literario, con una carta que toca la fibra tal como el viento golpeaba, un día, la ventana del director.",
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184220&nombre=El_viento_res_300.jpg",
+      "overview": "Su tercer documental, “El viento que golpea mi ventana” (2025), surge a partir de la frase inscrita en el epitafio de su bisabuelo paterno. La película tuvo su estreno mundial en la Sección Oficial del Festival Punto de Vista y fue reconocida con el Premio al Mejor Cortometraje otorgado por el jurado tanto en Abycine como en el D'A Festival de Cinema de Barcelona. Además, ha sido seleccionada en festivales como el Festival Internacional de Cine de Las Palmas de Gran Canaria (Panorama España), Intersección (Galicia) y el Festival Jóvenes Realizadores de Granada, entre otros.",
       "vote_average": null,
       "genres": [],
       "year": null
@@ -568,6 +570,13 @@
     },
     "ASI EN EL CIELO COMO EN LA TIERRA - Centenario Paco...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173436&nombre=asi_en_el_cielo_como_en_la_tierra-267562700-large_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "MEDIHA - Amnistía internacional": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184126&nombre=mediha_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
