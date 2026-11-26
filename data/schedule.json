@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-25T17:30:26.403924+00:00",
-  "fromDate": "2026-11-25",
-  "toDate": "2026-12-09",
+  "generatedAt": "2026-11-26T17:12:43.660172+00:00",
+  "fromDate": "2026-11-26",
+  "toDate": "2026-12-10",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,24 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "ESPERANDO LA HORA - Cine y Economía",
-          "date": "2026-11-25",
-          "time": "19:00",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53598-DETALLE_EVENTO"
-        },
-        {
-          "movie": "TALLER ¡Silencio, cámara y acción! Contra la violencia...",
-          "date": "2026-11-25",
-          "time": "19:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala B",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53720-DETALLE_EVENTO"
-        },
         {
           "movie": "NO ESTÁS LOCA - Día Internacional Violencia contra...",
           "date": "2026-11-26",
@@ -101,15 +83,6 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53601-DETALLE_EVENTO"
-        },
-        {
-          "movie": "LA LEYENDA DE LA BALLENA CANTORA - Filmo en famili...",
-          "date": "2026-11-28",
-          "time": "17:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53604-DETALLE_EVENTO"
         },
         {
           "movie": "NAZA - Panorama de actualidad",
@@ -171,7 +144,7 @@
           "time": "18:45",
           "duration": null,
           "rating": "?",
-          "sala": "Sala A",
+          "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53609-DETALLE_EVENTO"
         },
         {
@@ -180,7 +153,7 @@
           "time": "20:45",
           "duration": null,
           "rating": "?",
-          "sala": "Sala A",
+          "sala": "Sala B",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53610-DETALLE_EVENTO"
         },
         {
@@ -353,25 +326,38 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53650-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CLASSE DE LUTTE - Fotodocam",
+          "date": "2026-12-10",
+          "time": "17:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53724-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LOS ÚLTIMOS FAREROS - Cine y trabajo - CARTAGENA",
+          "date": "2026-12-10",
+          "time": "18:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala única",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53564-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA LENGUA DE LAS MARIPOSAS - Centenario Azcona",
+          "date": "2026-12-10",
+          "time": "20:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53651-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "ESPERANDO LA HORA - Cine y Economía": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184035&nombre=clockwatchers_res_300.jpg",
-      "overview": "Sinopsis Cuatro mujeres jóvenes tienen en común la precariedad laboral y la esperanza de conseguir un contrato sin fecha de caducidad que les permita encauzar sus vidas. La llegada de una nueva empleada rompe su estabilidad laboral y personal. Aclamado debut cinematográfico de la directora Jill Sprecher, co-autora también junto a su hermana del guión. Una cinta de cine independiente que obtuvo el premio en el Festival de Turín 1998 a la mejor película.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "TALLER ¡Silencio, cámara y acción! Contra la violencia...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184221&nombre=AMMA1_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "NO ESTÁS LOCA - Día Internacional Violencia contra...": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184050&nombre=nO_ESTAS_LOCA_res_300.jpg",
       "overview": null,
@@ -410,13 +396,6 @@
     "THE FACULTY - Madrugada sangrienta": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184038&nombre=the_faculty_res_300.jpg",
       "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "LA LEYENDA DE LA BALLENA CANTORA - Filmo en famili...": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184055&nombre=der_letzte_walsanger_res_300.jpg",
-      "overview": "Sinopsis Vincent es una ballena jorobada adolescente que se ha quedado huérfana. Hijo del último Cantor de Ballenas, que protegía los océanos con su canto mágico, vive angustiado por la pérdida de sus padres y duda de sus propias habilidades. Cuando el monstruoso Leviatán escapa de un iceberg oscuro y empieza a amenazar toda la vida marina con su tinta venenosa, Vincent debe encontrar su propio canto para detenerlo. Pero, abrumado por la inseguridad, se embarca en un peligroso viaje hacia las profundidades del mar para rescatar a sus padres del mítico Estanque Estelar, con la esperanza de que sea el padre quien derrote al Leviatán. Acompañado de Walter, un pez rémora muy quisquilloso que le hace de niñera y de Darya, una valiente orca sorda, Vincent tendrá que afrontar sus miedos y descubrir su propio canto para salvar a los océanos.",
       "vote_average": null,
       "genres": [],
       "year": null
@@ -577,6 +556,27 @@
     },
     "MEDIHA - Amnistía internacional": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184126&nombre=mediha_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CLASSE DE LUTTE - Fotodocam": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184224&nombre=DOCUMENTAR_EL_CAMBIO_res_300.jpg",
+      "overview": "Primera película realizada por trabajadores del Grupo Medvedkine de Besançon, nacido tras el encuentro de obreros con Chris Marker y con el apoyo de cineastas del entorno del cine militante. A través de la sindicalista Suzanne Zedet, Classe de lutte plantea la autorrepresentación obrera, la creación colectiva y los vínculos entre cine, documento y acción social. Su experiencia abre una pregunta que servirá de hilo conductor al coloquio: ¿qué cambia en el cine documental cuando quienes viven una lucha laboral toman la cámara para contarla?",
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LOS ÚLTIMOS FAREROS - Cine y trabajo - CARTAGENA": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_183989&nombre=los_ultimos_fareros_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA LENGUA DE LAS MARIPOSAS - Centenario Azcona": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_173437&nombre=la_lengua_de_las_mariposas-220234225-large_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
