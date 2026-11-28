@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-27T16:54:30.946586+00:00",
-  "fromDate": "2026-11-27",
-  "toDate": "2026-12-11",
+  "generatedAt": "2026-11-28T15:45:33.100965+00:00",
+  "fromDate": "2026-11-28",
+  "toDate": "2026-12-12",
   "cinemas": [
     {
       "id": "myrtea",
@@ -30,33 +30,6 @@
         "Sala única"
       ],
       "sessions": [
-        {
-          "movie": "DETECTIVE CON RUBIA - La dama del crimen",
-          "date": "2026-11-27",
-          "time": "18:45",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53600-DETALLE_EVENTO"
-        },
-        {
-          "movie": "NAZA - Panorama de actualidad",
-          "date": "2026-11-27",
-          "time": "20:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53667-DETALLE_EVENTO"
-        },
-        {
-          "movie": "THE FACULTY - Madrugada sangrienta",
-          "date": "2026-11-27",
-          "time": "23:30",
-          "duration": null,
-          "rating": "?",
-          "sala": "Sala A",
-          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53601-DETALLE_EVENTO"
-        },
         {
           "movie": "NAZA - Panorama de actualidad",
           "date": "2026-11-28",
@@ -344,28 +317,50 @@
           "rating": "?",
           "sala": "Sala A",
           "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53654-DETALLE_EVENTO"
+        },
+        {
+          "movie": "TEEN WOLF (De pelo en pecho) - Filmo en familia",
+          "date": "2026-12-12",
+          "time": "17:45",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53656-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA MUJER Y EL PELELE - Centenario del Lyceum Club ...",
+          "date": "2026-12-12",
+          "time": "19:00",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala B",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53657-DETALLE_EVENTO"
+        },
+        {
+          "movie": "CITA CON LA MUERTE - Ciclo La dama del crimen",
+          "date": "2026-12-12",
+          "time": "19:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53658-DETALLE_EVENTO"
+        },
+        {
+          "movie": "LA LENGUA DE LAS MARIPOSAS - Centenario Azcona",
+          "date": "2026-12-12",
+          "time": "21:30",
+          "duration": null,
+          "rating": "?",
+          "sala": "Sala A",
+          "url": "https://filmotecamurcia.carm.es/servlet/s.Sl?sit=c,884,m,3610,a,0&r=Portal-53659-DETALLE_EVENTO"
         }
       ]
     }
   ],
   "movies": {
-    "DETECTIVE CON RUBIA - La dama del crimen": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184037&nombre=the_alphabet_murders_res_300.jpg",
-      "overview": null,
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
     "NAZA - Panorama de actualidad": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184162&nombre=naza_res_300.jpg",
       "overview": "Rodada por la noche en los tejados de Tel Aviv, la película revela con todo detalle los mecanismos que hay detrás del asesinato en masa y deliberado de civiles palestinos en Gaza por parte de las tropas de Israel. Naza es la palabra utilizada por el ejército israelí para denominar a las víctimas civiles como 'daños colaterales'. Documental de parte del equipo de 'No Man's Land', producido por el cineasta Jonathan Glazer y su productor James Wilson, ambos responsables de 'La zona de interés'.",
-      "vote_average": null,
-      "genres": [],
-      "year": null
-    },
-    "THE FACULTY - Madrugada sangrienta": {
-      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184038&nombre=the_faculty_res_300.jpg",
-      "overview": null,
       "vote_average": null,
       "genres": [],
       "year": null
@@ -561,6 +556,27 @@
     },
     "TRASTORNADO - Madrugada sangrienta": {
       "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184129&nombre=deranged_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "TEEN WOLF (De pelo en pecho) - Filmo en familia": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184130&nombre=teen_wolf_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "LA MUJER Y EL PELELE - Centenario del Lyceum Club ...": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184131&nombre=la_femme_et_le_pantin_res_300.jpg",
+      "overview": null,
+      "vote_average": null,
+      "genres": [],
+      "year": null
+    },
+    "CITA CON LA MUERTE - Ciclo La dama del crimen": {
+      "poster": "https://filmotecamurcia.carm.es/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_184132&nombre=appointment_with_death_res_300.jpg",
       "overview": null,
       "vote_average": null,
       "genres": [],
